@@ -1,0 +1,9 @@
+{
+  "dataTransformer": {
+    "customFileLocation": "customTransforms",
+    "methods": [
+ 
+    ],
+    "startWithEmptyObject": false
+  }
+}

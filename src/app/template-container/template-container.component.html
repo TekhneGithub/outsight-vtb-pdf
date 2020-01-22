@@ -1,0 +1,23 @@
+<div class="page">
+    <ng-container *ngTemplateOutlet="templateHeader"></ng-container>
+
+    <div class="page-inner">
+        Content
+    </div>
+
+    <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
+</div>
+
+<ng-template #templateHeader>
+    <div class="page-header">
+        Header    
+    </div>
+    
+</ng-template>
+
+
+<ng-template #templateFooter>
+    <div class="page-footer">
+        Footer
+    </div>
+</ng-template>

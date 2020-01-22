@@ -1,0 +1,1718 @@
+{
+    "TSOrder": {
+      "texts": [
+        
+      ],
+      "id": 60,
+      "sourceDescription": "#000060: Fufun Kotzlovski"
+    },
+    "startDate": "Sun, 01 Mar 2020 00:00:00 +0200",
+    "extraFieldValues": [
+      {
+        "id": 6,
+        "parent_id": null,
+        "link_type": "order",
+        "layout_data": null,
+        "display_at": "both",
+        "sort_order": null,
+        "name": "Travelplan",
+        "fields": [
+          {
+            "id": 6,
+            "name": "trip_style",
+            "type_id": 3,
+            "valid_regex": "",
+            "defaults": "Adventurous;Adventurous|Classic|Cultural|Family friendly|Historical|Low budget|Multi- generation\u00a0|Responsible and Experiental|Romantic|Spiritual|Wellness",
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "FilteringSelect",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Trip Style",
+            "selected": "Adventurous",
+            "options": [
+              "Adventurous",
+              "Classic",
+              "Cultural",
+              "Family friendly",
+              "Historical",
+              "Low budget",
+              "Multi- generation\u00a0",
+              "Responsible and Experiental",
+              "Romantic",
+              "Spiritual",
+              "Wellness"
+            ],
+            "field_value_link_id": 349,
+            "link_type": "order",
+            "link_id": 60,
+            "value": "Cultural"
+          },
+          {
+            "id": 7,
+            "name": "logo",
+            "type_id": 3,
+            "valid_regex": "",
+            "defaults": "in2jordan_white.png;in2jordan_white.png|kimkim_transparent.png|sawwah.png|tourradar.png|tripme.png|Amani-PNG.png",
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "FilteringSelect",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Logo",
+            "selected": "in2jordan_white.png",
+            "options": [
+              "in2jordan_white.png",
+              "kimkim_transparent.png",
+              "sawwah.png",
+              "tourradar.png",
+              "tripme.png",
+              "Amani-PNG.png"
+            ],
+            "field_value_link_id": 350,
+            "link_type": "order",
+            "link_id": 60,
+            "value": "in2jordan_white.png"
+          },
+          {
+            "id": 8,
+            "name": "intro_title",
+            "type_id": 1,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "TextBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Intro Title",
+            "field_value_link_id": 351,
+            "link_type": "order",
+            "link_id": 60,
+            "value": ""
+          },
+          {
+            "id": 9,
+            "name": "intro_text",
+            "type_id": 19,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "TextArea_Plain",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Intro text",
+            "field_value_link_id": 352,
+            "link_type": "order",
+            "link_id": 60,
+            "value": "A 4 day itinerary through Jordan where you combine visits to the highlights of Jordan - with camping with the Bedouins and visits to less known sites. Jordan from a different perspective!"
+          },
+          {
+            "id": 10,
+            "name": "category",
+            "type_id": 3,
+            "valid_regex": "",
+            "defaults": "Standard;Standard|Luxury|Comfort",
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "FilteringSelect",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Category",
+            "selected": "Standard",
+            "options": [
+              "Standard",
+              "Luxury",
+              "Comfort"
+            ],
+            "field_value_link_id": 353,
+            "link_type": "order",
+            "link_id": 60,
+            "value": "Standard"
+          },
+          {
+            "id": 11,
+            "name": "no_startdate",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "No Startdate",
+            "field_value_link_id": 360,
+            "link_type": "order",
+            "link_id": 60,
+            "value": null
+          },
+          {
+            "id": 12,
+            "name": "expert",
+            "type_id": 3,
+            "valid_regex": "",
+            "defaults": "Amanda;Amanda|Carmen|Lena|Nada|Gail|Sarah|Sandr|Raoul|Jolanda|Margh",
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "FilteringSelect",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Expert",
+            "selected": "Amanda",
+            "options": [
+              "Amanda",
+              "Carmen",
+              "Lena",
+              "Nada",
+              "Gail",
+              "Sarah",
+              "Sandr",
+              "Raoul",
+              "Jolanda",
+              "Margh"
+            ],
+            "field_value_link_id": 354,
+            "link_type": "order",
+            "link_id": 60,
+            "value": "Lena"
+          },
+          {
+            "id": 14,
+            "name": "prices_excludes",
+            "type_id": 19,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "TextArea_Plain",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Prices Exclude",
+            "field_value_link_id": 361,
+            "link_type": "order",
+            "link_id": 60,
+            "value": null
+          },
+          {
+            "id": 15,
+            "name": "partner_logo",
+            "type_id": 3,
+            "valid_regex": "",
+            "defaults": "amanitours.png;amanitours.png|in2jordan_white.png|kimkim_transparent.png|sawwah.png|tourradar.png|tripme.png",
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "FilteringSelect",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Partner Logo (last page)",
+            "selected": "amanitours.png",
+            "options": [
+              "amanitours.png",
+              "in2jordan_white.png",
+              "kimkim_transparent.png",
+              "sawwah.png",
+              "tourradar.png",
+              "tripme.png"
+            ],
+            "field_value_link_id": 356,
+            "link_type": "order",
+            "link_id": 60,
+            "value": "tripme.png"
+          },
+          {
+            "id": 18,
+            "name": "sales_exchange_currency",
+            "type_id": 3,
+            "valid_regex": "",
+            "defaults": "JOD;JOD|USD",
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "FilteringSelect",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Currency",
+            "selected": "JOD",
+            "options": [
+              "JOD",
+              "USD"
+            ],
+            "field_value_link_id": 355,
+            "link_type": "order",
+            "link_id": 60,
+            "value": "JOD"
+          },
+          {
+            "id": 19,
+            "name": "includes_visa_and_entrence_fees",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Includes Visa and entrance fees",
+            "field_value_link_id": 362,
+            "link_type": "order",
+            "link_id": 60,
+            "value": null
+          },
+          {
+            "id": 20,
+            "name": "includes_insurance",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Includes Flights + travel insurance",
+            "field_value_link_id": 363,
+            "link_type": "order",
+            "link_id": 60,
+            "value": null
+          },
+          {
+            "id": 21,
+            "name": "includes_drinks",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Includes drinks",
+            "field_value_link_id": 364,
+            "link_type": "order",
+            "link_id": 60,
+            "value": null
+          },
+          {
+            "id": 22,
+            "name": "includes_personalcoach",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Includes personal coach",
+            "field_value_link_id": 365,
+            "link_type": "order",
+            "link_id": 60,
+            "value": null
+          },
+          {
+            "id": 23,
+            "name": "excludes_text",
+            "type_id": 19,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "TextArea_Plain",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Excludes extra text",
+            "field_value_link_id": 366,
+            "link_type": "order",
+            "link_id": 60,
+            "value": null
+          },
+          {
+            "id": 24,
+            "name": "entry_point",
+            "type_id": 3,
+            "valid_regex": "",
+            "defaults": "Amman Civil Airport (Marka); Amman Civil Airport (Marka)|Arava Border|Aqaba Port|King Hussein Bridge (Allenby)|King Hussein International Airport|Sheikh Hussein Border|Queen Alia International Airport",
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "FilteringSelect",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Entry Point",
+            "selected": "Amman Civil Airport (Marka)",
+            "options": [
+              " Amman Civil Airport (Marka)",
+              "Arava Border",
+              "Aqaba Port",
+              "King Hussein Bridge (Allenby)",
+              "King Hussein International Airport",
+              "Sheikh Hussein Border",
+              "Queen Alia International Airport"
+            ],
+            "field_value_link_id": 357,
+            "link_type": "order",
+            "link_id": 60,
+            "value": "Queen Alia International Airport"
+          },
+          {
+            "id": 25,
+            "name": "Highlights",
+            "type_id": 7,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "TextArea",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Highlight",
+            "field_value_link_id": 358,
+            "link_type": "order",
+            "link_id": 60,
+            "value": "\u00a0Madaba, Dead Sea, Karak, Dana, Petra, Wadi Rum and Mt Nebo"
+          },
+          {
+            "id": 26,
+            "name": "Price_Text",
+            "type_id": 7,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "TextArea",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Price",
+            "field_value_link_id": 367,
+            "link_type": "order",
+            "link_id": 60,
+            "value": null
+          },
+          {
+            "id": 27,
+            "name": "transfer_type",
+            "type_id": 3,
+            "valid_regex": "",
+            "defaults": "Car;Car|Minivan",
+            "category_id": 6,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "FilteringSelect",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Transfer Type",
+            "selected": "Car",
+            "options": [
+              "Car",
+              "Minivan"
+            ],
+            "field_value_link_id": 359,
+            "link_type": "order",
+            "link_id": 60,
+            "value": "Car"
+          }
+        ]
+      }
+    ],
+    "participants": {
+      "party 1": [
+        {
+          "id": "266",
+          "name": "Fufun",
+          "surname": "Kotzlovski",
+          "surname_prefix": "",
+          "title": "9",
+          "sex": "female",
+          "birthdate": ""
+        },
+        {
+          "id": "268",
+          "name": "1",
+          "surname": "NoName",
+          "surname_prefix": "",
+          "title": "",
+          "sex": "",
+          "birthdate": ""
+        }
+      ]
+    },
+    "segments": [
+      {
+        "nights": 1,
+        "day": 1,
+        "isFlight": false,
+        "typeId": 1,
+        "title": "QAIA - Madaba",
+        "subTitle": null,
+        "content": "<p>Arrive at the airport and your driver will meet you in the arrivals hall holding a name sign and take you on a short ride (30mins) to Madaba. Your overnight stay is in Madaba.&nbsp;<\/p><p><br>Option: If you arrive in the morning, you can head north to visit the beautiful Roman city of Jerash \u2013 one of the best preserved Roman ruins outside of Italy. the Hippodrome, colonnaded way, theatre and temple of Artemis are some of the highlights.<\/p>",
+        "TSBlock": {
+          "id": 233
+        },
+        "flightInfo": [
+          
+        ],
+        "media": [
+          {
+            "id": 436,
+            "sourceType": "mediaspirit",
+            "sourceId": "304563a4e622183e4fba9e9baf360ba6",
+            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/Madaba-mosque.jpg",
+            "description": ""
+          },
+          {
+            "id": 437,
+            "sourceType": "mediaspirit",
+            "sourceId": "4dd7d63e72a9a152e59c0978e8a2dab1",
+            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/women-local-jordan-grapes.JPG",
+            "description": ""
+          },
+          {
+            "id": 438,
+            "sourceType": "mediaspirit",
+            "sourceId": "304563a4e622183e4fba9e9baf3654de",
+            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/madaba-st-george-church.jpg",
+            "description": ""
+          },
+          {
+            "id": 439,
+            "sourceType": "mediaspirit",
+            "sourceId": "4dd7d63e72a9a152e59c0978e8b17ced",
+            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/Mosaics-Mount-Nebo.jpg",
+            "description": ""
+          }
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 10,
+            "optional": false,
+            "not_calculated": false,
+            "title": "QAIA - Madaba transfer car",
+            "TSProduct": {
+              "id": 42,
+              "tag": "traqama",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 584,
+              "extraFieldValues": [
+                {
+                  "id": 16,
+                  "name": "checkin_time",
+                  "type_id": 18,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_Time",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Checkin Time",
+                  "field_value_link_id": 370,
+                  "link_type": "orderline",
+                  "link_id": 584,
+                  "value": null
+                },
+                {
+                  "id": 17,
+                  "name": "checkout_time",
+                  "type_id": 18,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_Time",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Checkout Time",
+                  "field_value_link_id": 371,
+                  "link_type": "orderline",
+                  "link_id": 584,
+                  "value": null
+                }
+              ]
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": "0.000",
+              "title": "QAIA - Madaba transfer car",
+              "discountMethod": null,
+              "exchangeRate": "0.708000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "JOD",
+              "participants": {
+                "266": {
+                  "costPrice": "",
+                  "salesPrice": 15
+                },
+                "268": {
+                  "costPrice": "0.000",
+                  "salesPrice": 15
+                }
+              },
+              "salesTotal": 30
+            },
+            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" class=\"wsc-instance\">QAIA - Madaba transfer<br \/>30 Minutes<\/body><\/html>",
+            "subAdditionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": "0.000",
+            "sellingMarkupType": "margin"
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "flexNights": 1,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": false,
+            "subTitle": "Double \/ Twin",
+            "title": "Art Hotel",
+            "TSProduct": {
+              "id": 18,
+              "tag": "AMART",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 607,
+              "extraFieldValues": [
+                {
+                  "id": 16,
+                  "name": "checkin_time",
+                  "type_id": 18,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_Time",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Checkin Time"
+                },
+                {
+                  "id": 17,
+                  "name": "checkout_time",
+                  "type_id": 18,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_Time",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Checkout Time"
+                }
+              ]
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 84.46979999999999,
+              "heading": 90,
+              "latitude": 31.9521500903329,
+              "longitude": 35.93263698999908,
+              "pitch": 0,
+              "searchPlace": "30 King Faysal Street Downtown Amman\u060c Amman, Jordan",
+              "staticImageZoom": false,
+              "zoom": 1
+            },
+            "media": [
+              {
+                "url": "https:\/\/media.amanitours.com\/original\/lg\/art-hotel.jpg",
+                "id": 19,
+                "description": "",
+                "mediaspirit_id": "0d217a05ab08dae4d25439b794033b20",
+                "sourceId": "0d217a05ab08dae4d25439b794033b20",
+                "sourceType": "mediaspirit"
+              }
+            ],
+            "olPrices": {
+              "costPrice": "50.00000000",
+              "discount": null,
+              "title": "Art Hotel [Double \/ Twin]",
+              "discountMethod": "absolute",
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "JOD",
+              "salesCurrency": "JOD",
+              "participants": {
+                "266": {
+                  "costPrice": "25.000",
+                  "salesPrice": 35
+                },
+                "268": {
+                  "costPrice": "25.000",
+                  "salesPrice": 35
+                }
+              },
+              "salesTotal": 70
+            },
+            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" class=\"wsc-instance\">Located in Downtown Amman, Art Hotel features simply furnished accommodations. Free WiFi is available in all areas. The Roman Amphitheater is a 10-minute walk away.<br \/>Each room here will provide you with a flat-screen TV and air conditioning. The private bathroom also comes with a shower.<br \/>Al Khaldi Hospital is 1.7 mi and Queen Alia International Airport is 45 minutes away by car.<br \/>This is our guests' favorite part of Amman, according to independent reviews.<br \/>This property also has one of the top-rated locations in Amman! Guests are happier about it compared to other properties in the area.<br \/><br \/>&nbsp;<\/body><\/html>",
+            "subAdditionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "50.0000",
+                "description": "Double Standard Including Breakfast",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "40.0000",
+                "description": "Single Standard Including Breakfast",
+                "minPerson": 1,
+                "maxPerson": 1,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "60.0000",
+                "description": "Triple Standard Including Breakfast",
+                "minPerson": 1,
+                "maxPerson": 3,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": "40.000",
+            "sellingMarkupType": "percentage"
+          }
+        ],
+        "liborderId": 60
+      },
+      {
+        "nights": 1,
+        "day": 2,
+        "isFlight": false,
+        "typeId": 1,
+        "title": "Madaba \u2013 Mount Nebo \u2013 Dead Sea \u2013 Karak \u2013 Dana Nature Reserve \u2013 Petra",
+        "subTitle": null,
+        "content": "<p>After breakfast, you can go for a walk around Madaba. Visit the mosaics at St George's Church and the church floors at the archaeological park \u2013 before heading onto Mt Nebo, the site where Moses was buried. Your driver will take you to the viewpoint where you can see (depending on the weather) the Promised Land. Then, your driver will take you down to the Dead Sea for a swim in this extremely salty lake, and to have lunch.&nbsp;<\/p><p>You will continue to the Dead Sea Highway and then turn up into the mountains, and your next stop is at Karak Castle, one of the largest crusader castles in the Middle East. After a break for lunch, you will continue south along the King\u2019s Highway, an ancient trade route, which winds through the mountains and small towns, along the way stopping briefly at Dana Nature Reserve for the views over the Great Rift Valley. Your overnight stay is in Petra.&nbsp;<\/p>",
+        "TSBlock": {
+          "id": 234
+        },
+        "flightInfo": [
+          
+        ],
+        "media": [
+          {
+            "id": 40,
+            "sourceType": "mediaspirit",
+            "sourceId": "a233cb86b54d5ad164d7f5ea0c2ef71e",
+            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/IMG_20171004_100311394.jpg",
+            "description": ""
+          },
+          {
+            "id": 41,
+            "sourceType": "mediaspirit",
+            "sourceId": "3db9ff7b39a8c76a84fd0cd0e4f7967e",
+            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/IMG_20171003_144537756.jpg",
+            "description": ""
+          },
+          {
+            "id": 42,
+            "sourceType": "mediaspirit",
+            "sourceId": "9b4500919f01e2dec1b79de5486fcf08",
+            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/Terpent-Mount-Nebo-statue.jpg",
+            "description": ""
+          },
+          {
+            "id": 43,
+            "sourceType": "mediaspirit",
+            "sourceId": "89ade201920b5d762f6dcc25175b8149",
+            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/Dead-Sea-Mud.jpg",
+            "description": ""
+          }
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "flexNights": 1,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": false,
+            "subTitle": "Double",
+            "title": "La Maison Hotel",
+            "TSProduct": {
+              "id": 46,
+              "tag": "MAIS",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 585,
+              "extraFieldValues": [
+                {
+                  "id": 16,
+                  "name": "checkin_time",
+                  "type_id": 18,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_Time",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Checkin Time",
+                  "field_value_link_id": 372,
+                  "link_type": "orderline",
+                  "link_id": 585,
+                  "value": null
+                },
+                {
+                  "id": 17,
+                  "name": "checkout_time",
+                  "type_id": 18,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_Time",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Checkout Time",
+                  "field_value_link_id": 373,
+                  "link_type": "orderline",
+                  "link_id": 585,
+                  "value": null
+                }
+              ]
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 30.32621888983311,
+              "longitude": 35.47037623745507,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 1
+            },
+            "media": [
+              {
+                "url": "admin.php?mod=tspshowfile&id=26",
+                "id": 26,
+                "description": "",
+                "mediaspirit_id": null
+              }
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": "0.000",
+              "title": "La Maison Hotel [Double]",
+              "discountMethod": null,
+              "exchangeRate": "0.708000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "JOD",
+              "participants": {
+                "266": {
+                  "costPrice": "",
+                  "salesPrice": 25
+                },
+                "268": {
+                  "costPrice": "0.000",
+                  "salesPrice": 25
+                }
+              },
+              "salesTotal": 50
+            },
+            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" class=\"wsc-instance\">La Maison Hotel is uniquely&nbsp;located&nbsp;in Wadi Musa, a 5-minute walk from the Jordanian world wonder, the Red Rose City of&nbsp;Petra.<br \/><br \/>Hotel La Maison offers air-conditioned guest rooms with satellite TVs. The hotel has its own Lobby Lounge called The Basha. Guests can enjoy a meal or drink here anytime during the day.<br \/><br \/>This property also has one of the best-rated locations in Wadi Musa! Guests are happier about it compared to other properties in the area.<br \/><br \/>Groups particularly like the location \u2014 they rated it&nbsp;9.6&nbsp;for stays with multiple people.<\/body><\/html>",
+            "subAdditionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "46.0000",
+                "description": "Double Standard Including Breakfast",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "42.0000",
+                "description": "Single Standard Including Breakfast",
+                "minPerson": 1,
+                "maxPerson": 1,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "57.0000",
+                "description": "Double Standard Including Breakfast & Dinner",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "48.0000",
+                "description": "Single Standard Including Breakfast & Dinner",
+                "minPerson": 1,
+                "maxPerson": 1,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "38.0000",
+                "description": "Double Including Breakfast",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "33.0000",
+                "description": "Single Including Breakfast",
+                "minPerson": 1,
+                "maxPerson": 1,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "47.0000",
+                "description": "Double Including Breakfast & Dinner",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "38.0000",
+                "description": "Single Including Breakfast & Dinner",
+                "minPerson": 1,
+                "maxPerson": 1,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": "40.000",
+            "sellingMarkupType": "percentage"
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 10,
+            "optional": false,
+            "not_calculated": false,
+            "title": "Madaba \u2013 Mount Nebo \u2013 Dead Sea \u2013 Karak \u2013 Dana Nature Reserve \u2013 Petra car transfer",
+            "TSProduct": {
+              "id": 48,
+              "tag": "tramape",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 586,
+              "extraFieldValues": [
+                {
+                  "id": 16,
+                  "name": "checkin_time",
+                  "type_id": 18,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_Time",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Checkin Time",
+                  "field_value_link_id": 374,
+                  "link_type": "orderline",
+                  "link_id": 586,
+                  "value": null
+                },
+                {
+                  "id": 17,
+                  "name": "checkout_time",
+                  "type_id": 18,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_Time",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Checkout Time",
+                  "field_value_link_id": 375,
+                  "link_type": "orderline",
+                  "link_id": 586,
+                  "value": null
+                }
+              ]
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": "0.000",
+              "title": "Madaba \u2013 Mount Nebo \u2013 Dead Sea \u2013 Karak \u2013 Dana Nature Reserve \u2013 Petra car transfer",
+              "discountMethod": null,
+              "exchangeRate": "0.708000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "JOD",
+              "participants": {
+                "266": {
+                  "costPrice": "",
+                  "salesPrice": 60
+                },
+                "268": {
+                  "costPrice": "0.000",
+                  "salesPrice": 60
+                }
+              },
+              "salesTotal": 120
+            },
+            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" class=\"wsc-instance\">Madaba \u2013 Mount Nebo \u2013 Dead Sea \u2013 Karak \u2013 Dana Nature Reserve \u2013 Petra car transfer<\/body><\/html>",
+            "subAdditionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": "0.000",
+            "sellingMarkupType": "margin"
+          }
+        ],
+        "liborderId": 60
+      },
+      {
+        "nights": 1,
+        "day": 3,
+        "isFlight": false,
+        "typeId": 1,
+        "title": "Petra \u2013 Wadi Rum",
+        "subTitle": null,
+        "content": "<p>Today you have a full day to visit world heritage and UNESCO site Petra. Walk through the mystic Siq, with its carvings and temples along the way. You will find the impressive Treasury at the end of the canyon and then the rest of this enormous city opens up \u2013 climb up to the High Place of Sacrifice or the largest temple \u2013 the monastery, explore the Roman theater and colonnaded street. At the end of the day, you will be transferred south down to the beautiful Wadi Rum desert, where you will spend the night under the stars at a Bedouin camp, dinner is included.<\/p>",
+        "TSBlock": {
+          "id": 235
+        },
+        "flightInfo": [
+          
+        ],
+        "media": [
+          {
+            "id": 44,
+            "sourceType": "mediaspirit",
+            "sourceId": "8c52aacb17a42a070d567d70a0b7d2cd",
+            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/Royal-tombs-Petra.JPG",
+            "description": ""
+          },
+          {
+            "id": 45,
+            "sourceType": "mediaspirit",
+            "sourceId": "4dd7d63e72a9a152e59c0978e8ba088b",
+            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/Treasury-close-up.jpg",
+            "description": ""
+          },
+          {
+            "id": 46,
+            "sourceType": "mediaspirit",
+            "sourceId": "188a707e142d43df1da3be1388800c8c",
+            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/View-petra-from-route-high-place-of-sacrifice.jpg",
+            "description": ""
+          },
+          {
+            "id": 47,
+            "sourceType": "mediaspirit",
+            "sourceId": "16f3f122f9328a7f93a3c51478298615",
+            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/camels-in-petra.jpg",
+            "description": ""
+          }
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "flexNights": 1,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": false,
+            "subTitle": "Double VIP Tent",
+            "title": "Khaleds Camp",
+            "TSProduct": {
+              "id": 47,
+              "tag": "KHA",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 587,
+              "extraFieldValues": [
+                {
+                  "id": 16,
+                  "name": "checkin_time",
+                  "type_id": 18,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_Time",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Checkin Time",
+                  "field_value_link_id": 376,
+                  "link_type": "orderline",
+                  "link_id": 587,
+                  "value": null
+                },
+                {
+                  "id": 17,
+                  "name": "checkout_time",
+                  "type_id": 18,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_Time",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Checkout Time",
+                  "field_value_link_id": 377,
+                  "link_type": "orderline",
+                  "link_id": 587,
+                  "value": null
+                }
+              ]
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 29.5460128,
+              "longitude": 35.435907600000064,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 1
+            },
+            "media": [
+              {
+                "url": "https:\/\/media.amanitours.com\/original\/lg\/Jeep-in-Wadi-Rum.JPG",
+                "id": 28,
+                "description": "",
+                "mediaspirit_id": "f31bf94c12877cc2a9d8f0ffc224342f",
+                "sourceId": "f31bf94c12877cc2a9d8f0ffc224342f",
+                "sourceType": "mediaspirit"
+              }
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": "0.000",
+              "title": "Khaleds Camp [Double VIP Tent]",
+              "discountMethod": null,
+              "exchangeRate": "0.708000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "JOD",
+              "participants": {
+                "266": {
+                  "costPrice": "",
+                  "salesPrice": 25
+                },
+                "268": {
+                  "costPrice": "0.000",
+                  "salesPrice": 25
+                }
+              },
+              "salesTotal": 50
+            },
+            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" class=\"wsc-instance\"><p>Khaled's camp is located in the middle of the Protected Area. It takes about 30- 40 minutes by 4WD to his authentic camp. In the evening you will enjoy a traditional Zarb dinner, that's prepared under the ground.&nbsp;<br \/><br \/>You'll sleep in your private Bedouin Tent where you'll have a simple bed and fresh blankets. Sanitary facilities are limited in the desert and are shared. The water is heated by the sun.&nbsp;<br \/><br \/>Optional upgrade: If you prefer your own toilet and shower, opt for a deluxe tent which has a little extra facilities compared to the standard tents.&nbsp;<\/p><\/body><\/html>",
+            "subAdditionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "90.0000",
+                "description": "Double VIP Tent",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "60.0000",
+                "description": "Single VIP Tent",
+                "minPerson": 1,
+                "maxPerson": 1,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "135.0000",
+                "description": "Triple VIP Tent",
+                "minPerson": 1,
+                "maxPerson": 3,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "50.0000",
+                "description": "Double Standard Tent",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "25.0000",
+                "description": "Single Standard Tent",
+                "minPerson": 1,
+                "maxPerson": 1,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "75.0000",
+                "description": "Triple Standard Tent",
+                "minPerson": 1,
+                "maxPerson": 3,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": "0.000",
+            "sellingMarkupType": "margin"
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 10,
+            "optional": false,
+            "not_calculated": false,
+            "title": "Petra - Wadi Rum car transfer",
+            "TSProduct": {
+              "id": 49,
+              "tag": "traperu",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 588,
+              "extraFieldValues": [
+                {
+                  "id": 16,
+                  "name": "checkin_time",
+                  "type_id": 18,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_Time",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Checkin Time",
+                  "field_value_link_id": 378,
+                  "link_type": "orderline",
+                  "link_id": 588,
+                  "value": null
+                },
+                {
+                  "id": 17,
+                  "name": "checkout_time",
+                  "type_id": 18,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_Time",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Checkout Time",
+                  "field_value_link_id": 379,
+                  "link_type": "orderline",
+                  "link_id": 588,
+                  "value": null
+                }
+              ]
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 30.3216354,
+              "longitude": 35.480125000000044,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 1
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": "0.000",
+              "title": "Petra - Wadi Rum car transfer",
+              "discountMethod": null,
+              "exchangeRate": "0.708000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "JOD",
+              "participants": {
+                "266": {
+                  "costPrice": "",
+                  "salesPrice": 30
+                },
+                "268": {
+                  "costPrice": "0.000",
+                  "salesPrice": 30
+                }
+              },
+              "salesTotal": 60
+            },
+            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" class=\"wsc-instance\">Petra - Wadi Rum car transfer<\/body><\/html>",
+            "subAdditionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": "0.000",
+            "sellingMarkupType": "margin"
+          }
+        ],
+        "liborderId": 60
+      },
+      {
+        "nights": 0,
+        "day": 4,
+        "isFlight": false,
+        "typeId": 1,
+        "title": "Wadi Rum - QAIA",
+        "subTitle": null,
+        "content": "<p>After breakfast, you have a jeep safari to explore the beauty of the desert \u2013 visit the Nabatean inscriptions, canyons, sand-dunes and Lawrence of Arabia\u2019s House. Then it\u2019s time for your transfer back north to the airport, for your flight home.<\/p>",
+        "TSBlock": {
+          "id": 236
+        },
+        "flightInfo": [
+          
+        ],
+        "media": [
+          {
+            "id": 28,
+            "sourceType": "mediaspirit",
+            "sourceId": "f31bf94c12877cc2a9d8f0ffc224342f",
+            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/Jeep-in-Wadi-Rum.JPG",
+            "description": ""
+          },
+          {
+            "id": 49,
+            "sourceType": "mediaspirit",
+            "sourceId": "5ae6b8e5ac0d592201a41793d7be776f",
+            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/sunset-wadi-rum-9ade94ac.JPG",
+            "description": ""
+          },
+          {
+            "id": 50,
+            "sourceType": "mediaspirit",
+            "sourceId": "04873716c1101ee608516f4165ffaa27",
+            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/camel-in-wadi-rum.JPG",
+            "description": ""
+          },
+          {
+            "id": 51,
+            "sourceType": "mediaspirit",
+            "sourceId": "72ec448c8012fcdf4cd90baf946edac3",
+            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/IMG_20171006_091552392.jpg",
+            "description": ""
+          }
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 10,
+            "optional": false,
+            "not_calculated": false,
+            "title": "Wadi Rum - QAIA car transfer",
+            "TSProduct": {
+              "id": 51,
+              "tag": "trawaqa",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 589,
+              "extraFieldValues": [
+                {
+                  "id": 16,
+                  "name": "checkin_time",
+                  "type_id": 18,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_Time",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Checkin Time",
+                  "field_value_link_id": 380,
+                  "link_type": "orderline",
+                  "link_id": 589,
+                  "value": null
+                },
+                {
+                  "id": 17,
+                  "name": "checkout_time",
+                  "type_id": 18,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_Time",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Checkout Time",
+                  "field_value_link_id": 381,
+                  "link_type": "orderline",
+                  "link_id": 589,
+                  "value": null
+                }
+              ]
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 29.64769265368808,
+              "longitude": 35.42781863361597,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 1
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": "0.000",
+              "title": "Wadi Rum - QAIA car transfer",
+              "discountMethod": null,
+              "exchangeRate": "0.708000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "JOD",
+              "participants": {
+                "266": {
+                  "costPrice": "",
+                  "salesPrice": 60
+                },
+                "268": {
+                  "costPrice": "0.000",
+                  "salesPrice": 60
+                }
+              },
+              "salesTotal": 120
+            },
+            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" class=\"wsc-instance\">Wadi Rum - QAIA car transfer<\/body><\/html>",
+            "subAdditionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": "0.000",
+            "sellingMarkupType": "margin"
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 11,
+            "optional": false,
+            "not_calculated": false,
+            "title": "2 hour jeep tour with Khaled's Camp",
+            "TSProduct": {
+              "id": 52,
+              "tag": "2jekha",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 590,
+              "extraFieldValues": [
+                {
+                  "id": 16,
+                  "name": "checkin_time",
+                  "type_id": 18,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_Time",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Checkin Time",
+                  "field_value_link_id": 382,
+                  "link_type": "orderline",
+                  "link_id": 590,
+                  "value": null
+                },
+                {
+                  "id": 17,
+                  "name": "checkout_time",
+                  "type_id": 18,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_Time",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Checkout Time",
+                  "field_value_link_id": 383,
+                  "link_type": "orderline",
+                  "link_id": 590,
+                  "value": null
+                }
+              ]
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 29.53467,
+              "longitude": 35.407910000000015,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 1
+            },
+            "media": [
+              {
+                "url": "admin.php?mod=tspshowfile&id=32",
+                "id": 32,
+                "description": "",
+                "mediaspirit_id": null
+              }
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": "0.000",
+              "title": "2 hour jeep tour with Khaled's Camp",
+              "discountMethod": null,
+              "exchangeRate": "0.708000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "JOD",
+              "participants": {
+                "266": {
+                  "costPrice": "",
+                  "salesPrice": 35
+                }
+              },
+              "salesTotal": 35
+            },
+            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" class=\"wsc-instance\">After breakfast, you will go on a 2 hour jeep safari to explore the beauty of the desert \u2013 visit the Nabatean inscriptions, canyons, red sand-dunes and spectacular rock bridges.<\/body><\/html>",
+            "subAdditionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": "0.000",
+            "sellingMarkupType": "margin"
+          }
+        ],
+        "liborderId": 60
+      }
+    ],
+    "liborderId": 60,
+    "departmentName": "In2Jordan",
+    "departmentId": 1
+  }
