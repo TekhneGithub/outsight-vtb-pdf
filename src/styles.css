@@ -63,8 +63,8 @@ app-template-container, #inputElement > * {
 .page, .dynamic-pages {
   box-shadow: 0 0 0 0.75pt #d1d1d1,0 0 3pt 0.75pt #ccc;
   padding-bottom: 140.9638554216867%;
-  height: 0;
-  overflow: hidden;
+  height: auto;
+  /* overflow: hidden; */
   position: relative;
   margin-bottom: 15px;
   background-color: white;
@@ -72,14 +72,15 @@ app-template-container, #inputElement > * {
 }
 
 .page-inner {
-  position: absolute;
+  /* position: absolute;
   left: 0;
   top: 400px;
   width: 100%;
   height: calc(100% - 460px);
   box-sizing: border-box;
-  overflow: hidden;
-  padding:20px 45px;
+  overflow: hidden; 
+  padding:20px 45px;*/
+  padding: 15px;
 }
 
 .page-inner.page-no-header {
@@ -97,15 +98,16 @@ app-template-container, #inputElement > * {
 }
 
 .page-header {
-  height: 400px;
+  /* height: 400px;
   overflow: hidden;
-  position: relative;
+  position: relative; */
 }
 
 .page-footer {
   height: 60px;
   width: 100%;
-  position: absolute;
+  position: relative;
+  /* position: absolute; */
   bottom: 0;
   left: 0;
   padding:20px 45px;
@@ -1305,7 +1307,7 @@ body .footer p a {
 header {
   background: var(--theme-light);
   height: 40px;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -1466,7 +1468,8 @@ footer .container {
 
 .hero .vdotxt {
   position: absolute;
-  top: 50%;
+  top: 4%;
+  /* top: 50%; */
   left: 10%;
   transform: translate(0, -80%);
   text-align: left;
@@ -1605,7 +1608,7 @@ footer .container {
 
 .pc-tab>input,
 .pc-tab>div {
-  display: none;
+  display: block;
 }
 
 #tab1:checked~.tab1,
