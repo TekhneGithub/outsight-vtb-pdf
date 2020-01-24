@@ -1,94 +1,35 @@
 {
+  "id": 58,
+  "name": "Mildred Zomerdijk [2020-01-13 15:36:43]",
     "TSOrder": {
-      "texts": [
-        
-      ],
-      "id": 60,
-      "sourceDescription": "#000060: Fufun Kotzlovski"
+      "texts": {
+        "internal": "<html>\n<head>\n\t<title><\/title>\n<\/head>\n<body>Dit is de tekst in TS - Travelplan - rechtsbovenin - Informatietekst - 4 tabjes - Meest links: Intern<\/body>\n<\/html>",
+        "general": "<html>\n<head>\n\t<title><\/title>\n<\/head>\n<body>\n<h2>Reis langs de groene rijstvelden door veelzijdig Vietnam<\/h2>\n\n<p>Vietnam is een waar paradijs vol verborgen grotten en groene heuvels met oneindige rijstvelden. Vaar over de waterwegen van de Mekong, verbaas je over de mysterieuze rotsformaties in Halong Bay en plof neer aan het heerlijke strand van het sfeervolle Unesco stadje Hoi&rsquo;An.<br \/>\n<em>&nbsp;<\/em><\/p>\n&nbsp;\n\n<p>&nbsp;<br \/>\n&nbsp;<\/p>\n<\/body>\n<\/html>",
+        "proposal": "<html>\n<head>\n\t<title><\/title>\n<\/head>\n<body>Dit is de welkomtekst Vietnam. Dit moet een warm welkom zijn! Jullie hebben een erg mooie reis uitgezocht! Vietnam is een zeer veelzijdige bestemming en een van mijn persoonlijke favorieten. Vooral het gebied rond <span style=\"color:#ff0000;\">Sapa<\/span> en de <span style=\"color:#ff0000;\">tocht door de Halong Bay<\/span> zullen een onuitwisbare indruk op je maken!<br \/>\n<br \/>\nHierbij vind je een eerste opzet voor <span style=\"color:#ff0000;\">je\/jullie 17-daagse reis<\/span> naar Vietnam. Ik heb mijn uiterste best gedaan het programma zo goed mogelijk te laten aansluiten bij de besproken reiswensen: veel sfeer, veel strand, mooie hotels en geen nachtbussen. (of zoiets?).<br \/>\n<br \/>\n<span style=\"color:#ff0000;\">&nbsp;<\/span><br \/>\n&nbsp;&nbsp;<br \/>\n<span style=\"color:#ff0000;\">&nbsp;<\/span><br \/>\n&nbsp;<\/body>\n<\/html>",
+        "invoice": "<html>\n<head>\n\t<title><\/title>\n<\/head>\n<body>Dit is de tekst in TS - Travelplan - rechtsbovenin - Informatietekst - 4 tabjes - Meest rechts: Factuur<\/body>\n<\/html>",
+        "vtbObjectId": "orderTexts1"
+      },
+      "id": 1612,
+      "sourceDescription": "#001612: Mildred Zomerdijk"
     },
-    "startDate": "Sun, 01 Mar 2020 00:00:00 +0200",
+    "startDate": "2019-09-05",
     "extraFieldValues": [
       {
-        "id": 6,
+        "id": 2,
         "parent_id": null,
         "link_type": "order",
         "layout_data": null,
-        "display_at": "both",
+        "display_at": null,
         "sort_order": null,
-        "name": "Travelplan",
+        "name": "Order",
         "fields": [
           {
-            "id": 6,
-            "name": "trip_style",
-            "type_id": 3,
-            "valid_regex": "",
-            "defaults": "Adventurous;Adventurous|Classic|Cultural|Family friendly|Historical|Low budget|Multi- generation\u00a0|Responsible and Experiental|Romantic|Spiritual|Wellness",
-            "category_id": 6,
-            "sort_order": null,
-            "field_width": null,
-            "field_type": "FilteringSelect",
-            "display_at": "both",
-            "show_in_product": 0,
-            "layout_data": null,
-            "maxlength": null,
-            "maxlength_enforce": 0,
-            "translated_name": "Trip Style",
-            "selected": "Adventurous",
-            "options": [
-              "Adventurous",
-              "Classic",
-              "Cultural",
-              "Family friendly",
-              "Historical",
-              "Low budget",
-              "Multi- generation\u00a0",
-              "Responsible and Experiental",
-              "Romantic",
-              "Spiritual",
-              "Wellness"
-            ],
-            "field_value_link_id": 349,
-            "link_type": "order",
-            "link_id": 60,
-            "value": "Cultural"
-          },
-          {
             "id": 7,
-            "name": "logo",
-            "type_id": 3,
-            "valid_regex": "",
-            "defaults": "in2jordan_white.png;in2jordan_white.png|kimkim_transparent.png|sawwah.png|tourradar.png|tripme.png|Amani-PNG.png",
-            "category_id": 6,
-            "sort_order": null,
-            "field_width": null,
-            "field_type": "FilteringSelect",
-            "display_at": "both",
-            "show_in_product": 0,
-            "layout_data": null,
-            "maxlength": null,
-            "maxlength_enforce": 0,
-            "translated_name": "Logo",
-            "selected": "in2jordan_white.png",
-            "options": [
-              "in2jordan_white.png",
-              "kimkim_transparent.png",
-              "sawwah.png",
-              "tourradar.png",
-              "tripme.png",
-              "Amani-PNG.png"
-            ],
-            "field_value_link_id": 350,
-            "link_type": "order",
-            "link_id": 60,
-            "value": "in2jordan_white.png"
-          },
-          {
-            "id": 8,
-            "name": "intro_title",
+            "name": "Travelplannaam",
             "type_id": 1,
             "valid_regex": "",
             "defaults": null,
-            "category_id": 6,
+            "category_id": 2,
             "sort_order": null,
             "field_width": null,
             "field_type": "TextBox",
@@ -97,241 +38,457 @@
             "layout_data": null,
             "maxlength": null,
             "maxlength_enforce": 0,
-            "translated_name": "Intro Title",
-            "field_value_link_id": 351,
+            "translated_name": "Travelplan Name",
+            "field_value_link_id": 295,
             "link_type": "order",
-            "link_id": 60,
-            "value": ""
-          },
-          {
-            "id": 9,
-            "name": "intro_text",
-            "type_id": 19,
-            "valid_regex": "",
-            "defaults": null,
-            "category_id": 6,
-            "sort_order": null,
-            "field_width": null,
-            "field_type": "TextArea_Plain",
-            "display_at": "both",
-            "show_in_product": 0,
-            "layout_data": null,
-            "maxlength": null,
-            "maxlength_enforce": 0,
-            "translated_name": "Intro text",
-            "field_value_link_id": 352,
-            "link_type": "order",
-            "link_id": 60,
-            "value": "A 4 day itinerary through Jordan where you combine visits to the highlights of Jordan - with camping with the Bedouins and visits to less known sites. Jordan from a different perspective!"
-          },
-          {
-            "id": 10,
-            "name": "category",
-            "type_id": 3,
-            "valid_regex": "",
-            "defaults": "Standard;Standard|Luxury|Comfort",
-            "category_id": 6,
-            "sort_order": null,
-            "field_width": null,
-            "field_type": "FilteringSelect",
-            "display_at": "both",
-            "show_in_product": 0,
-            "layout_data": null,
-            "maxlength": null,
-            "maxlength_enforce": 0,
-            "translated_name": "Category",
-            "selected": "Standard",
-            "options": [
-              "Standard",
-              "Luxury",
-              "Comfort"
-            ],
-            "field_value_link_id": 353,
-            "link_type": "order",
-            "link_id": 60,
-            "value": "Standard"
-          },
-          {
-            "id": 11,
-            "name": "no_startdate",
-            "type_id": 2,
-            "valid_regex": "",
-            "defaults": null,
-            "category_id": 6,
-            "sort_order": null,
-            "field_width": null,
-            "field_type": "CheckBox",
-            "display_at": "both",
-            "show_in_product": 0,
-            "layout_data": null,
-            "maxlength": null,
-            "maxlength_enforce": 0,
-            "translated_name": "No Startdate",
-            "field_value_link_id": 360,
-            "link_type": "order",
-            "link_id": 60,
-            "value": null
-          },
-          {
-            "id": 12,
-            "name": "expert",
-            "type_id": 3,
-            "valid_regex": "",
-            "defaults": "Amanda;Amanda|Carmen|Lena|Nada|Gail|Sarah|Sandr|Raoul|Jolanda|Margh",
-            "category_id": 6,
-            "sort_order": null,
-            "field_width": null,
-            "field_type": "FilteringSelect",
-            "display_at": "both",
-            "show_in_product": 0,
-            "layout_data": null,
-            "maxlength": null,
-            "maxlength_enforce": 0,
-            "translated_name": "Expert",
-            "selected": "Amanda",
-            "options": [
-              "Amanda",
-              "Carmen",
-              "Lena",
-              "Nada",
-              "Gail",
-              "Sarah",
-              "Sandr",
-              "Raoul",
-              "Jolanda",
-              "Margh"
-            ],
-            "field_value_link_id": 354,
-            "link_type": "order",
-            "link_id": 60,
-            "value": "Lena"
-          },
-          {
-            "id": 14,
-            "name": "prices_excludes",
-            "type_id": 19,
-            "valid_regex": "",
-            "defaults": null,
-            "category_id": 6,
-            "sort_order": null,
-            "field_width": null,
-            "field_type": "TextArea_Plain",
-            "display_at": "both",
-            "show_in_product": 0,
-            "layout_data": null,
-            "maxlength": null,
-            "maxlength_enforce": 0,
-            "translated_name": "Prices Exclude",
-            "field_value_link_id": 361,
-            "link_type": "order",
-            "link_id": 60,
-            "value": null
-          },
-          {
-            "id": 15,
-            "name": "partner_logo",
-            "type_id": 3,
-            "valid_regex": "",
-            "defaults": "amanitours.png;amanitours.png|in2jordan_white.png|kimkim_transparent.png|sawwah.png|tourradar.png|tripme.png",
-            "category_id": 6,
-            "sort_order": null,
-            "field_width": null,
-            "field_type": "FilteringSelect",
-            "display_at": "both",
-            "show_in_product": 0,
-            "layout_data": null,
-            "maxlength": null,
-            "maxlength_enforce": 0,
-            "translated_name": "Partner Logo (last page)",
-            "selected": "amanitours.png",
-            "options": [
-              "amanitours.png",
-              "in2jordan_white.png",
-              "kimkim_transparent.png",
-              "sawwah.png",
-              "tourradar.png",
-              "tripme.png"
-            ],
-            "field_value_link_id": 356,
-            "link_type": "order",
-            "link_id": 60,
-            "value": "tripme.png"
-          },
-          {
-            "id": 18,
-            "name": "sales_exchange_currency",
-            "type_id": 3,
-            "valid_regex": "",
-            "defaults": "JOD;JOD|USD",
-            "category_id": 6,
-            "sort_order": null,
-            "field_width": null,
-            "field_type": "FilteringSelect",
-            "display_at": "both",
-            "show_in_product": 0,
-            "layout_data": null,
-            "maxlength": null,
-            "maxlength_enforce": 0,
-            "translated_name": "Currency",
-            "selected": "JOD",
-            "options": [
-              "JOD",
-              "USD"
-            ],
-            "field_value_link_id": 355,
-            "link_type": "order",
-            "link_id": 60,
-            "value": "JOD"
+            "link_id": 1612,
+            "value": "Naam Travelplan = Mastertrip",
+            "vtbObjectId": "9gzefdffpld5wfw3fjd9e"
           },
           {
             "id": 19,
-            "name": "includes_visa_and_entrence_fees",
-            "type_id": 2,
+            "name": "reisspecialist",
+            "type_id": 3,
             "valid_regex": "",
-            "defaults": null,
-            "category_id": 6,
+            "defaults": "Saskia Louwrink;Saskia Louwrink|Florine Pastoor|Joanne Weenk|Romy van Es|Debby van Maurik|Astrid Eskes|Ilse Timmer|Omar van Beek|Simone Deckers",
+            "category_id": 2,
             "sort_order": null,
             "field_width": null,
-            "field_type": "CheckBox",
+            "field_type": "FilteringSelect",
             "display_at": "both",
             "show_in_product": 0,
             "layout_data": null,
             "maxlength": null,
             "maxlength_enforce": 0,
-            "translated_name": "Includes Visa and entrance fees",
-            "field_value_link_id": 362,
+            "translated_name": "Reisspecialist",
+            "selected": "Saskia Louwrink",
+            "options": [
+              "Saskia Louwrink",
+              "Florine Pastoor",
+              "Joanne Weenk",
+              "Romy van Es",
+              "Debby van Maurik",
+              "Astrid Eskes",
+              "Ilse Timmer",
+              "Omar van Beek",
+              "Simone Deckers"
+            ],
+            "field_value_link_id": 631,
             "link_type": "order",
-            "link_id": 60,
-            "value": null
+            "link_id": 1612,
+            "value": "Florine Pastoor",
+            "vtbObjectId": "kifvlhayk1qy4bnoroagi"
           },
           {
             "id": 20,
-            "name": "includes_insurance",
-            "type_id": 2,
+            "name": "inspiratie_text",
+            "type_id": 8,
             "valid_regex": "",
             "defaults": null,
-            "category_id": 6,
+            "category_id": 2,
             "sort_order": null,
             "field_width": null,
-            "field_type": "CheckBox",
+            "field_type": "TextAreaEditor",
             "display_at": "both",
             "show_in_product": 0,
             "layout_data": null,
             "maxlength": null,
             "maxlength_enforce": 0,
-            "translated_name": "Includes Flights + travel insurance",
-            "field_value_link_id": 363,
+            "translated_name": "Inspiratie tekst",
+            "field_value_link_id": 639,
             "link_type": "order",
-            "link_id": 60,
-            "value": null
+            "link_id": 1612,
+            "value": null,
+            "vtbObjectId": "y36a61g6fgjdencbcpqp6s"
           },
           {
+            "id": 1,
+            "name": "cover",
+            "type_id": 3,
+            "valid_regex": "",
+            "defaults": "Family;Family|1 stel|2 stellen|groepje",
+            "category_id": 2,
+            "sort_order": 1,
+            "field_width": null,
+            "field_type": "FilteringSelect",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Cover",
+            "selected": "Family",
+            "options": [
+              "Family",
+              "1 stel",
+              "2 stellen",
+              "groepje"
+            ],
+            "field_value_link_id": 306,
+            "link_type": "order",
+            "link_id": 1612,
+            "value": "Family",
+            "vtbObjectId": "5m313mgvkuk37z0ludfazd"
+          },
+          {
+            "id": 6,
+            "name": "bestemming1",
+            "type_id": 3,
+            "valid_regex": "",
+            "defaults": "Argentini\u00eb;Argentini\u00eb|Belize|Bolivia|Botswana|Brazilie|Cambodja|Chili|China|Colombia|Costa Rica|Cuba|Ecuador|Galapagos|Guatemala|India|Indonesie|Japan|Jordanie|Kenia|Laos|Malediven|Maleisie|Marokko|Mexico|Myanmar|Namibie|Nepal|Nicaragua|Panama|Peru|Sri Lanka|Suriname|Tanzania|Thailand|Tibet|Vietnam|Zuid-Afrika",
+            "category_id": 2,
+            "sort_order": 2,
+            "field_width": null,
+            "field_type": "FilteringSelect",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Main Destination",
+            "selected": "Argentini\u00eb",
+            "options": [
+              "Argentini\u00eb",
+              "Belize",
+              "Bolivia",
+              "Botswana",
+              "Brazilie",
+              "Cambodja",
+              "Chili",
+              "China",
+              "Colombia",
+              "Costa Rica",
+              "Cuba",
+              "Ecuador",
+              "Galapagos",
+              "Guatemala",
+              "India",
+              "Indonesie",
+              "Japan",
+              "Jordanie",
+              "Kenia",
+              "Laos",
+              "Malediven",
+              "Maleisie",
+              "Marokko",
+              "Mexico",
+              "Myanmar",
+              "Namibie",
+              "Nepal",
+              "Nicaragua",
+              "Panama",
+              "Peru",
+              "Sri Lanka",
+              "Suriname",
+              "Tanzania",
+              "Thailand",
+              "Tibet",
+              "Vietnam",
+              "Zuid-Afrika"
+            ],
+            "field_value_link_id": 296,
+            "link_type": "order",
+            "link_id": 1612,
+            "value": "Vietnam",
+            "vtbObjectId": "3ktjxkxcmvdcyam9fbaj5o"
+          },
+          {
+            "id": 16,
+            "name": "bestemming2",
+            "type_id": 3,
+            "valid_regex": "",
+            "defaults": "Argentini\u00eb;Argentini\u00eb|Belize|Bolivia|Botswana|Brazilie|Cambodja|Chili|China|Colombia|Costa Rica|Cuba|Ecuador|Galapagos|Guatemala|India|Indonesie|Japan|Jordanie|Kenia|Laos|Malediven|Maleisie|Marokko|Mexico|Myanmar|Namibie|Nepal|Nicaragua|Panama|Peru|Sri Lanka|Suriname|Tanzania|Thailand|Tibet|Vietnam|Zuid-Afrika",
+            "category_id": 2,
+            "sort_order": 3,
+            "field_width": null,
+            "field_type": "FilteringSelect",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Destination 2",
+            "selected": "Argentini\u00eb",
+            "options": [
+              "Argentini\u00eb",
+              "Belize",
+              "Bolivia",
+              "Botswana",
+              "Brazilie",
+              "Cambodja",
+              "Chili",
+              "China",
+              "Colombia",
+              "Costa Rica",
+              "Cuba",
+              "Ecuador",
+              "Galapagos",
+              "Guatemala",
+              "India",
+              "Indonesie",
+              "Japan",
+              "Jordanie",
+              "Kenia",
+              "Laos",
+              "Malediven",
+              "Maleisie",
+              "Marokko",
+              "Mexico",
+              "Myanmar",
+              "Namibie",
+              "Nepal",
+              "Nicaragua",
+              "Panama",
+              "Peru",
+              "Sri Lanka",
+              "Suriname",
+              "Tanzania",
+              "Thailand",
+              "Tibet",
+              "Vietnam",
+              "Zuid-Afrika"
+            ],
+            "field_value_link_id": 307,
+            "link_type": "order",
+            "link_id": 1612,
+            "value": "Laos",
+            "vtbObjectId": "hss7hxwszx64zkwhzina66"
+          },
+          {
+            "id": 41,
+            "name": "bestemming3",
+            "type_id": 3,
+            "valid_regex": "",
+            "defaults": "Argentini\u00eb;Argentini\u00eb|Belize|Bolivia|Botswana|Brazilie|Cambodja|Chili|China|Colombia|Costa Rica|Cuba|Ecuador|Galapagos|Guatemala|India|Indonesie|Japan|Jordanie|Kenia|Laos|Malediven|Maleisie|Marokko|Mexico|Myanmar|Namibie|Nepal|Nicaragua|Panama|Peru|Sri Lanka|Suriname|Tanzania|Thailand|Tibet|Vietnam|Zuid-Afrika",
+            "category_id": 2,
+            "sort_order": 4,
+            "field_width": null,
+            "field_type": "FilteringSelect",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Extra Destination 3",
+            "selected": "Argentini\u00eb",
+            "options": [
+              "Argentini\u00eb",
+              "Belize",
+              "Bolivia",
+              "Botswana",
+              "Brazilie",
+              "Cambodja",
+              "Chili",
+              "China",
+              "Colombia",
+              "Costa Rica",
+              "Cuba",
+              "Ecuador",
+              "Galapagos",
+              "Guatemala",
+              "India",
+              "Indonesie",
+              "Japan",
+              "Jordanie",
+              "Kenia",
+              "Laos",
+              "Malediven",
+              "Maleisie",
+              "Marokko",
+              "Mexico",
+              "Myanmar",
+              "Namibie",
+              "Nepal",
+              "Nicaragua",
+              "Panama",
+              "Peru",
+              "Sri Lanka",
+              "Suriname",
+              "Tanzania",
+              "Thailand",
+              "Tibet",
+              "Vietnam",
+              "Zuid-Afrika"
+            ],
+            "field_value_link_id": 1408,
+            "link_type": "order",
+            "link_id": 1612,
+            "value": "Cambodja",
+            "vtbObjectId": "pmv2k4sy57bp1qqxmewqof"
+          },
+          {
+            "id": 42,
+            "name": "bestemming4",
+            "type_id": 3,
+            "valid_regex": "",
+            "defaults": "Argentini\u00eb;Argentini\u00eb|Belize|Bolivia|Botswana|Brazilie|Cambodja|Chili|China|Colombia|Costa Rica|Cuba|Ecuador|Galapagos|Guatemala|India|Indonesie|Japan|Jordanie|Kenia|Laos|Malediven|Maleisie|Marokko|Mexico|Myanmar|Namibie|Nepal|Nicaragua|Panama|Peru|Sri Lanka|Suriname|Tanzania|Thailand|Tibet|Vietnam|Zuid-Afrika",
+            "category_id": 2,
+            "sort_order": 5,
+            "field_width": null,
+            "field_type": "FilteringSelect",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Destination 4",
+            "selected": "Argentini\u00eb",
+            "options": [
+              "Argentini\u00eb",
+              "Belize",
+              "Bolivia",
+              "Botswana",
+              "Brazilie",
+              "Cambodja",
+              "Chili",
+              "China",
+              "Colombia",
+              "Costa Rica",
+              "Cuba",
+              "Ecuador",
+              "Galapagos",
+              "Guatemala",
+              "India",
+              "Indonesie",
+              "Japan",
+              "Jordanie",
+              "Kenia",
+              "Laos",
+              "Malediven",
+              "Maleisie",
+              "Marokko",
+              "Mexico",
+              "Myanmar",
+              "Namibie",
+              "Nepal",
+              "Nicaragua",
+              "Panama",
+              "Peru",
+              "Sri Lanka",
+              "Suriname",
+              "Tanzania",
+              "Thailand",
+              "Tibet",
+              "Vietnam",
+              "Zuid-Afrika"
+            ],
+            "field_value_link_id": 1409,
+            "link_type": "order",
+            "link_id": 1612,
+            "value": "Thailand",
+            "vtbObjectId": "0g2foxcjov0bl9ef1cdnb1"
+          },
+          {
+            "id": 18,
+            "name": "Afhaakredenen",
+            "type_id": 3,
+            "valid_regex": "",
+            "defaults": "Gaat niet reis te duur;Gaat niet reis te duur|Gaat niet andere reden|Elders geboekt beter reisaanbod bij Riksja|Elders geboekt beter reisaanbod bij Van Verre|Elders geboekt beter reisaanbod bij YourWay2Go|Elders geboekt beter reisaanbod bij DimSum|Elders geboekt beter reisaanbod bij Vamonos|Elders geboekt beter reisaanbod bij ander|Elders geboekt betere prijzen bij Riksja|Elders geboekt betere prijzen bij Van Verre|Elders geboekt betere prijzen bij YourWay2Go|Elders geboekt betere prijzen bij DimSum|Elders geboekt betere prijzen bij Vamonos|Elders geboekt betere prijzen bij ander|Gaat zelf regelen ter plekke|Gaat zelf regelen online Booking.com|Gaat zelf regelen online lokale DMC|Gaat met groepsreis|Geen reactie op Reisvoorstel|Heeft pakketreis geboekt|Afhaakreden niet bekend",
+            "category_id": 2,
+            "sort_order": 7,
+            "field_width": null,
+            "field_type": "FilteringSelect",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Decline reason",
+            "selected": "Gaat niet reis te duur",
+            "options": [
+              "Gaat niet reis te duur",
+              "Gaat niet andere reden",
+              "Elders geboekt beter reisaanbod bij Riksja",
+              "Elders geboekt beter reisaanbod bij Van Verre",
+              "Elders geboekt beter reisaanbod bij YourWay2Go",
+              "Elders geboekt beter reisaanbod bij DimSum",
+              "Elders geboekt beter reisaanbod bij Vamonos",
+              "Elders geboekt beter reisaanbod bij ander",
+              "Elders geboekt betere prijzen bij Riksja",
+              "Elders geboekt betere prijzen bij Van Verre",
+              "Elders geboekt betere prijzen bij YourWay2Go",
+              "Elders geboekt betere prijzen bij DimSum",
+              "Elders geboekt betere prijzen bij Vamonos",
+              "Elders geboekt betere prijzen bij ander",
+              "Gaat zelf regelen ter plekke",
+              "Gaat zelf regelen online Booking.com",
+              "Gaat zelf regelen online lokale DMC",
+              "Gaat met groepsreis",
+              "Geen reactie op Reisvoorstel",
+              "Heeft pakketreis geboekt",
+              "Afhaakreden niet bekend"
+            ],
+            "field_value_link_id": 309,
+            "link_type": "order",
+            "link_id": 1612,
+            "value": null,
+            "vtbObjectId": "5h7asohbt7cso5i0t4jz1"
+          },
+          {
+            "id": 17,
+            "name": "order_bron",
+            "type_id": 3,
+            "valid_regex": "",
+            "defaults": "Vakantiebeurs;repeater-al eerder bij OutSight geboekt|via vrienden of bekenden|via Vakantiebeurs Amsterdam|via Vakantiebeurs Breda|via VERRE REIZEN EVENT in Antwerpen|via VERRE REIZEN EVENT in Den Haag|link op Facebook.nl|link op Reisgraag.nl|link op 27vakantiedagen.nl|zoekmachine Google|online: link op columbusmagazine.nl|online: link op meridiantravel.nl|online: link op een startpagina|online: link op andersreizen.nl|online: link op een andere pagina|advertentie in Columbus Magazine|advertentie in Meridian Magazine|advertentie in krant|ZRA",
+            "category_id": 2,
+            "sort_order": 8,
+            "field_width": null,
+            "field_type": "FilteringSelect",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Order Source",
+            "selected": "Vakantiebeurs",
+            "options": [
+              "repeater-al eerder bij OutSight geboekt",
+              "via vrienden of bekenden",
+              "via Vakantiebeurs Amsterdam",
+              "via Vakantiebeurs Breda",
+              "via VERRE REIZEN EVENT in Antwerpen",
+              "via VERRE REIZEN EVENT in Den Haag",
+              "link op Facebook.nl",
+              "link op Reisgraag.nl",
+              "link op 27vakantiedagen.nl",
+              "zoekmachine Google",
+              "online: link op columbusmagazine.nl",
+              "online: link op meridiantravel.nl",
+              "online: link op een startpagina",
+              "online: link op andersreizen.nl",
+              "online: link op een andere pagina",
+              "advertentie in Columbus Magazine",
+              "advertentie in Meridian Magazine",
+              "advertentie in krant",
+              "ZRA"
+            ],
+            "field_value_link_id": 308,
+            "link_type": "order",
+            "link_id": 1612,
+            "value": null,
+            "vtbObjectId": "m8lgcdlb3jrvrn8n1bqlop"
+          }
+        ],
+        "vtbObjectId": "z5tf3gj8maqew50sm8qx"
+      },
+      {
+        "id": 4,
+        "parent_id": null,
+        "link_type": "order",
+        "layout_data": {
+          "width": "300px"
+        },
+        "display_at": "both",
+        "sort_order": null,
+        "name": "Included",
+        "fields": [
+          {
             "id": 21,
-            "name": "includes_drinks",
+            "name": "genoemde transfers van en naar vliegveld(en)",
             "type_id": 2,
             "valid_regex": "",
             "defaults": null,
-            "category_id": 6,
+            "category_id": 4,
             "sort_order": null,
             "field_width": null,
             "field_type": "CheckBox",
@@ -340,19 +497,20 @@
             "layout_data": null,
             "maxlength": null,
             "maxlength_enforce": 0,
-            "translated_name": "Includes drinks",
-            "field_value_link_id": 364,
+            "translated_name": "genoemde transfers van en naar vliegveld(en)",
+            "field_value_link_id": 809,
             "link_type": "order",
-            "link_id": 60,
-            "value": null
+            "link_id": 1612,
+            "value": "1",
+            "vtbObjectId": "kfng2pzivxausfmnasb7s"
           },
           {
             "id": 22,
-            "name": "includes_personalcoach",
+            "name": "internationale retourvlucht inclusief luchthavenbelastingen",
             "type_id": 2,
             "valid_regex": "",
             "defaults": null,
-            "category_id": 6,
+            "category_id": 4,
             "sort_order": null,
             "field_width": null,
             "field_type": "CheckBox",
@@ -361,88 +519,272 @@
             "layout_data": null,
             "maxlength": null,
             "maxlength_enforce": 0,
-            "translated_name": "Includes personal coach",
-            "field_value_link_id": 365,
+            "translated_name": "internationale retourvlucht inclusief luchthavenbelastingen",
+            "field_value_link_id": 810,
             "link_type": "order",
-            "link_id": 60,
-            "value": null
+            "link_id": 1612,
+            "value": "1",
+            "vtbObjectId": "bn1kn0tufarsbieez50xf9"
           },
           {
             "id": 23,
-            "name": "excludes_text",
-            "type_id": 19,
+            "name": "trein-, vlieg- en bustickets zoals genoemd in het reisvoorstel  ",
+            "type_id": 2,
             "valid_regex": "",
             "defaults": null,
-            "category_id": 6,
+            "category_id": 4,
             "sort_order": null,
             "field_width": null,
-            "field_type": "TextArea_Plain",
+            "field_type": "CheckBox",
             "display_at": "both",
             "show_in_product": 0,
             "layout_data": null,
             "maxlength": null,
             "maxlength_enforce": 0,
-            "translated_name": "Excludes extra text",
-            "field_value_link_id": 366,
+            "translated_name": "trein-, vlieg- en bustickets zoals genoemd in het reisvoorstel",
+            "field_value_link_id": 811,
             "link_type": "order",
-            "link_id": 60,
-            "value": null
+            "link_id": 1612,
+            "value": "1",
+            "vtbObjectId": "by0zqu6bu3wq0qe2t0tdqq"
           },
           {
             "id": 24,
-            "name": "entry_point",
-            "type_id": 3,
+            "name": "(hotel)overnachtingen inclusief ontbijt",
+            "type_id": 2,
             "valid_regex": "",
-            "defaults": "Amman Civil Airport (Marka); Amman Civil Airport (Marka)|Arava Border|Aqaba Port|King Hussein Bridge (Allenby)|King Hussein International Airport|Sheikh Hussein Border|Queen Alia International Airport",
-            "category_id": 6,
+            "defaults": null,
+            "category_id": 4,
             "sort_order": null,
             "field_width": null,
-            "field_type": "FilteringSelect",
+            "field_type": "CheckBox",
             "display_at": "both",
             "show_in_product": 0,
             "layout_data": null,
             "maxlength": null,
             "maxlength_enforce": 0,
-            "translated_name": "Entry Point",
-            "selected": "Amman Civil Airport (Marka)",
-            "options": [
-              " Amman Civil Airport (Marka)",
-              "Arava Border",
-              "Aqaba Port",
-              "King Hussein Bridge (Allenby)",
-              "King Hussein International Airport",
-              "Sheikh Hussein Border",
-              "Queen Alia International Airport"
-            ],
-            "field_value_link_id": 357,
+            "translated_name": "(hotel)overnachtingen inclusief ontbijt",
+            "field_value_link_id": 812,
             "link_type": "order",
-            "link_id": 60,
-            "value": "Queen Alia International Airport"
+            "link_id": 1612,
+            "value": "1",
+            "vtbObjectId": "xsc4z78styberj66kl7un6"
           },
           {
             "id": 25,
-            "name": "Highlights",
-            "type_id": 7,
+            "name": "(hotel)overnachtingen exclusief ontbijt",
+            "type_id": 2,
             "valid_regex": "",
             "defaults": null,
-            "category_id": 6,
+            "category_id": 4,
             "sort_order": null,
             "field_width": null,
-            "field_type": "TextArea",
+            "field_type": "CheckBox",
             "display_at": "both",
             "show_in_product": 0,
             "layout_data": null,
             "maxlength": null,
             "maxlength_enforce": 0,
-            "translated_name": "Highlight",
-            "field_value_link_id": 358,
-            "link_type": "order",
-            "link_id": 60,
-            "value": "\u00a0Madaba, Dead Sea, Karak, Dana, Petra, Wadi Rum and Mt Nebo"
+            "translated_name": "(hotel)overnachtingen exclusief ontbijt",
+            "vtbObjectId": "3a1h98dbtqlbzuzhvkgn29"
           },
           {
             "id": 26,
-            "name": "Price_Text",
+            "name": "genoemde autohuur",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 4,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "genoemde autohuur",
+            "vtbObjectId": "6goeedaiatpzckaug8wwm"
+          },
+          {
+            "id": 27,
+            "name": "genoemde binnenlandse vluchten",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 4,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "genoemde binnenlandse vluchten",
+            "field_value_link_id": 813,
+            "link_type": "order",
+            "link_id": 1612,
+            "value": "1",
+            "vtbObjectId": "9nn5o9n4im0562wki5ys7g"
+          },
+          {
+            "id": 28,
+            "name": "autohuur inclusief all-risk verzekering",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 4,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "autohuur inclusief all-risk verzekering",
+            "vtbObjectId": "d3r9lm1kotmmj7rrvecukf"
+          },
+          {
+            "id": 29,
+            "name": "autohuur inclusief beperkte verzekering",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 4,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "autohuur inclusief beperkte verzekering",
+            "vtbObjectId": "z95acqrp6zbq13uknds9ph"
+          },
+          {
+            "id": 39,
+            "name": "Extra",
+            "type_id": 7,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 4,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "TextArea",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Extra",
+            "vtbObjectId": "fppt5q0mpxu3xab2z34u8r"
+          }
+        ],
+        "vtbObjectId": "jcdrwxh0a18v2sfphmskes"
+      },
+      {
+        "id": 5,
+        "parent_id": null,
+        "link_type": "order",
+        "layout_data": null,
+        "display_at": "both",
+        "sort_order": null,
+        "name": "Not included",
+        "fields": [
+          {
+            "id": 36,
+            "name": "overige niet genoemde transfers ",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 5,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "overige niet genoemde transfers",
+            "vtbObjectId": "1d77wumwfzbn9qw1dzcj9j"
+          },
+          {
+            "id": 37,
+            "name": "aanvullende verzekeringen autohuur",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 5,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "aanvullende verzekeringen autohuur",
+            "vtbObjectId": "cx9mvywws9nrgn86g2m9de"
+          },
+          {
+            "id": 38,
+            "name": "eventuele brandstoftoeslagen voor de vlucht",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 5,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "eventuele brandstoftoeslagen voor de vlucht",
+            "vtbObjectId": "1jivvjknr6k0nlrnwcygyy"
+          },
+          {
+            "id": 40,
+            "name": "Zonder",
+            "type_id": 7,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 5,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "TextArea",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Zonder",
+            "field_value_link_id": 814,
+            "link_type": "order",
+            "link_id": 1612,
+            "value": "wat is 'zonder'?<br \/>",
+            "vtbObjectId": "j4zwmr17mmqbbma77k27o"
+          }
+        ],
+        "vtbObjectId": "86ouf1yl9zpsi4ppifkuil"
+      },
+      {
+        "id": 6,
+        "parent_id": null,
+        "link_type": "order",
+        "layout_data": null,
+        "display_at": "both",
+        "sort_order": null,
+        "name": "Country info",
+        "fields": [
+          {
+            "id": 43,
+            "name": "Informatie",
             "type_id": 7,
             "valid_regex": "",
             "defaults": null,
@@ -452,63 +794,41 @@
             "field_type": "TextArea",
             "display_at": "both",
             "show_in_product": 0,
-            "layout_data": null,
+            "layout_data": {
+              "width": "205px",
+              "": "false"
+            },
             "maxlength": null,
             "maxlength_enforce": 0,
-            "translated_name": "Price",
-            "field_value_link_id": 367,
-            "link_type": "order",
-            "link_id": 60,
-            "value": null
-          },
-          {
-            "id": 27,
-            "name": "transfer_type",
-            "type_id": 3,
-            "valid_regex": "",
-            "defaults": "Car;Car|Minivan",
-            "category_id": 6,
-            "sort_order": null,
-            "field_width": null,
-            "field_type": "FilteringSelect",
-            "display_at": "both",
-            "show_in_product": 0,
-            "layout_data": null,
-            "maxlength": null,
-            "maxlength_enforce": 0,
-            "translated_name": "Transfer Type",
-            "selected": "Car",
-            "options": [
-              "Car",
-              "Minivan"
-            ],
-            "field_value_link_id": 359,
-            "link_type": "order",
-            "link_id": 60,
-            "value": "Car"
+            "translated_name": "Information",
+            "vtbObjectId": "95o449jbpgj550kxrq3uec",
+            "value": "Hello Informatie"
           }
-        ]
+        ],
+        "vtbObjectId": "hah9tmz2xyi40xqi1ywsod"
       }
     ],
     "participants": {
       "party 1": [
         {
-          "id": "266",
-          "name": "Fufun",
-          "surname": "Kotzlovski",
+          "id": "2036630",
+          "name": "Mildred",
+          "surname": "Zomerdijk",
           "surname_prefix": "",
-          "title": "9",
+          "title": "2",
           "sex": "female",
-          "birthdate": ""
+          "birthdate": "1965-09-14",
+          "partyName": "party 1"
         },
         {
-          "id": "268",
-          "name": "1",
-          "surname": "NoName",
+          "id": "2036631",
+          "name": "Artje",
+          "surname": "Hoeben",
           "surname_prefix": "",
-          "title": "",
-          "sex": "",
-          "birthdate": ""
+          "title": "2",
+          "sex": "female",
+          "birthdate": "1964-08-10",
+          "partyName": "party 1"
         }
       ]
     },
@@ -517,44 +837,36 @@
         "nights": 1,
         "day": 1,
         "isFlight": false,
-        "typeId": 1,
-        "title": "QAIA - Madaba",
+        "typeId": 16,
+        "title": "Eerste dagen in Ho Chi Minh Stad",
         "subTitle": null,
-        "content": "<p>Arrive at the airport and your driver will meet you in the arrivals hall holding a name sign and take you on a short ride (30mins) to Madaba. Your overnight stay is in Madaba.&nbsp;<\/p><p><br>Option: If you arrive in the morning, you can head north to visit the beautiful Roman city of Jerash \u2013 one of the best preserved Roman ruins outside of Italy. the Hippodrome, colonnaded way, theatre and temple of Artemis are some of the highlights.<\/p>",
+        "content": "<p>Je kunt deze eerste dagen bijvoorbeeld het koloniale stadhuis, de drukke markt in de Chinese wijk, de kopie van de Notre Dame uit Parijs of de boulevard bezoeken, waar \u2018s avonds altijd een gezellige bedrijvigheid heerst. Op de vertrekdag word je in de loop van de middag word je opgehaald en naar het internationale vliegveld Tan Son Nhat International Airport gebracht voor je terugvlucht (de meeste vluchten vertrekken in de avond).<br><br>inclusief: transfer na aankomst, twee hotelovernachtingen<br><br>&nbsp;<\/p>",
         "TSBlock": {
-          "id": 233
+          "id": 7602
         },
         "flightInfo": [
           
         ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 10.8230989,
+          "longitude": 106.6296638,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 14
+        },
         "media": [
           {
-            "id": 436,
+            "id": 37,
             "sourceType": "mediaspirit",
-            "sourceId": "304563a4e622183e4fba9e9baf360ba6",
-            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/Madaba-mosque.jpg",
-            "description": ""
-          },
-          {
-            "id": 437,
-            "sourceType": "mediaspirit",
-            "sourceId": "4dd7d63e72a9a152e59c0978e8a2dab1",
-            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/women-local-jordan-grapes.JPG",
-            "description": ""
-          },
-          {
-            "id": 438,
-            "sourceType": "mediaspirit",
-            "sourceId": "304563a4e622183e4fba9e9baf3654de",
-            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/madaba-st-george-church.jpg",
-            "description": ""
-          },
-          {
-            "id": 439,
-            "sourceType": "mediaspirit",
-            "sourceId": "4dd7d63e72a9a152e59c0978e8b17ced",
-            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/Mosaics-Mount-Nebo.jpg",
-            "description": ""
+            "sourceId": "3c51b734f1e60a7b200028cd2a13ff62",
+            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/straatbeeld-brommers-Saigon.JPG",
+            "description": null
           }
         ],
         "elements": [
@@ -563,150 +875,62 @@
             "offset": 0,
             "nights": 0,
             "unitAmount": 1,
-            "unitId": 10,
+            "unitId": 8,
             "optional": false,
-            "not_calculated": false,
-            "title": "QAIA - Madaba transfer car",
+            "not_calculated": true,
+            "subTitle": "<1of2 personen>",
+            "title": "Transfer luchthaven - hotel in Ho Chi Minh City",
             "TSProduct": {
-              "id": 42,
-              "tag": "traqama",
+              "id": 234,
+              "tag": "TRVNSGNHTL",
               "bookableDays": [
                 
               ]
             },
             "TSOrderline": {
-              "id": 584,
+              "id": 17181,
               "extraFieldValues": [
                 {
-                  "id": 16,
-                  "name": "checkin_time",
-                  "type_id": 18,
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
                   "valid_regex": "",
                   "defaults": null,
                   "category_id": null,
                   "sort_order": null,
                   "field_width": null,
-                  "field_type": "Orderline_Time",
+                  "field_type": "Orderline_TextBox",
                   "display_at": "both",
                   "show_in_product": 1,
                   "layout_data": null,
                   "maxlength": null,
                   "maxlength_enforce": 0,
-                  "translated_name": "Checkin Time",
-                  "field_value_link_id": 370,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 640,
                   "link_type": "orderline",
-                  "link_id": 584,
+                  "link_id": 17181,
                   "value": null
                 },
                 {
-                  "id": 17,
-                  "name": "checkout_time",
-                  "type_id": 18,
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
                   "valid_regex": "",
                   "defaults": null,
                   "category_id": null,
                   "sort_order": null,
                   "field_width": null,
-                  "field_type": "Orderline_Time",
+                  "field_type": "Orderline_TextBox",
                   "display_at": "both",
                   "show_in_product": 1,
                   "layout_data": null,
                   "maxlength": null,
                   "maxlength_enforce": 0,
-                  "translated_name": "Checkout Time",
-                  "field_value_link_id": 371,
+                  "translated_name": "End time",
+                  "field_value_link_id": 641,
                   "link_type": "orderline",
-                  "link_id": 584,
+                  "link_id": 17181,
                   "value": null
-                }
-              ]
-            },
-            "media": [
-              
-            ],
-            "olPrices": {
-              "costPrice": null,
-              "discount": "0.000",
-              "title": "QAIA - Madaba transfer car",
-              "discountMethod": null,
-              "exchangeRate": "0.708000000",
-              "purchaseCurrency": "USD",
-              "salesCurrency": "JOD",
-              "participants": {
-                "266": {
-                  "costPrice": "",
-                  "salesPrice": 15
-                },
-                "268": {
-                  "costPrice": "0.000",
-                  "salesPrice": 15
-                }
-              },
-              "salesTotal": 30
-            },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" class=\"wsc-instance\">QAIA - Madaba transfer<br \/>30 Minutes<\/body><\/html>",
-            "subAdditionalText": null,
-            "roomTypes": [
-              
-            ],
-            "supplierComment": null,
-            "sellingAmount": "0.000",
-            "sellingMarkupType": "margin"
-          },
-          {
-            "emptyOlStartDT": false,
-            "offset": 0,
-            "flexNights": 1,
-            "nights": 0,
-            "unitAmount": 1,
-            "unitId": 2,
-            "optional": false,
-            "not_calculated": false,
-            "subTitle": "Double \/ Twin",
-            "title": "Art Hotel",
-            "TSProduct": {
-              "id": 18,
-              "tag": "AMART",
-              "bookableDays": [
-                
-              ]
-            },
-            "TSOrderline": {
-              "id": 607,
-              "extraFieldValues": [
-                {
-                  "id": 16,
-                  "name": "checkin_time",
-                  "type_id": 18,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_Time",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Checkin Time"
-                },
-                {
-                  "id": 17,
-                  "name": "checkout_time",
-                  "type_id": 18,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_Time",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Checkout Time"
                 }
               ]
             },
@@ -714,189 +938,353 @@
               "addressInfo": [
                 
               ],
-              "fiendOfView": 84.46979999999999,
-              "heading": 90,
-              "latitude": 31.9521500903329,
-              "longitude": 35.93263698999908,
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 10.8230989,
+              "longitude": 106.6296638,
               "pitch": 0,
-              "searchPlace": "30 King Faysal Street Downtown Amman\u060c Amman, Jordan",
-              "staticImageZoom": false,
-              "zoom": 1
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 14
             },
             "media": [
               {
-                "url": "https:\/\/media.amanitours.com\/original\/lg\/art-hotel.jpg",
-                "id": 19,
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie-Vietnam-Vervoer-Transfer.JPG",
+                "id": 29,
                 "description": "",
-                "mediaspirit_id": "0d217a05ab08dae4d25439b794033b20",
-                "sourceId": "0d217a05ab08dae4d25439b794033b20",
+                "mediaspirit_id": "e430f8d12e3775a73599bc99416c3f22",
+                "sourceId": "e430f8d12e3775a73599bc99416c3f22",
                 "sourceType": "mediaspirit"
               }
             ],
             "olPrices": {
-              "costPrice": "50.00000000",
+              "costPrice": "22.62000000",
               "discount": null,
-              "title": "Art Hotel [Double \/ Twin]",
-              "discountMethod": "absolute",
-              "exchangeRate": "1.000000000",
-              "purchaseCurrency": "JOD",
-              "salesCurrency": "JOD",
+              "title": "Transfer luchthaven - hotel in Ho Chi Minh City [<1of2 personen>]",
+              "discountMethod": null,
+              "exchangeRate": "0.870000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "EUR",
               "participants": {
-                "266": {
-                  "costPrice": "25.000",
-                  "salesPrice": 35
+                "2036630": {
+                  "costPrice": "11.310",
+                  "salesPrice": 16
                 },
-                "268": {
-                  "costPrice": "25.000",
-                  "salesPrice": 35
+                "2036631": {
+                  "costPrice": "11.310",
+                  "salesPrice": 16
                 }
               },
-              "salesTotal": 70
+              "salesTotal": 32
             },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" class=\"wsc-instance\">Located in Downtown Amman, Art Hotel features simply furnished accommodations. Free WiFi is available in all areas. The Roman Amphitheater is a 10-minute walk away.<br \/>Each room here will provide you with a flat-screen TV and air conditioning. The private bathroom also comes with a shower.<br \/>Al Khaldi Hospital is 1.7 mi and Queen Alia International Airport is 45 minutes away by car.<br \/>This is our guests' favorite part of Amman, according to independent reviews.<br \/>This property also has one of the top-rated locations in Amman! Guests are happier about it compared to other properties in the area.<br \/><br \/>&nbsp;<\/body><\/html>",
+            "additionalText": "<html><head><title><\/title><\/head><body>Beschrijving bij product: Na aankomst op de luchthaven van <strong>Ho Chi Minh City<\/strong> word je opgewacht door een chauffeur die je naar je hotel voor de eerste twee nachten brengt. In deze bouwsteen zit de transfer van het vliegveld naar je hotel in het centrum en de eerste twee overnachtingen, de rest van de reis kun je zelf verder invullen!<\/body><\/html>",
             "subAdditionalText": null,
             "roomTypes": [
               {
-                "defaultPrice": "50.0000",
-                "description": "Double Standard Including Breakfast",
+                "defaultPrice": "43.0000",
+                "description": "<3of4personen>",
+                "minPerson": 3,
+                "maxPerson": 4,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "26.0000",
+                "description": "<1of2 personen>",
                 "minPerson": 1,
                 "maxPerson": 2,
-                "minUnit": null,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "40.0000",
-                "description": "Single Standard Including Breakfast",
-                "minPerson": 1,
-                "maxPerson": 1,
-                "minUnit": null,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "60.0000",
-                "description": "Triple Standard Including Breakfast",
-                "minPerson": 1,
-                "maxPerson": 3,
-                "minUnit": null,
+                "minUnit": 1,
                 "maxUnit": null,
                 "note": ""
               }
             ],
             "supplierComment": null,
-            "sellingAmount": "40.000",
-            "sellingMarkupType": "percentage"
+            "sellingAmount": null,
+            "sellingMarkupType": null,
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "klfdph8lm32tge0iz252s",
+            "linkedParty": "party 1",
+            "day": 1,
+            "date": "2019-09-05",
+            "endDate": "2019-09-05",
+            "roomTypeMatchesParticipants": true
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 1,
+            "unitAmount": 1,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": true,
+            "subTitle": "Superior Room",
+            "title": "Ho Chi Minh, GK Central Hotel",
+            "TSProduct": {
+              "id": 158,
+              "tag": "ACVNSGNGKC",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 17182,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 642,
+                  "link_type": "orderline",
+                  "link_id": 17182,
+                  "value": null
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time",
+                  "field_value_link_id": 643,
+                  "link_type": "orderline",
+                  "link_id": 17182,
+                  "value": null
+                }
+              ]
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 10.8230989,
+              "longitude": 106.6296638,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 14
+            },
+            "media": [
+              {
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Vietnam-hotels-Saigon-GK-Central.jpg",
+                "id": 77,
+                "description": "",
+                "mediaspirit_id": "48124002a0592d97db56908f991d2cd3",
+                "sourceId": "48124002a0592d97db56908f991d2cd3",
+                "sourceType": "mediaspirit"
+              }
+            ],
+            "olPrices": {
+              "costPrice": "45.24000000",
+              "discount": null,
+              "title": "Ho Chi Minh, GK Central Hotel [Superior Room]",
+              "discountMethod": "absolute",
+              "exchangeRate": "0.870000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "22.620",
+                  "salesPrice": 34
+                },
+                "2036631": {
+                  "costPrice": "22.620",
+                  "salesPrice": 34
+                }
+              },
+              "salesTotal": 68
+            },
+            "subAdditionalText": "inclusief ontbijt",
+            "additionalText": "<html><head><title><\/title><\/head><body>Het GK Central Hotel is ons standaardhotel in Saigon! Dit is de tekst die in TS staat bij product -&gt; beschrijving. Hoe lang moeten we deze tekst maken?<\/body><\/html>",
+            "roomTypes": [
+              {
+                "defaultPrice": "61.0000",
+                "description": "Deluxe Room",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "inclusief ontbijt"
+              },
+              {
+                "defaultPrice": "52.0000",
+                "description": "Superior Room",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "inclusief ontbijt"
+              },
+              {
+                "defaultPrice": "77.0000",
+                "description": "Premium Deluxe Room",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "inclusief ontbijt"
+              },
+              {
+                "defaultPrice": "112.0000",
+                "description": "Premium Deluxe Room met extra bed",
+                "minPerson": 3,
+                "maxPerson": 3,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "inclusief ontbijt"
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": null,
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "1dd8h2td2wr32x8y2ne1pq",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 1,
+            "date": "2019-09-05",
+            "endDate": "2019-09-06",
+            "roomTypeMatchesParticipants": true
           }
         ],
-        "liborderId": 60
+        "inViewport": true,
+        "vtbObjectId": "6vc3foorta22xaqvtucczk",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-09-05",
+        "missingBookableDays": false,
+        "elementsOrder": "klfdph8lm32tge0iz252s|1dd8h2td2wr32x8y2ne1pq",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-09-06"
       },
       {
         "nights": 1,
         "day": 2,
         "isFlight": false,
-        "typeId": 1,
-        "title": "Madaba \u2013 Mount Nebo \u2013 Dead Sea \u2013 Karak \u2013 Dana Nature Reserve \u2013 Petra",
-        "subTitle": null,
-        "content": "<p>After breakfast, you can go for a walk around Madaba. Visit the mosaics at St George's Church and the church floors at the archaeological park \u2013 before heading onto Mt Nebo, the site where Moses was buried. Your driver will take you to the viewpoint where you can see (depending on the weather) the Promised Land. Then, your driver will take you down to the Dead Sea for a swim in this extremely salty lake, and to have lunch.&nbsp;<\/p><p>You will continue to the Dead Sea Highway and then turn up into the mountains, and your next stop is at Karak Castle, one of the largest crusader castles in the Middle East. After a break for lunch, you will continue south along the King\u2019s Highway, an ancient trade route, which winds through the mountains and small towns, along the way stopping briefly at Dana Nature Reserve for the views over the Great Rift Valley. Your overnight stay is in Petra.&nbsp;<\/p>",
+        "typeId": 16,
+        "title": "Naar Hanoi",
+        "subTitle": "Op welke dag maak ik de excursie?",
+        "content": "<p>&nbsp;Vandaag vlieg je van Saigon naar Hanoi.&nbsp;Na aankomst word je naar je hotel gebracht, waar je drie nachten verblijft. Bezoek hier bijvoorbeeld de Ngoc Tempel op het Hoan Kiem meer, maak een ritje met een <i>cyclo<\/i>, ga verder met winkelen of eet \u2018s avonds een hapje bij een van de kleine restaurantjes aan het prachtige meer!<br>&nbsp;<\/p><p>inclusief: transfer naar airport, binnenlandse vlucht, transfer naar hotel, 3 hotelovernachtingen<br>extra: excursie naar de Cu Chi tunnels<br>&nbsp;<\/p>",
         "TSBlock": {
-          "id": 234
+          "id": 7636
         },
         "flightInfo": [
           
         ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 21.03093623761563,
+          "longitude": 105.84937255398461,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 14
+        },
         "media": [
           {
-            "id": 40,
+            "id": 26,
             "sourceType": "mediaspirit",
-            "sourceId": "a233cb86b54d5ad164d7f5ea0c2ef71e",
-            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/IMG_20171004_100311394.jpg",
-            "description": ""
-          },
-          {
-            "id": 41,
-            "sourceType": "mediaspirit",
-            "sourceId": "3db9ff7b39a8c76a84fd0cd0e4f7967e",
-            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/IMG_20171003_144537756.jpg",
-            "description": ""
-          },
-          {
-            "id": 42,
-            "sourceType": "mediaspirit",
-            "sourceId": "9b4500919f01e2dec1b79de5486fcf08",
-            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/Terpent-Mount-Nebo-statue.jpg",
-            "description": ""
-          },
-          {
-            "id": 43,
-            "sourceType": "mediaspirit",
-            "sourceId": "89ade201920b5d762f6dcc25175b8149",
-            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/Dead-Sea-Mud.jpg",
-            "description": ""
+            "sourceId": "02da61af97ea5f156286aca077b87ede",
+            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/straatbeeld-Hanoi.jpg",
+            "description": null
           }
         ],
         "elements": [
           {
             "emptyOlStartDT": false,
             "offset": 0,
-            "flexNights": 1,
             "nights": 0,
             "unitAmount": 1,
-            "unitId": 2,
+            "unitId": 9,
             "optional": false,
-            "not_calculated": false,
-            "subTitle": "Double",
-            "title": "La Maison Hotel",
+            "not_calculated": true,
+            "subTitle": "vlucht van Saigon naar Hanoi",
+            "title": "vlucht Ho Chi Minh City - Hanoi",
             "TSProduct": {
-              "id": 46,
-              "tag": "MAIS",
+              "id": 213,
+              "tag": "BVVNSGNHAN",
               "bookableDays": [
                 
               ]
             },
             "TSOrderline": {
-              "id": 585,
+              "id": 17183,
               "extraFieldValues": [
                 {
-                  "id": 16,
-                  "name": "checkin_time",
-                  "type_id": 18,
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
                   "valid_regex": "",
                   "defaults": null,
                   "category_id": null,
                   "sort_order": null,
                   "field_width": null,
-                  "field_type": "Orderline_Time",
+                  "field_type": "Orderline_TextBox",
                   "display_at": "both",
                   "show_in_product": 1,
                   "layout_data": null,
                   "maxlength": null,
                   "maxlength_enforce": 0,
-                  "translated_name": "Checkin Time",
-                  "field_value_link_id": 372,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 644,
                   "link_type": "orderline",
-                  "link_id": 585,
+                  "link_id": 17183,
                   "value": null
                 },
                 {
-                  "id": 17,
-                  "name": "checkout_time",
-                  "type_id": 18,
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
                   "valid_regex": "",
                   "defaults": null,
                   "category_id": null,
                   "sort_order": null,
                   "field_width": null,
-                  "field_type": "Orderline_Time",
+                  "field_type": "Orderline_TextBox",
                   "display_at": "both",
                   "show_in_product": 1,
                   "layout_data": null,
                   "maxlength": null,
                   "maxlength_enforce": 0,
-                  "translated_name": "Checkout Time",
-                  "field_value_link_id": 373,
+                  "translated_name": "End time",
+                  "field_value_link_id": 645,
                   "link_type": "orderline",
-                  "link_id": 585,
+                  "link_id": 17183,
                   "value": null
                 }
               ]
@@ -907,325 +1295,465 @@
               ],
               "fiendOfView": 0,
               "heading": 0,
-              "latitude": 30.32621888983311,
-              "longitude": 35.47037623745507,
+              "latitude": 21.0277644,
+              "longitude": 105.83415979999995,
               "pitch": 0,
               "searchPlace": null,
               "staticImageZoom": null,
-              "zoom": 1
+              "zoom": 14
             },
             "media": [
               {
-                "url": "admin.php?mod=tspshowfile&id=26",
-                "id": 26,
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie-Vietnam-Vervoer-Vlucht.jpg",
+                "id": 30,
                 "description": "",
-                "mediaspirit_id": null
+                "mediaspirit_id": "664dbadd0792aebb68e2f5b6335fe169",
+                "sourceId": "664dbadd0792aebb68e2f5b6335fe169",
+                "sourceType": "mediaspirit"
               }
             ],
             "olPrices": {
-              "costPrice": null,
-              "discount": "0.000",
-              "title": "La Maison Hotel [Double]",
+              "costPrice": "295.36500000",
+              "discount": null,
+              "title": "vlucht Ho Chi Minh City - Hanoi [vlucht van Saigon naar Hanoi]",
               "discountMethod": null,
-              "exchangeRate": "0.708000000",
+              "exchangeRate": "0.870000000",
               "purchaseCurrency": "USD",
-              "salesCurrency": "JOD",
+              "salesCurrency": "EUR",
               "participants": {
-                "266": {
-                  "costPrice": "",
-                  "salesPrice": 25
+                "2036630": {
+                  "costPrice": "147.683",
+                  "salesPrice": 185
                 },
-                "268": {
-                  "costPrice": "0.000",
-                  "salesPrice": 25
+                "2036631": {
+                  "costPrice": "147.683",
+                  "salesPrice": 185
                 }
               },
-              "salesTotal": 50
+              "salesTotal": 370
             },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" class=\"wsc-instance\">La Maison Hotel is uniquely&nbsp;located&nbsp;in Wadi Musa, a 5-minute walk from the Jordanian world wonder, the Red Rose City of&nbsp;Petra.<br \/><br \/>Hotel La Maison offers air-conditioned guest rooms with satellite TVs. The hotel has its own Lobby Lounge called The Basha. Guests can enjoy a meal or drink here anytime during the day.<br \/><br \/>This property also has one of the best-rated locations in Wadi Musa! Guests are happier about it compared to other properties in the area.<br \/><br \/>Groups particularly like the location \u2014 they rated it&nbsp;9.6&nbsp;for stays with multiple people.<\/body><\/html>",
+            "additionalText": "<html><head><title><\/title><\/head><body>Dit is de beschrijving die in TS bij het product staat -&gt; beschrijving. Hoe lang&nbsp; zou deze tekst moeten zijn? langer dan dit of juist korter?<\/body><\/html>",
             "subAdditionalText": null,
             "roomTypes": [
               {
-                "defaultPrice": "46.0000",
-                "description": "Double Standard Including Breakfast",
+                "defaultPrice": "169.7500",
+                "description": "vlucht van Saigon naar Hanoi",
                 "minPerson": 1,
-                "maxPerson": 2,
-                "minUnit": null,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "42.0000",
-                "description": "Single Standard Including Breakfast",
-                "minPerson": 1,
-                "maxPerson": 1,
-                "minUnit": null,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "57.0000",
-                "description": "Double Standard Including Breakfast & Dinner",
-                "minPerson": 1,
-                "maxPerson": 2,
-                "minUnit": null,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "48.0000",
-                "description": "Single Standard Including Breakfast & Dinner",
-                "minPerson": 1,
-                "maxPerson": 1,
-                "minUnit": null,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "38.0000",
-                "description": "Double Including Breakfast",
-                "minPerson": 1,
-                "maxPerson": 2,
-                "minUnit": null,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "33.0000",
-                "description": "Single Including Breakfast",
-                "minPerson": 1,
-                "maxPerson": 1,
-                "minUnit": null,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "47.0000",
-                "description": "Double Including Breakfast & Dinner",
-                "minPerson": 1,
-                "maxPerson": 2,
-                "minUnit": null,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "38.0000",
-                "description": "Single Including Breakfast & Dinner",
-                "minPerson": 1,
-                "maxPerson": 1,
-                "minUnit": null,
+                "maxPerson": 6,
+                "minUnit": 1,
                 "maxUnit": null,
                 "note": ""
               }
             ],
             "supplierComment": null,
-            "sellingAmount": "40.000",
-            "sellingMarkupType": "percentage"
+            "sellingAmount": null,
+            "sellingMarkupType": null,
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "vuhjn9b5ewrbvlrjeser6",
+            "linkedParty": "party 1",
+            "day": 2,
+            "date": "2019-09-06",
+            "endDate": "2019-09-06",
+            "roomTypeMatchesParticipants": true
           },
           {
             "emptyOlStartDT": false,
             "offset": 0,
-            "nights": 0,
+            "nights": 1,
             "unitAmount": 1,
-            "unitId": 10,
+            "unitId": 2,
             "optional": false,
-            "not_calculated": false,
-            "title": "Madaba \u2013 Mount Nebo \u2013 Dead Sea \u2013 Karak \u2013 Dana Nature Reserve \u2013 Petra car transfer",
+            "not_calculated": true,
+            "subTitle": "Deluxe Room",
+            "title": "Hanoi Le Jardin Hotel & Spa",
             "TSProduct": {
-              "id": 48,
-              "tag": "tramape",
+              "id": 160,
+              "tag": "ACVNHANLEJ",
               "bookableDays": [
                 
               ]
             },
             "TSOrderline": {
-              "id": 586,
+              "id": 17184,
               "extraFieldValues": [
                 {
-                  "id": 16,
-                  "name": "checkin_time",
-                  "type_id": 18,
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
                   "valid_regex": "",
                   "defaults": null,
                   "category_id": null,
                   "sort_order": null,
                   "field_width": null,
-                  "field_type": "Orderline_Time",
+                  "field_type": "Orderline_TextBox",
                   "display_at": "both",
                   "show_in_product": 1,
                   "layout_data": null,
                   "maxlength": null,
                   "maxlength_enforce": 0,
-                  "translated_name": "Checkin Time",
-                  "field_value_link_id": 374,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 646,
                   "link_type": "orderline",
-                  "link_id": 586,
+                  "link_id": 17184,
                   "value": null
                 },
                 {
-                  "id": 17,
-                  "name": "checkout_time",
-                  "type_id": 18,
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
                   "valid_regex": "",
                   "defaults": null,
                   "category_id": null,
                   "sort_order": null,
                   "field_width": null,
-                  "field_type": "Orderline_Time",
+                  "field_type": "Orderline_TextBox",
                   "display_at": "both",
                   "show_in_product": 1,
                   "layout_data": null,
                   "maxlength": null,
                   "maxlength_enforce": 0,
-                  "translated_name": "Checkout Time",
-                  "field_value_link_id": 375,
+                  "translated_name": "End time",
+                  "field_value_link_id": 647,
                   "link_type": "orderline",
-                  "link_id": 586,
+                  "link_id": 17184,
                   "value": null
                 }
               ]
             },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 21.03093623761563,
+              "longitude": 105.84937255398461,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 14
+            },
             "media": [
-              
+              {
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie-Vietnam-Hotels-Hanoi-Le-Jardin-c6e30169.jpg",
+                "id": 57,
+                "description": "",
+                "mediaspirit_id": "bd30a315b9a2fc63edf36707e2dee3fd",
+                "sourceId": "bd30a315b9a2fc63edf36707e2dee3fd",
+                "sourceType": "mediaspirit"
+              },
+              {
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie-Vietnam-Hotels-Hanoi-Le-Jardin-kamer.jpg",
+                "id": 56,
+                "description": "",
+                "mediaspirit_id": "176204336eae60393f3d28db69d00e70",
+                "sourceId": "176204336eae60393f3d28db69d00e70",
+                "sourceType": "mediaspirit"
+              }
             ],
             "olPrices": {
-              "costPrice": null,
-              "discount": "0.000",
-              "title": "Madaba \u2013 Mount Nebo \u2013 Dead Sea \u2013 Karak \u2013 Dana Nature Reserve \u2013 Petra car transfer",
-              "discountMethod": null,
-              "exchangeRate": "0.708000000",
+              "costPrice": "54.81000000",
+              "discount": null,
+              "title": "Hanoi Le Jardin Hotel & Spa [Deluxe Room]",
+              "discountMethod": "absolute",
+              "exchangeRate": "0.870000000",
               "purchaseCurrency": "USD",
-              "salesCurrency": "JOD",
+              "salesCurrency": "EUR",
               "participants": {
-                "266": {
-                  "costPrice": "",
-                  "salesPrice": 60
+                "2036630": {
+                  "costPrice": "27.405",
+                  "salesPrice": 37
                 },
-                "268": {
-                  "costPrice": "0.000",
-                  "salesPrice": 60
+                "2036631": {
+                  "costPrice": "27.405",
+                  "salesPrice": 37
                 }
               },
-              "salesTotal": 120
+              "salesTotal": 74
             },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" class=\"wsc-instance\">Madaba \u2013 Mount Nebo \u2013 Dead Sea \u2013 Karak \u2013 Dana Nature Reserve \u2013 Petra car transfer<\/body><\/html>",
-            "subAdditionalText": null,
+            "subAdditionalText": "inclusief ontbijt",
+            "additionalText": "<html><head><title><\/title><\/head><body><span style=\"font-size:12px;\"><span style=\"font-family:Arial, Helvetica, sans-serif;\">Hanoi Le Jardin Hotel &amp; Spa is het hotel dat we standaard gebruiken in Hanoi. Het hotel ligt in de wijk Ba Dinh, op loopafstand van o.a. de Quan Thanh-tempel, de Dong Xuan-markt en de oude stadspoort. Het heeft een eigen restaurant, en tuin.<br \/><br \/>Corps is nu 12<\/span><\/span><div class=\"vcard\"><span class=\"star-rating-text widget-star-rating-overlay widget-tooltip widget-tooltip-responsive widget-tooltip-ignore-touch\">&nbsp;<\/span><\/div>&nbsp;<div class=\"tagline\"><p>&nbsp;<\/p><b>&nbsp;<\/b><\/div><\/body><\/html>",
             "roomTypes": [
-              
+              {
+                "defaultPrice": "63.0000",
+                "description": "Deluxe Room",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "inclusief ontbijt"
+              }
             ],
             "supplierComment": null,
-            "sellingAmount": "0.000",
-            "sellingMarkupType": "margin"
+            "sellingAmount": null,
+            "sellingMarkupType": null,
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "4veaar2h3683wdsor763ro",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 2,
+            "date": "2019-09-06",
+            "endDate": "2019-09-07",
+            "roomTypeMatchesParticipants": true
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 1,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 11,
+            "optional": false,
+            "not_calculated": true,
+            "subTitle": "Seat in",
+            "title": "Cu Chi tunnels, excursie halve dag",
+            "TSProduct": {
+              "id": 210,
+              "tag": "EXVNSGNCUC",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 17185,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 648,
+                  "link_type": "orderline",
+                  "link_id": 17185,
+                  "value": null
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time",
+                  "field_value_link_id": 649,
+                  "link_type": "orderline",
+                  "link_id": 17185,
+                  "value": null
+                }
+              ]
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 11.1434467,
+              "longitude": 106.46447850000004,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 14
+            },
+            "media": [
+              {
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Vietnam-Excursie-Cu-Chi-tunnels.jpg",
+                "id": 67,
+                "description": "",
+                "mediaspirit_id": "6b6b595470173c90d74848a1c791e732",
+                "sourceId": "6b6b595470173c90d74848a1c791e732",
+                "sourceType": "mediaspirit"
+              }
+            ],
+            "olPrices": {
+              "costPrice": "19.14000000",
+              "discount": null,
+              "title": "Cu Chi tunnels, excursie halve dag [Seat in]",
+              "discountMethod": null,
+              "exchangeRate": "0.870000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "9.570",
+                  "salesPrice": 14
+                },
+                "2036631": {
+                  "costPrice": "9.570",
+                  "salesPrice": 14
+                }
+              },
+              "salesTotal": 28
+            },
+            "additionalText": "<html><head><title><\/title><\/head><body>Product -&gt; beschrijving:<p>Op ongeveer 50 kilometer van <strong>Ho Chi Minh City<\/strong> liggen de wereldberoemde Cu Chi tunnels, een van de belangrijkste decors tijdens de Vietnam oorlog. Je rijdt per bus naar de tunnels waar je bij Ben Dinh een ondergronds dorpje bezoekt, in een netwerk van ruim 100 kilometer ondergrondse tunnels.<\/p><p>&nbsp;<\/p><p>Een zeer indrukwekkende excursie die je nog lang zal bijblijven.<br \/>Indien het in je rondreis gunstig uitkomt, kunnen we deze excursie ook voor je combineren met een transfer naar de luchthaven van Ho Chi Minh City.<\/p><\/body><\/html>",
+            "subAdditionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "105.0000",
+                "description": "Priv\u00e9",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "11.0000",
+                "description": "Seat in",
+                "minPerson": 1,
+                "maxPerson": 6,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": null,
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "d9h57yt7xmciqezyq5qjms",
+            "linkedParty": "party 1",
+            "day": 3,
+            "date": "2019-09-07",
+            "endDate": "2019-09-07",
+            "roomTypeMatchesParticipants": true
           }
         ],
-        "liborderId": 60
+        "inViewport": false,
+        "vtbObjectId": "v8tl4vsgadhsi7d8erpa3k",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-09-06",
+        "missingBookableDays": false,
+        "elementsOrder": "vuhjn9b5ewrbvlrjeser6|4veaar2h3683wdsor763ro|d9h57yt7xmciqezyq5qjms",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-09-07"
       },
       {
         "nights": 1,
         "day": 3,
         "isFlight": false,
-        "typeId": 1,
-        "title": "Petra \u2013 Wadi Rum",
-        "subTitle": null,
-        "content": "<p>Today you have a full day to visit world heritage and UNESCO site Petra. Walk through the mystic Siq, with its carvings and temples along the way. You will find the impressive Treasury at the end of the canyon and then the rest of this enormous city opens up \u2013 climb up to the High Place of Sacrifice or the largest temple \u2013 the monastery, explore the Roman theater and colonnaded street. At the end of the day, you will be transferred south down to the beautiful Wadi Rum desert, where you will spend the night under the stars at a Bedouin camp, dinner is included.<\/p>",
+        "typeId": 16,
+        "title": "Naar de Mekong",
+        "subTitle": "exc 2 dagen\/1 nacht naar Mekong",
+        "content": "<p>Vanuit Ho Chi Minh City&nbsp;reis je naar <a href=\"http:\/\/vietnam.outsight.nl\/bouwstenen\/drijvende-markten-van-de-mekong\/\"><strong>de drijvende markten van de Mekong<\/strong><\/a>, waar je de drijvende markt van Cai Rang bezoekt, je maakt een boottocht langs dorpjes en eilanden en je slaapt een nacht in Can Tho, middenin de delta. Een&nbsp;lokale gids gaat mee om uitleg te geven over het leven in de delta!<br><br>inclusief: vervoer naar- en van opstapplaats bus, vervoer per A\/C bus* of priv\u00e9auto met chauffeur, boottochten &amp;&nbsp; bezoek aan Drijvende Markt, Engelssprekende gids, lunch op dag 1, hotelovernachting in eenvoudig hotel inclusief ontbijt<br>&nbsp;<\/p>",
         "TSBlock": {
-          "id": 235
+          "id": 7637
         },
         "flightInfo": [
           
         ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 10.063363,
+          "longitude": 105.59433880000006,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 14
+        },
         "media": [
           {
-            "id": 44,
+            "id": 43,
             "sourceType": "mediaspirit",
-            "sourceId": "8c52aacb17a42a070d567d70a0b7d2cd",
-            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/Royal-tombs-Petra.JPG",
-            "description": ""
-          },
-          {
-            "id": 45,
-            "sourceType": "mediaspirit",
-            "sourceId": "4dd7d63e72a9a152e59c0978e8ba088b",
-            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/Treasury-close-up.jpg",
-            "description": ""
-          },
-          {
-            "id": 46,
-            "sourceType": "mediaspirit",
-            "sourceId": "188a707e142d43df1da3be1388800c8c",
-            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/View-petra-from-route-high-place-of-sacrifice.jpg",
-            "description": ""
-          },
-          {
-            "id": 47,
-            "sourceType": "mediaspirit",
-            "sourceId": "16f3f122f9328a7f93a3c51478298615",
-            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/camels-in-petra.jpg",
-            "description": ""
+            "sourceId": "006c957dac1ff047cf9d7dcc743c3bb1",
+            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/Cantho-boten.JPG",
+            "description": null
           }
         ],
         "elements": [
           {
             "emptyOlStartDT": false,
             "offset": 0,
-            "flexNights": 1,
-            "nights": 0,
+            "nights": 1,
             "unitAmount": 1,
-            "unitId": 2,
+            "unitId": 13,
             "optional": false,
-            "not_calculated": false,
-            "subTitle": "Double VIP Tent",
-            "title": "Khaleds Camp",
+            "not_calculated": true,
+            "subTitle": "Seat in",
+            "title": "De drijvende markten van de Mekong",
             "TSProduct": {
-              "id": 47,
-              "tag": "KHA",
+              "id": 304,
+              "tag": "EXVNSGNMEK",
               "bookableDays": [
                 
               ]
             },
             "TSOrderline": {
-              "id": 587,
+              "id": 17186,
               "extraFieldValues": [
                 {
-                  "id": 16,
-                  "name": "checkin_time",
-                  "type_id": 18,
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
                   "valid_regex": "",
                   "defaults": null,
                   "category_id": null,
                   "sort_order": null,
                   "field_width": null,
-                  "field_type": "Orderline_Time",
+                  "field_type": "Orderline_TextBox",
                   "display_at": "both",
                   "show_in_product": 1,
                   "layout_data": null,
                   "maxlength": null,
                   "maxlength_enforce": 0,
-                  "translated_name": "Checkin Time",
-                  "field_value_link_id": 376,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 650,
                   "link_type": "orderline",
-                  "link_id": 587,
+                  "link_id": 17186,
                   "value": null
                 },
                 {
-                  "id": 17,
-                  "name": "checkout_time",
-                  "type_id": 18,
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
                   "valid_regex": "",
                   "defaults": null,
                   "category_id": null,
                   "sort_order": null,
                   "field_width": null,
-                  "field_type": "Orderline_Time",
+                  "field_type": "Orderline_TextBox",
                   "display_at": "both",
                   "show_in_product": 1,
                   "layout_data": null,
                   "maxlength": null,
                   "maxlength_enforce": 0,
-                  "translated_name": "Checkout Time",
-                  "field_value_link_id": 377,
+                  "translated_name": "End time",
+                  "field_value_link_id": 651,
                   "link_type": "orderline",
-                  "link_id": 587,
+                  "link_id": 17186,
                   "value": null
                 }
               ]
@@ -1236,320 +1764,181 @@
               ],
               "fiendOfView": 0,
               "heading": 0,
-              "latitude": 29.5460128,
-              "longitude": 35.435907600000064,
+              "latitude": 10.063363,
+              "longitude": 105.59433880000006,
               "pitch": 0,
               "searchPlace": null,
               "staticImageZoom": null,
-              "zoom": 1
+              "zoom": 14
             },
             "media": [
               {
-                "url": "https:\/\/media.amanitours.com\/original\/lg\/Jeep-in-Wadi-Rum.JPG",
-                "id": 28,
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie Vietnam Mekong-Delta.JPG",
+                "id": 34,
                 "description": "",
-                "mediaspirit_id": "f31bf94c12877cc2a9d8f0ffc224342f",
-                "sourceId": "f31bf94c12877cc2a9d8f0ffc224342f",
+                "mediaspirit_id": "fe64375a485c49df3000382b00073ff5",
+                "sourceId": "fe64375a485c49df3000382b00073ff5",
                 "sourceType": "mediaspirit"
               }
             ],
             "olPrices": {
-              "costPrice": null,
-              "discount": "0.000",
-              "title": "Khaleds Camp [Double VIP Tent]",
+              "costPrice": "109.62000000",
+              "discount": null,
+              "title": "De drijvende markten van de Mekong [Seat in]",
               "discountMethod": null,
-              "exchangeRate": "0.708000000",
+              "exchangeRate": "0.870000000",
               "purchaseCurrency": "USD",
-              "salesCurrency": "JOD",
+              "salesCurrency": "EUR",
               "participants": {
-                "266": {
-                  "costPrice": "",
-                  "salesPrice": 25
+                "2036630": {
+                  "costPrice": "54.810",
+                  "salesPrice": 69
                 },
-                "268": {
-                  "costPrice": "0.000",
-                  "salesPrice": 25
+                "2036631": {
+                  "costPrice": "54.810",
+                  "salesPrice": 69
                 }
               },
-              "salesTotal": 50
+              "salesTotal": 138
             },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" class=\"wsc-instance\"><p>Khaled's camp is located in the middle of the Protected Area. It takes about 30- 40 minutes by 4WD to his authentic camp. In the evening you will enjoy a traditional Zarb dinner, that's prepared under the ground.&nbsp;<br \/><br \/>You'll sleep in your private Bedouin Tent where you'll have a simple bed and fresh blankets. Sanitary facilities are limited in the desert and are shared. The water is heated by the sun.&nbsp;<br \/><br \/>Optional upgrade: If you prefer your own toilet and shower, opt for a deluxe tent which has a little extra facilities compared to the standard tents.&nbsp;<\/p><\/body><\/html>",
+            "additionalText": "<html><head><title><\/title><\/head><body>Vanuit Ho Chi Minh City&nbsp;reis je naar de <strong>Mekong Delta<\/strong>, waar je de drijvende markt van Cai Rang bezoekt, je maakt een boottocht langs dorpjes en eilanden en je slaapt een nacht in Can Tho in een hotel vlakbij de rivier. Een&nbsp;lokale gids gaat mee om uitleg te geven over het leven in de delta!<\/body><\/html>",
             "subAdditionalText": null,
             "roomTypes": [
               {
-                "defaultPrice": "90.0000",
-                "description": "Double VIP Tent",
+                "defaultPrice": "74.0000",
+                "description": "Seat in",
                 "minPerson": 1,
                 "maxPerson": 2,
-                "minUnit": null,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "60.0000",
-                "description": "Single VIP Tent",
-                "minPerson": 1,
-                "maxPerson": 1,
-                "minUnit": null,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "135.0000",
-                "description": "Triple VIP Tent",
-                "minPerson": 1,
-                "maxPerson": 3,
-                "minUnit": null,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "50.0000",
-                "description": "Double Standard Tent",
-                "minPerson": 1,
-                "maxPerson": 2,
-                "minUnit": null,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "25.0000",
-                "description": "Single Standard Tent",
-                "minPerson": 1,
-                "maxPerson": 1,
-                "minUnit": null,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "75.0000",
-                "description": "Triple Standard Tent",
-                "minPerson": 1,
-                "maxPerson": 3,
-                "minUnit": null,
+                "minUnit": 1,
                 "maxUnit": null,
                 "note": ""
               }
             ],
             "supplierComment": null,
-            "sellingAmount": "0.000",
-            "sellingMarkupType": "margin"
-          },
-          {
-            "emptyOlStartDT": false,
-            "offset": 0,
-            "nights": 0,
-            "unitAmount": 1,
-            "unitId": 10,
-            "optional": false,
-            "not_calculated": false,
-            "title": "Petra - Wadi Rum car transfer",
-            "TSProduct": {
-              "id": 49,
-              "tag": "traperu",
-              "bookableDays": [
-                
-              ]
-            },
-            "TSOrderline": {
-              "id": 588,
-              "extraFieldValues": [
-                {
-                  "id": 16,
-                  "name": "checkin_time",
-                  "type_id": 18,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_Time",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Checkin Time",
-                  "field_value_link_id": 378,
-                  "link_type": "orderline",
-                  "link_id": 588,
-                  "value": null
-                },
-                {
-                  "id": 17,
-                  "name": "checkout_time",
-                  "type_id": 18,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_Time",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Checkout Time",
-                  "field_value_link_id": 379,
-                  "link_type": "orderline",
-                  "link_id": 588,
-                  "value": null
-                }
-              ]
-            },
-            "maps": {
-              "addressInfo": [
-                
-              ],
-              "fiendOfView": 0,
-              "heading": 0,
-              "latitude": 30.3216354,
-              "longitude": 35.480125000000044,
-              "pitch": 0,
-              "searchPlace": null,
-              "staticImageZoom": null,
-              "zoom": 1
-            },
-            "media": [
+            "sellingAmount": null,
+            "sellingMarkupType": null,
+            "missingBookableDays": [
               
             ],
-            "olPrices": {
-              "costPrice": null,
-              "discount": "0.000",
-              "title": "Petra - Wadi Rum car transfer",
-              "discountMethod": null,
-              "exchangeRate": "0.708000000",
-              "purchaseCurrency": "USD",
-              "salesCurrency": "JOD",
-              "participants": {
-                "266": {
-                  "costPrice": "",
-                  "salesPrice": 30
-                },
-                "268": {
-                  "costPrice": "0.000",
-                  "salesPrice": 30
-                }
-              },
-              "salesTotal": 60
-            },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" class=\"wsc-instance\">Petra - Wadi Rum car transfer<\/body><\/html>",
-            "subAdditionalText": null,
-            "roomTypes": [
-              
-            ],
-            "supplierComment": null,
-            "sellingAmount": "0.000",
-            "sellingMarkupType": "margin"
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "u4a7rusqw6qdpilvggnt4",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 3,
+            "date": "2019-09-07",
+            "endDate": "2019-09-08",
+            "roomTypeMatchesParticipants": true
           }
         ],
-        "liborderId": 60
+        "inViewport": false,
+        "vtbObjectId": "7h1tv5iho4suj61kes94y",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-09-07",
+        "missingBookableDays": false,
+        "elementsOrder": "u4a7rusqw6qdpilvggnt4",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-09-08"
       },
       {
-        "nights": 0,
+        "nights": 1,
         "day": 4,
         "isFlight": false,
-        "typeId": 1,
-        "title": "Wadi Rum - QAIA",
-        "subTitle": null,
-        "content": "<p>After breakfast, you have a jeep safari to explore the beauty of the desert \u2013 visit the Nabatean inscriptions, canyons, sand-dunes and Lawrence of Arabia\u2019s House. Then it\u2019s time for your transfer back north to the airport, for your flight home.<\/p>",
+        "typeId": 16,
+        "title": "Laatste dagen in Hanoi",
+        "subTitle": "Op welke dag maak ik de excursie?",
+        "content": "<p>Weer terug in <i>Saigon<\/i>, kun je deze laatste dagen bijvoorbeeld het koloniale stadhuis, de drukke markt in de Chinese wijk, de kopie van de Notre Dame uit Parijs of de boulevard bezoeken, waar \u2018s avonds altijd een gezellige bedrijvigheid heerst. Op de laatste dag ben je overdag nog vrij om je laatste souvenirs te kopen, in de loop van de middag word je opgehaald en naar het internationale vliegveld Tan Son Nhat International Airport gebracht voor je terugvlucht (de meeste vluchten vertrekken in de avond).<br><br>inbegrepen: &nbsp;3 hotelovernachtingen, transfer naar airport<br>Extra: citytour Hanoi<\/p>",
         "TSBlock": {
-          "id": 236
+          "id": 7638
         },
         "flightInfo": [
           
         ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 21.03093623761563,
+          "longitude": 105.84937255398461,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 14
+        },
         "media": [
           {
-            "id": 28,
+            "id": 32,
             "sourceType": "mediaspirit",
-            "sourceId": "f31bf94c12877cc2a9d8f0ffc224342f",
-            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/Jeep-in-Wadi-Rum.JPG",
-            "description": ""
-          },
-          {
-            "id": 49,
-            "sourceType": "mediaspirit",
-            "sourceId": "5ae6b8e5ac0d592201a41793d7be776f",
-            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/sunset-wadi-rum-9ade94ac.JPG",
-            "description": ""
-          },
-          {
-            "id": 50,
-            "sourceType": "mediaspirit",
-            "sourceId": "04873716c1101ee608516f4165ffaa27",
-            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/camel-in-wadi-rum.JPG",
-            "description": ""
-          },
-          {
-            "id": 51,
-            "sourceType": "mediaspirit",
-            "sourceId": "72ec448c8012fcdf4cd90baf946edac3",
-            "url": "https:\/\/media.amanitours.com\/wordpress\/medium\/IMG_20171006_091552392.jpg",
-            "description": ""
+            "sourceId": "176204336eae60393f3d28db69d00e70",
+            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/Azie-Vietnam-Hotels-Hanoi-Le-Jardin-kamer.jpg",
+            "description": null
           }
         ],
         "elements": [
           {
             "emptyOlStartDT": false,
             "offset": 0,
-            "nights": 0,
+            "nights": 1,
             "unitAmount": 1,
-            "unitId": 10,
+            "unitId": 2,
             "optional": false,
-            "not_calculated": false,
-            "title": "Wadi Rum - QAIA car transfer",
+            "not_calculated": true,
+            "subTitle": "Deluxe Room",
+            "title": "Hanoi Le Jardin Hotel & Spa",
             "TSProduct": {
-              "id": 51,
-              "tag": "trawaqa",
+              "id": 160,
+              "tag": "ACVNHANLEJ",
               "bookableDays": [
                 
               ]
             },
             "TSOrderline": {
-              "id": 589,
+              "id": 17187,
               "extraFieldValues": [
                 {
-                  "id": 16,
-                  "name": "checkin_time",
-                  "type_id": 18,
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
                   "valid_regex": "",
                   "defaults": null,
                   "category_id": null,
                   "sort_order": null,
                   "field_width": null,
-                  "field_type": "Orderline_Time",
+                  "field_type": "Orderline_TextBox",
                   "display_at": "both",
                   "show_in_product": 1,
                   "layout_data": null,
                   "maxlength": null,
                   "maxlength_enforce": 0,
-                  "translated_name": "Checkin Time",
-                  "field_value_link_id": 380,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 652,
                   "link_type": "orderline",
-                  "link_id": 589,
+                  "link_id": 17187,
                   "value": null
                 },
                 {
-                  "id": 17,
-                  "name": "checkout_time",
-                  "type_id": 18,
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
                   "valid_regex": "",
                   "defaults": null,
                   "category_id": null,
                   "sort_order": null,
                   "field_width": null,
-                  "field_type": "Orderline_Time",
+                  "field_type": "Orderline_TextBox",
                   "display_at": "both",
                   "show_in_product": 1,
                   "layout_data": null,
                   "maxlength": null,
                   "maxlength_enforce": 0,
-                  "translated_name": "Checkout Time",
-                  "field_value_link_id": 381,
+                  "translated_name": "End time",
+                  "field_value_link_id": 653,
                   "link_type": "orderline",
-                  "link_id": 589,
+                  "link_id": 17187,
                   "value": null
                 }
               ]
@@ -1560,104 +1949,414 @@
               ],
               "fiendOfView": 0,
               "heading": 0,
-              "latitude": 29.64769265368808,
-              "longitude": 35.42781863361597,
+              "latitude": 21.03093623761563,
+              "longitude": 105.84937255398461,
               "pitch": 0,
               "searchPlace": null,
               "staticImageZoom": null,
-              "zoom": 1
+              "zoom": 14
             },
             "media": [
-              
+              {
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie-Vietnam-Hotels-Hanoi-Le-Jardin-c6e30169.jpg",
+                "id": 57,
+                "description": "",
+                "mediaspirit_id": "bd30a315b9a2fc63edf36707e2dee3fd",
+                "sourceId": "bd30a315b9a2fc63edf36707e2dee3fd",
+                "sourceType": "mediaspirit"
+              },
+              {
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie-Vietnam-Hotels-Hanoi-Le-Jardin-kamer.jpg",
+                "id": 56,
+                "description": "",
+                "mediaspirit_id": "176204336eae60393f3d28db69d00e70",
+                "sourceId": "176204336eae60393f3d28db69d00e70",
+                "sourceType": "mediaspirit"
+              }
             ],
             "olPrices": {
-              "costPrice": null,
-              "discount": "0.000",
-              "title": "Wadi Rum - QAIA car transfer",
-              "discountMethod": null,
-              "exchangeRate": "0.708000000",
+              "costPrice": "54.81000000",
+              "discount": null,
+              "title": "Hanoi Le Jardin Hotel & Spa [Deluxe Room]",
+              "discountMethod": "absolute",
+              "exchangeRate": "0.870000000",
               "purchaseCurrency": "USD",
-              "salesCurrency": "JOD",
+              "salesCurrency": "EUR",
               "participants": {
-                "266": {
-                  "costPrice": "",
-                  "salesPrice": 60
+                "2036630": {
+                  "costPrice": "27.405",
+                  "salesPrice": 37
                 },
-                "268": {
-                  "costPrice": "0.000",
-                  "salesPrice": 60
+                "2036631": {
+                  "costPrice": "27.405",
+                  "salesPrice": 37
                 }
               },
-              "salesTotal": 120
+              "salesTotal": 74
             },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" class=\"wsc-instance\">Wadi Rum - QAIA car transfer<\/body><\/html>",
-            "subAdditionalText": null,
+            "subAdditionalText": "inclusief ontbijt",
+            "additionalText": "<html><head><title><\/title><\/head><body><span style=\"font-size:12px;\"><span style=\"font-family:Arial, Helvetica, sans-serif;\">Hanoi Le Jardin Hotel &amp; Spa is het hotel dat we standaard gebruiken in Hanoi. Het hotel ligt in de wijk Ba Dinh, op loopafstand van o.a. de Quan Thanh-tempel, de Dong Xuan-markt en de oude stadspoort. Het heeft een eigen restaurant, en tuin.<br \/><br \/>Corps is nu 12<\/span><\/span><div class=\"vcard\"><span class=\"star-rating-text widget-star-rating-overlay widget-tooltip widget-tooltip-responsive widget-tooltip-ignore-touch\">&nbsp;<\/span><\/div>&nbsp;<div class=\"tagline\"><p>&nbsp;<\/p><b>&nbsp;<\/b><\/div><\/body><\/html>",
             "roomTypes": [
-              
+              {
+                "defaultPrice": "63.0000",
+                "description": "Deluxe Room",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "inclusief ontbijt"
+              }
             ],
             "supplierComment": null,
-            "sellingAmount": "0.000",
-            "sellingMarkupType": "margin"
+            "sellingAmount": null,
+            "sellingMarkupType": null,
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "2e4uhlceqxnn5djcxtih",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 4,
+            "date": "2019-09-08",
+            "endDate": "2019-09-09",
+            "roomTypeMatchesParticipants": true
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 1,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 12,
+            "optional": false,
+            "not_calculated": true,
+            "subTitle": "Citytour Hanoi",
+            "title": "Vanuit Hanoi - Hanoi Citytour - Seatin (hele dag)",
+            "TSProduct": {
+              "id": 203,
+              "tag": "EXVNHANSTA",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 17188,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 654,
+                  "link_type": "orderline",
+                  "link_id": 17188,
+                  "value": null
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time",
+                  "field_value_link_id": 655,
+                  "link_type": "orderline",
+                  "link_id": 17188,
+                  "value": null
+                }
+              ]
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 21.0277644,
+              "longitude": 105.83415979999995,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 14
+            },
+            "media": [
+              {
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Vietnam-excursie-Hanoi-stadstour.png",
+                "id": 59,
+                "description": "",
+                "mediaspirit_id": "caa85efc7bd7d1f796c7f33c82347628",
+                "sourceId": "caa85efc7bd7d1f796c7f33c82347628",
+                "sourceType": "mediaspirit"
+              }
+            ],
+            "olPrices": {
+              "costPrice": "55.68000000",
+              "discount": null,
+              "title": "Vanuit Hanoi - Hanoi Citytour - Seatin (hele dag) [Citytour Hanoi]",
+              "discountMethod": null,
+              "exchangeRate": "0.870000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "27.840",
+                  "salesPrice": 35
+                },
+                "2036631": {
+                  "costPrice": "27.840",
+                  "salesPrice": 35
+                }
+              },
+              "salesTotal": 70
+            },
+            "additionalText": "<html><head><title><\/title><\/head><body>Product beschrijving:<p>Tijdens deze stadstour door Hanoi bezoek je in een hele dag: de Pagode op &eacute;&eacute;n Pilaar, het huis van Ho Chi Minh en zijn mausoleum (gesloten op maandag en vrijdag), de Tempel van de Literatuur en de Tran Quoc Pagode. &rsquo;s Middags breng je een bezoek aan de tempel van Ngoc Son en het Hoan Kiem lake.<\/p><p><strong><strong>inbegrepen<\/strong>:<\/strong> vervoer per bus, Engelssprekende gids en entreegelden<\/p><\/body><\/html>",
+            "subAdditionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "32.0000",
+                "description": "Citytour Hanoi",
+                "minPerson": 1,
+                "maxPerson": 6,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": null,
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "e6tpv0dwm2g4blb745exh",
+            "linkedParty": "party 1",
+            "day": 5,
+            "date": "2019-09-09",
+            "endDate": "2019-09-09",
+            "roomTypeMatchesParticipants": true
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 1,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 8,
+            "optional": false,
+            "not_calculated": true,
+            "subTitle": "<van 1-2>",
+            "title": "transfer airport - hotel in Hanoi",
+            "TSProduct": {
+              "id": 235,
+              "tag": "TRVNHANHTL",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 17189,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 656,
+                  "link_type": "orderline",
+                  "link_id": 17189,
+                  "value": null
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time",
+                  "field_value_link_id": 657,
+                  "link_type": "orderline",
+                  "link_id": 17189,
+                  "value": null
+                }
+              ]
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 0,
+              "heading": 0,
+              "latitude": 21.2187149,
+              "longitude": 105.80417090000003,
+              "pitch": 0,
+              "searchPlace": null,
+              "staticImageZoom": null,
+              "zoom": 0.9999999999999997
+            },
+            "media": [
+              {
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie-Vietnam-Vervoer-Transfer.JPG",
+                "id": 36,
+                "description": "",
+                "mediaspirit_id": "e430f8d12e3775a73599bc99416c3f22",
+                "sourceId": "e430f8d12e3775a73599bc99416c3f22",
+                "sourceType": "mediaspirit"
+              }
+            ],
+            "olPrices": {
+              "costPrice": "36.54000000",
+              "discount": null,
+              "title": "transfer airport - hotel in Hanoi [<van 1-2>]",
+              "discountMethod": null,
+              "exchangeRate": "0.870000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "18.270",
+                  "salesPrice": 26
+                },
+                "2036631": {
+                  "costPrice": "18.270",
+                  "salesPrice": 26
+                }
+              },
+              "salesTotal": 52
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "42.0000",
+                "description": "<van 1-2>",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "54.0000",
+                "description": "<van 3-4>",
+                "minPerson": 3,
+                "maxPerson": 4,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": null,
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "6zni3v8lcknj1wcj1kr3rc",
+            "linkedParty": "party 1",
+            "day": 5,
+            "date": "2019-09-09",
+            "endDate": "2019-09-09",
+            "roomTypeMatchesParticipants": true
           },
           {
             "emptyOlStartDT": false,
             "offset": 0,
-            "nights": 0,
+            "nights": 1,
             "unitAmount": 1,
-            "unitId": 11,
-            "optional": false,
-            "not_calculated": false,
-            "title": "2 hour jeep tour with Khaled's Camp",
+            "unitId": 2,
+            "optional": true,
+            "not_calculated": true,
+            "subTitle": "kamer 1 of 2 personen",
+            "title": "Hanoi Boutique Hotel",
             "TSProduct": {
-              "id": 52,
-              "tag": "2jekha",
+              "id": 161,
+              "tag": "ACVNHANHAB",
               "bookableDays": [
                 
               ]
             },
             "TSOrderline": {
-              "id": 590,
+              "id": 17190,
               "extraFieldValues": [
                 {
-                  "id": 16,
-                  "name": "checkin_time",
-                  "type_id": 18,
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
                   "valid_regex": "",
                   "defaults": null,
                   "category_id": null,
                   "sort_order": null,
                   "field_width": null,
-                  "field_type": "Orderline_Time",
+                  "field_type": "Orderline_TextBox",
                   "display_at": "both",
                   "show_in_product": 1,
                   "layout_data": null,
                   "maxlength": null,
                   "maxlength_enforce": 0,
-                  "translated_name": "Checkin Time",
-                  "field_value_link_id": 382,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 658,
                   "link_type": "orderline",
-                  "link_id": 590,
+                  "link_id": 17190,
                   "value": null
                 },
                 {
-                  "id": 17,
-                  "name": "checkout_time",
-                  "type_id": 18,
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
                   "valid_regex": "",
                   "defaults": null,
                   "category_id": null,
                   "sort_order": null,
                   "field_width": null,
-                  "field_type": "Orderline_Time",
+                  "field_type": "Orderline_TextBox",
                   "display_at": "both",
                   "show_in_product": 1,
                   "layout_data": null,
                   "maxlength": null,
                   "maxlength_enforce": 0,
-                  "translated_name": "Checkout Time",
-                  "field_value_link_id": 383,
+                  "translated_name": "End time",
+                  "field_value_link_id": 659,
                   "link_type": "orderline",
-                  "link_id": 590,
+                  "link_id": 17190,
                   "value": null
                 }
               ]
@@ -1668,51 +2367,941 @@
               ],
               "fiendOfView": 0,
               "heading": 0,
-              "latitude": 29.53467,
-              "longitude": 35.407910000000015,
+              "latitude": 21.0362231,
+              "longitude": 105.85069329999999,
               "pitch": 0,
               "searchPlace": null,
               "staticImageZoom": null,
-              "zoom": 1
+              "zoom": 0.9999999999999997
             },
             "media": [
               {
-                "url": "admin.php?mod=tspshowfile&id=32",
-                "id": 32,
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie-Vietnam-Hotels-Hanoi-Le-Jardin-c6e30169.jpg",
+                "id": 94,
                 "description": "",
-                "mediaspirit_id": null
+                "mediaspirit_id": "bd30a315b9a2fc63edf36707e2dee3fd",
+                "sourceId": "bd30a315b9a2fc63edf36707e2dee3fd",
+                "sourceType": "mediaspirit"
+              },
+              {
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Vietnam-hotels-Hanoi-Boutique-Hotel-hal.jpg",
+                "id": 93,
+                "description": "",
+                "mediaspirit_id": "8b01378358ff3350c212b9f2a2986eff",
+                "sourceId": "8b01378358ff3350c212b9f2a2986eff",
+                "sourceType": "mediaspirit"
+              },
+              {
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/Vietnam-hotels-Hanoi-Boutique-Hotel.jpg",
+                "id": 92,
+                "description": "",
+                "mediaspirit_id": "01706c224b99b30bc2258c2a81ffbf4a",
+                "sourceId": "01706c224b99b30bc2258c2a81ffbf4a",
+                "sourceType": "mediaspirit"
               }
             ],
             "olPrices": {
-              "costPrice": null,
-              "discount": "0.000",
-              "title": "2 hour jeep tour with Khaled's Camp",
-              "discountMethod": null,
-              "exchangeRate": "0.708000000",
+              "costPrice": "49.59000000",
+              "discount": null,
+              "title": "Hanoi Boutique Hotel [kamer 1 of 2 personen]",
+              "discountMethod": "absolute",
+              "exchangeRate": "0.870000000",
               "purchaseCurrency": "USD",
-              "salesCurrency": "JOD",
+              "salesCurrency": "EUR",
               "participants": {
-                "266": {
-                  "costPrice": "",
-                  "salesPrice": 35
+                "2036630": {
+                  "costPrice": "24.795",
+                  "salesPrice": 34
+                },
+                "2036631": {
+                  "costPrice": "24.795",
+                  "salesPrice": 34
                 }
               },
-              "salesTotal": 35
+              "salesTotal": 68
             },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" class=\"wsc-instance\">After breakfast, you will go on a 2 hour jeep safari to explore the beauty of the desert \u2013 visit the Nabatean inscriptions, canyons, red sand-dunes and spectacular rock bridges.<\/body><\/html>",
+            "subAdditionalText": "inclusief ontbijt",
+            "additionalText": "<html><head><title><\/title><\/head><body><span style=\"color: #800000;\"><span style=\"color: #000000;\">Het Boutique Hotel 1 is een van onze standaardhotels in Hanoi. <\/span><\/span><hr \/><span style=\"color: #800000;\"><span style=\"color: #000000;\">Het is een &lsquo;cozy-boutique&rsquo; hotel in het gezellige Old Quarter.&nbsp;Het hotel ligt heel centraal, vlakbij winkeltjes &amp; restaurants, op loopafstand van het Hoan Kiem Lake en de weekendmarkt. In het hotel is een restaurant en bar, en een mooie SPA-ruimte met sauna, jacuzzi en beautysalon<\/span><\/span> <\/body><\/html>",
+            "roomTypes": [
+              {
+                "defaultPrice": "57.0000",
+                "description": "kamer 1 of 2 personen",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "inclusief ontbijt"
+              },
+              {
+                "defaultPrice": "77.0000",
+                "description": "Kamer met extra bed 3 personen",
+                "minPerson": 3,
+                "maxPerson": 3,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "inclusief ontbijt"
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": null,
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "mpgsbyjxpcmwsbh2f4d6up",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 4,
+            "date": "2019-09-08",
+            "endDate": "2019-09-09",
+            "roomTypeMatchesParticipants": true
+          }
+        ],
+        "inViewport": false,
+        "vtbObjectId": "pa12tiz9ya62h7poq8a",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-09-08",
+        "missingBookableDays": false,
+        "elementsOrder": "2e4uhlceqxnn5djcxtih|e6tpv0dwm2g4blb745exh|6zni3v8lcknj1wcj1kr3rc|mpgsbyjxpcmwsbh2f4d6up",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-09-09"
+      },
+      {
+        "nights": 1,
+        "day": 5,
+        "isFlight": false,
+        "typeId": 9,
+        "title": null,
+        "subTitle": null,
+        "content": null,
+        "TSBlock": {
+          "id": 9322
+        },
+        "flightInfo": [
+          
+        ],
+        "media": [
+          
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 1,
+            "unitAmount": 1,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": true,
+            "subTitle": "Superior Room",
+            "title": "Hoi An, Historic Hotel",
+            "TSProduct": {
+              "id": 173,
+              "tag": "ACVNHOIHIS",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 20889,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time"
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time"
+                }
+              ]
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 84.4698,
+              "heading": 0,
+              "latitude": 15.8805612,
+              "longitude": 108.33071640000003,
+              "pitch": 0,
+              "searchPlace": "10 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, S\u01a1n Phong, H\u1ed9i An, Qu\u1ea3ng Nam, Vietnam",
+              "staticImageZoom": false,
+              "zoom": 0.9999999999999997
+            },
+            "media": [
+              {
+                "url": "https:\/\/media.outsight.nl\/original\/lg\/HoiAn-Historic-kamer.JPG",
+                "id": 82,
+                "description": "",
+                "mediaspirit_id": "6c999553fd9a3834818e2f5556d03fe8",
+                "sourceId": "6c999553fd9a3834818e2f5556d03fe8",
+                "sourceType": "mediaspirit"
+              }
+            ],
+            "olPrices": {
+              "costPrice": "68.73000000",
+              "discount": null,
+              "title": "Hoi An, Historic Hotel [Superior Room]",
+              "discountMethod": null,
+              "exchangeRate": "0.870000000",
+              "purchaseCurrency": "USD",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "34.365",
+                  "salesPrice": 43
+                },
+                "2036631": {
+                  "costPrice": "34.365",
+                  "salesPrice": 43
+                }
+              },
+              "salesTotal": 86
+            },
+            "subAdditionalText": "inclusief ontbijt",
+            "additionalText": "<html><head><title><\/title><\/head><body><p>Het Historic Hotel ligt in het hart van Hoi An, op loopafstand van de beroemde oude stad. Het hotel heeft 3 restaurants, een bar en een heerlijk zwembad.&nbsp;<\/p><p>Alle kamers hebben airco en een plafondventilator. Verder: een kluisje, een bureau, kabel-tv, een minibar, een waterkoker en een eigen badkamer met bad of een douche, een f&ouml;hn en gratis toiletartikelen.<\/p> <\/body><\/html>",
+            "roomTypes": [
+              {
+                "defaultPrice": "85.0000",
+                "description": "Superior Room",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "inclusief ontbijt"
+              },
+              {
+                "defaultPrice": "120.0000",
+                "description": "Superior Room - met extra bed",
+                "minPerson": 3,
+                "maxPerson": 3,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "inclusief ontbijt"
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": "33.000",
+            "sellingMarkupType": "percentage",
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "nmd4et927me7q07jq5jkg",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 5,
+            "date": "2019-09-09",
+            "endDate": "2019-09-10",
+            "roomTypeMatchesParticipants": true
+          }
+        ],
+        "inViewport": false,
+        "maps": [
+          
+        ],
+        "vtbObjectId": "e3lf00ga25ot6vqyfaieu",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-09-09",
+        "missingBookableDays": false,
+        "elementsOrder": "nmd4et927me7q07jq5jkg",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-09-10"
+      },
+      {
+        "nights": 0,
+        "day": 6,
+        "isFlight": true,
+        "typeId": 4,
+        "title": "internationale vlucht",
+        "subTitle": "per KLM",
+        "content": "<p>Ik heb gezocht naar een geschikte vlucht bij het reisvoorstel. Omdat de vlucht per Singapore Airlines met vertrek op 10 juli vooralsnog het beste aansluit bij je reiswensen, heb ik deze vlucht in het reisvoorstel gezet. &nbsp;<br><br><br>&nbsp;<\/p><p>Theeuwen (infant)<\/p><p>Winters (infant)<\/p>",
+        "TSBlock": {
+          "id": 8374
+        },
+        "flightInfo": [
+          {
+            "id": 5,
+            "airlineCode": "RJ",
+            "airlineObject": [
+              
+            ],
+            "flightNumber": "152",
+            "departureAirport": "AMS",
+            "departureAirportObject": {
+              "id": 1,
+              "iata_code": "AMS",
+              "description": "Amsterdam Schiphol",
+              "city": null,
+              "country": null,
+              "faa": null,
+              "iata": null,
+              "icao": null,
+              "isMajor": null,
+              "latitude": null,
+              "longitude": null,
+              "state": null,
+              "weather_station": null
+            },
+            "departureDt": "2019-10-11 15:35:00",
+            "arrivalAirport": "AMM",
+            "arrivalAirportObject": {
+              "id": 296,
+              "iata_code": "AMM",
+              "description": "Amman",
+              "city": null,
+              "country": null,
+              "faa": null,
+              "iata": null,
+              "icao": null,
+              "isMajor": null,
+              "latitude": null,
+              "longitude": null,
+              "state": null,
+              "weather_station": null
+            },
+            "arrivalDt": "2019-10-11 21:20:00",
+            "arrivalDate": "2019-10-11",
+            "arrivalTime": "21:20",
+            "departureDate": "2019-10-11",
+            "departureTime": "15:35",
+            "stopoverAirport": null,
+            "duration": 0,
+            "farebase": null
+          },
+          {
+            "id": 6,
+            "airlineCode": "RJ",
+            "airlineObject": [
+              
+            ],
+            "flightNumber": "151",
+            "departureAirport": "AMM",
+            "departureAirportObject": {
+              "id": 296,
+              "iata_code": "AMM",
+              "description": "Amman",
+              "city": null,
+              "country": null,
+              "faa": null,
+              "iata": null,
+              "icao": null,
+              "isMajor": null,
+              "latitude": null,
+              "longitude": null,
+              "state": null,
+              "weather_station": null
+            },
+            "departureDt": "2019-10-19 10:45:00",
+            "arrivalAirport": "AMS",
+            "arrivalAirportObject": {
+              "id": 1,
+              "iata_code": "AMS",
+              "description": "Amsterdam Schiphol",
+              "city": null,
+              "country": null,
+              "faa": null,
+              "iata": null,
+              "icao": null,
+              "isMajor": null,
+              "latitude": null,
+              "longitude": null,
+              "state": null,
+              "weather_station": null
+            },
+            "arrivalDt": "2019-10-19 14:45:00",
+            "arrivalDate": "2019-10-19",
+            "arrivalTime": "14:45",
+            "departureDate": "2019-10-19",
+            "departureTime": "10:45",
+            "stopoverAirport": null,
+            "duration": 0,
+            "farebase": null
+          },
+          {
+            "id": 7,
+            "airlineCode": "AP",
+            "airlineObject": [
+              
+            ],
+            "flightNumber": null,
+            "departureAirport": "6 -",
+            "departureAirportObject": [
+              
+            ],
+            "departureDt": "1970-01-01 01:00:00",
+            "arrivalAirport": " OU",
+            "arrivalAirportObject": [
+              
+            ],
+            "arrivalDt": "1970-01-01 01:00:00",
+            "arrivalDate": "1970-01-01",
+            "arrivalTime": "01:00",
+            "departureDate": "1970-01-01",
+            "departureTime": "01:00",
+            "stopoverAirport": null,
+            "duration": 0,
+            "farebase": null
+          }
+        ],
+        "media": [
+          
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 2,
+            "unitId": 5,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Internationale vluchtprijs Vietnam (incl. luchthavenbelasting)",
+            "TSProduct": {
+              "id": 327,
+              "tag": "IVVN",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 18804,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 702,
+                  "link_type": "orderline",
+                  "link_id": 18804,
+                  "value": null
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time",
+                  "field_value_link_id": 703,
+                  "link_type": "orderline",
+                  "link_id": 18804,
+                  "value": null
+                }
+              ]
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": "575.00000000",
+              "discount": null,
+              "title": "Internationale vluchtprijs Vietnam (incl. luchthavenbelasting)",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "287.500",
+                  "salesPrice": ""
+                },
+                "2036631": {
+                  "costPrice": "287.500",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
             "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": "9.000",
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "d7rhpkip1xtnmr20nrnfek",
+            "linkedParty": "party 1",
+            "day": 6,
+            "date": "2019-09-10",
+            "endDate": "2019-09-10",
+            "roomTypeMatchesParticipants": true
+          }
+        ],
+        "inViewport": false,
+        "maps": [
+          
+        ],
+        "vtbObjectId": "pjvv45m175fphfcph683p",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-09-10",
+        "missingBookableDays": false,
+        "elementsOrder": "d7rhpkip1xtnmr20nrnfek",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-09-10"
+      },
+      {
+        "nights": 0,
+        "day": 6,
+        "isFlight": false,
+        "typeId": 17,
+        "title": null,
+        "subTitle": null,
+        "content": null,
+        "TSBlock": {
+          "id": 8383
+        },
+        "flightInfo": [
+          
+        ],
+        "media": [
+          
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": true,
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 5,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Administratiekosten",
+            "TSProduct": {
+              "id": 7,
+              "tag": "XXADM",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 18805,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 704,
+                  "link_type": "orderline",
+                  "link_id": 18805,
+                  "value": null
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time",
+                  "field_value_link_id": 705,
+                  "link_type": "orderline",
+                  "link_id": 18805,
+                  "value": null
+                }
+              ]
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": "30.00000000",
+              "discount": null,
+              "title": "Administratiekosten",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "15.000",
+                  "salesPrice": ""
+                },
+                "2036631": {
+                  "costPrice": "15.000",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": "30.000",
+            "sellingMarkupType": "fixed",
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "h6j64k42ioqmefhypxer6",
+            "linkedParty": "party 1",
+            "day": 6,
+            "date": "2019-09-10",
+            "endDate": "2019-09-10",
+            "roomTypeMatchesParticipants": true
+          },
+          {
+            "emptyOlStartDT": true,
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 5,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Calamiteitenfonds",
+            "TSProduct": {
+              "id": 10,
+              "tag": "XXCF",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 18806,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 706,
+                  "link_type": "orderline",
+                  "link_id": 18806,
+                  "value": null
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time",
+                  "field_value_link_id": 707,
+                  "link_type": "orderline",
+                  "link_id": 18806,
+                  "value": null
+                }
+              ]
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": "2.50000000",
+              "discount": null,
+              "title": "Calamiteitenfonds",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "1.250",
+                  "salesPrice": 1.25
+                },
+                "2036631": {
+                  "costPrice": "1.250",
+                  "salesPrice": 1.25
+                }
+              },
+              "salesTotal": 2.5
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": "2.500",
+            "sellingMarkupType": "fixed",
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "2jegeb6vaucwx3hkjcwc3k",
+            "linkedParty": "party 1",
+            "day": 6,
+            "date": "2019-09-10",
+            "endDate": "2019-09-10",
+            "roomTypeMatchesParticipants": true
+          }
+        ],
+        "inViewport": false,
+        "maps": [
+          
+        ],
+        "vtbObjectId": "gnisualsc51qpt1en23o1i",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-09-10",
+        "missingBookableDays": false,
+        "elementsOrder": "h6j64k42ioqmefhypxer6|2jegeb6vaucwx3hkjcwc3k",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-09-10"
+      },
+      {
+        "nights": 0,
+        "day": 6,
+        "isFlight": false,
+        "typeId": 7,
+        "title": null,
+        "subTitle": null,
+        "content": null,
+        "TSBlock": {
+          "id": 9321
+        },
+        "flightInfo": [
+          
+        ],
+        "media": [
+          
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": true,
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 5,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Reis- en\/of Annuleringsverzekering (zie polis)",
+            "TSProduct": {
+              "id": 11,
+              "tag": "VZRA",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 20888,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time"
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time"
+                }
+              ]
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": null,
+              "title": "Reis- en\/of Annuleringsverzekering (zie polis)",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "2036630": {
+                  "costPrice": "0.000",
+                  "salesPrice": ""
+                },
+                "2036631": {
+                  "costPrice": "0.000",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
             "sellingAmount": "0.000",
-            "sellingMarkupType": "margin"
+            "sellingMarkupType": "fixed",
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "e3k6j8iko77iq6wm7uxbm",
+            "linkedParty": "party 1",
+            "day": 6,
+            "date": "2019-09-10",
+            "endDate": "2019-09-10",
+            "roomTypeMatchesParticipants": true
           }
         ],
-        "liborderId": 60
+        "inViewport": false,
+        "maps": [
+          
+        ],
+        "vtbObjectId": "86yuijc8fthadqj0s8a4tc",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-09-10",
+        "missingBookableDays": false,
+        "elementsOrder": "e3k6j8iko77iq6wm7uxbm",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-09-10"
       }
     ],
-    "liborderId": 60,
-    "departmentName": "In2Jordan",
-    "departmentId": 1
-  }
+    "liborderId": 1612,
+    "cover": [
+      {
+        "sourceType": "mediaspirit",
+        "sourceId": "30cff5f52330ca87892cbea9c7e9d694",
+        "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/Vietnam-Ninh-Binh-headerimage-1300-x-450.jpg"
+      }
+    ],
+    "title": "Beschrijving: Mastertrip VTB",
+    "subTitle": null,
+    "costPriceBeforeRounding": 1370.0549999999998,
+    "salesPriceBeforeRounding": 994.5,
+    "vtbObjectId": "qlbe92qo4rdxv0q9v51s7g",
+    "bookableDaysWarning": false,
+    "hasNotCalculated": true,
+    "totalDays": 6,
+    "totalDaysAllocated": 6,
+    "endDate": "2019-09-10",
+    "notifications": [
+      
+    ],
+  "link_type": "order",
+  "link_id": 1612,
+  "ts": "2020-01-21 13:46:42",
+  "stats_pax": 2,
+  "stats_status": "proposal",
+  "stats_total_price": null
+}
