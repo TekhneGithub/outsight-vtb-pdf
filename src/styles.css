@@ -1536,6 +1536,25 @@ footer .container {
   padding: 25px;
   background: rgba(0, 0, 0, .7);
 }
+.background-transparent {
+  background: transparent !important;
+}
+.padding-left-0 {
+  padding-left: 0px !important;
+}
+.nopadding {
+  padding: 0px !important;
+}
+.page-title {
+    margin: 15px 0;
+    padding: 10px;
+    background: #881728;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    width: 100%;
+}
 .hero .vdotxt .vdotxt-title {
     padding: 20px;
     text-align: center;
