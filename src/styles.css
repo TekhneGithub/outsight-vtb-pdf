@@ -1422,7 +1422,7 @@ footer .footer-text-section {
   align-items: center;
 }
 footer .footer-text {
-  font-size: 15px;
+  font-size: 16px;
 }
 footer .footer-text a {
   color: #555555;
@@ -1542,11 +1542,14 @@ footer .container {
 .padding-left-0 {
   padding-left: 0px !important;
 }
+.padding-right-0 {
+  padding-right: 0px !important;
+}
 .nopadding {
   padding: 0px !important;
 }
 .page-title {
-    margin: 15px 0;
+    margin: 30px 0 15px;
     padding: 10px;
     background: #881728;
     color: #fff;
