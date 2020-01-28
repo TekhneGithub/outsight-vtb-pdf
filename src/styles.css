@@ -1537,14 +1537,11 @@ footer .container {
   background: rgba(0, 0, 0, .7);
 }
 .hero .vdotxt .vdotxt-title {
-    float: right;
-    width: 40%;
-    background: rgba(255,255,255,0.5);
-    padding: 15px;
-    margin-top: 8%;
+    padding: 20px;
+    text-align: center;
 }
 .hero .vdotxt p {
-    color: #000;
+    color: #fff;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
@@ -1568,6 +1565,21 @@ footer .container {
 .hero .vdotxt p.cover-name {
   margin: 10px 0 0 0;
   font-weight: 500;
+}
+.hero .vdotxt .vdotxt-section {
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    background: rgba(136, 23, 40, 0.7);
+    width: 90%;
+    left: 0;
+    margin: 0 auto;
+}
+.hero .vdotxt img {
+/*   position: absolute;
+  bottom: 10%;
+  right: 15px; */
+  margin:  40px 0 0 0;
 }
 .hero .vdotxt h1 {
   color: #fff;
