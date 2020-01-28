@@ -80,7 +80,7 @@ app-template-container, #inputElement > * {
   box-sizing: border-box;
   overflow: hidden; 
   padding:20px 45px;*/
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .page-inner.page-no-header {
@@ -159,7 +159,7 @@ ol {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  /* font-weight: 100; */
 }
 
 h1,
@@ -246,9 +246,14 @@ ul.dash-style-list li:before {
   line-height: 20px;
 }
 
+.hero.youtube-video {
+  position: relative;
+}
 .banner-cover {
-  width: 100%;
-  display: block;
+    width: 100%;
+    display: block;
+    min-height: 700px;
+    object-fit: cover;
 }
 .navigation ul li label {
   cursor: pointer;
@@ -1305,19 +1310,48 @@ body .footer p a {
 
 /* header compeent css start here  */
 header {
-  background: var(--theme-light);
-  height: 40px;
-  position: absolute;
+  /* background: var(--theme-light); */
+  background: #fff;
+  /* height: 40px; */
+  height: auto;
+  /* position: absolute; */
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 9;
   transition: all .5s ease-in-out;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
 }
 
+header .logo-left,
+header .logo {
+  float: left;
+  width: 33.3%;
+}
+header .logo-right {
+    float: right;
+    width: 33.3%;
+    text-align: right;
+}
+header .logo-left p,
+header .logo-right .logo-title {
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      color: #000;
+      font-weight: 500;
+}
+header .logo-right span {
+    display: inline-block;
+    width: 100%;
+    font-weight: 500;
+    font-size: 15px;
+}
 header .logo {
   padding: 10px 20px;
-  width: 200px;
+  /* width: 200px; */
   margin: 0 auto;
   background: var(--theme-color);
   transition: all .5s ease-in-out;
@@ -1379,9 +1413,31 @@ header.small-header .logo {
 
 /* footer compeont css start here  */
 footer {
-  background: var(--theme-color);
+  /* background: var(--theme-color); */
+  background: #fff;
 }
-
+footer .footer-text-section {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+footer .footer-text {
+  font-size: 15px;
+}
+footer .footer-text a {
+  color: #555555;
+}
+footer .footer-icons {
+  float:  right;
+}
+footer .footer-icons li {
+    float: left;
+    margin: 0 0px 0 15px;
+    list-style: none;
+}
+footer .footer-icons li img {
+  width: 40px;
+}
 footer .container {
   max-width: 100% !important;
   padding: 0;
@@ -1468,13 +1524,51 @@ footer .container {
 
 .hero .vdotxt {
   position: absolute;
-  top: 4%;
+  /* top: 4%; */
+  bottom: 0;
   /* top: 50%; */
-  left: 10%;
-  transform: translate(0, -80%);
+  /* left: 10%; */
+  right: 0;
+  /* transform: translate(0, -80%); */
   text-align: left;
+  width:  100%;
+  height: 100%;
+  padding: 25px;
+  background: rgba(0, 0, 0, .7);
 }
-
+.hero .vdotxt .vdotxt-title {
+    float: right;
+    width: 40%;
+    background: rgba(255,255,255,0.5);
+    padding: 15px;
+    margin-top: 8%;
+}
+.hero .vdotxt p {
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.hero .vdotxt p.cover-title {
+  font-weight: 500;
+  font-size: 20px;
+}
+.hero .vdotxt p.cover-country {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px 0 5px 0;
+}
+.hero .vdotxt p.cover-days span {
+  display: inline-block;
+  font-size: 13px;
+}
+.hero .vdotxt p.cover-days span:last-child {
+  margin:  0 0 0 15px;
+}
+.hero .vdotxt p.cover-name {
+  margin: 10px 0 0 0;
+  font-weight: 500;
+}
 .hero .vdotxt h1 {
   color: #fff;
   font-size: 36px;
@@ -2153,7 +2247,7 @@ footer .container {
 }
 
 .travel-even .tavel-even-info {
-  padding: 40px 0;
+  padding: 40px 15px;
 }
 
 .travel-even .tavel-even-info h2 {

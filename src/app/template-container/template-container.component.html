@@ -2,25 +2,42 @@
    <ng-container *ngTemplateOutlet="templateHeader"></ng-container>
    <div class="page-inner">
       <header>
+        <div class="logo-left">
+            <p>Kijk, doe, proef & ontmoet</p>
+        </div>
          <div class="logo">
             <img src="https://media.outsight.nl/original/original/logo-outsight.png" alt="" title="" />
          </div>
+        <div class="logo-right">
+            <p class="logo-title">Vietnam</p>
+            <span>4-daagse reis</span>
+            <span>2- persons</span>
+        </div>
       </header>
       <!-- app-header ends here -->
+      <!-- app-header ends here -->
       <section>
-         <div class="hero youtube-video">
-            <div class="youtube-wrapper">
-               <img class="banner-cover" src="{{itinerary.coverImage}}" />
+        <div class="hero youtube-video">
+          <div class="youtube-wrapper">
+            <img class="banner-cover" src="{{itinerary.coverImage}}" />
+          </div>
+          <div class="vdotxt">
+            <!-- <h2><span> {{ itinerary.mainBooker }} </span></h2>
+            <h1>{{ itinerary.heroTitle }}</h1>
+            <h2><span>{{ itinerary.title }}</span> {{ itinerary.subTitle }}</h2>
+            <h2><span>{{ itinerary.numberOfDays }}-daagse reis {{ itinerary.noOfParticipants }} Personen</span></h2> -->
+            <div class="vdotxt-title">
+              <p class="cover-title">reisvoorstel</p>
+              <p class="cover-country">vietnam</p>
+              <p class="cover-days"><span>15-daagse reis</span> <span>02-personen</span></p>
+              <p class="cover-name">mvr. scherff</p>
             </div>
-            <div class="vdotxt">
-               <h2><span> {{ itinerary.mainBooker }} </span></h2>
-               <h1>{{ itinerary.heroTitle }}</h1>
-               <h2><span>{{ itinerary.title }}</span> {{ itinerary.subTitle }}</h2>
-               <h2><span>{{ itinerary.numberOfDays }}-daagse reis {{ itinerary.noOfParticipants }} Personen</span></h2>
-            </div>
-         </div>
+
+          </div>
+        </div>
       </section>
       <!-- app-hero ends here -->
+
       <div class="pc-tab">
          <!-- <input checked="checked" id="tab1" type="radio" name="pct" />
          <input id="tab2" type="radio" name="pct" />
@@ -41,7 +58,6 @@
                   <li class="tab3"><label for="tab3">Extra</label></li>
                   <li class="tab4"><label for="tab4">Hotels</label></li>
                   <li class="tab5"><label for="tab5">Info</label></li>
-                  <li class="tab6"><label for="tab6">Route</label></li>
                </ul>
             </div>
          </nav>
@@ -113,6 +129,87 @@
                   </div>
                </div>
             </section>
+         </div>
+         <!-- Jouw reis tab ends here -->
+
+         <!-- Prijs tab start here -->
+         <div class="tab2">
+            <section>
+               <div class="costwrap">
+                  <div class="container">
+                     <div class="row align-items-center">
+                        <div class="col-md-12 col-sm-12 col-12 bg-theme-color">
+                           <div class="parent-div">
+                              <h2><span>PRIJS*</span></h2>
+                              <table>
+                                 <tr>
+                                    <td>Landarrangement</td>
+                                    <td>€ {{ itinerary.otherCost }}</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Vluchtprijs</td>
+                                    <td>€ {{ itinerary.flightPrice }}</td>
+                                 </tr>
+                                 <tr *ngFor="let remaining of itinerary.remainingPrice">
+                                    <td>{{ remaining.title }}</td>
+                                    <td>€ {{ remaining.price }}</td>
+                                 </tr>
+                                 <tr *ngIf="itinerary.insurancesPrice != 0">
+                                    <td>Verzekeringen</td>
+                                    <td>€ {{ itinerary.insurancesPrice }}</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Totaalprijs</td>
+                                    <td>€ {{ itinerary.totalCost }}</td>
+                                 </tr>
+                              </table>
+                              <span class="f-12">*Prijzen zijn op aanvraag & onder voorbehoud van wijzigingen.</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="inclwrap">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-8 col-sm-6 col-12 incldesc">
+                        <h2><span>INBEGREPEN</span></h2>
+                        <ul class="dash-style-list">
+                           <li *ngFor="let str of itinerary.includedStrings">
+                              {{ str.name }}
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="col-md-4 col-sm-6 col-12 bg-gray-color guidesec" *ngFor="let c of itinerary.finalConsultants">
+                        <h3>JOUW REISSPECIALIST<span>{{ c.name }}</span></h3>
+                        <img src="{{ c.picture }}" alt="" title="" />
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="exclwrap">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-8 col-sm-6 col-12">
+                        <h2><span>NIET INBEGREPEN</span></h2>
+                        <ul class="dash-style-list">
+                           <li *ngFor="let str of itinerary.excludedStrings">
+                              {{ str.name }}
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="col-md-4 col-sm-6 col-12 bg-gray-color">
+                        <p>
+                           Bij deze jouw reisvoorstel Vietnam, voor jou op maat ontworpen. Loop er op je gemak doorheen en ik neem
+                           een
+                           dezer dagen contact op om het voorstel door te nemen. Bel of mail gerust bij vragen!
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
             <section>
                <div class="container flightwrap">
                   <h2><span>VLUCHTSCHEMA</span></h2>
@@ -206,86 +303,6 @@
                      </div>
                   </div>
                   <!-- end new table -->
-               </div>
-            </section>
-         </div>
-         <!-- Jouw reis tab ends here -->
-
-         <!-- Prijs tab start here -->
-         <div class="tab2">
-            <section>
-               <div class="costwrap">
-                  <div class="container">
-                     <div class="row align-items-center">
-                        <div class="col-md-12 col-sm-12 col-12 bg-theme-color">
-                           <div class="parent-div">
-                              <h2><span>PRIJS*</span></h2>
-                              <table>
-                                 <tr>
-                                    <td>Landarrangement</td>
-                                    <td>€ {{ itinerary.otherCost }}</td>
-                                 </tr>
-                                 <tr>
-                                    <td>Vluchtprijs</td>
-                                    <td>€ {{ itinerary.flightPrice }}</td>
-                                 </tr>
-                                 <tr *ngFor="let remaining of itinerary.remainingPrice">
-                                    <td>{{ remaining.title }}</td>
-                                    <td>€ {{ remaining.price }}</td>
-                                 </tr>
-                                 <tr *ngIf="itinerary.insurancesPrice != 0">
-                                    <td>Verzekeringen</td>
-                                    <td>€ {{ itinerary.insurancesPrice }}</td>
-                                 </tr>
-                                 <tr>
-                                    <td>Totaalprijs</td>
-                                    <td>€ {{ itinerary.totalCost }}</td>
-                                 </tr>
-                              </table>
-                              <span class="f-12">*Prijzen zijn op aanvraag & onder voorbehoud van wijzigingen.</span>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-            <section class="inclwrap">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-8 col-sm-6 col-12 incldesc">
-                        <h2><span>INBEGREPEN</span></h2>
-                        <ul class="dash-style-list">
-                           <li *ngFor="let str of itinerary.includedStrings">
-                              {{ str.name }}
-                           </li>
-                        </ul>
-                     </div>
-                     <div class="col-md-4 col-sm-6 col-12 bg-gray-color guidesec" *ngFor="let c of itinerary.finalConsultants">
-                        <h3>JOUW REISSPECIALIST<span>{{ c.name }}</span></h3>
-                        <img src="{{ c.picture }}" alt="" title="" />
-                     </div>
-                  </div>
-               </div>
-            </section>
-            <section class="exclwrap">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-8 col-sm-6 col-12">
-                        <h2><span>NIET INBEGREPEN</span></h2>
-                        <ul class="dash-style-list">
-                           <li *ngFor="let str of itinerary.excludedStrings">
-                              {{ str.name }}
-                           </li>
-                        </ul>
-                     </div>
-                     <div class="col-md-4 col-sm-6 col-12 bg-gray-color">
-                        <p>
-                           Bij deze jouw reisvoorstel Vietnam, voor jou op maat ontworpen. Loop er op je gemak doorheen en ik neem
-                           een
-                           dezer dagen contact op om het voorstel door te nemen. Bel of mail gerust bij vragen!
-                        </p>
-                     </div>
-                  </div>
                </div>
             </section>
             <section class="extra">
@@ -420,100 +437,39 @@
       <!-- Info tab ends here -->
 
 
-      <!-- Route tab start here -->
-      <div class="tab6">
-         <!-- <section class="google-map">
-            <div class="map">
-               <agm-map [latitude]="itinerary.markers[0].latitude" [longitude]="itinerary.markers[0].longitude" [zoom]="4"
-               [scrollwheel]="false" [styles]="[
-               { featureType: 'all', elementType: 'labels', stylers: [{ visibility: 'off' }] },
-               { featureType: 'administrative', elementType: 'all', stylers: [{ visibility: 'on' }] },
-               { featureType: 'administrative.country', elementType: 'geometry', stylers: [{ visibility: 'simplified' }, { hue: '#ff0000' }] },
-               {
-               featureType: 'administrative.country',
-               elementType: 'geometry.stroke',
-               stylers: [{ weight: '0.75' }, { visibility: 'on' }, { color: '#e5e9e2' }]
-               },
-               { featureType: 'administrative.country', elementType: 'labels', stylers: [{ visibility: 'off' }, { weight: '0.01' }, { lightness: '79' }] },
-               { featureType: 'administrative.province', elementType: 'geometry.stroke', stylers: [{ weight: '0.01' }] },
-               {
-               featureType: 'landscape',
-               elementType: 'geometry',
-               stylers: [{ saturation: '-92' }, { lightness: '41' }, { gamma: '2' }, { visibility: 'on' }]
-               },
-               { featureType: 'landscape.man_made', elementType: 'geometry', stylers: [{ saturation: '-73' }] },
-               { featureType: 'landscape.natural', elementType: 'geometry', stylers: [{ hue: '#ffc600' }, { saturation: '27' }, { lightness: '24' }] },
-               { featureType: 'landscape.natural.landcover', elementType: 'geometry.stroke', stylers: [{ invert_lightness: true }] },
-               {
-               featureType: 'landscape.natural.terrain',
-               elementType: 'geometry',
-               stylers: [{ hue: '#eaff00' }, { lightness: '0' }, { saturation: '-100' }, { gamma: '2' }]
-               },
-               { featureType: 'landscape.natural.terrain', elementType: 'geometry.fill', stylers: [{ saturation: '-95' }, { lightness: '-100' }] },
-               { featureType: 'poi.park', elementType: 'geometry', stylers: [{ saturation: '-39' }, { lightness: '84' }] },
-               { featureType: 'poi.park', elementType: 'geometry.stroke', stylers: [{ visibility: 'off' }] },
-               {
-               featureType: 'road',
-               elementType: 'geometry',
-               stylers: [{ color: '#e9e8e2' }, { lightness: '-8' }, { saturation: '-100' }, { weight: '1.00' }]
-               },
-               { featureType: 'road', elementType: 'geometry.stroke', stylers: [{ weight: '0.01' }, { lightness: '-50' }] },
-               { featureType: 'road.highway', elementType: 'geometry.fill', stylers: [{ visibility: 'on' }, { weight: '0.20' }, { lightness: '-4' }] },
-               { featureType: 'road.highway', elementType: 'geometry.stroke', stylers: [{ weight: '0.01' }, { visibility: 'off' }] },
-               { featureType: 'road.arterial', elementType: 'geometry.fill', stylers: [{ weight: '0.50' }, { lightness: '40' }] },
-               { featureType: 'road.arterial', elementType: 'geometry.stroke', stylers: [{ weight: '0.01' }, { visibility: 'off' }] },
-               { featureType: 'road.local', elementType: 'all', stylers: [{ visibility: 'off' }] },
-               { featureType: 'road.local', elementType: 'geometry', stylers: [{ weight: '6.79' }, { gamma: '0.94' }] },
-               { featureType: 'road.local', elementType: 'geometry.fill', stylers: [{ weight: '0.10' }, { lightness: '-23' }, { gamma: '7.23' }] },
-               { featureType: 'road.local', elementType: 'geometry.stroke', stylers: [{ weight: '.1' }, { color: '#ff0000' }] },
-               { featureType: 'transit.line', elementType: 'geometry', stylers: [{ color: '#8bc7d6' }, { weight: '0.3' }] },
-               { featureType: 'transit.station.airport', elementType: 'geometry.fill', stylers: [{ saturation: '-62' }, { lightness: '6' }] },
-               {
-               featureType: 'transit.station.airport',
-               elementType: 'geometry.stroke',
-               stylers: [{ saturation: '-83' }, { lightness: '-71' }, { weight: '2.94' }]
-               },
-               { featureType: 'water', elementType: 'geometry', stylers: [{ color: '#d4eaec' }] },
-               { featureType: 'water', elementType: 'geometry.fill', stylers: [{ color: '#00c2ff' }] },
-               { featureType: 'water', elementType: 'labels', stylers: [{ visibility: 'off' }, { color: '#9fd0d6' }] },
-               { featureType: 'water', elementType: 'labels.text.stroke', stylers: [{ visibility: 'off' }] }
-               ]">
-               <agm-marker *ngFor="let m of itinerary.markers" [latitude]="m.latitude" [longitude]="m.longitude">
-               <agm-info-window>
-                  <strong>{{ m.searchPlace }}</strong>
-               </agm-info-window>
-               </agm-marker>
-               </agm-map>
-            </div>
-         </section> -->
-         <section class="map-info">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <div class="map-info-heading">
-                        <h2>REISSCHEMA</h2>
-                        <div class="map-info-list">
-                           <ul>
-                              <li *ngFor="let title of itinerary.titles">
-                                 <span>Dag {{ title.day }}</span> {{ title.title }}
-                              </li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-      </div>
-      <!-- Route tab ends here -->
-
 
 
    </div>
    <footer>
       <div class="container">
          <div class="footerwrap d-md-flex">
-            <div class="footerlogo col-md-3 col-12 align-self-center">
+
+          <div class="col-md-8">
+            <div class="footer-text-section">
+              <p class="footer-text">T: +31 (0)20-6702656 |  E: mailto: <a href="mailto:marketing@outsight.nl">marketing@outsight.nl</a> |   W: <a href="https://outsight.nl/" target="_blank">www.outsight.nl</a></p>
+              </div>
+          </div>
+          <div class="col-md-4">
+               <ul class="footer-icons">
+                  <li>
+                     <a href="javascript:void(0);">
+                        <img src="https://media.outsight.nl/original/md/SGR-transparant.png">
+                     </a>
+                  </li>
+                  <li>
+                     <a href="javascript:void(0);">
+                        <img src="https://media.outsight.nl/original/md/ANVR-Transparant.png" alt="">    
+                     </a>
+                  </li>
+                  <li>
+                     <a href="javascript:void(0);">
+                        <img src="https://media.outsight.nl/original/md/Calamiteitenfonds-Transparant.png" alt="">    
+                     </a>
+                  </li>
+               </ul>
+          </div>
+
+            <!-- <div class="footerlogo col-md-3 col-12 align-self-center">
                <img src="https://media.outsight.nl/original/original/logo-outsight.png" alt="" title="" />
             </div>
             <div class="footertag col-md-6 col-12 d-md-flex text-center">
@@ -524,23 +480,20 @@
                   <li>
                      <a href="javascript:void(0);">
                         <img src="https://media.outsight.nl/original/md/SGR-transparant.png">
-                        <!-- <i class="fab fa-twitter"></i> -->
                      </a>
                   </li>
                   <li>
                      <a href="javascript:void(0);">
-                        <!-- <i class="fab fa-facebook-f"></i> -->
                         <img src="https://media.outsight.nl/original/md/ANVR-Transparant.png" alt="">    
                      </a>
                   </li>
                   <li>
                      <a href="javascript:void(0);">
-                        <!-- <i class="fab fa-instagram"></i> -->
                         <img src="https://media.outsight.nl/original/md/Calamiteitenfonds-Transparant.png" alt="">    
                      </a>
                   </li>
                </ul>
-            </div>
+            </div> -->
          </div>
       </div>
    </footer>
