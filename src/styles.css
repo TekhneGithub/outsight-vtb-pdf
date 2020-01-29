@@ -1437,6 +1437,7 @@ footer .footer-icons li {
 }
 footer .footer-icons li img {
   width: 40px;
+  filter: grayscale(100%);
 }
 footer .container {
   max-width: 100% !important;
