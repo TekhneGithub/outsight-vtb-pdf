@@ -1,9 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 /*@import "~@sitespirit/ckeditor5-build-classic-and-inline/build/styles.css";*/
 
-h1,h2,h3,h4,h5,h6,ul,ol,p {
-  margin:0;
-  padding:0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
@@ -11,14 +19,14 @@ h2 {
 }
 
 h4 {
-  font-size:20px;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color:#eeeeee;
-  font-size:13px;
+  background-color: #eeeeee;
+  font-size: 13px;
   margin: 15px 0 0 0;
 }
 
@@ -28,11 +36,11 @@ div {
 
 /* CKE overrides */
 
-body .ck.ck-editor__editable_inline > :first-child {
+body .ck.ck-editor__editable_inline> :first-child {
   margin-top: 0;
 }
 
-body .ck.ck-editor__editable_inline > :last-child {
+body .ck.ck-editor__editable_inline> :last-child {
   margin-bottom: 0;
 }
 
@@ -50,20 +58,23 @@ body .ck.ck-editor__editable_inline:not(.ck-editor__nested-editable).ck-focused 
 
 /* end CKE overrides */
 
-.pdf-wrapper, #inputElement > * {
+.pdf-wrapper,
+#inputElement>* {
   display: block;
   max-width: 796.8px;
   margin: 0 auto;
 }
 
-app-template-container, #inputElement > * {
+app-template-container,
+#inputElement>* {
   visibility: hidden;
 }
 
-.page, .dynamic-pages {
-  box-shadow: 0 0 0 0.75pt #d1d1d1,0 0 3pt 0.75pt #ccc;
+.page,
+.dynamic-pages {
+  box-shadow: 0 0 0 0.75pt #d1d1d1, 0 0 3pt 0.75pt #ccc;
   padding-bottom: 140.9638554216867%;
-  height: auto;
+  height: 0;
   /* overflow: hidden; */
   position: relative;
   margin-bottom: 15px;
@@ -80,11 +91,11 @@ app-template-container, #inputElement > * {
   box-sizing: border-box;
   overflow: hidden; 
   padding:20px 45px;*/
-  padding: 0 15px;
+  padding: 15px;
 }
 
 .page-inner.page-no-header {
-  top:0;
+  top: 0;
   height: calc(100% - 60px);
 }
 
@@ -93,7 +104,7 @@ app-template-container, #inputElement > * {
 }
 
 .page-inner.page-no-header.page-no-footer {
-  top:0;
+  top: 0;
   height: 100%;
 }
 
@@ -110,7 +121,7 @@ app-template-container, #inputElement > * {
   /* position: absolute; */
   bottom: 0;
   left: 0;
-  padding:20px 45px;
+  padding: 20px 45px;
   text-align: center;
 }
 
@@ -127,7 +138,7 @@ app-template-container, #inputElement > * {
  *                   *
  *********************/
 
- :root {
+:root {
   --theme-color: #881728;
   --theme-light: #b18c96;
   --theme-font: 'Arial', sans-serif;
@@ -171,7 +182,7 @@ h3 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 300;
   color: var(--theme-color);
   margin-bottom: 10px;
@@ -249,12 +260,14 @@ ul.dash-style-list li:before {
 .hero.youtube-video {
   position: relative;
 }
+
 .banner-cover {
-    width: 100%;
-    display: block;
-    min-height: 700px;
-    object-fit: cover;
+  width: 100%;
+  display: block;
+  min-height: 700px;
+  object-fit: cover;
 }
+
 .navigation ul li label {
   cursor: pointer;
 }
@@ -263,38 +276,44 @@ ul.dash-style-list li:before {
 .flight-table {
   margin: 20px 0 0 0;
 }
+
 .flight-table table {
-    table-layout: fixed;
-    width: 100%;
+  table-layout: fixed;
+  width: 100%;
 }
+
 .flight-table table tr:nth-of-type(odd) {
-    background-color: rgba(0,0,0,.05);
+  background-color: rgba(0, 0, 0, .05);
 }
+
 .flight-table table th {
-    background: var(--theme-light);
-    color: var(--theme-color);
-    text-align: center;
-    padding: 12px 8px;
-    font-size: 14px;
-    line-height: 18px;
-    text-transform: uppercase;
-    border: 1px solid #fff;
+  background: var(--theme-light);
+  color: var(--theme-color);
+  text-align: center;
+  padding: 6px 5px;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  border: 1px solid #fff;
 }
+
 .flight-table table td {
   text-transform: uppercase;
-  padding: 12px 8px;
+  padding: 6px 5px;
   vertical-align: middle;
   border-color: #E3E3E3;
   border-bottom: 1px solid #e9ecef;
   font-size: 14px;
   text-align: center;
 }
+
 .flight-table table td.table-calender,
 .flight-table table td.table-clock {
-    position: relative;
-    text-align: right;
-    padding: 0 15px 0 0;
+  position: relative;
+  text-align: right;
+  padding: 0 15px 0 0;
 }
+
 .flight-table table td.table-calender img,
 .flight-table table td.table-clock img {
   display: inline-block;
@@ -302,6 +321,7 @@ ul.dash-style-list li:before {
   align-items: center;
   margin: 0 0 0 10px;
 }
+
 /* .flight-table table td.table-calender::after {
   content: '\f073';
   font-family: FontAwesome;
@@ -319,6 +339,7 @@ ul.dash-style-list li:before {
   text-align: right;
   padding: 0 15px 0 0;
 }
+
 /* .flight-table table td.table-clock::after {
     content: '\f017';
     font-family: FontAwesome;
@@ -1331,24 +1352,28 @@ header .logo {
   float: left;
   width: 33.3%;
 }
+
 header .logo-right {
-    float: right;
-    width: 33.3%;
-    text-align: right;
+  float: right;
+  width: 33.3%;
+  text-align: right;
 }
+
 header .logo-left p,
 header .logo-right .logo-title {
-      font-family: 'Roboto', sans-serif;
-      font-size: 18px;
-      color: #000;
-      font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
 }
+
 header .logo-right span {
-    display: inline-block;
-    width: 100%;
-    font-weight: 500;
-    font-size: 15px;
+  display: inline-block;
+  width: 100%;
+  font-weight: 500;
+  font-size: 15px;
 }
+
 header .logo {
   padding: 10px 20px;
   /* width: 200px; */
@@ -1413,40 +1438,53 @@ header.small-header .logo {
 
 /* footer compeont css start here  */
 footer {
-  /* background: var(--theme-color); */
-  background: #fff;
+  background: #eeeeee;
+  padding: 7px 15px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
+
+footer .footerwrap {
+  display: flex;
+  align-items: center;
+}
+
 footer .footer-text-section {
   display: flex;
   vertical-align: middle;
   align-items: center;
 }
+
 footer .footer-text {
-  font-size: 16px;
+  font-size: 14px;
 }
+
 footer .footer-text a {
-  color: #555555;
+  color: var(--theme-gray);
 }
+
 footer .footer-icons {
-  float:  right;
+  float: right;
 }
+
 footer .footer-icons li {
-    float: left;
-    margin: 0 0px 0 15px;
-    list-style: none;
+  float: left;
+  margin: 6px 0px 0 15px;
+  list-style: none;
 }
+
 footer .footer-icons li img {
-  width: 40px;
+  width: 33px;
   filter: grayscale(100%);
 }
+
 footer .container {
   max-width: 100% !important;
   padding: 0;
 }
 
-.footerwrap>div {
-  padding: 30px 30px;
-}
 
 .footertag {
   background: #a6192e;
@@ -1491,23 +1529,24 @@ footer .container {
   border: 2px solid #fff;
   color: #fff;
   text-align: center; */
-    line-height: initial;
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    background: #fff;
-    text-align: center;
-    display: flex;
-    vertical-align: middle;
-    align-items: center;
-    padding: 0;
+  line-height: initial;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #fff;
+  text-align: center;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  padding: 0;
 }
+
 .footertext ul li a img {
-    width: 40px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+  width: 40px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 /* footer compeont css End here  */
@@ -1532,78 +1571,93 @@ footer .container {
   right: 0;
   /* transform: translate(0, -80%); */
   text-align: left;
-  width:  100%;
+  width: 100%;
   height: 100%;
   padding: 25px;
   background: rgba(0, 0, 0, .7);
 }
+
 .background-transparent {
   background: transparent !important;
 }
+
 .padding-left-0 {
   padding-left: 0px !important;
 }
+
 .padding-right-0 {
   padding-right: 0px !important;
 }
+
 .nopadding {
   padding: 0px !important;
 }
+
 .page-title {
-    margin: 30px 0 15px;
-    padding: 10px;
-    background: #881728;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    display: inline-block;
-    width: 100%;
+  margin: 5px 0 15px;
+  padding: 10px;
+  background: #881728;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 100%;
 }
+
 .hero .vdotxt .vdotxt-title {
-    padding: 20px;
-    text-align: center;
+  padding: 20px;
+  text-align: center;
 }
+
 .hero .vdotxt p {
-    color: #fff;
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
 }
+
 .hero .vdotxt p.cover-title {
   font-weight: 500;
   font-size: 20px;
 }
+
 .hero .vdotxt p.cover-country {
-    font-size: 22px;
-    font-weight: 600;
-    margin: 10px 0 5px 0;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 10px 0 5px 0;
 }
+
 .hero .vdotxt p.cover-days span {
   display: inline-block;
   font-size: 13px;
 }
+
 .hero .vdotxt p.cover-days span:last-child {
-  margin:  0 0 0 15px;
+  margin: 0 0 0 15px;
 }
+
 .hero .vdotxt p.cover-name {
   margin: 10px 0 0 0;
   font-weight: 500;
 }
+
 .hero .vdotxt .vdotxt-section {
-    position: absolute;
-    bottom: 5%;
-    right: 0;
-    background: rgba(136, 23, 40, 0.7);
-    width: 90%;
-    left: 0;
-    margin: 0 auto;
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+  background: rgba(136, 23, 40, 0.7);
+  width: 90%;
+  left: 0;
+  margin: 0 auto;
 }
+
 .hero .vdotxt img {
-/*   position: absolute;
+  /*   position: absolute;
   bottom: 10%;
   right: 15px; */
-  margin:  40px 0 0 0;
+  margin: 40px 0 0 0;
 }
+
 .hero .vdotxt h1 {
   color: #fff;
   font-size: 36px;
@@ -1794,7 +1848,7 @@ footer .container {
   .hero .vdotxt {
     top: 50%;
     transform: translate(-50%, -50%);
-    left: 30%;
+    left: 50%;
   }
 
   .navigation .hamburger {
@@ -1960,12 +2014,12 @@ footer .container {
 }
 
 .flightwrap {
-  padding: 60px 15px;
+  padding: 25px 0;
   background: #fff;
 }
 
 .tablelist td {
-  padding: 5px 0;
+  padding: 3px 0;
   padding-right: 15px;
   vertical-align: top;
 }
@@ -1976,7 +2030,7 @@ footer .container {
 
 .tablelist.bold td {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   padding-right: 15px;
 }
 
@@ -1993,7 +2047,7 @@ footer .container {
 }
 
 .daywrap h2 {
-  padding: 20px 0;
+  padding: 0 0 20px;
   margin-bottom: 0;
 }
 
@@ -2001,6 +2055,7 @@ footer .container {
   font-size: 20px;
   margin-bottom: 10px;
 }
+
 .daywrap h3 span {
   font-size: 16px;
   text-transform: initial;
@@ -2009,6 +2064,7 @@ footer .container {
 .daywrap .row {
   background: var(--theme-color);
   color: #fff;
+  margin: 0;
 }
 
 .daytext {
@@ -2052,7 +2108,7 @@ footer .container {
 }
 
 .daywrap h2 {
-  padding: 20px 0;
+  padding: 0 0 20px;
   margin-bottom: 0;
 }
 
@@ -2222,16 +2278,17 @@ footer .container {
   display: inline-block;
   padding: 50px 20px;
 }
+
 .ticklist li {
   /* list-style: none;
   padding-left: 50px;
   position: relative; */
-    list-style: none;
-    padding-left: 50px;
-    position: relative;
-    float: left;
-    width: 50%;
-    margin: 0px 0 50px 0;
+  list-style: none;
+  padding-left: 50px;
+  position: relative;
+  float: left;
+  width: 50%;
+  margin: 0px 0 50px 0;
 }
 
 .ticklist li+li {
@@ -2354,6 +2411,7 @@ footer .container {
 /* price */
 .costwrap {
   background: #fff;
+  margin-top: 20px;
 }
 
 .costwrap .parent-div {
@@ -2414,7 +2472,7 @@ footer .container {
 }
 
 .incldesc {
-  padding: 30px 15px;
+  padding: 25px 15px;
 }
 
 .inclwrap .col-md-4 {
@@ -2439,7 +2497,7 @@ footer .container {
 }
 
 .daywrap h2 {
-  padding: 20px 0;
+  padding: 0 0 20px;
   margin-bottom: 0;
 }
 
@@ -2532,6 +2590,7 @@ footer .container {
   -ms-flex-item-align: center !important;
   align-self: center !important;
 }
+
 .width60 {
   width: 60%;
 }
@@ -2586,6 +2645,13 @@ footer .container {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
+  }
+
+  .col-md-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
   }
 
   .col-md-8 {
