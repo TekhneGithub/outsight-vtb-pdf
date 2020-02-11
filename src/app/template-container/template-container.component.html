@@ -9,9 +9,9 @@
             <img src="https://media.outsight.nl/original/original/logo-outsight.png" alt="" title="" />
          </div>
         <div class="logo-right">
-            <p class="logo-title">{{ itinerary.heroTitle }}</p>
-            <span>{{ itinerary.numberOfDays }}-daagse reis</span>
-            <span>{{ itinerary.noOfParticipants }} Personen</span>
+            <p class="logo-title">Vietnam</p>
+            <span>4-daagse reis</span>
+            <span>2- persons</span>
         </div>
       </header>
       <!-- app-header ends here -->
@@ -29,9 +29,9 @@
             <div class="vdotxt-section">
               <div class="vdotxt-title">
               <p class="cover-title">reisvoorstel</p>
-              <p class="cover-country">{{ itinerary.heroTitle }}</p>
-              <p class="cover-days"><span>{{ itinerary.numberOfDays }}-daagse reis</span> <span>{{ itinerary.noOfParticipants }} Personen</span></p>
-              <p class="cover-name">{{itinerary.mainBooker}}</p>
+              <p class="cover-country">vietnam</p>
+              <p class="cover-days"><span>15-daagse reis</span> <span>02-personen</span></p>
+              <p class="cover-name">mvr. scherff</p>
 
             <img src="https://media.outsight.nl/original/lg/Tagline-Transparant.png" class="align-self-center width60" alt="" title="" />
             </div>
@@ -45,7 +45,7 @@
       <div class="pc-tab">
 
          <!-- Jouw reis tab start here -->
-         <div class="tab1">
+         <div class="tab1 dynamic-pages">
             <section>
                <div class="overview-wrap">
                   <div class="container">
@@ -217,17 +217,7 @@
                         <!--<td>{{ itinerary.arrivalFlight.airlineCode }}</td>-->
                      </tr>
                   </table>
-                  <!--
-                     <table class="tablelist">
-                       <tr *ngFor="let f of itinerary.flights">
-                         <td>{{ f.date }}</td>
-                         <td>{{ f.departureAirport }}-{{ f.arrivalAirport }}
-                           <td>{{ f.departureTime }}</td>
-                           <td>{{ f.arrivalTime }}*</td>
-                           <td>VN {{ f.flightNumber }} uitgevoerd door {{ f.airlineCode }}</td>
-                         </tr>
-                       </table>
-                       -->
+                  
                   <!-- start new table -->
                   <div class="flight-table">
                      <div class="table-responsive">
@@ -255,41 +245,6 @@
                                  <td class="table-calender"><span>{{ f.arrivalDate }}</span></td>
                                  <td class="table-clock"> <span>{{ f.arrivalTime }}</span></td>
                               </tr>
-                              <!--
-                                 <tr>
-                                   <td>rj</td>
-                                   <td>152</td>
-                                   <td>ams</td>
-                                   <td class="table-calender"><span>11-10-2019</span></td>
-                                   <td class="table-clock">15:35</td>
-                                   <td>amm</td>
-                                   <td class="table-calender"><span>11-10-2019</span></td>
-                                   <td class="table-clock">21:20</td>
-                                   <td><a href=""><i class="far fa-trash-alt"></i></a> </td>
-                                 </tr>
-                                 <tr>
-                                   <td>rj</td>
-                                   <td>152</td>
-                                   <td>ams</td>
-                                   <td class="table-calender"><span>11-10-2019</span></td>
-                                   <td class="table-clock">15:35</td>
-                                   <td>amm</td>
-                                   <td class="table-calender"><span>11-10-2019</span></td>
-                                   <td class="table-clock">21:20</td>
-                                   <td><a href=""><i class="far fa-trash-alt"></i></a> </td>
-                                 </tr>
-                                 <tr>
-                                   <td>rj</td>
-                                   <td>152</td>
-                                   <td>ams</td>
-                                   <td class="table-calender"><span>11-10-2019</span></td>
-                                   <td class="table-clock">15:35</td>
-                                   <td>amm</td>
-                                   <td class="table-calender"><span>11-10-2019</span></td>
-                                   <td class="table-clock">21:20</td>
-                                   <td><a href=""><i class="far fa-trash-alt"></i></a> </td>
-                                 </tr>
-                                 -->
                            </tbody>
                         </table>
                      </div>
@@ -453,7 +408,7 @@
 
 
 
-   </div>
+      </div>
    <footer>
       <div class="container">
          <div class="footerwrap d-md-flex">
@@ -482,134 +437,11 @@
                   </li>
                </ul>
           </div>
-
-            <!-- <div class="footerlogo col-md-3 col-12 align-self-center">
-               <img src="https://media.outsight.nl/original/original/logo-outsight.png" alt="" title="" />
-            </div>
-            <div class="footertag col-md-6 col-12 d-md-flex text-center">
-               <img src="https://media.outsight.nl/original/lg/Tagline-Transparant.png" class="align-self-center width60" alt="" title="" />
-            </div>
-            <div class="footertext col-md-3 col-12 align-self-center">
-               <ul>
-                  <li>
-                     <a href="javascript:void(0);">
-                        <img src="https://media.outsight.nl/original/md/SGR-transparant.png">
-                     </a>
-                  </li>
-                  <li>
-                     <a href="javascript:void(0);">
-                        <img src="https://media.outsight.nl/original/md/ANVR-Transparant.png" alt="">    
-                     </a>
-                  </li>
-                  <li>
-                     <a href="javascript:void(0);">
-                        <img src="https://media.outsight.nl/original/md/Calamiteitenfonds-Transparant.png" alt="">    
-                     </a>
-                  </li>
-               </ul>
-            </div> -->
          </div>
       </div>
    </footer>
-   <!-- app-footer ends here -->
-   <!-- vtb-template-starter
-      <div class="menu" [ngClass]="{'active': showMobileMenu}">
-        <img src="https://1.cms.s81c.com/sites/default/files/2017-10-26/Sitespirit.png" class="logo" alt="">
-        <vtb-menu [toggle]="true" [stickyAt]="300" [dataSource]="[{name: 'Programma', selector: '[data-block=program]'}, {name: 'Accommodaties', selector: '[data-block=accommodations]'}, {name: 'Investering', selector: '.overview'}, {name: 'Contact', 'selector': '.social-media'}]"></vtb-menu>
-      </div>
-      <div [className]="(itinerary.extraFieldValues | extraField : 2 : 2) ? 'header youtube-video' : 'header cover-images'">
-        <div class="header-text titles">
-          <vtb-text *ngIf="itinerary.title" [config]="{name: 'title', tag: 'h2', class: 'vtb-title'}" [dataSource]="itinerary"></vtb-text>
-          <vtb-text *ngIf="itinerary.subTitle" [config]="{name: 'subTitle', tag: 'h1', class: 'vtb-sub-title'}" [dataSource]="itinerary"></vtb-text>
-        </div>
-        <vtb-media *ngIf="!(itinerary.extraFieldValues | extraField : 2 : 2)" [dataSource]="itinerary.cover" [slider]="true" [sliderInterval]="5000"></vtb-media>
-        <div class="youtube-wrapper" *ngIf="(itinerary.extraFieldValues | extraField : 2 : 2)">
-          <vtb-youtube
-          [dataSource]="itinerary.extraFieldValues | extraField : 2 : 2"
-          [controls]="false"
-          [autoplay]="true"
-          [loop]="true"
-          [fullscreen]="false"></vtb-youtube>
-        </div>
-      </div>
-      <div class="map">
-        <div class="titles">
-          <h1>Bestemming</h1>
-          <h3>Hier gaat de reis naartoe</h3>
-        </div>
-      <agm-map [latitude]="itinerary.segments[0].maps.latitude" [zoom]="itinerary.segments[0].maps.zoom" [longitude]="itinerary.segments[0].maps.longitude" [scrollwheel]="false" [styles]="[{'featureType':'all','elementType':'labels','stylers':[{'visibility':'off'}]},{'featureType':'administrative','elementType':'all','stylers':[{'visibility':'on'}]},{'featureType':'administrative.country','elementType':'geometry','stylers':[{'visibility':'simplified'},{'hue':'#ff0000'}]},{'featureType':'administrative.country','elementType':'geometry.stroke','stylers':[{'weight':'0.75'},{'visibility':'on'},{'color':'#e5e9e2'}]},{'featureType':'administrative.country','elementType':'labels','stylers':[{'visibility':'off'},{'weight':'0.01'},{'lightness':'79'}]},{'featureType':'administrative.province','elementType':'geometry.stroke','stylers':[{'weight':'0.01'}]},{'featureType':'landscape','elementType':'geometry','stylers':[{'saturation':'-92'},{'lightness':'41'},{'gamma':'2'},{'visibility':'on'}]},{'featureType':'landscape.man_made','elementType':'geometry','stylers':[{'saturation':'-73'}]},{'featureType':'landscape.natural','elementType':'geometry','stylers':[{'hue':'#ffc600'},{'saturation':'27'},{'lightness':'24'}]},{'featureType':'landscape.natural.landcover','elementType':'geometry.stroke','stylers':[{'invert_lightness':true}]},{'featureType':'landscape.natural.terrain','elementType':'geometry','stylers':[{'hue':'#eaff00'},{'lightness':'0'},{'saturation':'-100'},{'gamma':'2'}]},{'featureType':'landscape.natural.terrain','elementType':'geometry.fill','stylers':[{'saturation':'-95'},{'lightness':'-100'}]},{'featureType':'poi.park','elementType':'geometry','stylers':[{'saturation':'-39'},{'lightness':'84'}]},{'featureType':'poi.park','elementType':'geometry.stroke','stylers':[{'visibility':'off'}]},{'featureType':'road','elementType':'geometry','stylers':[{'color':'#e9e8e2'},{'lightness':'-8'},{'saturation':'-100'},{'weight':'1.00'}]},{'featureType':'road','elementType':'geometry.stroke','stylers':[{'weight':'0.01'},{'lightness':'-50'}]},{'featureType':'road.highway','elementType':'geometry.fill','stylers':[{'visibility':'on'},{'weight':'0.20'},{'lightness':'-4'}]},{'featureType':'road.highway','elementType':'geometry.stroke','stylers':[{'weight':'0.01'},{'visibility':'off'}]},{'featureType':'road.arterial','elementType':'geometry.fill','stylers':[{'weight':'0.50'},{'lightness':'40'}]},{'featureType':'road.arterial','elementType':'geometry.stroke','stylers':[{'weight':'0.01'},{'visibility':'off'}]},{'featureType':'road.local','elementType':'all','stylers':[{'visibility':'off'}]},{'featureType':'road.local','elementType':'geometry','stylers':[{'weight':'6.79'},{'gamma':'0.94'}]},{'featureType':'road.local','elementType':'geometry.fill','stylers':[{'weight':'0.10'},{'lightness':'-23'},{'gamma':'7.23'}]},{'featureType':'road.local','elementType':'geometry.stroke','stylers':[{'weight':'.1'},{'color':'#ff0000'}]},{'featureType':'transit.line','elementType':'geometry','stylers':[{'color':'#8bc7d6'},{'weight':'0.3'}]},{'featureType':'transit.station.airport','elementType':'geometry.fill','stylers':[{'saturation':'-62'},{'lightness':'6'}]},{'featureType':'transit.station.airport','elementType':'geometry.stroke','stylers':[{'saturation':'-83'},{'lightness':'-71'},{'weight':'2.94'}]},{'featureType':'water','elementType':'geometry','stylers':[{'color':'#d4eaec'}]},{'featureType':'water','elementType':'geometry.fill','stylers':[{'color':'#00c2ff'}]},{'featureType':'water','elementType':'labels','stylers':[{'visibility':'off'},{'color':'#9fd0d6'}]},{'featureType':'water','elementType':'labels.text.stroke','stylers':[{'visibility':'off'}]}]"></agm-map>
-      </div>
-      <div class="program" data-block="program">
-      <div class="titles">
-        <h1>Programma</h1>
-        <h3>Lees hieronder het programma van dag tot dag</h3>
-      </div>
-      <vtb-segments [dataSource]="itinerary.segments" [segmentFields]="['media', {name: 'day', prefix: 'Dag ', tag: 'span'}, {name: 'title', tag: 'h2'},{name: 'subTitle', tag: 'h4'},{name: 'content', tag: 'p'}]"></vtb-segments>
-      </div>
-      <div class="accommodations circled-images" data-block="accommodations">
-      <div class="titles">
-        <h1>Accommodaties</h1>
-        <h3>In onderstaande accommodaties zullen jullie verblijven (indien beschikbaar)</h3>
-      </div>
-      <vtb-elements [dataSource]="itinerary.segments" [unitIds]="[2]" [reverseUnitIds]="false" [elementFields]="[{name: 'media', max: 1},{name:'title',tag:'h5'},{name:'subTitle',tag:'h6'}]"></vtb-elements>
-      </div>
-      <div class="overview">
-      <div class="titles">
-        <h1>Investering</h1>
-        <h3>
-        <em>Overzicht kosten</em>
-        </h3>
-        <p>
-          <vtb-prices-average
-          [dataSource]="itinerary"
-          [rounding]="'round'"
-          [prefix]="'&euro;'"
-          [postfix]="',- per persoon, gebaseerd op een reis voor ' + (itinerary.participants | totalParticipants) + ' personen.'"></vtb-prices-average>
-        </p>
-        <p>
-          Prijs is afhankelijk van het aantal personen, de reisduur, de reisperiode en is onder voorbehoud van beschikbaarheid bij bevestiging.<br>
-          <strong>Inclusief </strong>internationale vliegtickets.<br>
-          <strong>Inclusief</strong> binnenlandse vliegtickets.
-        </p>
-      </div>
-      
-      <div class="lists">
-        <div>
-          <h3>Inclusief</h3>
-          <vtb-elements-list [optional]="false" [unitIds]="[2]" [reverseUnitIds]="true" [dataSource]="itinerary.segments"></vtb-elements-list>
-        </div>
-        <div>
-          <h3>Exclusief</h3>
-          <vtb-elements-list [optional]="true" [unitIds]="[2]" [reverseUnitIds]="true" [dataSource]="itinerary.segments"></vtb-elements-list>
-        </div>
-      </div>
-      </div>
-      <div class="social-media">
-      <div class="titles">
-        <h1>Wil je meer weten over ons?</h1>
-        <h3>Neem dan contact met ons op!</h3>
-      </div>
-      <div class="socials">
-        <div>
-          <i class="fab fa-facebook"></i>
-        </div>
-        <div>
-          <i class="fab fa-instagram"></i>
-        </div>
-        <div>
-          <i class="fab fa-whatsapp"></i>
-        </div>
-        <div>
-          <i class="far fa-envelope"></i>
-        </div>
-      </div>
-      </div>
-      <div class="footer">
-      <p>Etiam sodales vel elit id finibus. Etiam a lorem a mi pulvinar condimentum. Nunc ullamcorper ipsum eu aliquam placerat. Quisque quis dignissim mauris. Phasellus pulvinar arcu dolor, et mollis quam maximus quis. Curabitur nec posuere dolor. Donec aliquam purus interdum eros convallis, ac aliquet mi ullamcorper.</p>
-      </div>
-      -->
-</div>
-<ng-container *ngTemplateOutlet="templateFooter"></ng-container>
+   </div>
+   <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
 </div>
 <!-- <ng-template #templateHeader>
    <div class="page-header">
