@@ -165,110 +165,107 @@
 <!-- Prijs tab start here -->
 <div class="page">
   <div class="page-inner">
-    <div class="tab2">
-      <section class="inclwrap">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-sm-6 col-12 incldesc">
-              <h2><span>INBEGREPEN</span></h2>
-              <ul class="dash-style-list">
-                <li *ngFor="let str of itinerary.includedStrings">
-                  {{ str.name }}
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-4 col-sm-6 col-12 bg-gray-color guidesec" *ngFor="let c of itinerary.finalConsultants">
-              <h3>JOUW REISSPECIALIST<span>{{ c.name }}</span></h3>
-              <img src="{{ c.picture }}" alt="" title="" />
-            </div>
+    <section class="inclwrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-12 incldesc">
+            <h2><span>INBEGREPEN</span></h2>
+            <ul class="dash-style-list">
+              <li *ngFor="let str of itinerary.includedStrings">
+                {{ str.name }}
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 bg-gray-color guidesec" *ngFor="let c of itinerary.finalConsultants">
+            <h3>JOUW REISSPECIALIST<span>{{ c.name }}</span></h3>
+            <img src="{{ c.picture }}" alt="" title="" />
           </div>
         </div>
-      </section>
-      <section class="exclwrap">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-sm-6 col-12">
-              <h2><span>NIET INBEGREPEN</span></h2>
-              <ul class="dash-style-list">
-                <li *ngFor="let str of itinerary.excludedStrings">
-                  {{ str.name }}
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-4 col-sm-6 col-12 bg-gray-color">
-              <p>
-                Bij deze jouw reisvoorstel Vietnam, voor jou op maat ontworpen. Loop er op je gemak doorheen en ik
-                neem
-                een
-                dezer dagen contact op om het voorstel door te nemen. Bel of mail gerust bij vragen!
-              </p>
-            </div>
+      </div>
+    </section>
+    <section class="exclwrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-12">
+            <h2><span>NIET INBEGREPEN</span></h2>
+            <ul class="dash-style-list">
+              <li *ngFor="let str of itinerary.excludedStrings">
+                {{ str.name }}
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 bg-gray-color">
+            <p>
+              Bij deze jouw reisvoorstel Vietnam, voor jou op maat ontworpen. Loop er op je gemak doorheen en ik
+              neem
+              een
+              dezer dagen contact op om het voorstel door te nemen. Bel of mail gerust bij vragen!
+            </p>
           </div>
         </div>
-      </section>
-      <section>
-        <div class="flightwrap">
-          <h2><span>VLUCHTSCHEMA</span></h2>
-          <table class="tablelist bold" *ngIf="itinerary.departureFlight && itinerary.arrivalFlight">
-            <tr>
-              <td>Vertrek uit NL</td>
-              <td>{{ itinerary.departureFlight.date }}</td>
-              <!--<td>{{ itinerary.departureFlight.airlineCode }}</td>-->
-            </tr>
-            <tr>
-              <td>Retour in NL</td>
-              <td>{{ itinerary.arrivalFlight.date }}</td>
-              <!--<td>{{ itinerary.arrivalFlight.airlineCode }}</td>-->
-            </tr>
-          </table>
-          <!-- start new table -->
-          <div class="flight-table">
-            <div class="table-responsive">
-              <table cellpadding="0" cellspacing="0" class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">Airline</th>
-                    <th scope="col">Flight<br>Number</th>
-                    <th scope="col">Departure<br>Airport</th>
-                    <th scope="col">Departure<br>Date</th>
-                    <th scope="col">Departure<br>Time</th>
-                    <th scope="col">Arrival<br>Airport</th>
-                    <th scope="col">Arrival<br>Date</th>
-                    <th scope="col">Arrival<br>Time</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr *ngFor="let f of itinerary.flights">
-                    <td>{{ f.airlineCode }}</td>
-                    <td>{{ f.flightNumber }}</td>
-                    <td>{{ f.departureAirport }}</td>
-                    <td class="table-calender"><span>{{ f.date }}</span></td>
-                    <td class="table-clock"> <span>{{ f.departureTime }}</span></td>
-                    <td>{{ f.arrivalAirport }}</td>
-                    <td class="table-calender"><span>{{ f.arrivalDate }}</span></td>
-                    <td class="table-clock"> <span>{{ f.arrivalTime }}</span></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <!-- end new table -->
-        </div>
-      </section>
-      <section class="extra">
-        <div class="container">
-          <div class="row align-items-stretch">
-            <div class="col-md-12 col-sm-12 col-12">
-              <img alt="" class="fitimg" src="https://media.outsight.nl/original/original/vietanm.JPG" title="" />
-            </div>
+      </div>
+    </section>
+    <section>
+      <div class="flightwrap">
+        <h2><span>VLUCHTSCHEMA</span></h2>
+        <table class="tablelist bold" *ngIf="itinerary.departureFlight && itinerary.arrivalFlight">
+          <tr>
+            <td>Vertrek uit NL</td>
+            <td>{{ itinerary.departureFlight.date }}</td>
+            <!--<td>{{ itinerary.departureFlight.airlineCode }}</td>-->
+          </tr>
+          <tr>
+            <td>Retour in NL</td>
+            <td>{{ itinerary.arrivalFlight.date }}</td>
+            <!--<td>{{ itinerary.arrivalFlight.airlineCode }}</td>-->
+          </tr>
+        </table>
+        <!-- start new table -->
+        <div class="flight-table">
+          <div class="table-responsive">
+            <table cellpadding="0" cellspacing="0" class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Airline</th>
+                  <th scope="col">Flight<br>Number</th>
+                  <th scope="col">Departure<br>Airport</th>
+                  <th scope="col">Departure<br>Date</th>
+                  <th scope="col">Departure<br>Time</th>
+                  <th scope="col">Arrival<br>Airport</th>
+                  <th scope="col">Arrival<br>Date</th>
+                  <th scope="col">Arrival<br>Time</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let f of itinerary.flights">
+                  <td>{{ f.airlineCode }}</td>
+                  <td>{{ f.flightNumber }}</td>
+                  <td>{{ f.departureAirport }}</td>
+                  <td class="table-calender"><span>{{ f.date }}</span></td>
+                  <td class="table-clock"> <span>{{ f.departureTime }}</span></td>
+                  <td>{{ f.arrivalAirport }}</td>
+                  <td class="table-calender"><span>{{ f.arrivalDate }}</span></td>
+                  <td class="table-clock"> <span>{{ f.arrivalTime }}</span></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
-      </section>
-    </div>
+        <!-- end new table -->
+      </div>
+    </section>
+    <section class="extra">
+      <div class="container">
+        <div class="row align-items-stretch">
+          <div class="col-md-12 col-sm-12 col-12">
+            <img alt="" class="fitimg" src="https://media.outsight.nl/original/original/vietanm.JPG" title="" />
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </div>
 <div class="page">
-  <ng-container *ngTemplateOutlet="templateHeader"></ng-container>
   <div class="page-inner">
     <div class="pc-tab">
       <!-- Tips tab ends here -->
