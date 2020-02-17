@@ -11,7 +11,7 @@
       </div>
       <div class="logo-right">
         <p class="logo-title">{{ itinerary.heroTitle }}</p>
-        <span>{{ itinerary.numberOfDays }}-daagse reis {{ itinerary.noOfParticipants }} Personen</span>
+        <span>{{ itinerary.numberOfDays }}-daagse reis<br>{{ itinerary.noOfParticipants }}-Personen</span>
       </div>
     </header>
     <!-- app-hero -->
@@ -122,7 +122,7 @@
         </div>
       </div>
     </div>
-    <div class="costwrap">
+    <!-- <div class="costwrap">
       <div class="container">
         <div class="row">
           <div class="col-12 nopadding">
@@ -160,10 +160,57 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
   <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
 </div>
+
+<!-- start -->
+<div class="page">
+  <div class="costwrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 nopadding">
+          <h1 class="page-title">Prijs</h1>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-md-12 col-sm-12 col-12 bg-theme-color">
+          <div class="parent-div">
+            <h2><span>PRIJS*</span></h2>
+            <table>
+              <tr>
+                <td>Landarrangement</td>
+                <td>€ {{ itinerary.otherCost }}</td>
+              </tr>
+              <tr>
+                <td>Vluchtprijs</td>
+                <td>€ {{ itinerary.flightPrice }}</td>
+              </tr>
+              <tr *ngFor="let remaining of itinerary.remainingPrice">
+                <td>{{ remaining.title }}</td>
+                <td>€ {{ remaining.price }}</td>
+              </tr>
+              <tr *ngIf="itinerary.insurancesPrice != 0">
+                <td>Verzekeringen</td>
+                <td>€ {{ itinerary.insurancesPrice }}</td>
+              </tr>
+              <tr>
+                <td>Totaalprijs</td>
+                <td>€ {{ itinerary.totalCost }}</td>
+              </tr>
+            </table>
+            <span class="f-12">*Prijzen zijn op aanvraag & onder voorbehoud van wijzigingen.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
+</div>
+<!-- end -->
+
 <!-- Prijs tab start here -->
 <div class="page">
   <div class="page-inner">

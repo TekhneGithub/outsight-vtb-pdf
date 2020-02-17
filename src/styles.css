@@ -1336,6 +1336,7 @@ header {
   background: #fff;
   /* height: 40px; */
   height: auto;
+  padding: 0 0 15px 0;
   /* position: absolute; */
   position: relative;
   top: 0;
@@ -1365,14 +1366,16 @@ header .logo-right .logo-title {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #000;
-  font-weight: 500;
+  font-weight: 600;
+  line-height: 18px;
 }
 
 header .logo-right span {
   display: inline-block;
   width: 100%;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13px;
+  margin: 7px 0 0 0;
 }
 
 header .logo {
