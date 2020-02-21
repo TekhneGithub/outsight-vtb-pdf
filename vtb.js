@@ -317,6 +317,8 @@ const customTransforms = {
           mediaURL = 'https://via.placeholder.com/300';
         }
 
+        segment.pretyString = 'DAG ' + segment.day + ' t/m ' + (segment.day + segment.nights);
+
         var data = { startDay: segment.day, endDay: segment.day + segment.nights, title: segment.title, content: segment.content, media:mediaURL};
         tripTitles.push(data);
       }
