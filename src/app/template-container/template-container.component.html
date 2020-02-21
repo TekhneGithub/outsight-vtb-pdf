@@ -105,35 +105,29 @@
     <h2>JOUW REIS123</h2>
     <vtb-segments
       [dataSource]="itinerary.segments"
+      [segmentTypeIds]="[16]"
       [segmentFields]="[
-        { name: 'day', prefix: 'Day ' },
+        { name: 'pretyString' },
         { name: 'title', tag: 'h3' },
-        { name: 'content', tag: 'p' }
+        { name: 'content', tag: 'p' },
+        { name: 'media', types: 'mediaspirit' }
       ]"
     >
-      <ng-template #elementTemplate let-elements="elements">
-        <div class="hotel-wrapper">
-          <vtb-element
-            [dataSource]="elements"
-            [elementFields]="[{ name: 'media', types: 'mediaspirit' }]"
-          >
-          </vtb-element>
-        </div>
-        <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
+      <ng-template
+        #elementTemplate
+        let-elements="elements"
+        let-segment="segment"
+      >
+        <!-- <h2>Dag {{ segment.day + segment.nights }}</h2>
+        <vtb-text>{{ segment.title }}</vtb-text> -->
+        <!-- <div class="hbMedia">
+          <vtb-elements [dataSource]="elements" [elementFields]="[{ name: 'media', types: 'mediaspirit' }]">
+          </vtb-elements>
+        </div> -->
       </ng-template>
     </vtb-segments>
-    <!-- <div class="row align-items-center" *ngFor="let title of itinerary.tripTitles">
-        <div class="col-md-4 col-sm-6 col-12 dayimg">
-          <img src="{{ title.media }}" alt="" title="" />
-        </div>
-        <div class="col-md-8 col-sm-6 col-12 daytext">
-          <h3>DAG {{ title.startDay }} t/m {{ title.endDay }} {{ title.title }}</h3>
-          <p [innerHTML]="title.content">
-          </p>
-        </div>
-        <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
-      </div> -->
   </div>
+  <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
 </div>
 <div class="page">
   <div class="page-inner">

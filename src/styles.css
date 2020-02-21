@@ -36,11 +36,11 @@ div {
 
 /* CKE overrides */
 
-body .ck.ck-editor__editable_inline> :first-child {
+body .ck.ck-editor__editable_inline > :first-child {
   margin-top: 0;
 }
 
-body .ck.ck-editor__editable_inline> :last-child {
+body .ck.ck-editor__editable_inline > :last-child {
   margin-bottom: 0;
 }
 
@@ -51,7 +51,8 @@ body .ck.ck-editor__editable_inline {
   overflow: hidden;
 }
 
-body .ck.ck-editor__editable_inline:not(.ck-editor__nested-editable).ck-focused {
+body
+  .ck.ck-editor__editable_inline:not(.ck-editor__nested-editable).ck-focused {
   border: none;
   box-shadow: none;
 }
@@ -59,14 +60,14 @@ body .ck.ck-editor__editable_inline:not(.ck-editor__nested-editable).ck-focused 
 /* end CKE overrides */
 
 .pdf-wrapper,
-#inputElement>* {
+#inputElement > * {
   display: block;
   max-width: 796.8px;
   margin: 0 auto;
 }
 
 app-template-container,
-#inputElement>* {
+#inputElement > * {
   visibility: hidden;
 }
 
@@ -121,9 +122,26 @@ vtb-segment {
   float: left;
 }
 
-.hotelBlogs .day,
+.hotelBlogs .pretyString,
 .hotelBlogs .title {
   float: left;
+  text-transform: uppercase;
+}
+
+.hotelBlogs .title {
+  min-width: 40%;
+  margin-bottom: 15px;
+  padding-left: 5px;
+}
+
+.hotelBlogs .pretyString,
+.hotelBlogs .title h3 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.hotelBlogs p {
+  color: #ffffff;
 }
 
 .hotelBlogs .content {
@@ -134,9 +152,34 @@ vtb-segment {
 .hotelBlogs .media {
   float: right;
   width: 33%;
+  padding-left: 15px;
 }
 
-.hotelBlogs . {}
+.hotelBlogs .content {
+  float: left;
+}
+
+.hotelBlogs vtb-segment:nth-of-type(2n + 2) .media {
+  float: left;
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.hotelBlogs vtb-segment:nth-of-type(2n + 2) .content {
+  float: right;
+}
+
+.hotelBlogs vtb-segment:nth-of-type(2n) {
+  background: #b18c96;
+}
+
+.daywrap .row:nth-of-type(3n) {
+  background: #877688;
+}
+
+.daywrap .row:nth-of-type(4n) {
+  background: #5f5f61;
+}
 
 .page-inner footer {
   bottom: -60px;
@@ -404,7 +447,6 @@ ul.dash-style-list li:before {
 /* end new table css */
 
 @media screen and (max-width: 767px) {
-
   body,
   p {
     font-size: 13px;
@@ -444,12 +486,12 @@ ul.dash-style-list li:before {
   grid-auto-rows: 76vh;
 }
 
-.header>vtb-media,
-.header>.youtube-wrapper {
+.header > vtb-media,
+.header > .youtube-wrapper {
   grid-area: 1 / 1 / span 1 / span 12;
 }
 
-.header vtb-youtube>div {
+.header vtb-youtube > div {
   display: none;
 }
 
@@ -487,13 +529,13 @@ ul.dash-style-list li:before {
   grid-row: 1 / -1;
 }
 
-.program vtb-segment .media vtb-media>div {
+.program vtb-segment .media vtb-media > div {
   overflow: hidden;
   position: relative !important;
   padding-bottom: 56.25%;
 }
 
-.program vtb-segment .media vtb-media>div:before {
+.program vtb-segment .media vtb-media > div:before {
   content: "";
   display: block;
   position: absolute;
@@ -509,11 +551,11 @@ ul.dash-style-list li:before {
   transform: scaleX(1);
 }
 
-.program vtb-segment .media vtb-media>div.is-shown:before {
+.program vtb-segment .media vtb-media > div.is-shown:before {
   transform: scaleX(0);
 }
 
-.program vtb-segment .media vtb-media>div>.ng-star-inserted {
+.program vtb-segment .media vtb-media > div > .ng-star-inserted {
   position: absolute;
   left: 0;
   right: 0;
@@ -529,15 +571,15 @@ ul.dash-style-list li:before {
   transform: scale(1.25);
 }
 
-.program vtb-media>div:nth-child(2),
-.program vtb-media>div:nth-child(3) {
+.program vtb-media > div:nth-child(2),
+.program vtb-media > div:nth-child(3) {
   width: 50%;
   float: left;
   box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
   padding-bottom: 28.1% !important;
 }
 
-.program vtb-media>div:nth-child(2) {
+.program vtb-media > div:nth-child(2) {
   transform: scale(1.2) translate(10px, -40px);
 }
 
@@ -552,7 +594,7 @@ ul.dash-style-list li:before {
   grid-column: 7 / span 6;
 }
 
-.program vtb-segment:nth-child(even) .media vtb-media>div:before {
+.program vtb-segment:nth-child(even) .media vtb-media > div:before {
   transform-origin: left;
 }
 
@@ -769,19 +811,19 @@ h1 {
   overflow: hidden;
 }
 
-.header>vtb-media {
+.header > vtb-media {
   z-index: -1;
   position: relative;
 }
 
-.header>.youtube-wrapper {
+.header > .youtube-wrapper {
   position: relative;
   padding-bottom: 56.25%;
   /* 16:9 */
   height: 0;
 }
 
-.header>.youtube-wrapper iframe {
+.header > .youtube-wrapper iframe {
   position: absolute;
   top: -10%;
   left: 0;
@@ -789,7 +831,7 @@ h1 {
   height: 100%;
 }
 
-.header>.youtube-wrapper:before {
+.header > .youtube-wrapper:before {
   display: block;
   width: 100%;
   height: 100%;
@@ -798,11 +840,11 @@ h1 {
   z-index: 1;
 }
 
-vtb-media>div {
+vtb-media > div {
   position: static !important;
 }
 
-.header vtb-media>div {
+.header vtb-media > div {
   position: absolute !important;
   width: 100%;
   left: 0;
@@ -1036,7 +1078,7 @@ vtb-media>div {
   clear: both;
 }
 
-.lists>div {
+.lists > div {
   width: 50%;
   float: left;
   box-sizing: border-box;
@@ -1189,12 +1231,12 @@ body .footer p a {
     max-height: 100px;
   }
 
-  .header>.youtube-wrapper {
+  .header > .youtube-wrapper {
     height: 120vh;
     margin-top: -5vh;
   }
 
-  .header vtb-youtube>div {
+  .header vtb-youtube > div {
     display: block;
     width: 100%;
     height: 100%;
@@ -1203,7 +1245,7 @@ body .footer p a {
     background-position-x: 50%;
   }
 
-  .header vtb-youtube>iframe {
+  .header vtb-youtube > iframe {
     display: none;
   }
 
@@ -1242,9 +1284,11 @@ body .footer p a {
     margin-bottom: 30px;
   }
 
-  .program vtb-segment .subTitle {}
+  .program vtb-segment .subTitle {
+  }
 
-  .program vtb-segment .content {}
+  .program vtb-segment .content {
+  }
 
   .overview .lists {
     grid-column: 2 / 12;
@@ -1353,7 +1397,7 @@ body .footer p a {
     right: -80px !important;
   }
 
-  .lists>div {
+  .lists > div {
     width: 100%;
   }
 
@@ -1611,7 +1655,7 @@ footer .container {
 /* footer compeont css End here  */
 
 /* hero component css start here */
-.hero vtb-youtube>div {
+.hero vtb-youtube > div {
   display: none;
 }
 
@@ -1737,12 +1781,12 @@ footer .container {
 /* Mobile */
 
 @media only screen and (max-width: 600px) {
-  .hero>.youtube-wrapper {
+  .hero > .youtube-wrapper {
     height: 120vh;
     margin-top: -5vh;
   }
 
-  .hero vtb-youtube>div {
+  .hero vtb-youtube > div {
     display: block;
     width: 100%;
     height: 100%;
@@ -1751,7 +1795,7 @@ footer .container {
     background-position-x: 50%;
   }
 
-  .hero vtb-youtube>iframe {
+  .hero vtb-youtube > iframe {
     display: none;
   }
 }
@@ -1789,7 +1833,7 @@ footer .container {
     margin-top: -5vh;
   }
 
-  .hero /deep/ vtb-youtube>div {
+  .hero /deep/ vtb-youtube > div {
     display: block;
     width: 100%;
     height: 100%;
@@ -1798,7 +1842,7 @@ footer .container {
     background-position-x: 50%;
   }
 
-  .hero /deep/ vtb-youtube>iframe {
+  .hero /deep/ vtb-youtube > iframe {
     display: none;
   }
 }
@@ -1848,37 +1892,37 @@ footer .container {
   color: var(--theme-color);
 }
 
-.pc-tab>input,
-.pc-tab>div {
+.pc-tab > input,
+.pc-tab > div {
   display: block;
 }
 
-#tab1:checked~.tab1,
-#tab2:checked~.tab2,
-#tab3:checked~.tab3,
-#tab4:checked~.tab4,
-#tab5:checked~.tab5,
-#tab6:checked~.tab6 {
+#tab1:checked ~ .tab1,
+#tab2:checked ~ .tab2,
+#tab3:checked ~ .tab3,
+#tab4:checked ~ .tab4,
+#tab5:checked ~ .tab5,
+#tab6:checked ~ .tab6 {
   display: block;
 }
 
-#tab1:checked~nav .tab1 label,
-#tab2:checked~nav .tab2 label,
-#tab3:checked~nav .tab3 label,
-#tab4:checked~nav .tab4 label,
-#tab5:checked~nav .tab5 label,
-#tab6:checked~nav .tab6 label {
+#tab1:checked ~ nav .tab1 label,
+#tab2:checked ~ nav .tab2 label,
+#tab3:checked ~ nav .tab3 label,
+#tab4:checked ~ nav .tab4 label,
+#tab5:checked ~ nav .tab5 label,
+#tab6:checked ~ nav .tab6 label {
   background: white;
   color: #111;
   position: relative;
 }
 
-#tab1:checked~nav .tab1 label:after,
-#tab2:checked~nav .tab2 label:after,
-#tab3:checked~nav .tab3 label:after,
-#tab4:checked~nav .tab4 label:after,
-#tab5:checked~nav .tab5 label:after,
-#tab6:checked~nav .tab6 label:after {
+#tab1:checked ~ nav .tab1 label:after,
+#tab2:checked ~ nav .tab2 label:after,
+#tab3:checked ~ nav .tab3 label:after,
+#tab4:checked ~ nav .tab4 label:after,
+#tab5:checked ~ nav .tab5 label:after,
+#tab6:checked ~ nav .tab6 label:after {
   content: "";
   display: block;
   position: absolute;
@@ -2120,10 +2164,14 @@ footer .container {
   text-transform: initial;
 }
 
-.daywrap .row {
+.daywrap .row,
+.hotelBlogs vtb-segment {
   background: var(--theme-color);
   color: #fff;
   margin: 0;
+  display: inline-block;
+  padding: 15px;
+  width: 100%;
 }
 
 .daytext {
@@ -2350,7 +2398,7 @@ footer .container {
   margin: 0px 0 50px 0;
 }
 
-.ticklist li+li {
+.ticklist li + li {
   /* margin-bottom: 40px; */
 }
 
