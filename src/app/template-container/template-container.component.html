@@ -269,7 +269,7 @@
             <h2><span>INBEGREPEN</span></h2>
             <ul class="dash-style-list">
               <li *ngFor="let str of itinerary.includedStrings">
-                {{ str.name }}
+                <span [innerHTML]="str.name"> </span>
               </li>
             </ul>
           </div>
