@@ -476,92 +476,92 @@
 <!-- Info tab start here -->
 <div class="page">
   <div class="page-inner">
-    <div class="pc-tab">
-      <div class="tab5">
-        <section class="geninfowrap">
-          <div class="container">
-            <div class="row">
-              <h1 class="page-title">Info</h1>
-            </div>
-            <div class="row">
-              <div
-                class="mt-20 d-flex align-items-end flex-column"
-                [innerHTML]="itinerary.Informatie"
-              ></div>
-            </div>
-            <div class="row listwrap flex-row-reverse align-items-center">
-              <div class="col-md-4 col-sm-6 col-12">
-                <img
-                  src="https://media.outsight.nl/original/original/InfoVietnam-.jpg"
-                  alt=""
-                  title=""
-                />
-              </div>
-              <div class="col-md-8 col-sm-6 col-12">
-                <ul class="ticklist">
-                  <li>Wij creëren samen jouw perfecte reis. Persoonlijk.</li>
-                  <li>Wij zorgen ervoor dat je onbezorgd reist. Geregeld.</li>
-                  <li>Wij kennen de landen tot in detail. Ervaring</li>
-                  <li>Beleef elke dag iets onvergetelijks. Genieten.</li>
-                </ul>
-              </div>
-            </div>
+    <section class="geninfowrap">
+      <div class="container">
+        <div class="row">
+          <h1 class="page-title">Info</h1>
+        </div>
+        <div class="row">
+          <div
+            class="mt-20 d-flex align-items-end flex-column"
+            [innerHTML]="itinerary.Informatie"
+          ></div>
+        </div>
+        <div class="row listwrap flex-row-reverse align-items-center">
+          <div class="col-md-4 col-sm-6 col-12">
+            <img
+              src="https://media.outsight.nl/original/original/InfoVietnam-.jpg"
+              alt=""
+              title=""
+            />
           </div>
-        </section>
-        <section class="travel-even">
-          <div class="container">
-            <div class="row remove-spacing">
-              <div class="col-md-8 align-items-center">
-                <div class="tavel-even-heading">
-                  <h2>
-                    <span class="d-block">OP REIS </span>
-                    MAAR DAN NET EVEN ANDERS
-                  </h2>
-                </div>
-                <div class="tavel-even-info">
-                  <h2><span>OutSight</span></h2>
-                  <p>
-                    Al 20 jaar lang laten wij reizigers de mooiste plekken op de
-                    wereld ontdekken. Met de vrijheid & flexibiliteit om je
-                    eigen reis te beleven én met het comfort dat de rest
-                    geregeld is. Ga beleven, kijken, proeven en ontmoeten! Onze
-                    missie is om van jouw kennismaking met andere culturen een
-                    onvergetelijke, persoonlijke ervaring te maken. Dat doen we
-                    vanuit ons hart: reizen is onze passie. We zoeken de kleine
-                    momenten, naast de hoogtepunten, die je reis bijzonder
-                    maken. En we regelen het voor je, zodat onderweg maximaal
-                    kunt gaan genieten!
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-4 text-center">
-                <div class="main-parent-person">
-                  <div class="trvel-person">
-                    <div class="travel-person-img">
-                      <img
-                        src="https://media.outsight.nl/original/original/simone.jpg"
-                        class="img-fluid"
-                      />
-                    </div>
-                  </div>
-                  <div class="travel-person-info align-self-center">
-                    <p>
-                      “Reizen maakt je rijker! Het is dat fantastische gevoel
-                      dat je iets beleeft, dat je geraakt wordt.”
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="col-md-8 col-sm-6 col-12">
+            <ul class="ticklist">
+              <li>Wij creëren samen jouw perfecte reis. Persoonlijk.</li>
+              <li>Wij zorgen ervoor dat je onbezorgd reist. Geregeld.</li>
+              <li>Wij kennen de landen tot in detail. Ervaring</li>
+              <li>Beleef elke dag iets onvergetelijks. Genieten.</li>
+            </ul>
           </div>
-        </section>
-        <section class="destwrap">
-          <div class="container">
-            <div class="row"></div>
-          </div>
-        </section>
+        </div>
       </div>
-    </div>
+    </section>
+  </div>
+  <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
+</div>
+<div class="page">
+  <div class="page-inner">
+    <section class="travel-even">
+      <div class="container">
+        <div class="row remove-spacing">
+          <div class="col-md-8 align-items-center">
+            <div class="tavel-even-heading">
+              <h2>
+                <span class="d-block">OP REIS </span>
+                MAAR DAN NET EVEN ANDERS
+              </h2>
+            </div>
+            <div class="tavel-even-info">
+              <h2><span>OutSight</span></h2>
+              <p>
+                Al 20 jaar lang laten wij reizigers de mooiste plekken op de
+                wereld ontdekken. Met de vrijheid & flexibiliteit om je eigen
+                reis te beleven én met het comfort dat de rest geregeld is. Ga
+                beleven, kijken, proeven en ontmoeten! Onze missie is om van
+                jouw kennismaking met andere culturen een onvergetelijke,
+                persoonlijke ervaring te maken. Dat doen we vanuit ons hart:
+                reizen is onze passie. We zoeken de kleine momenten, naast de
+                hoogtepunten, die je reis bijzonder maken. En we regelen het
+                voor je, zodat onderweg maximaal kunt gaan genieten!
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="main-parent-person">
+              <div class="trvel-person">
+                <div class="travel-person-img">
+                  <img
+                    src="https://media.outsight.nl/original/original/simone.jpg"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <div class="travel-person-info align-self-center">
+                <p>
+                  “Reizen maakt je rijker! Het is dat fantastische gevoel dat je
+                  iets beleeft, dat je geraakt wordt.”
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="destwrap">
+      <div class="container">
+        <div class="row"></div>
+      </div>
+    </section>
   </div>
   <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
 </div>
@@ -583,9 +583,7 @@
           <ul class="footer-icons">
             <li>
               <a href="javascript:void(0);">
-                <img
-                  src="https://media.outsight.nl/original/md/SGR.jpg"
-                />
+                <img src="https://media.outsight.nl/original/md/SGR.jpg" />
               </a>
             </li>
             <li>

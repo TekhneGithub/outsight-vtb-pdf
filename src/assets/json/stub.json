@@ -43,7 +43,7 @@
             "link_type": "order",
             "link_id": 1612,
             "value": "Naam Travelplan = Mastertrip",
-            "vtbObjectId": "9gzefdffpld5wfw3fjd9e"
+            "vtbObjectId": "1svutwj2t1r98xoiffgctd"
           },
           {
             "id": 19,
@@ -77,7 +77,7 @@
             "link_type": "order",
             "link_id": 1612,
             "value": "Florine Pastoor",
-            "vtbObjectId": "kifvlhayk1qy4bnoroagi"
+            "vtbObjectId": "2jghk70rl8mmakip6whgim"
           },
           {
             "id": 20,
@@ -99,7 +99,7 @@
             "link_type": "order",
             "link_id": 1612,
             "value": null,
-            "vtbObjectId": "y36a61g6fgjdencbcpqp6s"
+            "vtbObjectId": "54mazuend93s5qu3ys2lxh"
           },
           {
             "id": 1,
@@ -128,14 +128,14 @@
             "link_type": "order",
             "link_id": 1612,
             "value": "Family",
-            "vtbObjectId": "5m313mgvkuk37z0ludfazd"
+            "vtbObjectId": "fphzb5fhhy6kt726l2ds3"
           },
           {
             "id": 6,
             "name": "bestemming1",
             "type_id": 3,
             "valid_regex": "",
-            "defaults": "Argentini\u00eb;Argentini\u00eb|Belize|Bolivia|Botswana|Brazilie|Cambodja|Chili|China|Colombia|Costa Rica|Cuba|Ecuador|Galapagos|Guatemala|India|Indonesie|Japan|Jordanie|Kenia|Laos|Malediven|Maleisie|Marokko|Mexico|Myanmar|Namibie|Nepal|Nicaragua|Panama|Peru|Sri Lanka|Suriname|Tanzania|Thailand|Tibet|Vietnam|Zuid-Afrika",
+            "defaults": "Argentini\u00eb;Argentini\u00eb|Belize|Bhutan|Bolivia|Botswana|Brazilie|Cambodja|Chili|China|Colombia|Costa Rica|Cuba|Dubai|Ecuador|Galapagos|Guatemala|India|Indonesie|Japan|Jordanie|Kenia|Laos|Madagaskar|Malawi|Malediven|Maleisie|Marokko|Mauritius|Mexico|Mozambique|Myanmar|Namibie|Nepal|Nicaragua|Oeganda|Oman|Panama|Peru|Reunion|Rwanda|Sri Lanka|Seychellen|Suriname|Tanzania|Taiwan|Thailand|Tibet|Vietnam|Zambia|Zimbabwe|Zuid-Afrika|Zuid Korea",
             "category_id": 2,
             "sort_order": 2,
             "field_width": null,
@@ -150,6 +150,7 @@
             "options": [
               "Argentini\u00eb",
               "Belize",
+              "Bhutan",
               "Bolivia",
               "Botswana",
               "Brazilie",
@@ -159,6 +160,7 @@
               "Colombia",
               "Costa Rica",
               "Cuba",
+              "Dubai",
               "Ecuador",
               "Galapagos",
               "Guatemala",
@@ -168,36 +170,49 @@
               "Jordanie",
               "Kenia",
               "Laos",
+              "Madagaskar",
+              "Malawi",
               "Malediven",
               "Maleisie",
               "Marokko",
+              "Mauritius",
               "Mexico",
+              "Mozambique",
               "Myanmar",
               "Namibie",
               "Nepal",
               "Nicaragua",
+              "Oeganda",
+              "Oman",
               "Panama",
               "Peru",
+              "Reunion",
+              "Rwanda",
               "Sri Lanka",
+              "Seychellen",
               "Suriname",
               "Tanzania",
+              "Taiwan",
               "Thailand",
               "Tibet",
               "Vietnam",
-              "Zuid-Afrika"
+              "Zambia",
+              "Zimbabwe",
+              "Zuid-Afrika",
+              "Zuid Korea"
             ],
             "field_value_link_id": 296,
             "link_type": "order",
             "link_id": 1612,
             "value": "Vietnam",
-            "vtbObjectId": "3ktjxkxcmvdcyam9fbaj5o"
+            "vtbObjectId": "on3xp5zjcssrgcvrgphmj"
           },
           {
             "id": 16,
             "name": "bestemming2",
             "type_id": 3,
             "valid_regex": "",
-            "defaults": "Argentini\u00eb;Argentini\u00eb|Belize|Bolivia|Botswana|Brazilie|Cambodja|Chili|China|Colombia|Costa Rica|Cuba|Ecuador|Galapagos|Guatemala|India|Indonesie|Japan|Jordanie|Kenia|Laos|Malediven|Maleisie|Marokko|Mexico|Myanmar|Namibie|Nepal|Nicaragua|Panama|Peru|Sri Lanka|Suriname|Tanzania|Thailand|Tibet|Vietnam|Zuid-Afrika",
+            "defaults": "Argentini\u00eb;Argentini\u00eb|Belize|Bhutan|Bolivia|Botswana|Brazilie|Cambodja|Chili|China|Colombia|Costa Rica|Cuba|Dubai|Ecuador|Galapagos|Guatemala|India|Indonesie|Japan|Jordanie|Kenia|Laos|Madagaskar|Malawi|Malediven|Maleisie|Marokko|Mauritius|Mexico|Mozambique|Myanmar|Namibie|Nepal|Nicaragua|Oeganda|Oman|Panama|Peru|Reunion|Rwanda|Sri Lanka|Seychellen|Suriname|Tanzania|Taiwan|Thailand|Tibet|Vietnam|Zambia|Zimbabwe|Zuid-Afrika|Zuid Korea",
             "category_id": 2,
             "sort_order": 3,
             "field_width": null,
@@ -212,6 +227,7 @@
             "options": [
               "Argentini\u00eb",
               "Belize",
+              "Bhutan",
               "Bolivia",
               "Botswana",
               "Brazilie",
@@ -221,6 +237,7 @@
               "Colombia",
               "Costa Rica",
               "Cuba",
+              "Dubai",
               "Ecuador",
               "Galapagos",
               "Guatemala",
@@ -230,36 +247,49 @@
               "Jordanie",
               "Kenia",
               "Laos",
+              "Madagaskar",
+              "Malawi",
               "Malediven",
               "Maleisie",
               "Marokko",
+              "Mauritius",
               "Mexico",
+              "Mozambique",
               "Myanmar",
               "Namibie",
               "Nepal",
               "Nicaragua",
+              "Oeganda",
+              "Oman",
               "Panama",
               "Peru",
+              "Reunion",
+              "Rwanda",
               "Sri Lanka",
+              "Seychellen",
               "Suriname",
               "Tanzania",
+              "Taiwan",
               "Thailand",
               "Tibet",
               "Vietnam",
-              "Zuid-Afrika"
+              "Zambia",
+              "Zimbabwe",
+              "Zuid-Afrika",
+              "Zuid Korea"
             ],
             "field_value_link_id": 307,
             "link_type": "order",
             "link_id": 1612,
             "value": "Laos",
-            "vtbObjectId": "hss7hxwszx64zkwhzina66"
+            "vtbObjectId": "zpp8uyp49epq8m29r0nwd"
           },
           {
             "id": 41,
             "name": "bestemming3",
             "type_id": 3,
             "valid_regex": "",
-            "defaults": "Argentini\u00eb;Argentini\u00eb|Belize|Bolivia|Botswana|Brazilie|Cambodja|Chili|China|Colombia|Costa Rica|Cuba|Ecuador|Galapagos|Guatemala|India|Indonesie|Japan|Jordanie|Kenia|Laos|Malediven|Maleisie|Marokko|Mexico|Myanmar|Namibie|Nepal|Nicaragua|Panama|Peru|Sri Lanka|Suriname|Tanzania|Thailand|Tibet|Vietnam|Zuid-Afrika",
+            "defaults": "Argentini\u00eb;Argentini\u00eb|Belize|Bhutan|Bolivia|Botswana|Brazilie|Cambodja|Chili|China|Colombia|Costa Rica|Cuba|Dubai|Ecuador|Galapagos|Guatemala|India|Indonesie|Japan|Jordanie|Kenia|Laos|Madagaskar|Malawi|Malediven|Maleisie|Marokko|Mauritius|Mexico|Mozambique|Myanmar|Namibie|Nepal|Nicaragua|Oeganda|Oman|Panama|Peru|Reunion|Rwanda|Sri Lanka|Seychellen|Suriname|Tanzania|Taiwan|Thailand|Tibet|Vietnam|Zambia|Zimbabwe|Zuid-Afrika|Zuid Korea",
             "category_id": 2,
             "sort_order": 4,
             "field_width": null,
@@ -274,6 +304,7 @@
             "options": [
               "Argentini\u00eb",
               "Belize",
+              "Bhutan",
               "Bolivia",
               "Botswana",
               "Brazilie",
@@ -283,6 +314,7 @@
               "Colombia",
               "Costa Rica",
               "Cuba",
+              "Dubai",
               "Ecuador",
               "Galapagos",
               "Guatemala",
@@ -292,36 +324,49 @@
               "Jordanie",
               "Kenia",
               "Laos",
+              "Madagaskar",
+              "Malawi",
               "Malediven",
               "Maleisie",
               "Marokko",
+              "Mauritius",
               "Mexico",
+              "Mozambique",
               "Myanmar",
               "Namibie",
               "Nepal",
               "Nicaragua",
+              "Oeganda",
+              "Oman",
               "Panama",
               "Peru",
+              "Reunion",
+              "Rwanda",
               "Sri Lanka",
+              "Seychellen",
               "Suriname",
               "Tanzania",
+              "Taiwan",
               "Thailand",
               "Tibet",
               "Vietnam",
-              "Zuid-Afrika"
+              "Zambia",
+              "Zimbabwe",
+              "Zuid-Afrika",
+              "Zuid Korea"
             ],
             "field_value_link_id": 1408,
             "link_type": "order",
             "link_id": 1612,
             "value": "Cambodja",
-            "vtbObjectId": "pmv2k4sy57bp1qqxmewqof"
+            "vtbObjectId": "jqexzqjjvpji56aphghvk"
           },
           {
             "id": 42,
             "name": "bestemming4",
             "type_id": 3,
             "valid_regex": "",
-            "defaults": "Argentini\u00eb;Argentini\u00eb|Belize|Bolivia|Botswana|Brazilie|Cambodja|Chili|China|Colombia|Costa Rica|Cuba|Ecuador|Galapagos|Guatemala|India|Indonesie|Japan|Jordanie|Kenia|Laos|Malediven|Maleisie|Marokko|Mexico|Myanmar|Namibie|Nepal|Nicaragua|Panama|Peru|Sri Lanka|Suriname|Tanzania|Thailand|Tibet|Vietnam|Zuid-Afrika",
+            "defaults": "Argentini\u00eb;Argentini\u00eb|Belize|Bhutan|Bolivia|Botswana|Brazilie|Cambodja|Chili|China|Colombia|Costa Rica|Cuba|Dubai|Ecuador|Galapagos|Guatemala|India|Indonesie|Japan|Jordanie|Kenia|Laos|Madagaskar|Malawi|Malediven|Maleisie|Marokko|Mauritius|Mexico|Mozambique|Myanmar|Namibie|Nepal|Nicaragua|Oeganda|Oman|Panama|Peru|Reunion|Rwanda|Sri Lanka|Seychellen|Suriname|Tanzania|Taiwan|Thailand|Tibet|Vietnam|Zambia|Zimbabwe|Zuid-Afrika|Zuid Korea",
             "category_id": 2,
             "sort_order": 5,
             "field_width": null,
@@ -336,6 +381,7 @@
             "options": [
               "Argentini\u00eb",
               "Belize",
+              "Bhutan",
               "Bolivia",
               "Botswana",
               "Brazilie",
@@ -345,6 +391,7 @@
               "Colombia",
               "Costa Rica",
               "Cuba",
+              "Dubai",
               "Ecuador",
               "Galapagos",
               "Guatemala",
@@ -354,29 +401,42 @@
               "Jordanie",
               "Kenia",
               "Laos",
+              "Madagaskar",
+              "Malawi",
               "Malediven",
               "Maleisie",
               "Marokko",
+              "Mauritius",
               "Mexico",
+              "Mozambique",
               "Myanmar",
               "Namibie",
               "Nepal",
               "Nicaragua",
+              "Oeganda",
+              "Oman",
               "Panama",
               "Peru",
+              "Reunion",
+              "Rwanda",
               "Sri Lanka",
+              "Seychellen",
               "Suriname",
               "Tanzania",
+              "Taiwan",
               "Thailand",
               "Tibet",
               "Vietnam",
-              "Zuid-Afrika"
+              "Zambia",
+              "Zimbabwe",
+              "Zuid-Afrika",
+              "Zuid Korea"
             ],
             "field_value_link_id": 1409,
             "link_type": "order",
             "link_id": 1612,
             "value": "Thailand",
-            "vtbObjectId": "0g2foxcjov0bl9ef1cdnb1"
+            "vtbObjectId": "ncvcnpm7cvnt2g57exxp1"
           },
           {
             "id": 18,
@@ -422,7 +482,7 @@
             "link_type": "order",
             "link_id": 1612,
             "value": null,
-            "vtbObjectId": "5h7asohbt7cso5i0t4jz1"
+            "vtbObjectId": "ilcn704pi3owgh04geqljl"
           },
           {
             "id": 17,
@@ -466,10 +526,10 @@
             "link_type": "order",
             "link_id": 1612,
             "value": null,
-            "vtbObjectId": "m8lgcdlb3jrvrn8n1bqlop"
+            "vtbObjectId": "llsoiuytu4jmgwqdpx89r"
           }
         ],
-        "vtbObjectId": "z5tf3gj8maqew50sm8qx"
+        "vtbObjectId": "xp4swrjwfng1xi6uy5hq7zj"
       },
       {
         "id": 4,
@@ -502,7 +562,7 @@
             "link_type": "order",
             "link_id": 1612,
             "value": "1",
-            "vtbObjectId": "kfng2pzivxausfmnasb7s"
+            "vtbObjectId": "lr01lp7zi4rgkyry0wicp"
           },
           {
             "id": 22,
@@ -524,7 +584,7 @@
             "link_type": "order",
             "link_id": 1612,
             "value": "1",
-            "vtbObjectId": "bn1kn0tufarsbieez50xf9"
+            "vtbObjectId": "eqkdzd117btncj38jvfza"
           },
           {
             "id": 23,
@@ -546,7 +606,7 @@
             "link_type": "order",
             "link_id": 1612,
             "value": "1",
-            "vtbObjectId": "by0zqu6bu3wq0qe2t0tdqq"
+            "vtbObjectId": "lg6fdrzzxqg8zeqwjutp"
           },
           {
             "id": 24,
@@ -568,7 +628,7 @@
             "link_type": "order",
             "link_id": 1612,
             "value": "1",
-            "vtbObjectId": "xsc4z78styberj66kl7un6"
+            "vtbObjectId": "ym7gu827jroj20uky2shc"
           },
           {
             "id": 25,
@@ -586,7 +646,7 @@
             "maxlength": null,
             "maxlength_enforce": 0,
             "translated_name": "(hotel)overnachtingen exclusief ontbijt",
-            "vtbObjectId": "3a1h98dbtqlbzuzhvkgn29"
+            "vtbObjectId": "wq088tgrsokqs72k1l2zuk"
           },
           {
             "id": 26,
@@ -604,7 +664,7 @@
             "maxlength": null,
             "maxlength_enforce": 0,
             "translated_name": "genoemde autohuur",
-            "vtbObjectId": "6goeedaiatpzckaug8wwm"
+            "vtbObjectId": "95qdzyfqiukwyluba158ce"
           },
           {
             "id": 27,
@@ -626,7 +686,7 @@
             "link_type": "order",
             "link_id": 1612,
             "value": "1",
-            "vtbObjectId": "9nn5o9n4im0562wki5ys7g"
+            "vtbObjectId": "azx2pdliruhe1fh3m5fhg"
           },
           {
             "id": 28,
@@ -644,7 +704,7 @@
             "maxlength": null,
             "maxlength_enforce": 0,
             "translated_name": "autohuur inclusief all-risk verzekering",
-            "vtbObjectId": "d3r9lm1kotmmj7rrvecukf"
+            "vtbObjectId": "xpa6ns39gfgjxbvk7siwdm"
           },
           {
             "id": 29,
@@ -662,28 +722,29 @@
             "maxlength": null,
             "maxlength_enforce": 0,
             "translated_name": "autohuur inclusief beperkte verzekering",
-            "vtbObjectId": "z95acqrp6zbq13uknds9ph"
+            "vtbObjectId": "d0pos3wt66egiluoka81d8"
           },
           {
             "id": 39,
             "name": "Extra",
-            "type_id": 7,
+            "type_id": 8,
             "valid_regex": "",
             "defaults": null,
             "category_id": 4,
             "sort_order": null,
             "field_width": null,
-            "field_type": "TextArea",
+            "field_type": "TextAreaEditor",
             "display_at": "both",
             "show_in_product": 0,
             "layout_data": null,
             "maxlength": null,
             "maxlength_enforce": 0,
             "translated_name": "Extra",
-            "vtbObjectId": "fppt5q0mpxu3xab2z34u8r"
+            "vtbObjectId": "3nmj8pjnc6ii6olr723n3c",
+            "value": "<ul><li>Test 1<\/li><li>Test 2<\/li><li>Test 3<\/li><\/ul>"
           }
         ],
-        "vtbObjectId": "jcdrwxh0a18v2sfphmskes"
+        "vtbObjectId": "86874m7l0ooym8vc7tfcdi"
       },
       {
         "id": 5,
@@ -710,7 +771,7 @@
             "maxlength": null,
             "maxlength_enforce": 0,
             "translated_name": "overige niet genoemde transfers",
-            "vtbObjectId": "1d77wumwfzbn9qw1dzcj9j"
+            "vtbObjectId": "5cfwbtm5pyrzsfa6bytlsm"
           },
           {
             "id": 37,
@@ -728,7 +789,7 @@
             "maxlength": null,
             "maxlength_enforce": 0,
             "translated_name": "aanvullende verzekeringen autohuur",
-            "vtbObjectId": "cx9mvywws9nrgn86g2m9de"
+            "vtbObjectId": "jg9a1ujmjenqgqgsoxi1fh"
           },
           {
             "id": 38,
@@ -746,7 +807,7 @@
             "maxlength": null,
             "maxlength_enforce": 0,
             "translated_name": "eventuele brandstoftoeslagen voor de vlucht",
-            "vtbObjectId": "1jivvjknr6k0nlrnwcygyy"
+            "vtbObjectId": "l943iiwb3xihctbrsq7ys"
           },
           {
             "id": 40,
@@ -768,10 +829,10 @@
             "link_type": "order",
             "link_id": 1612,
             "value": "wat is 'zonder'?<br \/>",
-            "vtbObjectId": "j4zwmr17mmqbbma77k27o"
+            "vtbObjectId": "cmgrg3hsg6dh5depa36khu"
           }
         ],
-        "vtbObjectId": "86ouf1yl9zpsi4ppifkuil"
+        "vtbObjectId": "wla94cvxlchwet8go4ud3d"
       },
       {
         "id": 6,
@@ -785,13 +846,13 @@
           {
             "id": 43,
             "name": "Informatie",
-            "type_id": 7,
+            "type_id": 8,
             "valid_regex": "",
             "defaults": null,
             "category_id": 6,
             "sort_order": null,
             "field_width": null,
-            "field_type": "TextArea",
+            "field_type": "TextAreaEditor",
             "display_at": "both",
             "show_in_product": 0,
             "layout_data": {
@@ -801,11 +862,11 @@
             "maxlength": null,
             "maxlength_enforce": 0,
             "translated_name": "Information",
-            "vtbObjectId": "95o449jbpgj550kxrq3uec",
-            "value": "Hello Informatie"
+            "vtbObjectId": "vkzyggtnc84564jnyugdf",
+            "value": "<p>Lorem <strong>ipsum<\/strong> dolor sit <i>amet<\/i>, consectetur adipiscing elit. Duis vel mauris luctus, iaculis nibh vel, volutpat odio. Mauris maximus felis id sem iaculis consectetur vitae ac nunc. Mauris scelerisque vitae dolor sed suscipit. Sed sodales vel velit quis pharetra. Duis ut rutrum lectus. Phasellus egestas tempus pellentesque. Donec quis dolor condimentum urna vestibulum pretium id nec est. Praesent velit leo, bibendum at dolor eget, malesuada bibendum erat. Vivamus tristique nisl hendrerit est ornare posuere. Ut ullamcorper eros tellus, at interdum quam varius sed. Cras at ipsum sagittis leo facilisis euismod. Nunc eget luctus felis. Nam ipsum mi, ornare ut metus ut, bibendum sagittis nisl. In tincidunt nisi enim. Header Aenean at tempus nisl. Donec accumsan elementum metus non tincidunt. Proin convallis diam odio, et porta diam consequat sed. Lorem ipsum dolor sit amet,&nbsp;<\/p><p>&nbsp;<\/p><p><strong>Header<\/strong><\/p><p>consectetur adipiscing elit. Sed leo massa, vestibulum eget porta vitae, eleifend ac nunc. Aliquam tincidunt diam quis mollis sodales. Phasellus sit amet risus sit amet magna consequat ultrices. Donec posuere ligula id dapibus dapibus. Maecenas vitae nisl tincidunt, tincidunt mauris eget, eleifend neque. Header 2 Etiam nec odio eu justo gravida malesuada ac mattis dolor. Praesent auctor turpis iaculis, egestas ligula porta, feugiat mi. Pellentesque tincidunt tellus nec urna malesuada, quis iaculis dui pretium. Mauris gravida, nibh at dignissim tincidunt, purus est varius ligula, sed faucibus orci tortor nec ipsum. Duis non vestibulum nulla, at imperdiet ligula. Quisque aliquam enim eu ligula tempor scelerisque. Proin aliquam orci vitae finibus ultricies. Mauris laoreet blandit mauris eget volutpat. Cras nec lorem massa. Duis eu erat vitae erat convallis rutrum vitae vitae nulla. Donec varius eros in ante consequat, quis sodales leo lobortis. Proin vulputate vitae justo id molestie.<\/p><p>&nbsp;<\/p><p>&nbsp;Etiam dui eros, pulvinar a lacus eget, cursus vehicula ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. In in leo nec libero <a href=\"www.outsight.nl\">eleifend interdum.<\/a><\/p>"
           }
         ],
-        "vtbObjectId": "hah9tmz2xyi40xqi1ywsod"
+        "vtbObjectId": "8gxkclvtxkfiapsmciss7s"
       }
     ],
     "participants": {
@@ -840,7 +901,7 @@
         "typeId": 16,
         "title": "Eerste dagen in Ho Chi Minh Stad",
         "subTitle": null,
-        "content": "<p>Je kunt deze eerste dagen bijvoorbeeld het koloniale stadhuis, de drukke markt in de Chinese wijk, de kopie van de Notre Dame uit Parijs of de boulevard bezoeken, waar \u2018s avonds altijd een gezellige bedrijvigheid heerst. Op de vertrekdag word je in de loop van de middag word je opgehaald en naar het internationale vliegveld Tan Son Nhat International Airport gebracht voor je terugvlucht (de meeste vluchten vertrekken in de avond).<br><br>inclusief: transfer na aankomst, twee hotelovernachtingen<br><br>&nbsp;<\/p>",
+        "content": "<p>Je kunt deze eerste dagen bijvoorbeeld het koloniale stadhuis, de drukke markt in de Chinese wijk, de kopie van de Notre Dame uit Parijs of de boulevard bezoeken, waar \u2018s avonds altijd een gezellige bedrijvigheid heerst. Op de vertrekdag word je in de loop van de middag word je opgehaald en naar het internationale vliegveld Tan Son Nhat International Airport gebracht voor je terugvlucht (de meeste vluchten vertrekken in de avond).<br><br>inclusief: transfer na aankomst, twee hotelovernachtingen<br><br>&nbsp;<\/p><figure class=\"media\"><oembed url=\"https:\/\/www.youtube.com\/watch?v=oF5n3U9HQQM\"><\/oembed><\/figure>",
         "TSBlock": {
           "id": 7602
         },
@@ -1849,7 +1910,7 @@
         "typeId": 16,
         "title": "Laatste dagen in Hanoi",
         "subTitle": "Op welke dag maak ik de excursie?",
-        "content": "<p>Weer terug in <i>Saigon<\/i>, kun je deze laatste dagen bijvoorbeeld het koloniale stadhuis, de drukke markt in de Chinese wijk, de kopie van de Notre Dame uit Parijs of de boulevard bezoeken, waar \u2018s avonds altijd een gezellige bedrijvigheid heerst. Op de laatste dag ben je overdag nog vrij om je laatste souvenirs te kopen, in de loop van de middag word je opgehaald en naar het internationale vliegveld Tan Son Nhat International Airport gebracht voor je terugvlucht (de meeste vluchten vertrekken in de avond).<br><br>inbegrepen: &nbsp;3 hotelovernachtingen, transfer naar airport<br>Extra: citytour Hanoi<\/p>",
+        "content": "<figure class=\"media\"><oembed url=\"https:\/\/www.youtube.com\/watch?v=oF5n3U9HQQM\"><\/oembed><\/figure><p>Weer terug in <i>Saigon<\/i>, kun je deze laatste dagen bijvoorbeeld het koloniale stadhuis, de drukke markt in de Chinese wijk, de kopie van de Notre Dame uit Parijs of de boulevard bezoeken, waar \u2018s avonds altijd een gezellige bedrijvigheid heerst. Op de laatste dag ben je overdag nog vrij om je laatste souvenirs te kopen, in de loop van de middag word je opgehaald en naar het internationale vliegveld Tan Son Nhat International Airport gebracht voor je terugvlucht (de meeste vluchten vertrekken in de avond).<br><br>inbegrepen: &nbsp;3 hotelovernachtingen, transfer naar airport<br>Extra: citytour Hanoi<\/p>",
         "TSBlock": {
           "id": 7638
         },
@@ -1857,17 +1918,9 @@
           
         ],
         "maps": {
-          "addressInfo": [
-            
-          ],
-          "fiendOfView": 0,
-          "heading": 0,
-          "latitude": 21.03093623761563,
-          "longitude": 105.84937255398461,
-          "pitch": 0,
-          "searchPlace": null,
-          "staticImageZoom": null,
-          "zoom": 14
+          "zoom": 14,
+          "latitude": 21.032651,
+          "longitude": 105.84624899999994
         },
         "media": [
           {
@@ -1885,7 +1938,7 @@
             "nights": 1,
             "unitAmount": 1,
             "unitId": 2,
-            "optional": false,
+            "optional": true,
             "not_calculated": true,
             "subTitle": "Deluxe Room",
             "title": "Hanoi Le Jardin Hotel & Spa",
@@ -2153,7 +2206,8 @@
             "day": 5,
             "date": "2019-09-09",
             "endDate": "2019-09-09",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "needsOffsetRecalculation": true
           },
           {
             "emptyOlStartDT": false,
@@ -2295,27 +2349,55 @@
             "day": 5,
             "date": "2019-09-09",
             "endDate": "2019-09-09",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "needsOffsetRecalculation": true
           },
           {
-            "emptyOlStartDT": false,
-            "offset": 0,
-            "nights": 1,
-            "unitAmount": 1,
-            "unitId": 2,
-            "optional": true,
-            "not_calculated": true,
-            "subTitle": "kamer 1 of 2 personen",
-            "title": "Hanoi Boutique Hotel",
+            "id": 183,
             "TSProduct": {
-              "id": 161,
-              "tag": "ACVNHANHAB",
+              "id": 183,
+              "tag": "ACVNSAPROY",
               "bookableDays": [
                 
               ]
             },
+            "unitId": 2,
+            "unitAmount": 1,
+            "bookableDays": [
+              
+            ],
+            "description": "",
+            "internalInfo": "<html><head><title><\/title><\/head><body>&nbsp;<\/body><\/html>",
+            "internalInfoClean": "&nbsp;",
+            "title": "Royal View hotel",
+            "media": [
+              
+            ],
+            "roomTypes": [
+              {
+                "defaultPrice": "47.0000",
+                "description": "Superior Room",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "inclusief ontbijt"
+              },
+              {
+                "defaultPrice": "67.0000",
+                "description": "Superior Room - met extra bed",
+                "minPerson": 3,
+                "maxPerson": 3,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "inclusief ontbijt"
+              }
+            ],
+            "sellingAmount": "33.000",
+            "sellingMarkupType": "percentage",
+            "additionalText": "",
+            "nights": 1,
             "TSOrderline": {
-              "id": 17190,
               "extraFieldValues": [
                 {
                   "id": 8,
@@ -2332,11 +2414,7 @@
                   "layout_data": null,
                   "maxlength": null,
                   "maxlength_enforce": 0,
-                  "translated_name": "Start time",
-                  "field_value_link_id": 658,
-                  "link_type": "orderline",
-                  "link_id": 17190,
-                  "value": null
+                  "translated_name": "Start time"
                 },
                 {
                   "id": 9,
@@ -2353,109 +2431,186 @@
                   "layout_data": null,
                   "maxlength": null,
                   "maxlength_enforce": 0,
-                  "translated_name": "End time",
-                  "field_value_link_id": 659,
-                  "link_type": "orderline",
-                  "link_id": 17190,
-                  "value": null
+                  "translated_name": "End time"
                 }
               ]
             },
-            "maps": {
-              "addressInfo": [
-                
-              ],
-              "fiendOfView": 0,
-              "heading": 0,
-              "latitude": 21.0362231,
-              "longitude": 105.85069329999999,
-              "pitch": 0,
-              "searchPlace": null,
-              "staticImageZoom": null,
-              "zoom": 0.9999999999999997
-            },
-            "media": [
-              {
-                "url": "https:\/\/media.outsight.nl\/original\/lg\/Azie-Vietnam-Hotels-Hanoi-Le-Jardin-c6e30169.jpg",
-                "id": 94,
-                "description": "",
-                "mediaspirit_id": "bd30a315b9a2fc63edf36707e2dee3fd",
-                "sourceId": "bd30a315b9a2fc63edf36707e2dee3fd",
-                "sourceType": "mediaspirit"
-              },
-              {
-                "url": "https:\/\/media.outsight.nl\/original\/lg\/Vietnam-hotels-Hanoi-Boutique-Hotel-hal.jpg",
-                "id": 93,
-                "description": "",
-                "mediaspirit_id": "8b01378358ff3350c212b9f2a2986eff",
-                "sourceId": "8b01378358ff3350c212b9f2a2986eff",
-                "sourceType": "mediaspirit"
-              },
-              {
-                "url": "https:\/\/media.outsight.nl\/original\/lg\/Vietnam-hotels-Hanoi-Boutique-Hotel.jpg",
-                "id": 92,
-                "description": "",
-                "mediaspirit_id": "01706c224b99b30bc2258c2a81ffbf4a",
-                "sourceId": "01706c224b99b30bc2258c2a81ffbf4a",
-                "sourceType": "mediaspirit"
-              }
-            ],
+            "vtbElementId": "b54e8cu0u6qyr6w0bw8zs",
+            "vtbObjectId": "qklop2xqk2o4c360vykvs9",
             "olPrices": {
-              "costPrice": "49.59000000",
-              "discount": null,
-              "title": "Hanoi Boutique Hotel [kamer 1 of 2 personen]",
-              "discountMethod": "absolute",
-              "exchangeRate": "0.870000000",
-              "purchaseCurrency": "USD",
-              "salesCurrency": "EUR",
               "participants": {
                 "2036630": {
-                  "costPrice": "24.795",
-                  "salesPrice": 34
+                  "id": "2036630",
+                  "costPrice": 0,
+                  "salesPrice": 0
                 },
                 "2036631": {
-                  "costPrice": "24.795",
-                  "salesPrice": 34
+                  "id": "2036631",
+                  "costPrice": 0,
+                  "salesPrice": 0
                 }
               },
-              "salesTotal": 68
+              "purchaseCurrency": "USD",
+              "margin": 24.812030075187973
             },
-            "subAdditionalText": "inclusief ontbijt",
-            "additionalText": "<html><head><title><\/title><\/head><body><span style=\"color: #800000;\"><span style=\"color: #000000;\">Het Boutique Hotel 1 is een van onze standaardhotels in Hanoi. <\/span><\/span><hr \/><span style=\"color: #800000;\"><span style=\"color: #000000;\">Het is een &lsquo;cozy-boutique&rsquo; hotel in het gezellige Old Quarter.&nbsp;Het hotel ligt heel centraal, vlakbij winkeltjes &amp; restaurants, op loopafstand van het Hoan Kiem Lake en de weekendmarkt. In het hotel is een restaurant en bar, en een mooie SPA-ruimte met sauna, jacuzzi en beautysalon<\/span><\/span> <\/body><\/html>",
+            "not_calculated": true,
+            "offset": 0,
+            "maps": {
+              "latitude": null,
+              "longitude": null,
+              "zoom": null
+            },
+            "optional": true,
+            "typeId": 1,
+            "elements": [
+              
+            ],
+            "flightInfo": [
+              
+            ],
+            "dataType": "elementSegment",
+            "newElement": true,
+            "linkedParty": "party 1",
+            "subTitle": "Superior Room",
+            "roomTypeMatchesParticipants": true,
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 4,
+            "date": "2019-09-08",
+            "endDate": "2019-09-09",
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true
+          },
+          {
+            "id": 162,
+            "TSProduct": {
+              "id": 162,
+              "tag": "ACVNHANNOB",
+              "bookableDays": [
+                
+              ]
+            },
+            "unitId": 2,
+            "unitAmount": 1,
+            "bookableDays": [
+              
+            ],
+            "description": "<html><head><title><\/title><\/head><body>Het Noble &amp; Swan Boutique Hotel is een van onze hotels in Hanoi. Het hotel ligt in het Hoan Kiem district, op loopafstand van o.a. de Ngoc Son Tempel en het Thang Long Waterpoppentheater.<br \/><br \/>De kamers zijn elegant en stijlvol, voorzien van airconditioning en eigen badkamer.<\/body><\/html>",
+            "internalInfo": "<html><head><title><\/title><\/head><body>Let op: extra bed kan alleen bij executive room, zie server<br \/>http:\/\/www.nobleandswanboutiquehotel.com\/<\/body><\/html>",
+            "internalInfoClean": "Let op: extra bed kan alleen bij executive room, zie serverhttp:\/\/www.nobleandswanboutiquehotel.com\/",
+            "title": "Noble & Swan Boutique Hotel",
+            "maps": {
+              "heading": "0",
+              "pitch": "0",
+              "longitude": 105.84624899999994,
+              "latitude": 21.032651,
+              "fieldofview": "84.4698",
+              "zoom": 14,
+              "searchplace": "16h \u0110\u01b0\u1eddng Th\u00e0nh, C\u1eeda \u0110\u00f4ng, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 100000, Vietnam",
+              "static_image_zoom": false,
+              "address_info": [
+                
+              ],
+              "enabled": true
+            },
+            "media": [
+              
+            ],
             "roomTypes": [
               {
-                "defaultPrice": "57.0000",
-                "description": "kamer 1 of 2 personen",
+                "defaultPrice": "52.0000",
+                "description": "Superior Room",
                 "minPerson": 1,
                 "maxPerson": 2,
                 "minUnit": 1,
                 "maxUnit": null,
                 "note": "inclusief ontbijt"
-              },
-              {
-                "defaultPrice": "77.0000",
-                "description": "Kamer met extra bed 3 personen",
-                "minPerson": 3,
-                "maxPerson": 3,
-                "minUnit": 1,
-                "maxUnit": null,
-                "note": "inclusief ontbijt"
               }
             ],
-            "supplierComment": null,
-            "sellingAmount": null,
-            "sellingMarkupType": null,
-            "missingBookableDays": [
+            "sellingAmount": "33.000",
+            "sellingMarkupType": "percentage",
+            "additionalText": "<html><head><title><\/title><\/head><body>Het Noble &amp; Swan Boutique Hotel is een van onze hotels in Hanoi. Het hotel ligt in het Hoan Kiem district, op loopafstand van o.a. de Ngoc Son Tempel en het Thang Long Waterpoppentheater.<br \/><br \/>De kamers zijn elegant en stijlvol, voorzien van airconditioning en eigen badkamer.<\/body><\/html>",
+            "nights": 1,
+            "TSOrderline": {
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time"
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time"
+                }
+              ]
+            },
+            "vtbElementId": "x1etwgd3tfcpv7vh4thj",
+            "vtbObjectId": "bxjnfzr72ir1lv2tincpsi",
+            "olPrices": {
+              "participants": {
+                "2036630": {
+                  "id": "2036630",
+                  "costPrice": 0,
+                  "salesPrice": 0
+                },
+                "2036631": {
+                  "id": "2036631",
+                  "costPrice": 0,
+                  "salesPrice": 0
+                }
+              },
+              "purchaseCurrency": "USD",
+              "margin": 24.812030075187973
+            },
+            "not_calculated": true,
+            "offset": 0,
+            "optional": false,
+            "typeId": 1,
+            "elements": [
               
             ],
-            "needsOffsetRecalculation": true,
-            "vtbObjectId": "mpgsbyjxpcmwsbh2f4d6up",
+            "flightInfo": [
+              
+            ],
+            "dataType": "elementSegment",
+            "newElement": true,
             "linkedParty": "party 1",
+            "subTitle": "Superior Room",
+            "roomTypeMatchesParticipants": true,
             "hasPreviousElementParticipantOverlap": true,
             "day": 4,
             "date": "2019-09-08",
             "endDate": "2019-09-09",
-            "roomTypeMatchesParticipants": true
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true
           }
         ],
         "inViewport": false,
@@ -2465,8 +2620,8 @@
         ],
         "date": "2019-09-08",
         "missingBookableDays": false,
-        "elementsOrder": "2e4uhlceqxnn5djcxtih|e6tpv0dwm2g4blb745exh|6zni3v8lcknj1wcj1kr3rc|mpgsbyjxpcmwsbh2f4d6up",
-        "elementsMapActive": "",
+        "elementsOrder": "2e4uhlceqxnn5djcxtih|e6tpv0dwm2g4blb745exh|6zni3v8lcknj1wcj1kr3rc|qklop2xqk2o4c360vykvs9|bxjnfzr72ir1lv2tincpsi",
+        "elementsMapActive": "bxjnfzr72ir1lv2tincpsi",
         "hasElementsOverlap": false,
         "endDate": "2019-09-09"
       },
@@ -3287,8 +3442,8 @@
     ],
     "title": "Beschrijving: Mastertrip VTB",
     "subTitle": null,
-    "costPriceBeforeRounding": 1370.0549999999998,
-    "salesPriceBeforeRounding": 994.5,
+    "costPriceBeforeRounding": 1315.245,
+    "salesPriceBeforeRounding": 920.5,
     "vtbObjectId": "qlbe92qo4rdxv0q9v51s7g",
     "bookableDaysWarning": false,
     "hasNotCalculated": true,
@@ -3300,7 +3455,7 @@
     ],
   "link_type": "order",
   "link_id": 1612,
-  "ts": "2020-01-21 13:46:42",
+  "ts": "2020-02-14 10:40:05",
   "stats_pax": 2,
   "stats_status": "proposal",
   "stats_total_price": null
