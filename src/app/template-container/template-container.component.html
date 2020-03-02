@@ -4,22 +4,18 @@
     <!-- app-header -->
     <header>
       <div class="logo-left">
-        <p>Kijk, doe, proef & ontmoet</p>
+        <!-- <p>Kijk, doe, proef & ontmoet</p> -->
       </div>
       <div class="logo">
-        <img
-          src="https://media.outsight.nl/original/original/logo-outsight.png"
-          alt=""
-          title=""
-        />
+        <img src="https://media.outsight.nl/original/original/logo-outsight.png" alt="" title="" />
       </div>
       <div class="logo-right">
-        <p class="logo-title">{{ itinerary.heroTitle }}</p>
+        <!-- <p class="logo-title">{{ itinerary.heroTitle }}</p>
         <span
           >{{ itinerary.numberOfDays }}-daagse reis<br />{{
             itinerary.noOfParticipants
           }}-Personen</span
-        >
+        > -->
       </div>
     </header>
     <!-- app-hero -->
@@ -38,22 +34,16 @@
               <p class="cover-title">reisvoorstel</p>
               <p class="cover-country">{{ itinerary.heroTitle }}</p>
               <p class="cover-days">
-                <span
-                  >{{ itinerary.numberOfDays }}-daagse reis
-                  {{ itinerary.noOfParticipants }} Personen</span
-                >
+                <span>{{ itinerary.numberOfDays }}-daagse reis
+                  {{ itinerary.noOfParticipants }} Personen</span>
               </p>
               <p class="cover-name">{{ itinerary.mainBooker }}</p>
-              <img
-                src="https://media.outsight.nl/original/lg/Tagline-Transparant.png"
-                class="align-self-center width60"
-                alt=""
-                title=""
-              />
             </div>
           </div>
         </div>
       </div>
+      <img src="https://media.outsight.nl/original/lg/Tagline-Transparant.png" class="align-self-center width60" alt=""
+        title="" />
     </section>
   </div>
   <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
@@ -73,7 +63,7 @@
             <h2>MET OUTSIGHT NAAR <span>VIETNAM</span></h2>
             <p [innerHTML]="itinerary.propsal"></p>
             <div class="schedulewrap">
-              <h2><span>VIETNAM Reisvoorstel</span> - Door Floor Pastoors</h2>
+              <!-- <h2><span>VIETNAM Reisvoorstel</span> - Door Floor Pastoors</h2> -->
               <ul>
                 <li *ngFor="let title of itinerary.homeTitles">
                   <span class="day-no">{{ title.date }}</span>
@@ -82,10 +72,7 @@
               </ul>
             </div>
           </div>
-          <div
-            class="col-md-4 col-sm-6 col-12 bg-theme-color guidesec"
-            *ngFor="let c of itinerary.finalConsultants"
-          >
+          <div class="col-md-4 col-sm-6 col-12 bg-theme-color guidesec" *ngFor="let c of itinerary.finalConsultants">
             <h3>
               JOUW REISSPECIALIST <span>{{ c.name }}</span>
             </h3>
@@ -102,22 +89,14 @@
 </div>
 <div class="dynamic-pages hotelBlogs">
   <div class="page-inner">
-    <h2>JOUW REIS123</h2>
-    <vtb-segments
-      [dataSource]="itinerary.segments"
-      [segmentTypeIds]="[16]"
-      [segmentFields]="[
+    <h2>JOUW REIS</h2>
+    <vtb-segments [dataSource]="itinerary.segments" [segmentTypeIds]="[16]" [segmentFields]="[
         { name: 'pretyString' },
         { name: 'title', tag: 'h3' },
         { name: 'content', tag: 'p' },
         { name: 'media', types: 'mediaspirit' }
-      ]"
-    >
-      <ng-template
-        #elementTemplate
-        let-elements="elements"
-        let-segment="segment"
-      >
+      ]">
+      <ng-template #elementTemplate let-elements="elements" let-segment="segment">
         <!-- <h2>Dag {{ segment.day + segment.nights }}</h2>
         <vtb-text>{{ segment.title }}</vtb-text> -->
         <!-- <div class="hbMedia">
@@ -126,83 +105,6 @@
         </div> -->
       </ng-template>
     </vtb-segments>
-  </div>
-  <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
-</div>
-<div class="page">
-  <div class="page-inner">
-    <div class="infowrap">
-      <div class="container">
-        <!--<h2>Verrassend Vietnam!</h2>-->
-        <div class="row flex-row-reverse align-items-stretch">
-          <div class="col-md-4 col-sm-6 col-12 bg-theme-color info-content">
-            <p *ngIf="itinerary.flights[0]">
-              We hebben onderstaande vluchten vrijblijvend voor je in optie
-              gezet. Deze optie is geheel vrijblijvend en kosteloos, we kunnen
-              deze 4 werkdagen voor jullie vasthouden. Zijn dit de vluchten waar
-              je gebruik van wilt maken dan kunnen we de vluchten na betaling
-              uitgeven zodat deze niet meer veranderen. We kunnen dan op ons
-              gemak de rondreis nog geheel naar wens samenstellen.
-            </p>
-            <p *ngIf="!itinerary.flights[0]">
-              We kunnen een vlucht optioneel voor je afblokken. We raden dit
-              altijd aan, omdat de beschikbaarheid per dag wisselt en dus snel
-              kan veranderen. Een optie op een vlucht is geheel vrijblijvend en
-              kosteloos, we kunnen deze 4 werkdagen voor jullie vasthouden. We
-              hebben hiervoor dan de volledige namen nodig zoals die in het
-              paspoort staan weergegeven.
-            </p>
-          </div>
-          <div class="col-md-8 col-sm-6 col-12">
-            <img
-              src="https://media.outsight.nl/original/original/info.JPG"
-              class="fitimg"
-              alt=""
-              title=""
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- <div class="costwrap">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 nopadding">
-            <h1 class="page-title">Prijs</h1>
-          </div>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-md-12 col-sm-12 col-12 bg-theme-color">
-            <div class="parent-div">
-              <h2><span>PRIJS*</span></h2>
-              <table>
-                <tr>
-                  <td>Landarrangement</td>
-                  <td>€ {{ itinerary.otherCost }}</td>
-                </tr>
-                <tr>
-                  <td>Vluchtprijs</td>
-                  <td>€ {{ itinerary.flightPrice }}</td>
-                </tr>
-                <tr *ngFor="let remaining of itinerary.remainingPrice">
-                  <td>{{ remaining.title }}</td>
-                  <td>€ {{ remaining.price }}</td>
-                </tr>
-                <tr *ngIf="itinerary.insurancesPrice != 0">
-                  <td>Verzekeringen</td>
-                  <td>€ {{ itinerary.insurancesPrice }}</td>
-                </tr>
-                <tr>
-                  <td>Totaalprijs</td>
-                  <td>€ {{ itinerary.totalCost }}</td>
-                </tr>
-              </table>
-              <span class="f-12">*Prijzen zijn op aanvraag & onder voorbehoud van wijzigingen.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
   </div>
   <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
 </div>
@@ -244,24 +146,13 @@
                 </tr>
               </table>
 
-              <span class="f-12"
-                >*Prijzen zijn op aanvraag & onder voorbehoud van
-                wijzigingen.</span
-              >
+              <span class="f-12">*Prijzen zijn op aanvraag & onder voorbehoud van
+                wijzigingen.</span>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
-</div>
-<!-- end -->
-
-<!-- Prijs tab start here -->
-<div class="page">
-  <div class="page-inner">
     <section class="inclwrap">
       <div class="container">
         <div class="row">
@@ -273,10 +164,7 @@
               </li>
             </ul>
           </div>
-          <div
-            class="col-md-4 col-sm-6 col-12 bg-gray-color guidesec"
-            *ngFor="let c of itinerary.finalConsultants"
-          >
+          <div class="col-md-4 col-sm-6 col-12 bg-gray-color guidesec" *ngFor="let c of itinerary.finalConsultants">
             <h3>
               JOUW REISSPECIALIST<span>{{ c.name }}</span>
             </h3>
@@ -306,13 +194,19 @@
         </div>
       </div>
     </section>
+  </div>
+
+  <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
+</div>
+<!-- end -->
+
+<!-- Prijs tab start here -->
+<div class="page">
+  <div class="page-inner">
     <section>
       <div class="flightwrap">
         <h2><span>VLUCHTSCHEMA</span></h2>
-        <table
-          class="tablelist bold"
-          *ngIf="itinerary.departureFlight && itinerary.arrivalFlight"
-        >
+        <table class="tablelist bold" *ngIf="itinerary.departureFlight && itinerary.arrivalFlight">
           <tr>
             <td>Vertrek uit NL</td>
             <td>{{ itinerary.departureFlight.date }}</td>
@@ -371,12 +265,7 @@
       <div class="container">
         <div class="row align-items-stretch">
           <div class="col-md-12 col-sm-12 col-12">
-            <img
-              alt=""
-              class="fitimg"
-              src="https://media.outsight.nl/original/original/vietanm.JPG"
-              title=""
-            />
+            <img alt="" class="fitimg" src="https://media.outsight.nl/original/original/vietanm.JPG" title="" />
           </div>
         </div>
       </div>
@@ -398,39 +287,27 @@
                 </div>
               </div>
               <h2><span>LEUK OM TE DOEN</span></h2>
-              <div
-                class="row align-items-center"
-                *ngFor="let tipsdata of itinerary.tips"
-              >
-                <div
-                  *ngIf="tipsdata.media.length >= 1"
-                  [className]="
+              <div class="row align-items-center" *ngFor="let tipsdata of itinerary.tips">
+                <div *ngIf="tipsdata.media.length >= 1" [className]="
                     tipsdata.media.length >= 1
                       ? 'col-md-4 col-sm-6 col-12 dayimg'
                       : 'dayimg'
-                  "
-                >
+                  ">
                   <img src="{{ tipsdata.media[0].url }}" />
                 </div>
-                <div
-                  [className]="
+                <div [className]="
                     tipsdata.media.length >= 1
                       ? 'col-md-8 col-sm-6 col-12 daytext'
                       : 'daytext'
-                  "
-                >
+                  ">
                   <h3>
                     {{ tipsdata.title }}
-                    <i
-                      ><span
-                        >Meerprijs:
+                    <i><span>Meerprijs:
                         {{
                           tipsdata.olPrices.salesTotal
                             | currency: "EUR":"symbol":undefined:"nl"
                         }}
-                        per persoon per nacht</span
-                      ></i
-                    >
+                        per persoon per nacht</span></i>
                   </h3>
                   <p [innerHTML]="tipsdata.additionalText"></p>
                 </div>
@@ -448,23 +325,15 @@
   <div class="page-inner">
     <div class="container">
       <h1 class="page-title">Hotels</h1>
-      <div
-        class="row align-items-center"
-        *ngFor="let hotel of itinerary.hotels"
-      >
-        <div
-          class="col-md-4 col-sm-6 col-12 dayimg"
-          *ngIf="hotel.image !== undefined"
-        >
+      <div class="row align-items-center" *ngFor="let hotel of itinerary.hotels">
+        <div class="col-md-4 col-sm-6 col-12 dayimg" *ngIf="hotel.image !== undefined">
           <img src="{{ hotel.image }}" />
         </div>
-        <div
-          [className]="
+        <div [className]="
             hotel.image !== undefined
               ? 'col-md-8 col-sm-6 col-12 daytext'
               : 'daytext col-12'
-          "
-        >
+          ">
           <h3>{{ hotel.title }}</h3>
           <p [innerHTML]="hotel.additionalTaxt"></p>
         </div>
@@ -482,18 +351,11 @@
           <h1 class="page-title">Info</h1>
         </div>
         <div class="row">
-          <div
-            class="mt-20 d-flex align-items-end flex-column"
-            [innerHTML]="itinerary.Informatie"
-          ></div>
+          <div class="mt-20 d-flex align-items-end flex-column" [innerHTML]="itinerary.Informatie"></div>
         </div>
         <div class="row listwrap flex-row-reverse align-items-center">
           <div class="col-md-4 col-sm-6 col-12">
-            <img
-              src="https://media.outsight.nl/original/original/InfoVietnam-.jpg"
-              alt=""
-              title=""
-            />
+            <img src="https://media.outsight.nl/original/original/InfoVietnam-.jpg" alt="" title="" />
           </div>
           <div class="col-md-8 col-sm-6 col-12">
             <ul class="ticklist">
@@ -540,10 +402,7 @@
             <div class="main-parent-person">
               <div class="trvel-person">
                 <div class="travel-person-img">
-                  <img
-                    src="https://media.outsight.nl/original/original/simone.jpg"
-                    class="img-fluid"
-                  />
+                  <img src="https://media.outsight.nl/original/original/simone.jpg" class="img-fluid" />
                 </div>
               </div>
               <div class="travel-person-info align-self-center">
@@ -573,7 +432,7 @@
           <div class="footer-text-section">
             <p class="footer-text">
               T: +31 (0)20-6702656 | E: mailto:
-              <a href="mailto:marketing@outsight.nl">marketing@outsight.nl</a> |
+              <a href="#">marketing@outsight.nl</a> |
               W:
               <a href="https://outsight.nl/" target="_blank">www.outsight.nl</a>
             </p>
@@ -588,18 +447,12 @@
             </li>
             <li>
               <a href="javascript:void(0);">
-                <img
-                  src="https://media.outsight.nl/original/md/ANVR.jpg"
-                  alt=""
-                />
+                <img src="https://media.outsight.nl/original/md/ANVR.jpg" alt="" />
               </a>
             </li>
             <li>
               <a href="javascript:void(0);">
-                <img
-                  src="https://media.outsight.nl/original/md/Calamiteitenfonds.jpg"
-                  alt=""
-                />
+                <img src="https://media.outsight.nl/original/md/Calamiteitenfonds.jpg" alt="" />
               </a>
             </li>
           </ul>
