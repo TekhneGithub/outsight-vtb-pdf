@@ -1,13 +1,13 @@
 <div class="page">
   <ng-container *ngTemplateOutlet="templateHeader"></ng-container>
-  <div class="page-inner">
+  <div class="page-inner head-paginn">
     <!-- app-header -->
     <header>
       <div class="logo-left">
         <!-- <p>Kijk, doe, proef & ontmoet</p> -->
       </div>
       <div class="logo">
-        <img src="https://media.outsight.nl/original/original/logo-outsight.png" alt="" title="" />
+        <img src="https://media.outsight.nl/original/sm/Logo_resize.png" alt="" title="" />
       </div>
       <div class="logo-right">
         <!-- <p class="logo-title">{{ itinerary.heroTitle }}</p>
@@ -34,7 +34,7 @@
               <p class="cover-title">reisvoorstel</p>
               <p class="cover-country">{{ itinerary.heroTitle }}</p>
               <p class="cover-days">
-                <span>{{ itinerary.numberOfDays }}-daagse reis
+                <span>{{ itinerary.numberOfDays }}-daagse reis |
                   {{ itinerary.noOfParticipants }} Personen</span>
               </p>
               <p class="cover-name">{{ itinerary.mainBooker }}</p>
@@ -42,8 +42,9 @@
           </div>
         </div>
       </div>
-      <img src="https://media.outsight.nl/original/lg/Tagline-Transparant.png" class="align-self-center width60" alt=""
-        title="" />
+      <div class="taglin-imgc">
+        <img src="https://media.outsight.nl/original/lg/Tagline-red.jpg" alt="" title="" />
+      </div>
     </section>
   </div>
   <ng-container *ngTemplateOutlet="templateFooter"></ng-container>

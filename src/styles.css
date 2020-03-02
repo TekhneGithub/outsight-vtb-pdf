@@ -1438,7 +1438,7 @@ header {
   background: #fff;
   /* height: 40px; */
   height: auto;
-  padding: 0 0 15px 0;
+  padding: 15px 0 10px 0;
   /* position: absolute; */
   position: relative;
   top: 0;
@@ -1486,10 +1486,10 @@ header .logo-right span {
 }
 
 header .logo {
-  padding: 10px 20px;
-  /* width: 200px; */
+  /* padding: 10px 20px; */
+  width: 200px;
   margin: 0 auto;
-  background: var(--theme-color);
+  /* background: var(--theme-color); */
   transition: all 0.5s ease-in-out;
 }
 
@@ -1502,7 +1502,16 @@ header.small-header .logo {
   width: 120px;
   padding: 8px 10px;
 }
-
+.taglin-imgc {
+  text-align: center;
+  margin-top: 29px;
+}
+.taglin-imgc img {
+  height: 50px;
+}
+.page-inner.head-paginn {
+  padding: 15px 0;
+}
 @media screen and (max-width: 767px) {
   header {
     background: none;
