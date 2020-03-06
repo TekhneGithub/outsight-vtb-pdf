@@ -334,6 +334,17 @@ const customTransforms = {
 
     return obj;
   },
+  'removeOlPrice': (obj, params) => {
+
+    for(const segment of obj.dst.segments) {
+      for(const element of segment.elements) {
+        element.salesPrice = element.olPrices.salesTotal;
+        delete element.olPrices;
+      }
+    }
+
+    return obj;
+  },
   'flights': (obj, params) => {
 
     airlineCodes = 
