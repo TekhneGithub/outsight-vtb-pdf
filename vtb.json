@@ -2,8 +2,6 @@
   "dataTransformer": {
     "customFileLocation": "customTransforms",
     "methods": [
-      {"function": "test", "params": {"test1": "test1a"}},
-      {"function": "test2", "params": {"test2": "test2a"}},
       {"function": "test3", "params": {"test3": "test3a"}},
       {"function": "hero", "params": {}},
       {"function": "gallery", "params": {}},
