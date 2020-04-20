@@ -1,471 +1,466 @@
 <div class="page">
-  <ng-container *ngTemplateOutlet="templateHeader"></ng-container>
-  <div class="page-inner head-paginn">
-    <!-- app-header -->
-    <header>
-      <div class="logo-left">
-        <!-- <p>Kijk, doe, proef & ontmoet</p> -->
-      </div>
-      <div class="logo">
-        <img src="https://media.outsight.nl/original/sm/Logo_resize.png" alt="" title="" />
-      </div>
-      <div class="logo-right">
-        <!-- <p class="logo-title">{{ itinerary.heroTitle }}</p>
-        <span
-          >{{ itinerary.numberOfDays }}-daagse reis<br />{{
-            itinerary.noOfParticipants
-          }}-Personen</span
-        > -->
-      </div>
-    </header>
-    <!-- app-hero -->
-    <section>
-      <div class="hero youtube-video">
-        <div class="youtube-wrapper">
-          <img class="banner-cover" src="{{ itinerary.coverImage }}" />
-        </div>
-        <div class="vdotxt">
-          <!-- <h2><span> {{ itinerary.mainBooker }} </span></h2>
-               <h1>{{ itinerary.heroTitle }}</h1>
-               <h2><span>{{ itinerary.title }}</span> {{ itinerary.subTitle }}</h2>
-               <h2><span>{{ itinerary.numberOfDays }}-daagse reis {{ itinerary.noOfParticipants }} Personen</span></h2> -->
-          <div class="vdotxt-section">
-            <div class="vdotxt-title">
-              <p class="cover-title">reisvoorstel</p>
-              <p class="cover-country">{{ itinerary.heroTitle }}</p>
-              <p class="cover-days">
-                <span>{{ itinerary.numberOfDays }}-daagse reis |
-                  {{ itinerary.noOfParticipants }} Personen</span>
-              </p>
-              <p class="cover-name">{{ itinerary.mainBooker }}</p>
+   <ng-container *ngTemplateOutlet="templateHeader"></ng-container>
+   <div class="page-inner head-paginn">
+      <!-- app-header -->
+      <header>
+         <div class="logo-left">
+            <!-- <p>Kijk, doe, proef & ontmoet</p> -->
+         </div>
+         <div class="logo">
+            <img src="https://media.outsight.nl/original/sm/Logo_resize.png" alt="" title="" />
+         </div>
+         <div class="logo-right">
+            <!-- <p class="logo-title">{{ itinerary.heroTitle }}</p>
+               <span
+                 >{{ itinerary.numberOfDays }}-daagse reis<br />{{
+                   itinerary.noOfParticipants
+                 }}-Personen</span
+               > -->
+         </div>
+      </header>
+      <!-- app-hero -->
+      <section>
+         <div class="hero youtube-video">
+            <div class="youtube-wrapper">
+               <img class="banner-cover" src="{{ itinerary.coverImage }}" />
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="taglin-imgc">
-        <img src="https://media.outsight.nl/original/lg/Tagline-red.jpg" alt="" title="" />
-      </div>
-    </section>
-  </div>
-  <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
+            <div class="vdotxt">
+               <!-- <h2><span> {{ itinerary.mainBooker }} </span></h2>
+                  <h1>{{ itinerary.heroTitle }}</h1>
+                  <h2><span>{{ itinerary.title }}</span> {{ itinerary.subTitle }}</h2>
+                  <h2><span>{{ itinerary.numberOfDays }}-daagse reis {{ itinerary.noOfParticipants }} Personen</span></h2> -->
+               <div class="vdotxt-section">
+                  <div class="vdotxt-title">
+                     <p class="cover-title">reisvoorstel</p>
+                     <p class="cover-country">{{ itinerary.heroTitle }}</p>
+                     <p class="cover-days">
+                        <span>{{ itinerary.numberOfDays }}-daagse reis |
+                        {{ itinerary.noOfParticipants }} Personen</span>
+                     </p>
+                     <p class="cover-name">{{ itinerary.mainBooker }}</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="taglin-imgc">
+            <img src="https://media.outsight.nl/original/lg/Tagline-red.jpg" alt="" title="" />
+         </div>
+      </section>
+   </div>
+   <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
 </div>
 <!-- Jouw reis tab start here -->
 <div class="page">
-  <div class="page-inner">
-    <div class="overview-wrap">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 nopadding">
-            <h1 class="page-title">Jouw reis</h1>
-          </div>
-        </div>
-        <div class="row align-items-top">
-          <div class="col-md-8 col-sm-6 col-12">
-            <h2>MET OUTSIGHT NAAR <span>VIETNAM</span></h2>
-            <p [innerHTML]="itinerary.propsal"></p>
-            <div class="schedulewrap">
-              <!-- <h2><span>VIETNAM Reisvoorstel</span> - Door Floor Pastoors</h2> -->
-              <ul>
-                <li *ngFor="let title of itinerary.homeTitles">
-                  <span class="day-no">{{ title.date }}</span>
-                  <span class="daytilte">{{ title.title }}</span>
-                </li>
-              </ul>
+   <div class="page-inner">
+      <div class="overview-wrap">
+         <div class="pdf">
+            <div class="row">
+               <div class="col-12 nopadding">
+                  <h1 class="page-title">Jouw reis</h1>
+               </div>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-12 bg-theme-color guidesec" *ngFor="let c of itinerary.finalConsultants">
-            <h3>
-              JOUW REISSPECIALIST <span>{{ c.name }}</span>
-            </h3>
-            <img src="{{ c.picture }}" alt="" title="" />
-            <p>
-              {{ c.title }}
-            </p>
-          </div>
-        </div>
+            <div class="row align-items-top">
+               <div class="col-md-8 col-sm-6 col-12">
+                  <h2>MET OUTSIGHT NAAR <span>VIETNAM</span></h2>
+                  <p [innerHTML]="itinerary.propsal"></p>
+                  <div class="schedulewrap">
+                     <!-- <h2><span>VIETNAM Reisvoorstel</span> - Door Floor Pastoors</h2> -->
+                     <ul>
+                        <li *ngFor="let title of itinerary.homeTitles">
+                           <span class="day-no">{{ title.date }}</span>
+                           <span class="daytilte">{{ title.title }}</span>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6 col-12 bg-theme-color guidesec" *ngFor="let c of itinerary.finalConsultants">
+                  <h3>
+                     JOUW REISSPECIALIST <span>{{ c.name }}</span>
+                  </h3>
+                  <img src="{{ c.picture }}" alt="" title="" />
+                  <p>
+                     {{ c.title }}
+                  </p>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-  </div>
-  <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
+   </div>
+   <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
 </div>
 <div class="dynamic-pages hotelBlogs">
-  <div class="page-inner">
-    <vtb-segments [dataSource]="itinerary.segments" [segmentTypeIds]="[16]" [segmentFields]="[
-        { name: 'pretyString' },
-        { name: 'title', tag: 'h3' },
-        { name: 'content', tag: 'p' },
-        { name: 'media', types: 'mediaspirit' }
+   <div class="page-inner">
+      <vtb-segments [dataSource]="itinerary.segments" [segmentTypeIds]="[16]" [segmentFields]="[
+      { name: 'pretyString' },
+      { name: 'title', tag: 'h3' },
+      { name: 'content', tag: 'p' },
+      { name: 'media', types: 'mediaspirit' }
       ]">
       <ng-template #elementTemplate let-elements="elements" let-segment="segment">
-        <!-- <h2>Dag {{ segment.day + segment.nights }}</h2>
-        <vtb-text>{{ segment.title }}</vtb-text> -->
-        <!-- <div class="hbMedia">
-          <vtb-elements [dataSource]="elements" [elementFields]="[{ name: 'media', types: 'mediaspirit' }]">
-          </vtb-elements>
-        </div> -->
+         <!-- <h2>Dag {{ segment.day + segment.nights }}</h2>
+            <vtb-text>{{ segment.title }}</vtb-text> -->
+         <!-- <div class="hbMedia">
+            <vtb-elements [dataSource]="elements" [elementFields]="[{ name: 'media', types: 'mediaspirit' }]">
+            </vtb-elements>
+            </div> -->
       </ng-template>
-    </vtb-segments>
-  </div>
-  <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
+      </vtb-segments>
+   </div>
+   <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
 </div>
-
 <!-- start -->
 <div class="page">
-  <div class="page-inner">
-    <div class="costwrap">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 nopadding">
-            <h1 class="page-title">Prijs</h1>
-          </div>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-md-12 col-sm-12 col-12 bg-theme-color">
-            <div class="parent-div">
-              <h2><span>PRIJS*</span></h2>
-              <table>
-                <tr>
-                  <td>Landarrangement</td>
-                  <td>€ {{ itinerary.otherCost }}</td>
-                </tr>
-                <tr>
-                  <td>Vluchtprijs</td>
-                  <td>€ {{ itinerary.flightPrice }}</td>
-                </tr>
-                <tr *ngFor="let remaining of itinerary.remainingPrice">
-                  <td>{{ remaining.title }}</td>
-                  <td>€ {{ remaining.price }}</td>
-                </tr>
-                <tr *ngIf="itinerary.insurancesPrice != 0">
-                  <td>Verzekeringen</td>
-                  <td>€ {{ itinerary.insurancesPrice }}</td>
-                </tr>
-                <tr>
-                  <td>Totaalprijs</td>
-                  <td>€ {{ itinerary.totalCost }}</td>
-                </tr>
-              </table>
-
-              <span class="f-12">*Prijzen zijn op aanvraag & onder voorbehoud van
-                wijzigingen.</span>
+   <div class="page-inner">
+      <div class="costwrap">
+         <div class="pdf">
+            <div class="row">
+               <div class="col-12 nopadding">
+                  <h1 class="page-title">Prijs</h1>
+               </div>
             </div>
-          </div>
-        </div>
+            <div class="row align-items-center">
+               <div class="col-md-12 col-sm-12 col-12 bg-theme-color">
+                  <div class="parent-div">
+                     <h2><span>PRIJS*</span></h2>
+                     <table>
+                        <tr>
+                           <td>Landarrangement</td>
+                           <td>€ {{ itinerary.otherCost }}</td>
+                        </tr>
+                        <tr>
+                           <td>Vluchtprijs</td>
+                           <td>€ {{ itinerary.flightPrice }}</td>
+                        </tr>
+                        <tr *ngFor="let remaining of itinerary.remainingPrice">
+                           <td>{{ remaining.title }}</td>
+                           <td>€ {{ remaining.price }}</td>
+                        </tr>
+                        <tr *ngIf="itinerary.insurancesPrice != 0">
+                           <td>Verzekeringen</td>
+                           <td>€ {{ itinerary.insurancesPrice }}</td>
+                        </tr>
+                        <tr>
+                           <td>Totaalprijs</td>
+                           <td>€ {{ itinerary.totalCost }}</td>
+                        </tr>
+                     </table>
+                     <span class="f-12">*Prijzen zijn op aanvraag & onder voorbehoud van
+                     wijzigingen.</span>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-    <section class="inclwrap">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-12 incldesc">
-            <h2><span>INBEGREPEN</span></h2>
-            <ul class="dash-style-list">
-              <li *ngFor="let str of itinerary.includedStrings">
-                <span [innerHTML]="str.name"> </span>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4 col-sm-6 col-12 bg-gray-color guidesec" *ngFor="let c of itinerary.finalConsultants">
-            <h3>
-              JOUW REISSPECIALIST<span>{{ c.name }}</span>
-            </h3>
-            <img src="{{ c.picture }}" alt="" title="" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="exclwrap">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-12">
-            <h2><span>NIET INBEGREPEN</span></h2>
-            <ul class="dash-style-list">
-              <li *ngFor="let str of itinerary.excludedStrings">
-                <span [innerHTML]="str.name"> </span>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4 col-sm-6 col-12 bg-gray-color">
-            <p>
-              Bij deze jouw reisvoorstel Vietnam, voor jou op maat ontworpen.
-              Loop er op je gemak doorheen en ik neem een dezer dagen contact op
-              om het voorstel door te nemen. Bel of mail gerust bij vragen!
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-
-  <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
+      <section class="inclwrap">
+         <div class="pdf">
+            <div class="row">
+               <div class="col-md-8 col-sm-6 col-12 incldesc">
+                  <h2><span>INBEGREPEN</span></h2>
+                  <ul class="dash-style-list">
+                     <li *ngFor="let str of itinerary.includedStrings">
+                        <span [innerHTML]="str.name"> </span>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-4 col-sm-6 col-12 bg-gray-color guidesec" *ngFor="let c of itinerary.finalConsultants">
+                  <h3>
+                     JOUW REISSPECIALIST<span>{{ c.name }}</span>
+                  </h3>
+                  <img src="{{ c.picture }}" alt="" title="" />
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="exclwrap">
+         <div class="pdf">
+            <div class="row">
+               <div class="col-md-8 col-sm-6 col-12">
+                  <h2><span>NIET INBEGREPEN</span></h2>
+                  <ul class="dash-style-list">
+                     <li *ngFor="let str of itinerary.excludedStrings">
+                        <span [innerHTML]="str.name"> </span>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-4 col-sm-6 col-12 bg-gray-color">
+                  <p>
+                     Bij deze jouw reisvoorstel Vietnam, voor jou op maat ontworpen.
+                     Loop er op je gemak doorheen en ik neem een dezer dagen contact op
+                     om het voorstel door te nemen. Bel of mail gerust bij vragen!
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+   </div>
+   <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
 </div>
 <!-- end -->
-
 <!-- Prijs tab start here -->
 <div class="page">
-  <div class="page-inner">
-    <section>
-      <div class="flightwrap">
-        <h2><span>VLUCHTSCHEMA</span></h2>
-        <table class="tablelist bold" *ngIf="itinerary.departureFlight && itinerary.arrivalFlight">
-          <tr>
-            <td>Vertrek uit NL</td>
-            <td>{{ itinerary.departureFlight.date }}</td>
-            <!--<td>{{ itinerary.departureFlight.airlineCode }}</td>-->
-          </tr>
-          <tr>
-            <td>Retour in NL</td>
-            <td>{{ itinerary.arrivalFlight.date }}</td>
-            <!--<td>{{ itinerary.arrivalFlight.airlineCode }}</td>-->
-          </tr>
-        </table>
-
-        <!-- start new table -->
-        <div class="flight-table">
-          <div class="table-responsive">
-            <table cellpadding="0" cellspacing="0" class="table">
-              <thead>
-                <tr>
-                  <th scope="col">Airline</th>
-                  <th scope="col">Flight<br />Number</th>
-                  <th scope="col">Departure<br />Airport</th>
-                  <th scope="col">Departure<br />Date</th>
-                  <th scope="col">Departure<br />Time</th>
-                  <th scope="col">Arrival<br />Airport</th>
-                  <th scope="col">Arrival<br />Date</th>
-                  <th scope="col">Arrival<br />Time</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr *ngFor="let f of itinerary.flights">
-                  <td>{{ f.airlineCode }}</td>
-                  <td>{{ f.flightNumber }}</td>
-                  <td>{{ f.departureAirport }}</td>
-                  <td class="table-calender">
-                    <span>{{ f.date }}</span>
-                  </td>
-                  <td class="table-clock">
-                    <span>{{ f.departureTime }}</span>
-                  </td>
-                  <td>{{ f.arrivalAirport }}</td>
-                  <td class="table-calender">
-                    <span>{{ f.arrivalDate }}</span>
-                  </td>
-                  <td class="table-clock">
-                    <span>{{ f.arrivalTime }}</span>
-                  </td>
-                </tr>
-              </tbody>
+   <div class="page-inner">
+      <section>
+         <div class="flightwrap">
+            <h2><span>VLUCHTSCHEMA</span></h2>
+            <table class="tablelist bold" *ngIf="itinerary.departureFlight && itinerary.arrivalFlight">
+               <tr>
+                  <td>Vertrek uit NL</td>
+                  <td>{{ itinerary.departureFlight.date }}</td>
+                  <!--<td>{{ itinerary.departureFlight.airlineCode }}</td>-->
+               </tr>
+               <tr>
+                  <td>Retour in NL</td>
+                  <td>{{ itinerary.arrivalFlight.date }}</td>
+                  <!--<td>{{ itinerary.arrivalFlight.airlineCode }}</td>-->
+               </tr>
             </table>
-          </div>
-        </div>
-        <!-- end new table -->
-      </div>
-    </section>
-    <section class="extra">
-      <div class="container">
-        <div class="row align-items-stretch">
-          <div class="col-md-12 col-sm-12 col-12">
-            <img alt="" class="fitimg" src="https://media.outsight.nl/original/original/vietanm.JPG" title="" />
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-  <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
+            <!-- start new table -->
+            <div class="flight-table">
+               <div class="table-responsive">
+                  <table cellpadding="0" cellspacing="0" class="table">
+                     <thead>
+                        <tr>
+                           <th scope="col">Airline</th>
+                           <th scope="col">Flight<br />Number</th>
+                           <th scope="col">Departure<br />Airport</th>
+                           <th scope="col">Departure<br />Date</th>
+                           <th scope="col">Departure<br />Time</th>
+                           <th scope="col">Arrival<br />Airport</th>
+                           <th scope="col">Arrival<br />Date</th>
+                           <th scope="col">Arrival<br />Time</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr *ngFor="let f of itinerary.flights">
+                           <td>{{ f.airlineCode }}</td>
+                           <td>{{ f.flightNumber }}</td>
+                           <td>{{ f.departureAirport }}</td>
+                           <td class="table-calender">
+                              <span>{{ f.date }}</span>
+                           </td>
+                           <td class="table-clock">
+                              <span>{{ f.departureTime }}</span>
+                           </td>
+                           <td>{{ f.arrivalAirport }}</td>
+                           <td class="table-calender">
+                              <span>{{ f.arrivalDate }}</span>
+                           </td>
+                           <td class="table-clock">
+                              <span>{{ f.arrivalTime }}</span>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <!-- end new table -->
+         </div>
+      </section>
+      <section class="extra">
+         <div class="pdf">
+            <div class="row align-items-stretch">
+               <div class="col-md-12 col-sm-12 col-12">
+                  <img alt="" class="fitimg" src="https://media.outsight.nl/original/original/vietanm.JPG" title="" />
+               </div>
+            </div>
+         </div>
+      </section>
+   </div>
+   <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
 </div>
 <div class="page">
-  <div class="page-inner">
-    <div class="pc-tab">
-      <!-- Tips tab ends here -->
-      <div class="tab3">
-        <section>
-          <div class="daywrap">
-            <div class="container">
-              <div class="row background-transparent">
-                <div class="col-12 nopadding">
-                  <h1 class="page-title">Extra</h1>
-                </div>
-              </div>
-              <h2><span>LEUK OM TE DOEN</span></h2>
-              <div class="row align-items-center" *ngFor="let tipsdata of itinerary.tips">
-                <div *ngIf="tipsdata.media.length >= 1" [className]="
-                    tipsdata.media.length >= 1
-                      ? 'col-md-4 col-sm-6 col-12 dayimg'
-                      : 'dayimg'
-                  ">
-                  <img src="{{ tipsdata.media[0].url }}" />
-                </div>
-                <div [className]="
-                    tipsdata.media.length >= 1
-                      ? 'col-md-8 col-sm-6 col-12 daytext'
-                      : 'daytext'
-                  ">
-                  <h3>
-                    {{ tipsdata.title }}
-                    <i><span>Meerprijs:
-                        {{
-                          tipsdata.salesPrice
-                            | currency: "EUR":"symbol":undefined:"nl"
-                        }}
-                        per persoon per nacht</span></i>
-                  </h3>
-                  <p [innerHTML]="tipsdata.additionalText"></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+   <div class="page-inner">
+      <div class="pc-tab">
+         <!-- Tips tab ends here -->
+         <div class="tab3">
+            <section>
+               <div class="daywrap">
+                  <div class="pdf">
+                     <div class="row background-transparent">
+                        <div class="col-12 nopadding">
+                           <h1 class="page-title">Extra</h1>
+                        </div>
+                     </div>
+                     <h2><span>LEUK OM TE DOEN</span></h2>
+                     <div class="row align-items-center" *ngFor="let tipsdata of itinerary.tips">
+                        <div *ngIf="tipsdata.media.length >= 1" [className]="
+                        tipsdata.media.length >= 1
+                        ? 'col-md-4 col-sm-6 col-12 dayimg'
+                        : 'dayimg'
+                        ">
+                        <img src="{{ tipsdata.media[0].url }}" />
+                     </div>
+                     <div [className]="
+                        tipsdata.media.length >= 1
+                        ? 'col-md-8 col-sm-6 col-12 daytext'
+                        : 'daytext'
+                        ">
+                        <h3>
+                           {{ tipsdata.title }}
+                           <i><span>Meerprijs:
+                           {{
+                           tipsdata.salesPrice
+                           | currency: "EUR":"symbol":undefined:"nl"
+                           }}
+                           per persoon per nacht</span></i>
+                        </h3>
+                        <p [innerHTML]="tipsdata.additionalText"></p>
+                     </div>
+                  </div>
+               </div>
+         </div>
+         </section>
       </div>
-    </div>
-  </div>
-  <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
+   </div>
+</div>
+<ng-container *ngTemplateOutlet="templateFooter"></ng-container>
 </div>
 <!-- Hotels tab start here -->
 <div class="dynamic-pages daywrap">
-  <div class="page-inner">
-    <div class="container">
-      <h1 class="page-title">Hotels</h1>
-      <div class="row align-items-center" *ngFor="let hotel of itinerary.hotels">
-        <div class="col-md-4 col-sm-6 col-12 dayimg" *ngIf="hotel.image !== undefined">
-          <img src="{{ hotel.image }}" />
-        </div>
-        <div [className]="
-            hotel.image !== undefined
-              ? 'col-md-8 col-sm-6 col-12 daytext'
-              : 'daytext col-12'
-          ">
-          <h3>{{ hotel.title }}</h3>
-          <p [innerHTML]="hotel.additionalTaxt"></p>
-        </div>
+   <div class="page-inner">
+      <div class="pdf">
+         <h1 class="page-title">Hotels</h1>
+         <div class="row align-items-center" *ngFor="let hotel of itinerary.hotels">
+            <div class="col-md-4 col-sm-6 col-12 dayimg" *ngIf="hotel.image !== undefined">
+               <img src="{{ hotel.image }}" />
+            </div>
+            <div [className]="
+               hotel.image !== undefined
+               ? 'col-md-8 col-sm-6 col-12 daytext'
+               : 'daytext col-12'
+               ">
+               <h3>{{ hotel.title }}</h3>
+               <p [innerHTML]="hotel.additionalTaxt"></p>
+            </div>
+         </div>
       </div>
-    </div>
-  </div>
-  <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
+   </div>
+   <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
 </div>
 <!-- Info tab start here -->
 <div class="page">
-  <div class="page-inner">
-    <section class="geninfowrap">
-      <div class="container">
-        <div class="row">
-          <h1 class="page-title">Info</h1>
-        </div>
-        <div class="row">
-          <div class="mt-20 d-flex align-items-end flex-column" [innerHTML]="itinerary.Informatie"></div>
-        </div>
-        <div class="row listwrap flex-row-reverse align-items-center">
-          <div class="col-md-4 col-sm-6 col-12">
-            <img src="https://media.outsight.nl/original/original/InfoVietnam-.jpg" alt="" title="" />
-          </div>
-          <div class="col-md-8 col-sm-6 col-12">
-            <ul class="ticklist">
-              <li>Wij creëren samen jouw perfecte reis. Persoonlijk.</li>
-              <li>Wij zorgen ervoor dat je onbezorgd reist. Geregeld.</li>
-              <li>Wij kennen de landen tot in detail. Ervaring</li>
-              <li>Beleef elke dag iets onvergetelijks. Genieten.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-  <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
+   <div class="page-inner">
+      <section class="geninfowrap">
+         <div class="pdf">
+            <div class="row">
+               <h1 class="page-title">Info</h1>
+            </div>
+            <div class="row">
+               <div class="mt-20 d-flex align-items-end flex-column" [innerHTML]="itinerary.Informatie"></div>
+            </div>
+            <div class="row listwrap flex-row-reverse align-items-center">
+               <div class="col-md-4 col-sm-6 col-12">
+                  <img src="https://media.outsight.nl/original/original/InfoVietnam-.jpg" alt="" title="" />
+               </div>
+               <div class="col-md-8 col-sm-6 col-12">
+                  <ul class="ticklist">
+                     <li>Wij creëren samen jouw perfecte reis. Persoonlijk.</li>
+                     <li>Wij zorgen ervoor dat je onbezorgd reist. Geregeld.</li>
+                     <li>Wij kennen de landen tot in detail. Ervaring</li>
+                     <li>Beleef elke dag iets onvergetelijks. Genieten.</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+   </div>
+   <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
 </div>
 <div class="page">
-  <div class="page-inner">
-    <section class="travel-even">
-      <div class="container">
-        <div class="row remove-spacing">
-          <div class="col-md-8 align-items-center">
-            <div class="tavel-even-heading">
-              <h2>
-                <span class="d-block">OP REIS </span>
-                MAAR DAN NET EVEN ANDERS
-              </h2>
+   <div class="page-inner">
+      <section class="travel-even">
+         <div class="pdf">
+            <div class="row remove-spacing">
+               <div class="col-md-8 align-items-center">
+                  <div class="tavel-even-heading">
+                     <h2>
+                        <span class="d-block">OP REIS </span>
+                        MAAR DAN NET EVEN ANDERS
+                     </h2>
+                  </div>
+                  <div class="tavel-even-info">
+                     <h2><span>OutSight</span></h2>
+                     <p>
+                        Al 20 jaar lang laten wij reizigers de mooiste plekken op de
+                        wereld ontdekken. Met de vrijheid & flexibiliteit om je eigen
+                        reis te beleven én met het comfort dat de rest geregeld is. Ga
+                        beleven, kijken, proeven en ontmoeten! Onze missie is om van
+                        jouw kennismaking met andere culturen een onvergetelijke,
+                        persoonlijke ervaring te maken. Dat doen we vanuit ons hart:
+                        reizen is onze passie. We zoeken de kleine momenten, naast de
+                        hoogtepunten, die je reis bijzonder maken. En we regelen het
+                        voor je, zodat onderweg maximaal kunt gaan genieten!
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-4 text-center">
+                  <div class="main-parent-person">
+                     <div class="trvel-person">
+                        <div class="travel-person-img">
+                           <img src="https://media.outsight.nl/original/original/simone.jpg" class="img-fluid" />
+                        </div>
+                     </div>
+                     <div class="travel-person-info align-self-center">
+                        <p>
+                           “Reizen maakt je rijker! Het is dat fantastische gevoel dat je
+                           iets beleeft, dat je geraakt wordt.”
+                        </p>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <div class="tavel-even-info">
-              <h2><span>OutSight</span></h2>
-              <p>
-                Al 20 jaar lang laten wij reizigers de mooiste plekken op de
-                wereld ontdekken. Met de vrijheid & flexibiliteit om je eigen
-                reis te beleven én met het comfort dat de rest geregeld is. Ga
-                beleven, kijken, proeven en ontmoeten! Onze missie is om van
-                jouw kennismaking met andere culturen een onvergetelijke,
-                persoonlijke ervaring te maken. Dat doen we vanuit ons hart:
-                reizen is onze passie. We zoeken de kleine momenten, naast de
-                hoogtepunten, die je reis bijzonder maken. En we regelen het
-                voor je, zodat onderweg maximaal kunt gaan genieten!
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 text-center">
-            <div class="main-parent-person">
-              <div class="trvel-person">
-                <div class="travel-person-img">
-                  <img src="https://media.outsight.nl/original/original/simone.jpg" class="img-fluid" />
-                </div>
-              </div>
-              <div class="travel-person-info align-self-center">
-                <p>
-                  “Reizen maakt je rijker! Het is dat fantastische gevoel dat je
-                  iets beleeft, dat je geraakt wordt.”
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="destwrap">
-      <div class="container">
-        <div class="row"></div>
-      </div>
-    </section>
-  </div>
-  <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
+         </div>
+      </section>
+      <section class="destwrap">
+         <div class="pdf">
+            <div class="row"></div>
+         </div>
+      </section>
+   </div>
+   <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
 </div>
 <ng-template #templateFooter>
-  <footer>
-    <div class="container">
-      <div class="footerwrap">
-        <div class="col-md-9">
-          <div class="footer-text-section">
-            <p class="footer-text">
-              T: +31 (0)20-6702656 | E:
-              <a href="#">marketing@outsight.nl</a> |
-              W:
-              <a href="https://outsight.nl/" target="_blank">www.outsight.nl</a>
-            </p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <ul class="footer-icons">
-            <li>
-              <a href="javascript:void(0);">
-                <img src="https://media.outsight.nl/original/md/SGR.jpg" />
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0);">
-                <img src="https://media.outsight.nl/original/md/ANVR.jpg" alt="" />
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0);">
-                <img src="https://media.outsight.nl/original/md/Calamiteitenfonds.jpg" alt="" />
-              </a>
-            </li>
-          </ul>
-        </div>
+   <footer>
+      <div class="pdf">
+         <div class="footerwrap">
+            <div class="col-md-9">
+               <div class="footer-text-section">
+                  <p class="footer-text">
+                     T: +31 (0)20-6702656 | E:
+                     <a href="#">marketing@outsight.nl</a> |
+                     W:
+                     <a href="https://outsight.nl/" target="_blank">www.outsight.nl</a>
+                  </p>
+               </div>
+            </div>
+            <div class="col-md-3">
+               <ul class="footer-icons">
+                  <li>
+                     <a href="javascript:void(0);">
+                     <img src="https://media.outsight.nl/original/md/SGR.jpg" />
+                     </a>
+                  </li>
+                  <li>
+                     <a href="javascript:void(0);">
+                     <img src="https://media.outsight.nl/original/md/ANVR.jpg" alt="" />
+                     </a>
+                  </li>
+                  <li>
+                     <a href="javascript:void(0);">
+                     <img src="https://media.outsight.nl/original/md/Calamiteitenfonds.jpg" alt="" />
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
       </div>
-    </div>
-  </footer>
+   </footer>
 </ng-template>
 <ng-template #pageTitle>
-  <div class="page-header"></div>
+   <div class="page-header"></div>
 </ng-template>
 <!-- <ng-template #templateFooter>
    <div class="page-footer">
       Footer
    </div>
-</ng-template> -->
+   </ng-template> -->

@@ -2198,7 +2198,9 @@ footer .container {
   padding: 15px;
   width: 100%;
 }
-
+.row.background-transparent {
+  padding: 0;
+}
 .daytext {
   padding: 15px 30px;
 }
@@ -2733,8 +2735,8 @@ footer .container {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  /* padding-right: 15px;
+  padding-left: 15px; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -2744,8 +2746,8 @@ footer .container {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  /* margin-right: -15px;
+  margin-left: -15px; */
 }
 
 .col-12 {
