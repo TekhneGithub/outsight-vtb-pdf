@@ -154,7 +154,7 @@
       <section class="inclwrap">
          <div class="pdf">
             <div class="row">
-               <div class="col-md-8 col-sm-6 col-12 incldesc">
+               <div class="col-md-8 col-sm-6 col-12 incldesc" *ngIf="itinerary.includedStrings[0] !== undefined">
                   <h2><span>INBEGREPEN</span></h2>
                   <ul class="dash-style-list">
                      <li *ngFor="let str of itinerary.includedStrings">
@@ -174,7 +174,7 @@
       <section class="exclwrap">
          <div class="pdf">
             <div class="row">
-               <div class="col-md-8 col-sm-6 col-12">
+               <div class="col-md-8 col-sm-6 col-12" *ngIf="itinerary.excludedStrings[0] !== undefined">
                   <h2><span>NIET INBEGREPEN</span></h2>
                   <ul class="dash-style-list">
                      <li *ngFor="let str of itinerary.excludedStrings">

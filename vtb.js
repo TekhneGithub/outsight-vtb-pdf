@@ -199,7 +199,7 @@ const customTransforms = {
       if (data.name == 'Included') {
         for(const f of data.fields) {
           if(f.value !== undefined) {
-            if(f.value != true && f.value != '') {
+            if(f.value != true && f.value != null) {
               includedStrings.push({ name:f.value });
             } else {
               includedStrings.push({ name:f.name });
@@ -239,7 +239,7 @@ const customTransforms = {
       if (data.name == 'Not included') {
         for(const f of data.fields) {
           if(f.value !== undefined) {
-            if(f.value != true && f.value != '') {
+            if(f.value != true && f.value != null) {
               excludedStrings.push({ name:f.value });
             } else {
               excludedStrings.push({ name:f.name });
