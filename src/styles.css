@@ -124,7 +124,7 @@ vtb-segment {
 
 .hotelBlogs .pretyString,
 .hotelBlogs .title {
-  float: left;
+  /* float: left; */
   text-transform: uppercase;
 }
 
@@ -2428,7 +2428,10 @@ footer .container {
 .ticklist li + li {
   /* margin-bottom: 40px; */
 }
-
+span.ng-star-inserted {
+  float: left;
+  margin: 0 10px 0 0;
+}
 .ticklist li:before {
   content: "\2713";
   position: absolute;
