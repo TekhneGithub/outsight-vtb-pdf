@@ -199,11 +199,11 @@ vtb-segment {
   height: 100%;
 }
 
-.page-header {
-  /* height: 400px;
+/*.page-header {
+   height: 400px;
   overflow: hidden;
-  position: relative; */
-}
+  position: relative; 
+}*/
 
 .page-footer {
   height: 60px;
@@ -1295,11 +1295,11 @@ body .footer p a {
     margin-bottom: 30px;
   }
 
-  .program vtb-segment .subTitle {
-  }
+  /* .program vtb-segment .subTitle {
+  } */
 
-  .program vtb-segment .content {
-  }
+  /* .program vtb-segment .content {
+  } */
 
   .overview .lists {
     grid-column: 2 / 12;
@@ -1950,7 +1950,7 @@ footer .container {
   position: absolute;
   height: 2px;
   width: 100%;
-  background: $activeColor;
+  /* background: $activeColor; */
   left: 0;
   bottom: -1px;
 }
@@ -2425,9 +2425,9 @@ footer .container {
   margin: 0px 0 50px 0;
 }
 
-.ticklist li + li {
-  /* margin-bottom: 40px; */
-}
+ /*.ticklist li + li {
+  margin-bottom: 40px; 
+}*/
 
 .ticklist li:before {
   content: "\2713";
@@ -2695,6 +2695,10 @@ footer .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+
+.ng-star-inserted {
+  float: left;
 }
 
 .f-12 {
