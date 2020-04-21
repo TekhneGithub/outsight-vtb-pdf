@@ -1950,7 +1950,7 @@ footer .container {
   position: absolute;
   height: 2px;
   width: 100%;
-  background: $activeColor;
+  /* background: $activeColor; */
   left: 0;
   bottom: -1px;
 }
@@ -2065,7 +2065,8 @@ footer .container {
 }
 
 .schedulewrap ul li span {
-  display: inline-block;
+  display: table-cell;
+  /* display: inline-block; */
   padding-right: 15px;
 }
 
