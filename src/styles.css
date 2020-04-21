@@ -2828,3 +2828,20 @@ footer .container {
     max-width: 1140px;
   }
 }
+
+@media screen, print {
+  body {
+   /* color: green !important; */
+   -webkit-print-color-adjust: exact;
+}
+@page {
+   size:A4 portrait;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin: 0;
+   -webkit-print-color-adjust: exact;
+}
+
+}
