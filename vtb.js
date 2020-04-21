@@ -316,8 +316,12 @@ const customTransforms = {
         } else {
           mediaURL = 'https://via.placeholder.com/300';
         }
-
-        segment.pretyString = 'DAG ' + segment.day + ' t/m ' + (segment.day + segment.nights);
+        if(segment.nights <= 2) {
+          segment.pretyString = 'DAG ' + segment.day;
+        } else {
+          segment.pretyString = 'DAG ' + segment.day + ' t/m ' + (segment.day + segment.nights);
+        }
+        
 
         var data = { startDay: segment.day, endDay: segment.day + segment.nights, title: segment.title, content: segment.content, media:mediaURL};
         tripTitles.push(data);
