@@ -115,13 +115,13 @@
          <div class="pdf">
             <div class="row">
                <div class="col-12 nopadding">
-                  <h1 class="page-title">Prijs</h1>
+                  <h1 class="page-title">Prijs*</h1>
                </div>
             </div>
             <div class="row align-items-center">
                <div class="col-md-12 col-sm-12 col-12 bg-theme-color">
                   <div class="parent-div">
-                     <h2><span>PRIJS*</span></h2>
+                     <!-- <h2><span>PRIJS*</span></h2> -->
                      <table>
                         <tr>
                            <td>Landarrangement</td>
@@ -268,7 +268,7 @@
    </div>
    <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
 </div>
-<div class="page">
+<div class="page" *ngIf="itinerary.tips[0] !== undefined">
    <div class="page-inner">
       <div class="pc-tab">
          <!-- Tips tab ends here -->
