@@ -6669,39 +6669,39 @@ const customTransforms = {
       
       for(const flight of segment.flightInfo) {
         
-        let departureInfo = getObjectByValue(airports, 'iata_code', flight.departureAirport);
-        let arrivalInfo = getObjectByValue(airports, 'iata_code', flight.arrivalAirport);
+        // let departureInfo = getObjectByValue(airports, 'iata_code', flight.departureAirport);
+        // let arrivalInfo = getObjectByValue(airports, 'iata_code', flight.arrivalAirport);
         
-        if(departureInfo[0] !== undefined && arrivalInfo[0] !== undefined) {
+        // if(departureInfo[0] !== undefined && arrivalInfo[0] !== undefined) {
 
-          let departureAirport = getObjectByValue(airportDescriptions, 'airport_id', departureInfo[0].id);
-          let arrivalAirport = getObjectByValue(airportDescriptions, 'airport_id', arrivalInfo[0].id);
-          if(departureAirport[0] !== undefined && arrivalAirport[0] !== undefined) {
+          let departureAirport = flight.departureAirport;
+          let arrivalAirport = flight.arrivalAirport;
+          // if(departureAirport[0] !== undefined && arrivalAirport[0] !== undefined) {
             
             var date = new Date(flight.departureDate);
             var arrivalDate = new Date(flight.arrivalDate);
             if(!firstLoopExectuion) {
 
-              let airlineCode = getObjectByValue(airlineCodes, 'carrier_code', flight.airlineCode);
-              airlineCode = airlineCode[0] !== undefined?airlineCode[0].airline:null;
+              let airlineCode = flight.airlineCode;
+              // airlineCode = airlineCode[0] !== undefined?airlineCode[0].airline:null;
 
               obj.dst.departureFlight = {date: date.getDate() + ' ' + months[date.getMonth()] + ' ' + date.getFullYear(), airlineCode: airlineCode};
               firstLoopExectuion = true;
             }
-            let airlineCode = getObjectByValue(airlineCodes, 'carrier_code', flight.airlineCode);
-            airlineCode = airlineCode[0] !== undefined?airlineCode[0].airline:null;
+            let airlineCode = flight.airlineCode;
+            // airlineCode = airlineCode[0] !== undefined?airlineCode[0].airline:null;
 
             var arrivalFlightDate = new Date(flight.arrivalDate);
             obj.dst.arrivalFlight = {date: arrivalFlightDate.getDate() + ' ' + months[arrivalFlightDate.getMonth()] + ' ' + arrivalFlightDate.getFullYear(), airlineCode: airlineCode};
             var dateString = date.getDate() + '-' + months[date.getMonth()];
             var arrivalDateString = arrivalDate.getDate() + '-' + months[arrivalDate.getMonth()];
 
-            let data = {date: dateString, arrivalDate: arrivalDateString, departureAirport: departureAirport[0].description, arrivalAirport: arrivalAirport[0].description, departureTime: flight.departureTime, arrivalTime: flight.arrivalTime, flightNumber: flight.flightNumber, airlineCode: airlineCode};
+            let data = {date: dateString, arrivalDate: arrivalDateString, departureAirport: departureAirport, arrivalAirport: arrivalAirport, departureTime: flight.departureTime, arrivalTime: flight.arrivalTime, flightNumber: flight.flightNumber, airlineCode: airlineCode};
             flights.push(data);
 
-          }
+        //   }
 
-        }
+        // //}
 
       }
 
