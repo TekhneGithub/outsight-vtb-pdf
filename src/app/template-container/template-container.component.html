@@ -268,7 +268,7 @@
    </div>
    <ng-container *ngTemplateOutlet="templateFooter"></ng-container>
 </div>
-<div class="page">
+<div class="page" *ngIf="itinerary.tips[0] !== undefined">
    <div class="page-inner">
       <div class="pc-tab">
          <!-- Tips tab ends here -->
