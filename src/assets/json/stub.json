@@ -1,6 +1,6 @@
 {
-  "id": 67,
-  "name": "Florine Pastoors [2020-04-21 10:15:36]",
+  "id": 68,
+  "name": "Florine Pastoors [2020-04-21 15:08:38]",
     "TSOrder": {
       "texts": {
         "vtbObjectId": "orderTexts1"
@@ -39,7 +39,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": null,
-            "vtbObjectId": "3e6fs8ls7v93lekaxncz7n",
+            "vtbObjectId": "aj5b39llulr8j9vx8txzr",
             "translatedName": "Travelplan Name"
           },
           {
@@ -74,7 +74,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": "Florine Pastoor",
-            "vtbObjectId": "i8joe571tnlhaojt0j6h",
+            "vtbObjectId": "z9723x9ha4j9eawd7sa4e",
             "translatedName": "Reisspecialist"
           },
           {
@@ -97,7 +97,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": null,
-            "vtbObjectId": "pfiw6n27txwt7wkqualg",
+            "vtbObjectId": "bjqyxr7ojiqfxpqqzqirfk",
             "translatedName": "Inspiratie tekst"
           },
           {
@@ -127,7 +127,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": null,
-            "vtbObjectId": "5dghh9la86oawpqceo2uso",
+            "vtbObjectId": "831hfz1fyw8yhuo74zqqwh",
             "translatedName": "Cover"
           },
           {
@@ -205,7 +205,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": "Maleisie",
-            "vtbObjectId": "p1kitjkoha9f2tyl807lfr",
+            "vtbObjectId": "tkyowt66q1s29qobqtw98s",
             "translatedName": "Main Destination"
           },
           {
@@ -283,7 +283,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": null,
-            "vtbObjectId": "y1k29kbr0lp3i28dbak3s6",
+            "vtbObjectId": "cj83w1ju6cdekt3kaip54",
             "translatedName": "Destination 2"
           },
           {
@@ -361,7 +361,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": null,
-            "vtbObjectId": "xl0cg36firnnj6dsccb8g",
+            "vtbObjectId": "gxkhh9ronzwpwk63x4k6",
             "translatedName": "Extra Destination 3"
           },
           {
@@ -439,7 +439,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": null,
-            "vtbObjectId": "yyv3grfxggq5zlvussh0zl",
+            "vtbObjectId": "57auq37wprl07hypzgab9r4",
             "translatedName": "Destination 4"
           },
           {
@@ -486,7 +486,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": null,
-            "vtbObjectId": "l6b9qxt4kk6cftmodgvm8",
+            "vtbObjectId": "un1iqtz9fht9zbfv9lhn",
             "translatedName": "Decline reason"
           },
           {
@@ -531,11 +531,11 @@
             "link_type": "order",
             "link_id": 2235,
             "value": "repeater-al eerder bij OutSight geboekt",
-            "vtbObjectId": "v8iutssx9uz104updr68p",
+            "vtbObjectId": "70ts7iipz9hlom4qrpz8f9",
             "translatedName": "Order Source"
           }
         ],
-        "vtbObjectId": "boz7ymwbp1oquhdveimehn"
+        "vtbObjectId": "nwoycy25obkiwwa7fm569t"
       },
       {
         "id": 4,
@@ -568,7 +568,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": "1",
-            "vtbObjectId": "gxwq3hv6xx5a6qcvh8hvfc",
+            "vtbObjectId": "dwdx1zdr89brjwh196rzr",
             "translatedName": "genoemde transfers van en naar vliegveld(en)"
           },
           {
@@ -591,7 +591,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": null,
-            "vtbObjectId": "i2oz2ppq9sea8sye3torx7",
+            "vtbObjectId": "lqvcla1yihee8o98iucxa",
             "translatedName": "internationale retourvlucht inclusief luchthavenbelastingen"
           },
           {
@@ -614,7 +614,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": "1",
-            "vtbObjectId": "96yhvm21vle5zflxkv3t5k",
+            "vtbObjectId": "ncmemqx7wvquwhz6vnqgz",
             "translatedName": "trein-, vlieg- en bustickets zoals genoemd in het reisvoorstel"
           },
           {
@@ -637,7 +637,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": "1",
-            "vtbObjectId": "gzgytil8rwlh0dnd5gqfq",
+            "vtbObjectId": "5dzdmdnc06l7dwfmr626cv",
             "translatedName": "(hotel)overnachtingen inclusief ontbijt"
           },
           {
@@ -660,7 +660,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": null,
-            "vtbObjectId": "3t8e7vndokww0x35ko1bos",
+            "vtbObjectId": "00bmoq7vwaodevpym05013qq",
             "translatedName": "(hotel)overnachtingen exclusief ontbijt"
           },
           {
@@ -683,7 +683,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": "1",
-            "vtbObjectId": "pvwsg8lxdhqtv7sdx1g86f",
+            "vtbObjectId": "xncmh6h9f5cc6a2bbsbbvo",
             "translatedName": "genoemde autohuur"
           },
           {
@@ -706,7 +706,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": null,
-            "vtbObjectId": "1u3copi5qrrff7hwkrglwg",
+            "vtbObjectId": "ayljl43r0deuac04pnopg",
             "translatedName": "genoemde binnenlandse vluchten"
           },
           {
@@ -729,7 +729,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": null,
-            "vtbObjectId": "39pd58yt4k1du5hkz9qjub",
+            "vtbObjectId": "w0q8vddmqm2a49got8cyc",
             "translatedName": "autohuur inclusief all-risk verzekering"
           },
           {
@@ -752,7 +752,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": null,
-            "vtbObjectId": "h7mmjghrg6vcrh831zfdk",
+            "vtbObjectId": "mpkt53u2hmjf8r53o5o4wb",
             "translatedName": "autohuur inclusief beperkte verzekering"
           },
           {
@@ -774,12 +774,12 @@
             "field_value_link_id": 2447,
             "link_type": "order",
             "link_id": 2235,
-            "value": null,
-            "vtbObjectId": "7uucnoxq2ygsmek3nk4yd",
+            "value": "<p>This is content for the \"extra\" field&nbsp;<\/p>",
+            "vtbObjectId": "eb11d3r8bzbymh9m4jiwz",
             "translatedName": "Extra"
           }
         ],
-        "vtbObjectId": "ne20cvywm6j8u24zqj1a4p"
+        "vtbObjectId": "bwuxvitwjga36dey7x3sw7"
       },
       {
         "id": 5,
@@ -810,7 +810,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": null,
-            "vtbObjectId": "gbcnrvfgjp46hgkftq2uom",
+            "vtbObjectId": "cuqd55wew2teang3s6yhs9",
             "translatedName": "overige niet genoemde transfers"
           },
           {
@@ -833,7 +833,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": null,
-            "vtbObjectId": "za4131gqby8lsft33s6rr",
+            "vtbObjectId": "dm2am357idqt32xb2khdlq",
             "translatedName": "aanvullende verzekeringen autohuur"
           },
           {
@@ -856,7 +856,7 @@
             "link_type": "order",
             "link_id": 2235,
             "value": null,
-            "vtbObjectId": "sm5yqe01eyhotzb7a7rmj",
+            "vtbObjectId": "z8z65yxqgawkkncl4322",
             "translatedName": "eventuele brandstoftoeslagen voor de vlucht"
           },
           {
@@ -878,12 +878,12 @@
             "field_value_link_id": 2451,
             "link_type": "order",
             "link_id": 2235,
-            "value": null,
-            "vtbObjectId": "iiv0etm4qk9df5o65grgsg",
+            "value": "This is content for the \"zonder\" field ",
+            "vtbObjectId": "3rkw6rl9yyw467dqg8fi9w",
             "translatedName": "Zonder"
           }
         ],
-        "vtbObjectId": "w9hvm1iyu8ozcpc0xzug"
+        "vtbObjectId": "qxhb5h2vqde4oexgia2b62"
       },
       {
         "id": 6,
@@ -917,11 +917,11 @@
             "link_type": "order",
             "link_id": 2235,
             "value": null,
-            "vtbObjectId": "36hwg0g6v9zvqovmv0bvto",
+            "vtbObjectId": "k319njikbqvp864k3dkh",
             "translatedName": "Information"
           }
         ],
-        "vtbObjectId": "4pq1hjmmi14bbysklvndlc"
+        "vtbObjectId": "x6sd0duwl5lqzg5kar0iao"
       }
     ],
     "participants": {
@@ -933,7 +933,7 @@
           "surname_prefix": "",
           "title": "2",
           "sex": "female",
-          "birthdate": "1990-07-09",
+          "birthdate": "1990-07-09T00:00:00.000Z",
           "partyName": "party 1"
         },
         {
@@ -943,12 +943,166 @@
           "surname_prefix": "",
           "title": "1",
           "sex": "male",
-          "birthdate": "1982-11-09",
+          "birthdate": "1982-11-09T00:00:00.000Z",
           "partyName": "party 1"
         }
       ]
     },
     "segments": [
+      {
+        "typeId": 16,
+        "media": [
+          
+        ],
+        "elements": [
+          {
+            "id": 350,
+            "TSProduct": {
+              "id": 350,
+              "tag": "VLS_MY",
+              "bookableDays": [
+                
+              ]
+            },
+            "unitId": 5,
+            "unitAmount": 2,
+            "bookableDays": [
+              
+            ],
+            "description": "",
+            "internalInfo": "",
+            "internalInfoClean": "",
+            "title": "Internationale vluchtprijs Maleisi\u00eb (incl. luchthavenbelasting)",
+            "media": [
+              
+            ],
+            "roomTypes": [
+              
+            ],
+            "sellingAmount": "9.000",
+            "sellingMarkupType": "percentage",
+            "additionalText": "",
+            "nights": 0,
+            "TSOrderline": {
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time"
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time"
+                }
+              ]
+            },
+            "vtbElementId": "aoal8isozhupvvyetgqu5",
+            "vtbObjectId": "n6j94q75cngibkthvo9vq",
+            "olPrices": {
+              "participants": {
+                "1006323": {
+                  "id": "1006323",
+                  "costPrice": "0.000",
+                  "salesPrice": "0.000"
+                },
+                "2041495": {
+                  "id": "2041495",
+                  "costPrice": "0.000",
+                  "salesPrice": "0.000"
+                }
+              },
+              "purchaseCurrency": "EUR",
+              "margin": "0.00000",
+              "hasError": "failed fetching live prices: error_no_matrixline_found",
+              "costPrice": "0.000",
+              "exchangeRate": "1.000000000",
+              "salesTotal": "0.000"
+            },
+            "not_calculated": true,
+            "offset": 0,
+            "maps": {
+              "latitude": null,
+              "longitude": null,
+              "zoom": null
+            },
+            "optional": false,
+            "typeId": 1,
+            "elements": [
+              
+            ],
+            "flightInfo": [
+              
+            ],
+            "dataType": "elementSegment",
+            "newElement": true,
+            "linkedParty": "party 1",
+            "roomTypeMatchesParticipants": false,
+            "day": 1,
+            "date": "2020-09-04",
+            "endDate": "2020-09-04",
+            "subAdditionalText": null,
+            "subTitle": "",
+            "manual_calc": false,
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true
+          }
+        ],
+        "flightInfo": [
+          
+        ],
+        "inViewport": false,
+        "collapse": false,
+        "content": null,
+        "date": "2020-09-04",
+        "endDate": "2020-09-04",
+        "hasElementsOverlap": false,
+        "isFlight": false,
+        "itemType": "segment",
+        "maps": {
+          "latitude": null,
+          "longitude": null,
+          "zoom": null
+        },
+        "subTitle": null,
+        "title": "Vertrek Amsterdam",
+        "nights": 0,
+        "day": 1,
+        "segmentIndex": null,
+        "carRentalElements": [
+          
+        ],
+        "missingBookableDays": false,
+        "elementsOrder": "n6j94q75cngibkthvo9vq",
+        "elementsMapActive": "",
+        "vtbObjectId": "bd3c3mtjldjpnnz8nq9vz"
+      },
       {
         "nights": 1,
         "day": 1,
@@ -993,7 +1147,7 @@
             "unitAmount": 1,
             "unitId": 2,
             "optional": false,
-            "not_calculated": true,
+            "not_calculated": false,
             "title": "Anggun Boutique Hotel",
             "TSProduct": {
               "id": 643,
@@ -1053,7 +1207,7 @@
               
             ],
             "olPrices": {
-              "costPrice": "0.00000000",
+              "costPrice": "64.470",
               "discount": null,
               "title": "Anggun Boutique Hotel",
               "discountMethod": null,
@@ -1062,17 +1216,18 @@
               "salesCurrency": "EUR",
               "participants": {
                 "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "32.235",
+                  "salesPrice": "41.000"
                 },
                 "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "32.235",
+                  "salesPrice": "41.000"
                 }
               },
-              "salesTotal": 0
+              "salesTotal": "82.000",
+              "margin": "21.37805"
             },
-            "subAdditionalText": null,
+            "subAdditionalText": "inclusief ontbijt",
             "additionalText": null,
             "roomTypes": [
               {
@@ -1092,23 +1247,26 @@
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "eus6bu2eaaziqg32e3rs",
+            "vtbObjectId": "i67iwcrchinf9uhre4c",
             "linkedParty": "party 1",
             "hasPreviousElementParticipantOverlap": true,
             "day": 1,
             "date": "2020-09-04",
             "endDate": "2020-09-05",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "subTitle": "classic kamer",
+            "lastRecalc": 1587475392231,
+            "manual_calc": false
           }
         ],
         "inViewport": false,
-        "vtbObjectId": "th9m21956xn1gwzb81iq",
+        "vtbObjectId": "yb11o0j7579fqwwu2a2s3b",
         "carRentalElements": [
           
         ],
         "date": "2020-09-04",
         "missingBookableDays": false,
-        "elementsOrder": "eus6bu2eaaziqg32e3rs",
+        "elementsOrder": "i67iwcrchinf9uhre4c",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2020-09-05"
@@ -1157,7 +1315,7 @@
             "unitAmount": 1,
             "unitId": 2,
             "optional": false,
-            "not_calculated": true,
+            "not_calculated": false,
             "title": "Anggun Boutique Hotel",
             "TSProduct": {
               "id": 643,
@@ -1217,7 +1375,7 @@
               
             ],
             "olPrices": {
-              "costPrice": "0.00000000",
+              "costPrice": "64.470",
               "discount": null,
               "title": "Anggun Boutique Hotel",
               "discountMethod": null,
@@ -1226,17 +1384,18 @@
               "salesCurrency": "EUR",
               "participants": {
                 "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "32.235",
+                  "salesPrice": "41.000"
                 },
                 "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "32.235",
+                  "salesPrice": "41.000"
                 }
               },
-              "salesTotal": 0
+              "salesTotal": "82.000",
+              "margin": "21.37805"
             },
-            "subAdditionalText": null,
+            "subAdditionalText": "inclusief ontbijt",
             "additionalText": null,
             "roomTypes": [
               {
@@ -1256,22 +1415,25 @@
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "3zxhsz4aq8hht6f87zgj0e",
+            "vtbObjectId": "bhyhlbfbd5m5zfjl9zfp",
             "linkedParty": "party 1",
             "hasPreviousElementParticipantOverlap": true,
             "day": 2,
             "date": "2020-09-05",
             "endDate": "2020-09-06",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "subTitle": "classic kamer",
+            "lastRecalc": 1587475392252,
+            "manual_calc": false
           },
           {
             "emptyOlStartDT": false,
             "offset": 0,
             "nights": 0,
-            "unitAmount": 0,
+            "unitAmount": 1,
             "unitId": 11,
             "optional": false,
-            "not_calculated": true,
+            "not_calculated": false,
             "title": "Fietsen door modern \u00c3\u00a9n authentiek Maleisi\u00c3\u00ab",
             "TSProduct": {
               "id": 797,
@@ -1331,24 +1493,25 @@
               
             ],
             "olPrices": {
-              "costPrice": "0.00000000",
+              "costPrice": "88.200",
               "discount": null,
               "title": "Fietsen door modern \u00c3\u00a9n authentiek Maleisi\u00c3\u00ab",
               "discountMethod": null,
-              "exchangeRate": "1.000000000",
+              "exchangeRate": "0.210000000",
               "purchaseCurrency": "MYR",
               "salesCurrency": "EUR",
               "participants": {
                 "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "44.100",
+                  "salesPrice": "56.000"
                 },
                 "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "44.100",
+                  "salesPrice": "56.000"
                 }
               },
-              "salesTotal": 0
+              "salesTotal": "112.000",
+              "margin": "21.25000"
             },
             "subAdditionalText": null,
             "additionalText": null,
@@ -1369,22 +1532,25 @@
             "missingBookableDays": [
               
             ],
-            "vtbObjectId": "0ydb4803z3ah5di9bty0s16",
+            "vtbObjectId": "ht972wznjthpvpidjcst7",
             "linkedParty": "party 1",
             "day": 2,
             "date": "2020-09-05",
             "endDate": "2020-09-04",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "subTitle": "excursie",
+            "manual_calc": false,
+            "lastRecalc": 1587475392273
           }
         ],
         "inViewport": false,
-        "vtbObjectId": "lbc7s1wk7pgm4fgtfo03q",
+        "vtbObjectId": "ez7y965can9v3jrkakwu",
         "carRentalElements": [
           
         ],
         "date": "2020-09-05",
         "missingBookableDays": false,
-        "elementsOrder": "3zxhsz4aq8hht6f87zgj0e|0ydb4803z3ah5di9bty0s16",
+        "elementsOrder": "bhyhlbfbd5m5zfjl9zfp|ht972wznjthpvpidjcst7",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2020-09-06"
@@ -1433,7 +1599,7 @@
             "unitAmount": 1,
             "unitId": 19,
             "optional": false,
-            "not_calculated": true,
+            "not_calculated": false,
             "title": "bus en boot Kuala Lumpur - Taman Negara",
             "TSProduct": {
               "id": 747,
@@ -1493,7 +1659,7 @@
               
             ],
             "olPrices": {
-              "costPrice": "0.00000000",
+              "costPrice": "67.200",
               "discount": null,
               "title": "bus en boot Kuala Lumpur - Taman Negara",
               "discountMethod": null,
@@ -1502,15 +1668,16 @@
               "salesCurrency": "EUR",
               "participants": {
                 "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "33.600",
+                  "salesPrice": "42.000"
                 },
                 "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "33.600",
+                  "salesPrice": "42.000"
                 }
               },
-              "salesTotal": 0
+              "salesTotal": "84.000",
+              "margin": "20.00000"
             },
             "subAdditionalText": null,
             "additionalText": null,
@@ -1532,13 +1699,16 @@
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "lrkdn5dltu9ktkce7rik7p",
+            "vtbObjectId": "pp8x6su2zc35mvg9uncp3",
             "linkedParty": "party 1",
             "hasPreviousElementParticipantOverlap": true,
             "day": 3,
             "date": "2020-09-06",
             "endDate": "2020-09-04",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "subTitle": "bus + bootticket",
+            "lastRecalc": 1587475392294,
+            "manual_calc": false
           },
           {
             "emptyOlStartDT": false,
@@ -1547,7 +1717,7 @@
             "unitAmount": 1,
             "unitId": 2,
             "optional": false,
-            "not_calculated": true,
+            "not_calculated": false,
             "title": "Han Rainforest Resort",
             "TSProduct": {
               "id": 651,
@@ -1607,7 +1777,7 @@
               
             ],
             "olPrices": {
-              "costPrice": "0.00000000",
+              "costPrice": "45.360",
               "discount": null,
               "title": "Han Rainforest Resort",
               "discountMethod": null,
@@ -1616,17 +1786,18 @@
               "salesCurrency": "EUR",
               "participants": {
                 "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "22.680",
+                  "salesPrice": "29.000"
                 },
                 "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "22.680",
+                  "salesPrice": "29.000"
                 }
               },
-              "salesTotal": 0
+              "salesTotal": "58.000",
+              "margin": "21.79310"
             },
-            "subAdditionalText": null,
+            "subAdditionalText": "inclusief ontbijt",
             "additionalText": null,
             "roomTypes": [
               {
@@ -1646,22 +1817,25 @@
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "uwen042547thent977rsj",
+            "vtbObjectId": "msx05qlkvzppf9lo6ngrij",
             "linkedParty": "party 1",
             "hasPreviousElementParticipantOverlap": true,
             "day": 3,
             "date": "2020-09-06",
             "endDate": "2020-09-07",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "subTitle": "superior kamer",
+            "lastRecalc": 1587475392315,
+            "manual_calc": false
           },
           {
             "emptyOlStartDT": false,
             "offset": 1,
             "nights": 0,
-            "unitAmount": 0,
+            "unitAmount": 1,
             "unitId": 11,
             "optional": false,
-            "not_calculated": true,
+            "not_calculated": false,
             "title": "excursies Taman Negara bij Mutiara Taman Negara",
             "TSProduct": {
               "id": 798,
@@ -1721,24 +1895,25 @@
               
             ],
             "olPrices": {
-              "costPrice": "0.00000000",
+              "costPrice": "126.000",
               "discount": null,
               "title": "excursies Taman Negara bij Mutiara Taman Negara",
               "discountMethod": null,
-              "exchangeRate": "1.000000000",
+              "exchangeRate": "0.210000000",
               "purchaseCurrency": "MYR",
               "salesCurrency": "EUR",
               "participants": {
                 "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "63.000",
+                  "salesPrice": "79.000"
                 },
                 "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "63.000",
+                  "salesPrice": "79.000"
                 }
               },
-              "salesTotal": 0
+              "salesTotal": "158.000",
+              "margin": "20.25316"
             },
             "subAdditionalText": null,
             "additionalText": null,
@@ -1759,22 +1934,25 @@
             "missingBookableDays": [
               
             ],
-            "vtbObjectId": "a4x32b1cbk95sjqku8e214",
+            "vtbObjectId": "r21sri9mkgbidsk5k1lase",
             "linkedParty": "party 1",
             "day": 4,
             "date": "2020-09-07",
             "endDate": "2020-09-04",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "subTitle": "excursie",
+            "manual_calc": false,
+            "lastRecalc": 1587475392336
           }
         ],
         "inViewport": false,
-        "vtbObjectId": "c6ahcs8ut4n7o7oykisz",
+        "vtbObjectId": "17vxb7suhwhi474og2oav3g",
         "carRentalElements": [
           
         ],
         "date": "2020-09-06",
         "missingBookableDays": false,
-        "elementsOrder": "lrkdn5dltu9ktkce7rik7p|uwen042547thent977rsj|a4x32b1cbk95sjqku8e214",
+        "elementsOrder": "pp8x6su2zc35mvg9uncp3|msx05qlkvzppf9lo6ngrij|r21sri9mkgbidsk5k1lase",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2020-09-07"
@@ -1823,7 +2001,7 @@
             "unitAmount": 1,
             "unitId": 2,
             "optional": false,
-            "not_calculated": true,
+            "not_calculated": false,
             "title": "Han Rainforest Resort",
             "TSProduct": {
               "id": 651,
@@ -1883,7 +2061,7 @@
               
             ],
             "olPrices": {
-              "costPrice": "0.00000000",
+              "costPrice": "45.360",
               "discount": null,
               "title": "Han Rainforest Resort",
               "discountMethod": null,
@@ -1892,17 +2070,18 @@
               "salesCurrency": "EUR",
               "participants": {
                 "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "22.680",
+                  "salesPrice": "29.000"
                 },
                 "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "22.680",
+                  "salesPrice": "29.000"
                 }
               },
-              "salesTotal": 0
+              "salesTotal": "58.000",
+              "margin": "21.79310"
             },
-            "subAdditionalText": null,
+            "subAdditionalText": "inclusief ontbijt",
             "additionalText": null,
             "roomTypes": [
               {
@@ -1922,29 +2101,32 @@
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "gq224mebr1pfx5zam74e3w",
+            "vtbObjectId": "9kj8ujuwv4dodqs12wdg4",
             "linkedParty": "party 1",
             "hasPreviousElementParticipantOverlap": true,
             "day": 4,
             "date": "2020-09-07",
             "endDate": "2020-09-08",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "subTitle": "superior kamer",
+            "lastRecalc": 1587475392358,
+            "manual_calc": false
           }
         ],
         "inViewport": false,
-        "vtbObjectId": "g2hytni5igifngwvpapbyo",
+        "vtbObjectId": "jqzcto6qhwnvqq2qmm556",
         "carRentalElements": [
           
         ],
         "date": "2020-09-07",
         "missingBookableDays": false,
-        "elementsOrder": "gq224mebr1pfx5zam74e3w",
+        "elementsOrder": "9kj8ujuwv4dodqs12wdg4",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2020-09-08"
       },
       {
-        "nights": 1,
+        "nights": 5,
         "day": 5,
         "isFlight": false,
         "typeId": 16,
@@ -1987,7 +2169,7 @@
             "unitAmount": 1,
             "unitId": 2,
             "optional": false,
-            "not_calculated": true,
+            "not_calculated": false,
             "title": "Strawberry Park resort",
             "TSProduct": {
               "id": 649,
@@ -2047,7 +2229,7 @@
               
             ],
             "olPrices": {
-              "costPrice": "0.00000000",
+              "costPrice": "61.320",
               "discount": null,
               "title": "Strawberry Park resort",
               "discountMethod": null,
@@ -2056,17 +2238,18 @@
               "salesCurrency": "EUR",
               "participants": {
                 "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "30.660",
+                  "salesPrice": "39.000"
                 },
                 "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "30.660",
+                  "salesPrice": "39.000"
                 }
               },
-              "salesTotal": 0
+              "salesTotal": "78.000",
+              "margin": "21.38462"
             },
-            "subAdditionalText": null,
+            "subAdditionalText": "inclusief ontbijt",
             "additionalText": null,
             "roomTypes": [
               {
@@ -2086,22 +2269,25 @@
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "u86yclibdnhpb46xdin3n",
+            "vtbObjectId": "cvqhelu79n4xxpufk3ytz9",
             "linkedParty": "party 1",
             "hasPreviousElementParticipantOverlap": true,
             "day": 5,
             "date": "2020-09-08",
             "endDate": "2020-09-09",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "subTitle": "studio",
+            "lastRecalc": 1587475392379,
+            "manual_calc": false
           },
           {
             "emptyOlStartDT": false,
             "offset": 1,
-            "nights": 0,
-            "unitAmount": 1,
+            "nights": 4,
+            "unitAmount": 5,
             "unitId": 4,
             "optional": false,
-            "not_calculated": true,
+            "not_calculated": false,
             "subTitle": "Cat B. 1-6 dagen",
             "title": "Basis Autohuur Maleisi\u00eb",
             "TSProduct": {
@@ -2162,24 +2348,26 @@
               
             ],
             "olPrices": {
-              "costPrice": "0.00000000",
+              "costPrice": "0.000",
               "discount": null,
               "title": "Basis Autohuur Maleisi\u00eb [Cat B. 1-6 dagen]",
               "discountMethod": null,
-              "exchangeRate": "0.060000000",
-              "purchaseCurrency": "ZAR",
+              "exchangeRate": "0.210000000",
+              "purchaseCurrency": "MYR",
               "salesCurrency": "EUR",
               "participants": {
                 "1006323": {
                   "costPrice": "0.000",
-                  "salesPrice": ""
+                  "salesPrice": "0.000"
                 },
                 "2041495": {
                   "costPrice": "0.000",
-                  "salesPrice": ""
+                  "salesPrice": "0.000"
                 }
               },
-              "salesTotal": 0
+              "salesTotal": "0.000",
+              "margin": "0.00000",
+              "hasError": "failed fetching live prices: error_no_matrixline_found"
             },
             "subAdditionalText": null,
             "additionalText": null,
@@ -2228,981 +2416,25 @@
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "li7hvp5qc4cfg239eg9oj",
+            "vtbObjectId": "sn4qpkyf10r5exgk0rz1y9",
             "linkedParty": "party 1",
             "hasPreviousElementParticipantOverlap": true,
             "day": 6,
             "date": "2020-09-09",
-            "endDate": "2020-09-04",
-            "roomTypeMatchesParticipants": true
+            "endDate": "2020-09-13",
+            "roomTypeMatchesParticipants": true,
+            "manual_calc": false,
+            "lastRecalc": 1587475392383
           }
         ],
         "inViewport": false,
-        "vtbObjectId": "newfth3iolz34ddkm48c",
+        "vtbObjectId": "8tl3lcufhx6n7raw7er64e",
         "carRentalElements": [
           
         ],
         "date": "2020-09-08",
         "missingBookableDays": false,
-        "elementsOrder": "u86yclibdnhpb46xdin3n|li7hvp5qc4cfg239eg9oj",
-        "elementsMapActive": "",
-        "hasElementsOverlap": false,
-        "endDate": "2020-09-09"
-      },
-      {
-        "nights": 1,
-        "day": 6,
-        "isFlight": false,
-        "typeId": 16,
-        "title": "vrije dag in Penang ",
-        "subTitle": null,
-        "content": "<p>Vandaag is de dag in Penang vrij te besteden. In de wijk Little India kun je kleurrijke Hindoetempels bewonderen in een decor van in sari\u2019s gehulde vrouwen en winkels met exotische specerijen.<\/p>",
-        "TSBlock": {
-          "id": 10476
-        },
-        "flightInfo": [
-          
-        ],
-        "maps": {
-          "addressInfo": [
-            
-          ],
-          "fiendOfView": 0,
-          "heading": 0,
-          "latitude": 5.383796725074198,
-          "longitude": 100.3191305732041,
-          "pitch": 0,
-          "searchPlace": null,
-          "staticImageZoom": null,
-          "zoom": 11
-        },
-        "media": [
-          {
-            "id": 48,
-            "sourceType": "mediaspirit",
-            "sourceId": "a7faf8e13ffe56288fb1f5cb2965a1cb",
-            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/lampionnen.JPG",
-            "description": null
-          }
-        ],
-        "elements": [
-          {
-            "emptyOlStartDT": false,
-            "offset": 0,
-            "nights": 1,
-            "unitAmount": 1,
-            "unitId": 2,
-            "optional": false,
-            "not_calculated": true,
-            "title": "Noordin Mews",
-            "TSProduct": {
-              "id": 653,
-              "tag": "ACMYPENNOO",
-              "bookableDays": [
-                
-              ]
-            },
-            "TSOrderline": {
-              "id": 23597,
-              "extraFieldValues": [
-                {
-                  "id": 8,
-                  "name": "Starttijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Start time",
-                  "field_value_link_id": 2485,
-                  "link_type": "orderline",
-                  "link_id": 23597,
-                  "value": null
-                },
-                {
-                  "id": 9,
-                  "name": "Eindtijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "End time",
-                  "field_value_link_id": 2486,
-                  "link_type": "orderline",
-                  "link_id": 23597,
-                  "value": null
-                }
-              ]
-            },
-            "media": [
-              
-            ],
-            "olPrices": {
-              "costPrice": "0.00000000",
-              "discount": null,
-              "title": "Noordin Mews",
-              "discountMethod": null,
-              "exchangeRate": "0.210000000",
-              "purchaseCurrency": "MYR",
-              "salesCurrency": "EUR",
-              "participants": {
-                "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                },
-                "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                }
-              },
-              "salesTotal": 0
-            },
-            "subAdditionalText": null,
-            "additionalText": null,
-            "roomTypes": [
-              {
-                "defaultPrice": "414.0000",
-                "description": "mews kamer",
-                "minPerson": 1,
-                "maxPerson": 3,
-                "minUnit": 1,
-                "maxUnit": null,
-                "note": "inclusief ontbijt"
-              }
-            ],
-            "supplierComment": null,
-            "sellingAmount": "25.000",
-            "sellingMarkupType": "percentage",
-            "missingBookableDays": [
-              
-            ],
-            "needsOffsetRecalculation": true,
-            "vtbObjectId": "3blgygddula0jfneu7j8cz",
-            "linkedParty": "party 1",
-            "hasPreviousElementParticipantOverlap": true,
-            "day": 6,
-            "date": "2020-09-09",
-            "endDate": "2020-09-10",
-            "roomTypeMatchesParticipants": true
-          }
-        ],
-        "inViewport": false,
-        "vtbObjectId": "pix8hfza0n2cko1ihdgr6",
-        "carRentalElements": [
-          
-        ],
-        "date": "2020-09-09",
-        "missingBookableDays": false,
-        "elementsOrder": "3blgygddula0jfneu7j8cz",
-        "elementsMapActive": "",
-        "hasElementsOverlap": false,
-        "endDate": "2020-09-10"
-      },
-      {
-        "nights": 1,
-        "day": 7,
-        "isFlight": false,
-        "typeId": 16,
-        "title": "per ferry naar Langkawi ",
-        "subTitle": null,
-        "content": "<p>Van het ene eiland naar het andere mooie eiland. Je reist op eigen gelegenheid naar de haven waar je de ferry pakt naar het tropische eiland Langkawi. Na aankomst op Langkawi reis je op eigen gelegenheid naar het hotel en kan het relaxen beginnen!<\/p>",
-        "TSBlock": {
-          "id": 10477
-        },
-        "flightInfo": [
-          
-        ],
-        "maps": {
-          "addressInfo": [
-            
-          ],
-          "fiendOfView": 0,
-          "heading": 0,
-          "latitude": 6.416456530349353,
-          "longitude": 99.86381275190652,
-          "pitch": 0,
-          "searchPlace": null,
-          "staticImageZoom": null,
-          "zoom": 10
-        },
-        "media": [
-          {
-            "id": 49,
-            "sourceType": "mediaspirit",
-            "sourceId": "c0638d1ed04e098c6e9413ab938705b4",
-            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/wierrook.JPG",
-            "description": null
-          }
-        ],
-        "elements": [
-          {
-            "emptyOlStartDT": false,
-            "offset": 0,
-            "nights": 1,
-            "unitAmount": 1,
-            "unitId": 2,
-            "optional": false,
-            "not_calculated": true,
-            "title": "Holiday Villa Beach Resort & Spa",
-            "TSProduct": {
-              "id": 656,
-              "tag": "ACMYLANHOL",
-              "bookableDays": [
-                
-              ]
-            },
-            "TSOrderline": {
-              "id": 23598,
-              "extraFieldValues": [
-                {
-                  "id": 8,
-                  "name": "Starttijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Start time",
-                  "field_value_link_id": 2487,
-                  "link_type": "orderline",
-                  "link_id": 23598,
-                  "value": null
-                },
-                {
-                  "id": 9,
-                  "name": "Eindtijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "End time",
-                  "field_value_link_id": 2488,
-                  "link_type": "orderline",
-                  "link_id": 23598,
-                  "value": null
-                }
-              ]
-            },
-            "media": [
-              
-            ],
-            "olPrices": {
-              "costPrice": "0.00000000",
-              "discount": null,
-              "title": "Holiday Villa Beach Resort & Spa",
-              "discountMethod": null,
-              "exchangeRate": "0.210000000",
-              "purchaseCurrency": "MYR",
-              "salesCurrency": "EUR",
-              "participants": {
-                "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                },
-                "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                }
-              },
-              "salesTotal": 0
-            },
-            "subAdditionalText": null,
-            "additionalText": null,
-            "roomTypes": [
-              {
-                "defaultPrice": "472.0000",
-                "description": "superior kamer",
-                "minPerson": 1,
-                "maxPerson": 3,
-                "minUnit": 1,
-                "maxUnit": null,
-                "note": "inclusief ontbijt"
-              },
-              {
-                "defaultPrice": "432.0000",
-                "description": "toeslag diner oud & nieuw",
-                "minPerson": 1,
-                "maxPerson": 1,
-                "minUnit": 1,
-                "maxUnit": null,
-                "note": "diner oud &amp; nieuw 31 december"
-              }
-            ],
-            "supplierComment": null,
-            "sellingAmount": "25.000",
-            "sellingMarkupType": "percentage",
-            "missingBookableDays": [
-              
-            ],
-            "needsOffsetRecalculation": true,
-            "vtbObjectId": "mnp05y120zo4selwmwxs2g",
-            "linkedParty": "party 1",
-            "hasPreviousElementParticipantOverlap": true,
-            "day": 7,
-            "date": "2020-09-10",
-            "endDate": "2020-09-11",
-            "roomTypeMatchesParticipants": true
-          },
-          {
-            "emptyOlStartDT": false,
-            "offset": 0,
-            "nights": 0,
-            "unitAmount": 0,
-            "unitId": 24,
-            "optional": false,
-            "not_calculated": true,
-            "title": "boot Penang - Langkawi",
-            "TSProduct": {
-              "id": 781,
-              "tag": "BTMYPENLGK",
-              "bookableDays": [
-                
-              ]
-            },
-            "TSOrderline": {
-              "id": 23599,
-              "extraFieldValues": [
-                {
-                  "id": 8,
-                  "name": "Starttijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Start time",
-                  "field_value_link_id": 2489,
-                  "link_type": "orderline",
-                  "link_id": 23599,
-                  "value": null
-                },
-                {
-                  "id": 9,
-                  "name": "Eindtijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "End time",
-                  "field_value_link_id": 2490,
-                  "link_type": "orderline",
-                  "link_id": 23599,
-                  "value": null
-                }
-              ]
-            },
-            "media": [
-              
-            ],
-            "olPrices": {
-              "costPrice": "0.00000000",
-              "discount": null,
-              "title": "boot Penang - Langkawi",
-              "discountMethod": null,
-              "exchangeRate": "1.000000000",
-              "purchaseCurrency": "MYR",
-              "salesCurrency": "EUR",
-              "participants": {
-                "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                },
-                "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                }
-              },
-              "salesTotal": 0
-            },
-            "subAdditionalText": null,
-            "additionalText": null,
-            "roomTypes": [
-              {
-                "defaultPrice": "75.0000",
-                "description": "bootticket",
-                "minPerson": 1,
-                "maxPerson": 8,
-                "minUnit": 1,
-                "maxUnit": null,
-                "note": ""
-              }
-            ],
-            "supplierComment": null,
-            "sellingAmount": "25.000",
-            "sellingMarkupType": "percentage",
-            "missingBookableDays": [
-              
-            ],
-            "vtbObjectId": "hmkesqxs1kbp0809m2hkaa",
-            "linkedParty": "party 1",
-            "day": 7,
-            "date": "2020-09-10",
-            "endDate": "2020-09-04",
-            "roomTypeMatchesParticipants": true
-          }
-        ],
-        "inViewport": false,
-        "vtbObjectId": "3hig9wgke7yju50e7m2ops",
-        "carRentalElements": [
-          
-        ],
-        "date": "2020-09-10",
-        "missingBookableDays": false,
-        "elementsOrder": "mnp05y120zo4selwmwxs2g|hmkesqxs1kbp0809m2hkaa",
-        "elementsMapActive": "",
-        "hasElementsOverlap": false,
-        "endDate": "2020-09-11"
-      },
-      {
-        "nights": 1,
-        "day": 8,
-        "isFlight": false,
-        "typeId": 16,
-        "title": "vrije dag op Langkawi",
-        "subTitle": null,
-        "content": "<p>Vandaag is de dag vrij te besteden. Langkawi is een echt paradijs met \u2018bounty\u2019-stranden, verborgen baaien en een glasheldere zee. Vroeger was dit eilandenrijk een schuilplaats voor piraten, nu is het een ideale vakantiebestemming.<\/p><p>&nbsp;<\/p>",
-        "TSBlock": {
-          "id": 10478
-        },
-        "flightInfo": [
-          
-        ],
-        "maps": {
-          "addressInfo": [
-            
-          ],
-          "fiendOfView": 0,
-          "heading": 0,
-          "latitude": 6.315165434270625,
-          "longitude": 99.80275099151855,
-          "pitch": 0,
-          "searchPlace": null,
-          "staticImageZoom": null,
-          "zoom": 11
-        },
-        "media": [
-          {
-            "id": 50,
-            "sourceType": "mediaspirit",
-            "sourceId": "92d78401ba566b61e3bfabe22d3be8c0",
-            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/markt-HoiAn.JPG",
-            "description": null
-          }
-        ],
-        "elements": [
-          {
-            "emptyOlStartDT": false,
-            "offset": 0,
-            "nights": 1,
-            "unitAmount": 1,
-            "unitId": 2,
-            "optional": false,
-            "not_calculated": true,
-            "title": "Holiday Villa Beach Resort & Spa",
-            "TSProduct": {
-              "id": 656,
-              "tag": "ACMYLANHOL",
-              "bookableDays": [
-                
-              ]
-            },
-            "TSOrderline": {
-              "id": 23600,
-              "extraFieldValues": [
-                {
-                  "id": 8,
-                  "name": "Starttijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Start time",
-                  "field_value_link_id": 2491,
-                  "link_type": "orderline",
-                  "link_id": 23600,
-                  "value": null
-                },
-                {
-                  "id": 9,
-                  "name": "Eindtijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "End time",
-                  "field_value_link_id": 2492,
-                  "link_type": "orderline",
-                  "link_id": 23600,
-                  "value": null
-                }
-              ]
-            },
-            "media": [
-              
-            ],
-            "olPrices": {
-              "costPrice": "0.00000000",
-              "discount": null,
-              "title": "Holiday Villa Beach Resort & Spa",
-              "discountMethod": null,
-              "exchangeRate": "0.210000000",
-              "purchaseCurrency": "MYR",
-              "salesCurrency": "EUR",
-              "participants": {
-                "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                },
-                "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                }
-              },
-              "salesTotal": 0
-            },
-            "subAdditionalText": null,
-            "additionalText": null,
-            "roomTypes": [
-              {
-                "defaultPrice": "472.0000",
-                "description": "superior kamer",
-                "minPerson": 1,
-                "maxPerson": 3,
-                "minUnit": 1,
-                "maxUnit": null,
-                "note": "inclusief ontbijt"
-              },
-              {
-                "defaultPrice": "432.0000",
-                "description": "toeslag diner oud & nieuw",
-                "minPerson": 1,
-                "maxPerson": 1,
-                "minUnit": 1,
-                "maxUnit": null,
-                "note": "diner oud &amp; nieuw 31 december"
-              }
-            ],
-            "supplierComment": null,
-            "sellingAmount": "25.000",
-            "sellingMarkupType": "percentage",
-            "missingBookableDays": [
-              
-            ],
-            "needsOffsetRecalculation": true,
-            "vtbObjectId": "3eqlzbl6dyc8iw6wvelph",
-            "linkedParty": "party 1",
-            "hasPreviousElementParticipantOverlap": true,
-            "day": 8,
-            "date": "2020-09-11",
-            "endDate": "2020-09-12",
-            "roomTypeMatchesParticipants": true
-          }
-        ],
-        "inViewport": false,
-        "vtbObjectId": "frstpu97xpoxj71d07v4",
-        "carRentalElements": [
-          
-        ],
-        "date": "2020-09-11",
-        "missingBookableDays": false,
-        "elementsOrder": "3eqlzbl6dyc8iw6wvelph",
-        "elementsMapActive": "",
-        "hasElementsOverlap": false,
-        "endDate": "2020-09-12"
-      },
-      {
-        "nights": 1,
-        "day": 9,
-        "isFlight": false,
-        "typeId": 16,
-        "title": "vrije dag op Langkawi",
-        "subTitle": null,
-        "content": "<p>Vandaag is de dag vrij te besteden. Iets actiefs doen? Vanaf de top van de Gunung Machingchang heb je een fantastisch uitzicht! Wees gerust, je gaat hier met een kabelbaan omhoog, dus je kan je slippers aanhouden. Houd je van duiken en snorkelen? Vanuit Langkawi kun je een trip boeken naar een van de omliggende eilandjes met een kleurrijke onderwaterwereld.<\/p><p>&nbsp;<\/p>",
-        "TSBlock": {
-          "id": 10479
-        },
-        "flightInfo": [
-          
-        ],
-        "maps": {
-          "addressInfo": [
-            
-          ],
-          "fiendOfView": 0,
-          "heading": 0,
-          "latitude": 6.357651131978769,
-          "longitude": 99.83389184481638,
-          "pitch": 0,
-          "searchPlace": null,
-          "staticImageZoom": null,
-          "zoom": 11
-        },
-        "media": [
-          {
-            "id": 51,
-            "sourceType": "mediaspirit",
-            "sourceId": "f4a897d3dce265b221686717eb8c0b41",
-            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/Vietnam-Streetfood.jpg",
-            "description": null
-          }
-        ],
-        "elements": [
-          {
-            "emptyOlStartDT": false,
-            "offset": 0,
-            "nights": 1,
-            "unitAmount": 1,
-            "unitId": 2,
-            "optional": false,
-            "not_calculated": true,
-            "title": "Holiday Villa Beach Resort & Spa",
-            "TSProduct": {
-              "id": 656,
-              "tag": "ACMYLANHOL",
-              "bookableDays": [
-                
-              ]
-            },
-            "TSOrderline": {
-              "id": 23601,
-              "extraFieldValues": [
-                {
-                  "id": 8,
-                  "name": "Starttijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Start time",
-                  "field_value_link_id": 2493,
-                  "link_type": "orderline",
-                  "link_id": 23601,
-                  "value": null
-                },
-                {
-                  "id": 9,
-                  "name": "Eindtijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "End time",
-                  "field_value_link_id": 2494,
-                  "link_type": "orderline",
-                  "link_id": 23601,
-                  "value": null
-                }
-              ]
-            },
-            "media": [
-              
-            ],
-            "olPrices": {
-              "costPrice": "0.00000000",
-              "discount": null,
-              "title": "Holiday Villa Beach Resort & Spa",
-              "discountMethod": null,
-              "exchangeRate": "0.210000000",
-              "purchaseCurrency": "MYR",
-              "salesCurrency": "EUR",
-              "participants": {
-                "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                },
-                "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                }
-              },
-              "salesTotal": 0
-            },
-            "subAdditionalText": null,
-            "additionalText": null,
-            "roomTypes": [
-              {
-                "defaultPrice": "472.0000",
-                "description": "superior kamer",
-                "minPerson": 1,
-                "maxPerson": 3,
-                "minUnit": 1,
-                "maxUnit": null,
-                "note": "inclusief ontbijt"
-              },
-              {
-                "defaultPrice": "432.0000",
-                "description": "toeslag diner oud & nieuw",
-                "minPerson": 1,
-                "maxPerson": 1,
-                "minUnit": 1,
-                "maxUnit": null,
-                "note": "diner oud &amp; nieuw 31 december"
-              }
-            ],
-            "supplierComment": null,
-            "sellingAmount": "25.000",
-            "sellingMarkupType": "percentage",
-            "missingBookableDays": [
-              
-            ],
-            "needsOffsetRecalculation": true,
-            "vtbObjectId": "friww4bvbw9xzugrn35ko",
-            "linkedParty": "party 1",
-            "hasPreviousElementParticipantOverlap": true,
-            "day": 9,
-            "date": "2020-09-12",
-            "endDate": "2020-09-13",
-            "roomTypeMatchesParticipants": true
-          }
-        ],
-        "inViewport": false,
-        "vtbObjectId": "99ioskd08pdolph89bxkci",
-        "carRentalElements": [
-          
-        ],
-        "date": "2020-09-12",
-        "missingBookableDays": false,
-        "elementsOrder": "friww4bvbw9xzugrn35ko",
-        "elementsMapActive": "",
-        "hasElementsOverlap": false,
-        "endDate": "2020-09-13"
-      },
-      {
-        "nights": 0,
-        "day": 10,
-        "isFlight": false,
-        "typeId": 16,
-        "title": "vertrek naar Amsterdam",
-        "subTitle": null,
-        "content": "<p>Na het ontbijt word je naar het vliegveld van Langkawi gebracht, voor de terugvlucht naar huis.<\/p>",
-        "TSBlock": {
-          "id": 10480
-        },
-        "flightInfo": [
-          
-        ],
-        "maps": {
-          "addressInfo": [
-            
-          ],
-          "fiendOfView": 0,
-          "heading": 0,
-          "latitude": 52.35713813924031,
-          "longitude": 4.927860085644529,
-          "pitch": 0,
-          "searchPlace": null,
-          "staticImageZoom": null,
-          "zoom": 12
-        },
-        "media": [
-          {
-            "id": 37,
-            "sourceType": "mediaspirit",
-            "sourceId": "3c51b734f1e60a7b200028cd2a13ff62",
-            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/straatbeeld-brommers-Saigon.JPG",
-            "description": null
-          }
-        ],
-        "elements": [
-          {
-            "emptyOlStartDT": false,
-            "offset": 0,
-            "nights": 0,
-            "unitAmount": 0,
-            "unitId": 8,
-            "optional": false,
-            "not_calculated": true,
-            "title": "transfer hotel in Langkawi - vliegveld Langkawi",
-            "TSProduct": {
-              "id": 702,
-              "tag": "TRMYHTLLGK",
-              "bookableDays": [
-                
-              ]
-            },
-            "TSOrderline": {
-              "id": 23602,
-              "extraFieldValues": [
-                {
-                  "id": 8,
-                  "name": "Starttijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Start time",
-                  "field_value_link_id": 2495,
-                  "link_type": "orderline",
-                  "link_id": 23602,
-                  "value": null
-                },
-                {
-                  "id": 9,
-                  "name": "Eindtijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "End time",
-                  "field_value_link_id": 2496,
-                  "link_type": "orderline",
-                  "link_id": 23602,
-                  "value": null
-                }
-              ]
-            },
-            "media": [
-              
-            ],
-            "olPrices": {
-              "costPrice": "0.00000000",
-              "discount": null,
-              "title": "transfer hotel in Langkawi - vliegveld Langkawi",
-              "discountMethod": null,
-              "exchangeRate": "1.000000000",
-              "purchaseCurrency": "MYR",
-              "salesCurrency": "EUR",
-              "participants": {
-                "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                },
-                "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                }
-              },
-              "salesTotal": 0
-            },
-            "subAdditionalText": null,
-            "additionalText": null,
-            "roomTypes": [
-              {
-                "defaultPrice": "125.0000",
-                "description": "prive transfer",
-                "minPerson": 1,
-                "maxPerson": 4,
-                "minUnit": 1,
-                "maxUnit": null,
-                "note": ""
-              }
-            ],
-            "supplierComment": null,
-            "sellingAmount": "25.000",
-            "sellingMarkupType": "percentage",
-            "missingBookableDays": [
-              
-            ],
-            "needsOffsetRecalculation": true,
-            "vtbObjectId": "34dzfx1sqf9eh87qfipqd",
-            "linkedParty": "party 1",
-            "day": 10,
-            "date": "2020-09-13",
-            "endDate": "2020-09-04",
-            "roomTypeMatchesParticipants": true
-          }
-        ],
-        "inViewport": false,
-        "vtbObjectId": "t19pyoet0j30w2egm70p",
-        "carRentalElements": [
-          
-        ],
-        "date": "2020-09-13",
-        "missingBookableDays": false,
-        "elementsOrder": "34dzfx1sqf9eh87qfipqd",
+        "elementsOrder": "cvqhelu79n4xxpufk3ytz9|sn4qpkyf10r5exgk0rz1y9",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2020-09-13"
@@ -3210,654 +2442,8 @@
       {
         "nights": 1,
         "day": 10,
-        "isFlight": true,
-        "typeId": 4,
-        "title": "vertrek vanuit Amsterdam",
-        "subTitle": null,
-        "content": "<p>Vandaag start je reis met OutSight Travel. Je internationale vlucht naar Kuala Lumpur komt de volgende dag aan. Na aankomst word je verwelkomt en naar je hotel gebracht.&nbsp;<\/p><p>Deze reis is zonder internationale retourvlucht. Deze is via ons te boeken maar kan je ook elders reserveren.&nbsp;<\/p>",
-        "TSBlock": {
-          "id": 10466
-        },
-        "flightInfo": [
-          {
-            "id": 10,
-            "airlineCode": "MALAYSIA AIRLINES ",
-            "flightNumber": "MH 978",
-            "departureAirport": "AMSTERDAM",
-            "departureAirportObject": [
-              
-            ],
-            "departureDt": "2020-09-04 10:00:00",
-            "arrivalAirport": "KUALA LUMPUR",
-            "arrivalAirportObject": [
-              
-            ],
-            "arrivalDt": "2020-05-10 11:00:00",
-            "arrivalDate": "2020-05-10",
-            "arrivalTime": "11:00",
-            "departureDate": "2020-09-04",
-            "departureTime": "10:00",
-            "stopoverAirport": null,
-            "duration": 0,
-            "farebase": null
-          }
-        ],
-        "maps": {
-          "addressInfo": [
-            
-          ],
-          "fiendOfView": 0,
-          "heading": 0,
-          "latitude": 19.01589788332863,
-          "longitude": 97.09380300369968,
-          "pitch": 0,
-          "searchPlace": null,
-          "staticImageZoom": null,
-          "zoom": 5
-        },
-        "media": [
-          {
-            "id": 4,
-            "sourceType": "mediaspirit",
-            "sourceId": "92958575ee036b492effdc2c7a698771",
-            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/vrolijke-locals-Sapa.jpg",
-            "description": null
-          }
-        ],
-        "elements": [
-          {
-            "emptyOlStartDT": false,
-            "offset": 0,
-            "nights": 1,
-            "unitAmount": 1,
-            "unitId": 10,
-            "optional": false,
-            "not_calculated": true,
-            "title": "Internationale vluchtprijs Maleisi\u00eb (incl. luchthavenbelasting)",
-            "TSProduct": {
-              "id": 350,
-              "tag": "VLS_MY",
-              "bookableDays": [
-                
-              ]
-            },
-            "TSOrderline": {
-              "id": 23581,
-              "extraFieldValues": [
-                {
-                  "id": 8,
-                  "name": "Starttijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Start time",
-                  "field_value_link_id": 2453,
-                  "link_type": "orderline",
-                  "link_id": 23581,
-                  "value": null
-                },
-                {
-                  "id": 9,
-                  "name": "Eindtijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "End time",
-                  "field_value_link_id": 2454,
-                  "link_type": "orderline",
-                  "link_id": 23581,
-                  "value": null
-                }
-              ]
-            },
-            "media": [
-              
-            ],
-            "olPrices": {
-              "costPrice": "0.00000000",
-              "discount": null,
-              "title": "Internationale vluchtprijs Maleisi\u00eb (incl. luchthavenbelasting)",
-              "discountMethod": null,
-              "exchangeRate": "1.000000000",
-              "purchaseCurrency": "EUR",
-              "salesCurrency": "EUR",
-              "participants": {
-                "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": 500
-                },
-                "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": 500
-                }
-              },
-              "salesTotal": 1000
-            },
-            "subAdditionalText": null,
-            "additionalText": null,
-            "roomTypes": [
-              
-            ],
-            "supplierComment": null,
-            "sellingAmount": "9.000",
-            "sellingMarkupType": "percentage",
-            "missingBookableDays": [
-              
-            ],
-            "needsOffsetRecalculation": true,
-            "vtbObjectId": "w46frban2cfwtjm0eohrr",
-            "linkedParty": "party 1",
-            "hasPreviousElementParticipantOverlap": true,
-            "day": 10,
-            "date": "2020-09-13",
-            "endDate": "2020-09-14",
-            "roomTypeMatchesParticipants": true
-          }
-        ],
-        "inViewport": false,
-        "vtbObjectId": "sh6zpd79b8m15jtvlxvy",
-        "carRentalElements": [
-          
-        ],
-        "date": "2020-09-13",
-        "missingBookableDays": false,
-        "elementsOrder": "w46frban2cfwtjm0eohrr",
-        "elementsMapActive": "",
-        "hasElementsOverlap": false,
-        "endDate": "2020-09-14",
-        "fold": true
-      },
-      {
-        "nights": 1,
-        "day": 11,
         "isFlight": false,
-        "typeId": 7,
-        "title": "vrije dag in Penang ",
-        "subTitle": null,
-        "content": "<p>Vandaag is de dag vrij te besteden. Geniet van de marktjes en het lekkere eten, of bezoek de Snake Tempel en de Kek Lok Si Temple, een prachtig gebouw met 7 verdiepingen.&nbsp; Loop ook eens naar het koloniale district, de plek waar de Engelsen zich voor het eerst gevestigd hebben met Fort Cornwallis, het \u2018Supreme Court\u2019 en St. George\u2019s Church.<\/p>",
-        "TSBlock": {
-          "id": 10470
-        },
-        "flightInfo": [
-          
-        ],
-        "maps": {
-          "addressInfo": [
-            
-          ],
-          "fiendOfView": 0,
-          "heading": 0,
-          "latitude": 5.434720780412669,
-          "longitude": 100.35269226775011,
-          "pitch": 0,
-          "searchPlace": null,
-          "staticImageZoom": null,
-          "zoom": 11
-        },
-        "media": [
-          {
-            "id": 47,
-            "sourceType": "mediaspirit",
-            "sourceId": "a890a2abcd1bc6452a6414b279075d1a",
-            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/Atrium-Hanoi.JPG",
-            "description": null
-          }
-        ],
-        "elements": [
-          {
-            "emptyOlStartDT": false,
-            "offset": 0,
-            "nights": 1,
-            "unitAmount": 1,
-            "unitId": 2,
-            "optional": false,
-            "not_calculated": true,
-            "title": "Noordin Mews",
-            "TSProduct": {
-              "id": 653,
-              "tag": "ACMYPENNOO",
-              "bookableDays": [
-                
-              ]
-            },
-            "TSOrderline": {
-              "id": 23596,
-              "extraFieldValues": [
-                {
-                  "id": 8,
-                  "name": "Starttijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Start time",
-                  "field_value_link_id": 2483,
-                  "link_type": "orderline",
-                  "link_id": 23596,
-                  "value": null
-                },
-                {
-                  "id": 9,
-                  "name": "Eindtijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "End time",
-                  "field_value_link_id": 2484,
-                  "link_type": "orderline",
-                  "link_id": 23596,
-                  "value": null
-                }
-              ]
-            },
-            "media": [
-              
-            ],
-            "olPrices": {
-              "costPrice": "0.00000000",
-              "discount": null,
-              "title": "Noordin Mews",
-              "discountMethod": null,
-              "exchangeRate": "0.210000000",
-              "purchaseCurrency": "MYR",
-              "salesCurrency": "EUR",
-              "participants": {
-                "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                },
-                "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                }
-              },
-              "salesTotal": 0
-            },
-            "subAdditionalText": null,
-            "additionalText": null,
-            "roomTypes": [
-              {
-                "defaultPrice": "414.0000",
-                "description": "mews kamer",
-                "minPerson": 1,
-                "maxPerson": 3,
-                "minUnit": 1,
-                "maxUnit": null,
-                "note": "inclusief ontbijt"
-              }
-            ],
-            "supplierComment": null,
-            "sellingAmount": "25.000",
-            "sellingMarkupType": "percentage",
-            "missingBookableDays": [
-              
-            ],
-            "needsOffsetRecalculation": true,
-            "vtbObjectId": "bhbkas3dvu5p9lhra3mut",
-            "linkedParty": "party 1",
-            "hasPreviousElementParticipantOverlap": true,
-            "day": 11,
-            "date": "2020-09-14",
-            "endDate": "2020-09-15",
-            "roomTypeMatchesParticipants": true
-          }
-        ],
-        "inViewport": false,
-        "vtbObjectId": "rg3vtt69wkh8jes2t4gvh9",
-        "carRentalElements": [
-          
-        ],
-        "date": "2020-09-14",
-        "missingBookableDays": false,
-        "elementsOrder": "bhbkas3dvu5p9lhra3mut",
-        "elementsMapActive": "",
-        "hasElementsOverlap": false,
-        "endDate": "2020-09-15"
-      },
-      {
-        "nights": 1,
-        "day": 12,
-        "isFlight": false,
-        "typeId": 9,
-        "title": "per huurauto van de Cameron Highlands naar Penang ",
-        "subTitle": null,
-        "content": "<p>Je gaat vandaag weer op pad met de huurauto. Over de lange brug rijdt je naar het schiereiland Penang, de \u2018Parel van de Orient\u2019. De hoofdstad Georgetown is sinds juli 2008 door de UNESCO uitgeroepen tot World Heritage Site. En dat is niet voor niets want er is genoeg te zien!<\/p><p>Lever vandaag de huurauto in, wil je deze langer houden? Dat kan, dan passen we dat graag voor je aan.<\/p>",
-        "TSBlock": {
-          "id": 10469
-        },
-        "flightInfo": [
-          
-        ],
-        "maps": {
-          "addressInfo": [
-            
-          ],
-          "fiendOfView": 0,
-          "heading": 0,
-          "latitude": 4.48875470853252,
-          "longitude": 101.49310014495627,
-          "pitch": 0,
-          "searchPlace": null,
-          "staticImageZoom": null,
-          "zoom": 12
-        },
-        "media": [
-          {
-            "id": 37,
-            "sourceType": "mediaspirit",
-            "sourceId": "3c51b734f1e60a7b200028cd2a13ff62",
-            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/straatbeeld-brommers-Saigon.JPG",
-            "description": null
-          }
-        ],
-        "elements": [
-          {
-            "emptyOlStartDT": false,
-            "offset": 0,
-            "nights": 1,
-            "unitAmount": 1,
-            "unitId": 2,
-            "optional": false,
-            "not_calculated": true,
-            "title": "Noordin Mews",
-            "TSProduct": {
-              "id": 653,
-              "tag": "ACMYPENNOO",
-              "bookableDays": [
-                
-              ]
-            },
-            "TSOrderline": {
-              "id": 23594,
-              "extraFieldValues": [
-                {
-                  "id": 8,
-                  "name": "Starttijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Start time",
-                  "field_value_link_id": 2479,
-                  "link_type": "orderline",
-                  "link_id": 23594,
-                  "value": null
-                },
-                {
-                  "id": 9,
-                  "name": "Eindtijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "End time",
-                  "field_value_link_id": 2480,
-                  "link_type": "orderline",
-                  "link_id": 23594,
-                  "value": null
-                }
-              ]
-            },
-            "media": [
-              
-            ],
-            "olPrices": {
-              "costPrice": "0.00000000",
-              "discount": null,
-              "title": "Noordin Mews",
-              "discountMethod": null,
-              "exchangeRate": "0.210000000",
-              "purchaseCurrency": "MYR",
-              "salesCurrency": "EUR",
-              "participants": {
-                "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                },
-                "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                }
-              },
-              "salesTotal": 0
-            },
-            "subAdditionalText": null,
-            "additionalText": null,
-            "roomTypes": [
-              {
-                "defaultPrice": "414.0000",
-                "description": "mews kamer",
-                "minPerson": 1,
-                "maxPerson": 3,
-                "minUnit": 1,
-                "maxUnit": null,
-                "note": "inclusief ontbijt"
-              }
-            ],
-            "supplierComment": null,
-            "sellingAmount": "25.000",
-            "sellingMarkupType": "percentage",
-            "missingBookableDays": [
-              
-            ],
-            "needsOffsetRecalculation": true,
-            "vtbObjectId": "21w4xb8v1120tez5wlngmu",
-            "linkedParty": "party 1",
-            "hasPreviousElementParticipantOverlap": true,
-            "day": 12,
-            "date": "2020-09-15",
-            "endDate": "2020-09-16",
-            "roomTypeMatchesParticipants": true
-          },
-          {
-            "emptyOlStartDT": false,
-            "offset": 0,
-            "nights": 0,
-            "unitAmount": 1,
-            "unitId": 5,
-            "optional": false,
-            "not_calculated": true,
-            "subTitle": "Cat B. 30+ dagen",
-            "title": "Basis Autohuur Maleisi\u00eb",
-            "TSProduct": {
-              "id": 393,
-              "tag": "Auto-MY",
-              "bookableDays": [
-                
-              ]
-            },
-            "TSOrderline": {
-              "id": 23595,
-              "extraFieldValues": [
-                {
-                  "id": 8,
-                  "name": "Starttijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Start time",
-                  "field_value_link_id": 2481,
-                  "link_type": "orderline",
-                  "link_id": 23595,
-                  "value": null
-                },
-                {
-                  "id": 9,
-                  "name": "Eindtijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "End time",
-                  "field_value_link_id": 2482,
-                  "link_type": "orderline",
-                  "link_id": 23595,
-                  "value": null
-                }
-              ]
-            },
-            "media": [
-              
-            ],
-            "olPrices": {
-              "costPrice": "0.00000000",
-              "discount": null,
-              "title": "Basis Autohuur Maleisi\u00eb [Cat B. 30+ dagen]",
-              "discountMethod": null,
-              "exchangeRate": "0.060000000",
-              "purchaseCurrency": "ZAR",
-              "salesCurrency": "EUR",
-              "participants": {
-                "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                },
-                "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                }
-              },
-              "salesTotal": 0
-            },
-            "subAdditionalText": null,
-            "additionalText": null,
-            "roomTypes": [
-              {
-                "defaultPrice": "389.0000",
-                "description": "Cat B. 1-6 dagen",
-                "minPerson": null,
-                "maxPerson": null,
-                "minUnit": 1,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "308.0000",
-                "description": "Cat B. 30+ dagen",
-                "minPerson": null,
-                "maxPerson": null,
-                "minUnit": 30,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "369.0000",
-                "description": "Cat B. 7-13 dagen",
-                "minPerson": null,
-                "maxPerson": null,
-                "minUnit": 7,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "331.0000",
-                "description": "Cat B. 14-29 dagen",
-                "minPerson": null,
-                "maxPerson": null,
-                "minUnit": 14,
-                "maxUnit": null,
-                "note": ""
-              }
-            ],
-            "supplierComment": null,
-            "sellingAmount": "17.000",
-            "sellingMarkupType": "percentage",
-            "missingBookableDays": [
-              
-            ],
-            "vtbObjectId": "yt67zun9pld57911dt4ck",
-            "linkedParty": "party 1",
-            "day": 12,
-            "date": "2020-09-15",
-            "endDate": "2020-09-04",
-            "roomTypeMatchesParticipants": true
-          }
-        ],
-        "inViewport": false,
-        "vtbObjectId": "9ixpinoqwh5vf2gmyzlskd",
-        "carRentalElements": [
-          
-        ],
-        "date": "2020-09-15",
-        "missingBookableDays": false,
-        "elementsOrder": "21w4xb8v1120tez5wlngmu|yt67zun9pld57911dt4ck",
-        "elementsMapActive": "",
-        "hasElementsOverlap": false,
-        "endDate": "2020-09-16"
-      },
-      {
-        "nights": 1,
-        "day": 13,
-        "isFlight": false,
-        "typeId": 11,
+        "typeId": 16,
         "title": "wandelen bij de Cameron Highlands ",
         "subTitle": null,
         "content": "<p>Vandaag ga je met een gids op pad. Hij neemt je mee in de auto naar de top van de hoogste berg in het gebied, de Gunung Brinchang. Hier heb je een prachtig uitzicht; mooie, glooiende, groene theevelden zover het oog reikt! Hierna ga je te voet op weg naar een theeplantage.&nbsp;<\/p><p>Voordat je bij de plantage aankomt, moet je eerst door het sinistere Mossy Forest waarbij bijna alles wat je ziet gehuld is in mos. Hier legt de gids je medicinale werking van de verschillende struiken en planten uit. Uiteindelijk kom je aan bij de plantage. Hier krijg je uitleg over het proces van plukken tot verwerking van de verschillende soorten thee. Wist je dat de beste thee, blaadje voor blaadje geselecteerd wordt in de fabriek?&nbsp;<br>Voordat je wordt teruggebracht breng je een bezoek aan&nbsp;een oude nederzetting waar je kunt zien hoe er nog op traditionele wijze wordt geleefd door sommige Maleisi\u00ebrs.<\/p>",
@@ -3897,7 +2483,7 @@
             "unitAmount": 1,
             "unitId": 2,
             "optional": false,
-            "not_calculated": true,
+            "not_calculated": false,
             "title": "Strawberry Park resort",
             "TSProduct": {
               "id": 649,
@@ -3957,7 +2543,7 @@
               
             ],
             "olPrices": {
-              "costPrice": "0.00000000",
+              "costPrice": "61.320",
               "discount": null,
               "title": "Strawberry Park resort",
               "discountMethod": null,
@@ -3966,17 +2552,18 @@
               "salesCurrency": "EUR",
               "participants": {
                 "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "30.660",
+                  "salesPrice": "39.000"
                 },
                 "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "30.660",
+                  "salesPrice": "39.000"
                 }
               },
-              "salesTotal": 0
+              "salesTotal": "78.000",
+              "margin": "21.38462"
             },
-            "subAdditionalText": null,
+            "subAdditionalText": "inclusief ontbijt",
             "additionalText": null,
             "roomTypes": [
               {
@@ -3996,162 +2583,25 @@
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "579li6h5j189s1xlpr931",
+            "vtbObjectId": "nulfxow5hia2tc5wccszju",
             "linkedParty": "party 1",
             "hasPreviousElementParticipantOverlap": true,
-            "day": 13,
-            "date": "2020-09-16",
-            "endDate": "2020-09-17",
-            "roomTypeMatchesParticipants": true
-          },
-          {
-            "emptyOlStartDT": false,
-            "offset": 1,
-            "nights": 0,
-            "unitAmount": 1,
-            "unitId": 5,
-            "optional": false,
-            "not_calculated": true,
-            "subTitle": "Cat B. 30+ dagen",
-            "title": "Basis Autohuur Maleisi\u00eb",
-            "TSProduct": {
-              "id": 393,
-              "tag": "Auto-MY",
-              "bookableDays": [
-                
-              ]
-            },
-            "TSOrderline": {
-              "id": 23592,
-              "extraFieldValues": [
-                {
-                  "id": 8,
-                  "name": "Starttijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "Start time",
-                  "field_value_link_id": 2475,
-                  "link_type": "orderline",
-                  "link_id": 23592,
-                  "value": null
-                },
-                {
-                  "id": 9,
-                  "name": "Eindtijd",
-                  "type_id": 9,
-                  "valid_regex": "",
-                  "defaults": null,
-                  "category_id": null,
-                  "sort_order": null,
-                  "field_width": null,
-                  "field_type": "Orderline_TextBox",
-                  "display_at": "both",
-                  "show_in_product": 1,
-                  "layout_data": null,
-                  "maxlength": null,
-                  "maxlength_enforce": 0,
-                  "translated_name": "End time",
-                  "field_value_link_id": 2476,
-                  "link_type": "orderline",
-                  "link_id": 23592,
-                  "value": null
-                }
-              ]
-            },
-            "media": [
-              
-            ],
-            "olPrices": {
-              "costPrice": "0.00000000",
-              "discount": null,
-              "title": "Basis Autohuur Maleisi\u00eb [Cat B. 30+ dagen]",
-              "discountMethod": null,
-              "exchangeRate": "0.060000000",
-              "purchaseCurrency": "ZAR",
-              "salesCurrency": "EUR",
-              "participants": {
-                "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                },
-                "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
-                }
-              },
-              "salesTotal": 0
-            },
-            "subAdditionalText": null,
-            "additionalText": null,
-            "roomTypes": [
-              {
-                "defaultPrice": "389.0000",
-                "description": "Cat B. 1-6 dagen",
-                "minPerson": null,
-                "maxPerson": null,
-                "minUnit": 1,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "308.0000",
-                "description": "Cat B. 30+ dagen",
-                "minPerson": null,
-                "maxPerson": null,
-                "minUnit": 30,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "369.0000",
-                "description": "Cat B. 7-13 dagen",
-                "minPerson": null,
-                "maxPerson": null,
-                "minUnit": 7,
-                "maxUnit": null,
-                "note": ""
-              },
-              {
-                "defaultPrice": "331.0000",
-                "description": "Cat B. 14-29 dagen",
-                "minPerson": null,
-                "maxPerson": null,
-                "minUnit": 14,
-                "maxUnit": null,
-                "note": ""
-              }
-            ],
-            "supplierComment": null,
-            "sellingAmount": "17.000",
-            "sellingMarkupType": "percentage",
-            "missingBookableDays": [
-              
-            ],
-            "vtbObjectId": "ppljqpurw98zjbpmzn2pcl",
-            "linkedParty": "party 1",
-            "day": 14,
-            "date": "2020-09-17",
-            "endDate": "2020-09-04",
-            "roomTypeMatchesParticipants": true
+            "day": 10,
+            "date": "2020-09-13",
+            "endDate": "2020-09-14",
+            "roomTypeMatchesParticipants": true,
+            "subTitle": "studio",
+            "manual_calc": false,
+            "lastRecalc": 1587475392405
           },
           {
             "emptyOlStartDT": false,
             "offset": 0,
             "nights": 0,
-            "unitAmount": 0,
+            "unitAmount": 1,
             "unitId": 11,
             "optional": false,
-            "not_calculated": true,
+            "not_calculated": false,
             "title": "Cameron Highlands: wandeling door de theevelden (seat in)",
             "TSProduct": {
               "id": 791,
@@ -4211,24 +2661,25 @@
               
             ],
             "olPrices": {
-              "costPrice": "0.00000000",
+              "costPrice": "39.900",
               "discount": null,
               "title": "Cameron Highlands: wandeling door de theevelden (seat in)",
               "discountMethod": null,
-              "exchangeRate": "1.000000000",
+              "exchangeRate": "0.210000000",
               "purchaseCurrency": "MYR",
               "salesCurrency": "EUR",
               "participants": {
                 "1006323": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "19.950",
+                  "salesPrice": "25.000"
                 },
                 "2041495": {
-                  "costPrice": "0.000",
-                  "salesPrice": ""
+                  "costPrice": "19.950",
+                  "salesPrice": "25.000"
                 }
               },
-              "salesTotal": 0
+              "salesTotal": "50.000",
+              "margin": "20.20000"
             },
             "subAdditionalText": null,
             "additionalText": null,
@@ -4249,25 +2700,1378 @@
             "missingBookableDays": [
               
             ],
-            "vtbObjectId": "g90h6brldg705derighclgq",
+            "vtbObjectId": "jbun3bcz9iqgdw0os1szca",
+            "linkedParty": "party 1",
+            "day": 10,
+            "date": "2020-09-13",
+            "endDate": "2020-09-04",
+            "roomTypeMatchesParticipants": true,
+            "subTitle": "excursie",
+            "manual_calc": false,
+            "lastRecalc": 1587475392426
+          }
+        ],
+        "inViewport": false,
+        "vtbObjectId": "b63k33ii36qe2lb3zgyg5s",
+        "carRentalElements": [
+          
+        ],
+        "date": "2020-09-13",
+        "missingBookableDays": false,
+        "elementsOrder": "nulfxow5hia2tc5wccszju|jbun3bcz9iqgdw0os1szca",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2020-09-14"
+      },
+      {
+        "nights": 1,
+        "day": 11,
+        "isFlight": false,
+        "typeId": 16,
+        "title": "vrije dag in Penang ",
+        "subTitle": null,
+        "content": "<p>Vandaag is de dag in Penang vrij te besteden. In de wijk Little India kun je kleurrijke Hindoetempels bewonderen in een decor van in sari\u2019s gehulde vrouwen en winkels met exotische specerijen.<\/p>",
+        "TSBlock": {
+          "id": 10476
+        },
+        "flightInfo": [
+          
+        ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 5.383796725074198,
+          "longitude": 100.3191305732041,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 11
+        },
+        "media": [
+          {
+            "id": 48,
+            "sourceType": "mediaspirit",
+            "sourceId": "a7faf8e13ffe56288fb1f5cb2965a1cb",
+            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/lampionnen.JPG",
+            "description": null
+          }
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 1,
+            "unitAmount": 1,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": false,
+            "title": "Noordin Mews",
+            "TSProduct": {
+              "id": 653,
+              "tag": "ACMYPENNOO",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 23597,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 2485,
+                  "link_type": "orderline",
+                  "link_id": 23597,
+                  "value": null
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time",
+                  "field_value_link_id": 2486,
+                  "link_type": "orderline",
+                  "link_id": 23597,
+                  "value": null
+                }
+              ]
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": "93.030",
+              "discount": null,
+              "title": "Noordin Mews",
+              "discountMethod": null,
+              "exchangeRate": "0.210000000",
+              "purchaseCurrency": "MYR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "1006323": {
+                  "costPrice": "46.515",
+                  "salesPrice": "59.000"
+                },
+                "2041495": {
+                  "costPrice": "46.515",
+                  "salesPrice": "59.000"
+                }
+              },
+              "salesTotal": "118.000",
+              "margin": "21.16102"
+            },
+            "subAdditionalText": "inclusief ontbijt",
+            "additionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "414.0000",
+                "description": "mews kamer",
+                "minPerson": 1,
+                "maxPerson": 3,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "inclusief ontbijt"
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": "25.000",
+            "sellingMarkupType": "percentage",
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "7up65qn4n6vbocj2s1v8",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 11,
+            "date": "2020-09-14",
+            "endDate": "2020-09-15",
+            "roomTypeMatchesParticipants": true,
+            "subTitle": "mews kamer",
+            "manual_calc": false,
+            "lastRecalc": 1587475392448
+          }
+        ],
+        "inViewport": false,
+        "vtbObjectId": "n8z0qdkdc57fqy2srbdi7",
+        "carRentalElements": [
+          
+        ],
+        "date": "2020-09-14",
+        "missingBookableDays": false,
+        "elementsOrder": "7up65qn4n6vbocj2s1v8",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2020-09-15"
+      },
+      {
+        "nights": 1,
+        "day": 12,
+        "isFlight": false,
+        "typeId": 16,
+        "title": "vrije dag in Penang ",
+        "subTitle": null,
+        "content": "<p>Vandaag is de dag vrij te besteden. Geniet van de marktjes en het lekkere eten, of bezoek de Snake Tempel en de Kek Lok Si Temple, een prachtig gebouw met 7 verdiepingen.&nbsp; Loop ook eens naar het koloniale district, de plek waar de Engelsen zich voor het eerst gevestigd hebben met Fort Cornwallis, het \u2018Supreme Court\u2019 en St. George\u2019s Church.<\/p>",
+        "TSBlock": {
+          "id": 10470
+        },
+        "flightInfo": [
+          
+        ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 5.434720780412669,
+          "longitude": 100.35269226775011,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 11
+        },
+        "media": [
+          {
+            "id": 47,
+            "sourceType": "mediaspirit",
+            "sourceId": "a890a2abcd1bc6452a6414b279075d1a",
+            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/Atrium-Hanoi.JPG",
+            "description": null
+          }
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 1,
+            "unitAmount": 1,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": false,
+            "title": "Noordin Mews",
+            "TSProduct": {
+              "id": 653,
+              "tag": "ACMYPENNOO",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 23596,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 2483,
+                  "link_type": "orderline",
+                  "link_id": 23596,
+                  "value": null
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time",
+                  "field_value_link_id": 2484,
+                  "link_type": "orderline",
+                  "link_id": 23596,
+                  "value": null
+                }
+              ]
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": "93.030",
+              "discount": null,
+              "title": "Noordin Mews",
+              "discountMethod": null,
+              "exchangeRate": "0.210000000",
+              "purchaseCurrency": "MYR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "1006323": {
+                  "costPrice": "46.515",
+                  "salesPrice": "59.000"
+                },
+                "2041495": {
+                  "costPrice": "46.515",
+                  "salesPrice": "59.000"
+                }
+              },
+              "salesTotal": "118.000",
+              "margin": "21.16102"
+            },
+            "subAdditionalText": "inclusief ontbijt",
+            "additionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "414.0000",
+                "description": "mews kamer",
+                "minPerson": 1,
+                "maxPerson": 3,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "inclusief ontbijt"
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": "25.000",
+            "sellingMarkupType": "percentage",
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "6x31iz2eduh2ofw3v4pw3f",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 12,
+            "date": "2020-09-15",
+            "endDate": "2020-09-16",
+            "roomTypeMatchesParticipants": true,
+            "subTitle": "mews kamer",
+            "manual_calc": false,
+            "lastRecalc": 1587475392471
+          }
+        ],
+        "inViewport": false,
+        "vtbObjectId": "l99o557rthejr38k4wvqve",
+        "carRentalElements": [
+          
+        ],
+        "date": "2020-09-15",
+        "missingBookableDays": false,
+        "elementsOrder": "6x31iz2eduh2ofw3v4pw3f",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2020-09-16"
+      },
+      {
+        "nights": 1,
+        "day": 13,
+        "isFlight": false,
+        "typeId": 16,
+        "title": "per ferry naar Langkawi ",
+        "subTitle": null,
+        "content": "<p>Van het ene eiland naar het andere mooie eiland. Je reist op eigen gelegenheid naar de haven waar je de ferry pakt naar het tropische eiland Langkawi. Na aankomst op Langkawi reis je op eigen gelegenheid naar het hotel en kan het relaxen beginnen!<\/p>",
+        "TSBlock": {
+          "id": 10477
+        },
+        "flightInfo": [
+          
+        ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 6.416456530349353,
+          "longitude": 99.86381275190652,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 10
+        },
+        "media": [
+          {
+            "id": 49,
+            "sourceType": "mediaspirit",
+            "sourceId": "c0638d1ed04e098c6e9413ab938705b4",
+            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/wierrook.JPG",
+            "description": null
+          }
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 1,
+            "unitAmount": 1,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": false,
+            "title": "Holiday Villa Beach Resort & Spa",
+            "TSProduct": {
+              "id": 656,
+              "tag": "ACMYLANHOL",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 23598,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 2487,
+                  "link_type": "orderline",
+                  "link_id": 23598,
+                  "value": null
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time",
+                  "field_value_link_id": 2488,
+                  "link_type": "orderline",
+                  "link_id": 23598,
+                  "value": null
+                }
+              ]
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": "114.870",
+              "discount": null,
+              "title": "Holiday Villa Beach Resort & Spa",
+              "discountMethod": null,
+              "exchangeRate": "0.210000000",
+              "purchaseCurrency": "MYR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "1006323": {
+                  "costPrice": "57.435",
+                  "salesPrice": "72.000"
+                },
+                "2041495": {
+                  "costPrice": "57.435",
+                  "salesPrice": "72.000"
+                }
+              },
+              "salesTotal": "144.000",
+              "margin": "20.22917"
+            },
+            "subAdditionalText": "inclusief ontbijt",
+            "additionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "472.0000",
+                "description": "superior kamer",
+                "minPerson": 1,
+                "maxPerson": 3,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "inclusief ontbijt"
+              },
+              {
+                "defaultPrice": "432.0000",
+                "description": "toeslag diner oud & nieuw",
+                "minPerson": 1,
+                "maxPerson": 1,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "diner oud &amp; nieuw 31 december"
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": "25.000",
+            "sellingMarkupType": "percentage",
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "10i5krcy23bahmyjapz72q7",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 13,
+            "date": "2020-09-16",
+            "endDate": "2020-09-17",
+            "roomTypeMatchesParticipants": true,
+            "subTitle": "superior kamer",
+            "manual_calc": false,
+            "lastRecalc": 1587475392492
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 24,
+            "optional": false,
+            "not_calculated": false,
+            "title": "boot Penang - Langkawi",
+            "TSProduct": {
+              "id": 781,
+              "tag": "BTMYPENLGK",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 23599,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 2489,
+                  "link_type": "orderline",
+                  "link_id": 23599,
+                  "value": null
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time",
+                  "field_value_link_id": 2490,
+                  "link_type": "orderline",
+                  "link_id": 23599,
+                  "value": null
+                }
+              ]
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": "31.500",
+              "discount": null,
+              "title": "boot Penang - Langkawi",
+              "discountMethod": null,
+              "exchangeRate": "0.210000000",
+              "purchaseCurrency": "MYR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "1006323": {
+                  "costPrice": "15.750",
+                  "salesPrice": "20.000"
+                },
+                "2041495": {
+                  "costPrice": "15.750",
+                  "salesPrice": "20.000"
+                }
+              },
+              "salesTotal": "40.000",
+              "margin": "21.25000"
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "75.0000",
+                "description": "bootticket",
+                "minPerson": 1,
+                "maxPerson": 8,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": "25.000",
+            "sellingMarkupType": "percentage",
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "8km8pewnbyqj6u853im5",
             "linkedParty": "party 1",
             "day": 13,
             "date": "2020-09-16",
             "endDate": "2020-09-04",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "subTitle": "bootticket",
+            "manual_calc": false,
+            "lastRecalc": 1587475392514
           }
         ],
         "inViewport": false,
-        "vtbObjectId": "dur7d3loo34lole4sz8ka",
+        "vtbObjectId": "re0aidc5bjptsaudinf82j",
         "carRentalElements": [
           
         ],
         "date": "2020-09-16",
         "missingBookableDays": false,
-        "elementsOrder": "579li6h5j189s1xlpr931|ppljqpurw98zjbpmzn2pcl|g90h6brldg705derighclgq",
+        "elementsOrder": "10i5krcy23bahmyjapz72q7|8km8pewnbyqj6u853im5",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2020-09-17"
+      },
+      {
+        "nights": 1,
+        "day": 14,
+        "isFlight": false,
+        "typeId": 16,
+        "title": "vrije dag op Langkawi",
+        "subTitle": null,
+        "content": "<p>Vandaag is de dag vrij te besteden. Langkawi is een echt paradijs met \u2018bounty\u2019-stranden, verborgen baaien en een glasheldere zee. Vroeger was dit eilandenrijk een schuilplaats voor piraten, nu is het een ideale vakantiebestemming.<\/p><p>&nbsp;<\/p>",
+        "TSBlock": {
+          "id": 10478
+        },
+        "flightInfo": [
+          
+        ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 6.315165434270625,
+          "longitude": 99.80275099151855,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 11
+        },
+        "media": [
+          {
+            "id": 50,
+            "sourceType": "mediaspirit",
+            "sourceId": "92d78401ba566b61e3bfabe22d3be8c0",
+            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/markt-HoiAn.JPG",
+            "description": null
+          }
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 1,
+            "unitAmount": 1,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": false,
+            "title": "Holiday Villa Beach Resort & Spa",
+            "TSProduct": {
+              "id": 656,
+              "tag": "ACMYLANHOL",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 23600,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 2491,
+                  "link_type": "orderline",
+                  "link_id": 23600,
+                  "value": null
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time",
+                  "field_value_link_id": 2492,
+                  "link_type": "orderline",
+                  "link_id": 23600,
+                  "value": null
+                }
+              ]
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": "114.870",
+              "discount": null,
+              "title": "Holiday Villa Beach Resort & Spa",
+              "discountMethod": null,
+              "exchangeRate": "0.210000000",
+              "purchaseCurrency": "MYR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "1006323": {
+                  "costPrice": "57.435",
+                  "salesPrice": "72.000"
+                },
+                "2041495": {
+                  "costPrice": "57.435",
+                  "salesPrice": "72.000"
+                }
+              },
+              "salesTotal": "144.000",
+              "margin": "20.22917"
+            },
+            "subAdditionalText": "inclusief ontbijt",
+            "additionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "472.0000",
+                "description": "superior kamer",
+                "minPerson": 1,
+                "maxPerson": 3,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "inclusief ontbijt"
+              },
+              {
+                "defaultPrice": "432.0000",
+                "description": "toeslag diner oud & nieuw",
+                "minPerson": 1,
+                "maxPerson": 1,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "diner oud &amp; nieuw 31 december"
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": "25.000",
+            "sellingMarkupType": "percentage",
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "jek8ixjiz5jq71gwso04w",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 14,
+            "date": "2020-09-17",
+            "endDate": "2020-09-18",
+            "roomTypeMatchesParticipants": true,
+            "subTitle": "superior kamer",
+            "manual_calc": false,
+            "lastRecalc": 1587475392536
+          }
+        ],
+        "inViewport": false,
+        "vtbObjectId": "ll93condypm0xy81yjgw8j",
+        "carRentalElements": [
+          
+        ],
+        "date": "2020-09-17",
+        "missingBookableDays": false,
+        "elementsOrder": "jek8ixjiz5jq71gwso04w",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2020-09-18"
+      },
+      {
+        "nights": 1,
+        "day": 15,
+        "isFlight": false,
+        "typeId": 16,
+        "title": "vrije dag op Langkawi",
+        "subTitle": null,
+        "content": "<p>Vandaag is de dag vrij te besteden. Iets actiefs doen? Vanaf de top van de Gunung Machingchang heb je een fantastisch uitzicht! Wees gerust, je gaat hier met een kabelbaan omhoog, dus je kan je slippers aanhouden. Houd je van duiken en snorkelen? Vanuit Langkawi kun je een trip boeken naar een van de omliggende eilandjes met een kleurrijke onderwaterwereld.<\/p><p>&nbsp;<\/p>",
+        "TSBlock": {
+          "id": 10479
+        },
+        "flightInfo": [
+          
+        ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 6.357651131978769,
+          "longitude": 99.83389184481638,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 11
+        },
+        "media": [
+          {
+            "id": 51,
+            "sourceType": "mediaspirit",
+            "sourceId": "f4a897d3dce265b221686717eb8c0b41",
+            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/Vietnam-Streetfood.jpg",
+            "description": null
+          }
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 1,
+            "unitAmount": 1,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": false,
+            "title": "Holiday Villa Beach Resort & Spa",
+            "TSProduct": {
+              "id": 656,
+              "tag": "ACMYLANHOL",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 23601,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 2493,
+                  "link_type": "orderline",
+                  "link_id": 23601,
+                  "value": null
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time",
+                  "field_value_link_id": 2494,
+                  "link_type": "orderline",
+                  "link_id": 23601,
+                  "value": null
+                }
+              ]
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": "114.870",
+              "discount": null,
+              "title": "Holiday Villa Beach Resort & Spa",
+              "discountMethod": null,
+              "exchangeRate": "0.210000000",
+              "purchaseCurrency": "MYR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "1006323": {
+                  "costPrice": "57.435",
+                  "salesPrice": "72.000"
+                },
+                "2041495": {
+                  "costPrice": "57.435",
+                  "salesPrice": "72.000"
+                }
+              },
+              "salesTotal": "144.000",
+              "margin": "20.22917"
+            },
+            "subAdditionalText": "inclusief ontbijt",
+            "additionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "472.0000",
+                "description": "superior kamer",
+                "minPerson": 1,
+                "maxPerson": 3,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "inclusief ontbijt"
+              },
+              {
+                "defaultPrice": "432.0000",
+                "description": "toeslag diner oud & nieuw",
+                "minPerson": 1,
+                "maxPerson": 1,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": "diner oud &amp; nieuw 31 december"
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": "25.000",
+            "sellingMarkupType": "percentage",
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "oc1107ldxyqx1z92uzsp0q",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 15,
+            "date": "2020-09-18",
+            "endDate": "2020-09-19",
+            "roomTypeMatchesParticipants": true,
+            "subTitle": "superior kamer",
+            "manual_calc": false,
+            "lastRecalc": 1587475392558
+          }
+        ],
+        "inViewport": false,
+        "vtbObjectId": "uw1avjhoyzj0trhdtx9ik5",
+        "carRentalElements": [
+          
+        ],
+        "date": "2020-09-18",
+        "missingBookableDays": false,
+        "elementsOrder": "oc1107ldxyqx1z92uzsp0q",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2020-09-19"
+      },
+      {
+        "nights": 0,
+        "day": 16,
+        "isFlight": false,
+        "typeId": 16,
+        "title": "vertrek naar Amsterdam",
+        "subTitle": null,
+        "content": "<p>Na het ontbijt word je naar het vliegveld van Langkawi gebracht, voor de terugvlucht naar huis.<\/p>",
+        "TSBlock": {
+          "id": 10480
+        },
+        "flightInfo": [
+          
+        ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 52.35713813924031,
+          "longitude": 4.927860085644529,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 12
+        },
+        "media": [
+          {
+            "id": 37,
+            "sourceType": "mediaspirit",
+            "sourceId": "3c51b734f1e60a7b200028cd2a13ff62",
+            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/straatbeeld-brommers-Saigon.JPG",
+            "description": null
+          }
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 8,
+            "optional": false,
+            "not_calculated": false,
+            "title": "transfer hotel in Langkawi - vliegveld Langkawi",
+            "TSProduct": {
+              "id": 702,
+              "tag": "TRMYHTLLGK",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 23602,
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time",
+                  "field_value_link_id": 2495,
+                  "link_type": "orderline",
+                  "link_id": 23602,
+                  "value": null
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time",
+                  "field_value_link_id": 2496,
+                  "link_type": "orderline",
+                  "link_id": 23602,
+                  "value": null
+                }
+              ]
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": "27.300",
+              "discount": null,
+              "title": "transfer hotel in Langkawi - vliegveld Langkawi",
+              "discountMethod": null,
+              "exchangeRate": "0.210000000",
+              "purchaseCurrency": "MYR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "1006323": {
+                  "costPrice": "13.650",
+                  "salesPrice": "18.000"
+                },
+                "2041495": {
+                  "costPrice": "13.650",
+                  "salesPrice": "18.000"
+                }
+              },
+              "salesTotal": "36.000",
+              "margin": "24.16667"
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "125.0000",
+                "description": "prive transfer",
+                "minPerson": 1,
+                "maxPerson": 4,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": "25.000",
+            "sellingMarkupType": "percentage",
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true,
+            "vtbObjectId": "g2c7971gtmfkndm96o6oa",
+            "linkedParty": "party 1",
+            "day": 16,
+            "date": "2020-09-19",
+            "endDate": "2020-09-04",
+            "roomTypeMatchesParticipants": true,
+            "subTitle": "prive transfer",
+            "manual_calc": false,
+            "lastRecalc": 1587475392579
+          }
+        ],
+        "inViewport": false,
+        "vtbObjectId": "rtqhroggi8btak7a43cr",
+        "carRentalElements": [
+          
+        ],
+        "date": "2020-09-19",
+        "missingBookableDays": false,
+        "elementsOrder": "g2c7971gtmfkndm96o6oa",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2020-09-19"
+      },
+      {
+        "nights": 0,
+        "day": 16,
+        "isFlight": true,
+        "typeId": 4,
+        "title": "vertrek vanuit Amsterdam",
+        "subTitle": null,
+        "content": "<p>Vandaag start je reis met OutSight Travel. Je internationale vlucht naar Kuala Lumpur komt de volgende dag aan. Na aankomst word je verwelkomt en naar je hotel gebracht.&nbsp;<\/p><p>Deze reis is zonder internationale retourvlucht. Deze is via ons te boeken maar kan je ook elders reserveren.&nbsp;<\/p>",
+        "TSBlock": {
+          "id": 10466
+        },
+        "flightInfo": [
+          {
+            "id": 10,
+            "airlineCode": "MALAYSIA AIRLINES ",
+            "flightNumber": "MH 978",
+            "departureAirport": "AMSTERDAM",
+            "departureAirportObject": [
+              
+            ],
+            "departureDt": "2020-09-04 10:00:00",
+            "arrivalAirport": "KUALA LUMPUR",
+            "arrivalAirportObject": [
+              
+            ],
+            "arrivalDt": "2020-05-10 11:00:00",
+            "arrivalDate": "2020-05-10",
+            "arrivalTime": "11:00",
+            "departureDate": "2020-09-04",
+            "departureTime": "10:00",
+            "stopoverAirport": null,
+            "duration": 0,
+            "farebase": null
+          },
+          {
+            "departureTime": "11:00",
+            "arrivalTime": "11:00",
+            "airlineCode": "MALAYSIA AIRLINES ",
+            "flightNumber": "MH 4455",
+            "departureAirport": "KUALA LUMPUR",
+            "departureDate": "2020-09-15",
+            "arrivalAirport": "AMSTERDAM",
+            "arrivalDate": "2020-09-15"
+          }
+        ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 19.01589788332863,
+          "longitude": 97.09380300369968,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 5
+        },
+        "media": [
+          {
+            "id": 4,
+            "sourceType": "mediaspirit",
+            "sourceId": "92958575ee036b492effdc2c7a698771",
+            "url": "https:\/\/media.outsight.nl\/wordpress\/medium\/vrolijke-locals-Sapa.jpg",
+            "description": null
+          }
+        ],
+        "elements": [
+          {
+            "id": 438,
+            "TSProduct": {
+              "id": 438,
+              "tag": "VLS_MY\/TH",
+              "bookableDays": [
+                
+              ]
+            },
+            "unitId": 5,
+            "unitAmount": 2,
+            "bookableDays": [
+              
+            ],
+            "description": "",
+            "internalInfo": "",
+            "internalInfoClean": "",
+            "title": "Internationale vluchtprijs Maleisi\u00eb &Thailand (incl. luchthavenbelasting)",
+            "media": [
+              
+            ],
+            "roomTypes": [
+              
+            ],
+            "sellingAmount": "9.000",
+            "sellingMarkupType": "percentage",
+            "additionalText": "",
+            "nights": 0,
+            "TSOrderline": {
+              "extraFieldValues": [
+                {
+                  "id": 8,
+                  "name": "Starttijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "Start time"
+                },
+                {
+                  "id": 9,
+                  "name": "Eindtijd",
+                  "type_id": 9,
+                  "valid_regex": "",
+                  "defaults": null,
+                  "category_id": null,
+                  "sort_order": null,
+                  "field_width": null,
+                  "field_type": "Orderline_TextBox",
+                  "display_at": "both",
+                  "show_in_product": 1,
+                  "layout_data": null,
+                  "maxlength": null,
+                  "maxlength_enforce": 0,
+                  "translated_name": "End time"
+                }
+              ]
+            },
+            "vtbElementId": "zd90s2az01iywmfgsw6g",
+            "vtbObjectId": "deiu57hvqtp30eeet77w3m",
+            "olPrices": {
+              "participants": {
+                "1006323": {
+                  "id": "1006323",
+                  "costPrice": "0.000",
+                  "salesPrice": "0.000"
+                },
+                "2041495": {
+                  "id": "2041495",
+                  "costPrice": "0.000",
+                  "salesPrice": "0.000"
+                }
+              },
+              "purchaseCurrency": "EUR",
+              "margin": "0.00000",
+              "hasError": "failed fetching live prices: error_no_matrixline_found",
+              "costPrice": "0.000",
+              "exchangeRate": "1.000000000",
+              "salesTotal": "0.000"
+            },
+            "not_calculated": true,
+            "offset": 0,
+            "maps": {
+              "latitude": null,
+              "longitude": null,
+              "zoom": null
+            },
+            "optional": false,
+            "typeId": 1,
+            "elements": [
+              
+            ],
+            "flightInfo": [
+              
+            ],
+            "dataType": "elementSegment",
+            "newElement": true,
+            "linkedParty": "party 1",
+            "roomTypeMatchesParticipants": false,
+            "day": 16,
+            "date": "2020-09-19",
+            "endDate": "2020-09-04",
+            "subAdditionalText": null,
+            "subTitle": "",
+            "manual_calc": false,
+            "missingBookableDays": [
+              
+            ],
+            "needsOffsetRecalculation": true
+          }
+        ],
+        "inViewport": false,
+        "vtbObjectId": "qm73nnfcj220uuuf7ffab",
+        "carRentalElements": [
+          
+        ],
+        "date": "2020-09-19",
+        "missingBookableDays": false,
+        "elementsOrder": "deiu57hvqtp30eeet77w3m",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2020-09-19",
+        "fold": true
       }
     ],
     "liborderId": 2235,
@@ -4296,22 +4100,34 @@
     ],
     "title": "Reis Maleisie - Test Floor 10\/04\/2020",
     "subTitle": "Een prachtige veelzijdige rondreis langs de hoogtepunten van Maleisie",
-    "costPriceBeforeRounding": 0,
-    "salesPriceBeforeRounding": 1000,
-    "vtbObjectId": "eismvmbi4nd2ouf3igixfz",
+    "costPriceBeforeRounding": 1253.07,
+    "salesPriceBeforeRounding": 1584,
+    "vtbObjectId": "lku467ijv71zwyunfgovi",
     "bookableDaysWarning": false,
     "hasNotCalculated": true,
-    "totalDays": 14,
-    "totalDaysAllocated": 14,
-    "endDate": "2020-09-17",
+    "totalDays": 16,
+    "totalDaysAllocated": 16,
+    "endDate": "2020-09-19",
     "notifications": [
-      
+      {
+        "elementIndex": 0,
+        "segmentIndex": 0,
+        "type": "room-type-mismatch",
+        "elementId": "n6j94q75cngibkthvo9vq"
+      },
+      {
+        "elementIndex": 0,
+        "segmentIndex": 13,
+        "type": "room-type-mismatch",
+        "elementId": "deiu57hvqtp30eeet77w3m"
+      }
     ],
-    "pdfVtbId": 67,
+    "pdfVtbId": 68,
+    "salesPriceAfterRounding": 0,
   "link_type": "order",
   "link_id": 2235,
-  "ts": "2020-04-21 12:29:44",
+  "ts": "2020-04-21 18:10:38",
   "stats_pax": 2,
   "stats_status": "proposal",
-  "stats_total_price": null
+  "stats_total_price": "0.000"
 }
