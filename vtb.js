@@ -217,11 +217,13 @@ const customTransforms = {
       }
 
       for(const fielddata of data.fields) {
-        consultData = fielddata.value;
         
         if (fielddata.name == 'reisspecialist') {
+
+          let consultantName = fielddata.value !== undefined ? fielddata.value : fielddata.selected !== undefined ? fielddata.selected : '';
+          
           for(const j of consultants ) {
-            if (fielddata.value.indexOf(j.name) !== -1) {
+            if (consultantName.indexOf(j.name) !== -1) {
               finalConsultants.push(j);
             }
           } 
