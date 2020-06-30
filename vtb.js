@@ -194,7 +194,7 @@ const customTransforms = {
         email: '',
         phone: '',
         title: 'Ik heb mijn HTRO diploma behaald bij INHolland Diemen, en ben met mijn diploma op zak vijf maanden gaan backpacken door Azië. Tijdens deze reis heb ik zes verschillende landen bezocht: Thailand, Vietnam, Maleisië (Borneo), de Filipijnen, Japan en Myanmar. Ook heb ik reizen gemaakt naar Costa Rica, Indonesië, Mexico, Laos & Cambodja en de westkust van Amerika. Vorig jaar was ik in Sri Lanka én Brazilië en later dit jaar ga ik naar Zuid-Afrika! Ik hou vooral van Azie, en dat komt ook door het eten!',
-        picture: 'https://media.outsight.nl/original/original/Florine-Sri-Lanka.jpg',
+        picture: 'https://images.outsight.nl/original/original/Florine-Sri-Lanka.jpg',
       }
     ];
     
