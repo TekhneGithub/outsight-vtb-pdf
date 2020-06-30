@@ -15,7 +15,9 @@
       {"function": "extraInfo", "params":{}},
       {"function": "flights", "params":{}},
       {"function": "hotels", "params":{}},
-      {"function": "removeOlPrice", "params":{}}
+      {"function": "removeOlPrice", "params":{}},
+      {"function": "getBookedBy", "params":{}}
+
     ],
     "startWithEmptyObject": false
   }

@@ -173,30 +173,30 @@ const customTransforms = {
   'inclusive': (obj, params) => {
 
     includedStrings = [];
-    finalConsultants = [];
-    consultants = [
-      {
-        name : 'Kim Marokko',
-        email: '',
-        phone: '',
-        title: 'Ik ben afgestudeerd aan de Hogeschool IN-Holland en heb zowel mijn stage als mijn afstudeerproject bij OutSight voltooid. Na mijn afstuderen heb ik voor OutSight de bestemmingen Marokko en Turkije opgezet. De afgelopen jaren heb ik gereisd door Marokko, Turkije, Thailand, Laos, Cambodja & Vietnam, Maleisië, Madagaskar, Mexico & Guatemala, Nicaragua, Colombia, Argentinië & Chili en Tanzania. Vorig jaar was ik in Nepal & Maleisië, dit jaar in Indonesië, Ecuador en Zuid-Afrika! De foto is gemaakt op Durban Square in Kathmandu, Nepal',
-        picture: 'assets/images/Kim Marokko.JPG',
-      },
-      {
-        name : 'Saskia',
-        email: '',
-        phone: '',
-        title: 'Ik heb mijn toeristische opleiding gevolgd aan de Hogeschool IN Holland, heb mijn stage gedaan bij OutSight en ben nooit meer weggegaan! Ik hou vooral van Azie. Als tijdens mijn studie heb ik een reis naar China gemaakt en de afgelopen jaren bezocht ik Costa Rica, China, Tibet, Suriname, India, Nepal, Jordanië, Marokko, Myanmar, Sri Lanka & de Malediven, Japan en Bali. In 2017 was ik in het zuiden van India en in Zuid-Korea, in 2018 heb ik een reis naar Japan gemaakt en in 2019 naar Taiwan. Deze foto is gemaakt in Tibet op de route tussen Sakya en Rombuk bij een van de vele hooggelegen passen.',
-        picture: 'assets/images/Saskia.JPG',
-      },
-      {
-        name : 'Florine',
-        email: '',
-        phone: '',
-        title: 'Ik heb mijn HTRO diploma behaald bij INHolland Diemen, en ben met mijn diploma op zak vijf maanden gaan backpacken door Azië. Tijdens deze reis heb ik zes verschillende landen bezocht: Thailand, Vietnam, Maleisië (Borneo), de Filipijnen, Japan en Myanmar. Ook heb ik reizen gemaakt naar Costa Rica, Indonesië, Mexico, Laos & Cambodja en de westkust van Amerika. Vorig jaar was ik in Sri Lanka én Brazilië en later dit jaar ga ik naar Zuid-Afrika! Ik hou vooral van Azie, en dat komt ook door het eten!',
-        picture: 'https://images.outsight.nl/original/original/Florine-Sri-Lanka.jpg',
-      }
-    ];
+    // finalConsultants = [];
+    // consultants = [
+    //   {
+    //     name : 'Kim Marokko',
+    //     email: '',
+    //     phone: '',
+    //     title: 'Ik ben afgestudeerd aan de Hogeschool IN-Holland en heb zowel mijn stage als mijn afstudeerproject bij OutSight voltooid. Na mijn afstuderen heb ik voor OutSight de bestemmingen Marokko en Turkije opgezet. De afgelopen jaren heb ik gereisd door Marokko, Turkije, Thailand, Laos, Cambodja & Vietnam, Maleisië, Madagaskar, Mexico & Guatemala, Nicaragua, Colombia, Argentinië & Chili en Tanzania. Vorig jaar was ik in Nepal & Maleisië, dit jaar in Indonesië, Ecuador en Zuid-Afrika! De foto is gemaakt op Durban Square in Kathmandu, Nepal',
+    //     picture: 'assets/images/Kim Marokko.JPG',
+    //   },
+    //   {
+    //     name : 'Saskia',
+    //     email: '',
+    //     phone: '',
+    //     title: 'Ik heb mijn toeristische opleiding gevolgd aan de Hogeschool IN Holland, heb mijn stage gedaan bij OutSight en ben nooit meer weggegaan! Ik hou vooral van Azie. Als tijdens mijn studie heb ik een reis naar China gemaakt en de afgelopen jaren bezocht ik Costa Rica, China, Tibet, Suriname, India, Nepal, Jordanië, Marokko, Myanmar, Sri Lanka & de Malediven, Japan en Bali. In 2017 was ik in het zuiden van India en in Zuid-Korea, in 2018 heb ik een reis naar Japan gemaakt en in 2019 naar Taiwan. Deze foto is gemaakt in Tibet op de route tussen Sakya en Rombuk bij een van de vele hooggelegen passen.',
+    //     picture: 'assets/images/Saskia.JPG',
+    //   },
+    //   {
+    //     name : 'Florine',
+    //     email: '',
+    //     phone: '',
+    //     title: 'Ik heb mijn HTRO diploma behaald bij INHolland Diemen, en ben met mijn diploma op zak vijf maanden gaan backpacken door Azië. Tijdens deze reis heb ik zes verschillende landen bezocht: Thailand, Vietnam, Maleisië (Borneo), de Filipijnen, Japan en Myanmar. Ook heb ik reizen gemaakt naar Costa Rica, Indonesië, Mexico, Laos & Cambodja en de westkust van Amerika. Vorig jaar was ik in Sri Lanka én Brazilië en later dit jaar ga ik naar Zuid-Afrika! Ik hou vooral van Azie, en dat komt ook door het eten!',
+    //     picture: 'https://images.outsight.nl/original/original/Florine-Sri-Lanka.jpg',
+    //   }
+    // ];
     
     for( const data of obj.dst.extraFieldValues ){
       
@@ -216,24 +216,24 @@ const customTransforms = {
         }
       }
 
-      for(const fielddata of data.fields) {
+      // for(const fielddata of data.fields) {
         
-        if (fielddata.name == 'reisspecialist') {
+      //   if (fielddata.name == 'reisspecialist') {
 
-          let consultantName = fielddata.value !== undefined ? fielddata.value : fielddata.selected !== undefined ? fielddata.selected : '';
+      //     let consultantName = fielddata.value !== undefined ? fielddata.value : fielddata.selected !== undefined ? fielddata.selected : '';
           
-          for(const j of consultants ) {
-            if (consultantName.indexOf(j.name) !== -1) {
-              finalConsultants.push(j);
-            }
-          } 
-        }
-      }
+      //     for(const j of consultants ) {
+      //       if (consultantName.indexOf(j.name) !== -1) {
+      //         finalConsultants.push(j);
+      //       }
+      //     } 
+      //   }
+      // }
      
     }
 
     obj.dst.includedStrings = includedStrings;
-    obj.dst.finalConsultants = finalConsultants;
+    // obj.dst.finalConsultants = finalConsultants;
     
     return obj;
   },
@@ -260,6 +260,28 @@ const customTransforms = {
     }
 
     obj.dst.excludedStrings = excludedStrings;
+
+    return obj;
+  },
+  'getBookedBy':(obj, params) => {
+
+    obj.dst.contactName = obj.dst.contactImage = obj.dst.contactEmail = obj.dst.contactText = '';
+
+    if (!obj.dst.TSOrder.bookedByInfo) return obj;
+
+    if(obj.dst.TSOrder.bookedByInfo.name || obj.dst.TSOrder.bookedByInfo.surname) {
+      obj.dst.contactName = obj.dst.TSOrder.bookedByInfo.name + ' ' + obj.dst.TSOrder.bookedByInfo.surname;
+    }
+  
+    if(obj.dst.TSOrder.bookedByInfo.signature) {
+
+      let contactSignature = obj.dst.TSOrder.bookedByInfo.signature;
+
+      obj.dst.contactImage = contactSignature.match(/<image>(.*?)<\/image>/)[1];
+      obj.dst.contactEmail = contactSignature.match(/<contact>(.*?)<\/contact>/)[1];
+      obj.dst.contactText = contactSignature.match(/<text>(.*?)<\/text>/)[1];
+
+    }
 
     return obj;
   },

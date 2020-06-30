@@ -73,13 +73,13 @@
                      </ul>
                   </div>
                </div>
-               <div class="col-md-4 col-sm-6 col-12 bg-theme-color guidesec" *ngFor="let c of itinerary.finalConsultants">
+               <div class="col-md-4 col-sm-6 col-12 bg-theme-color guidesec">
                   <h3>
-                     JOUW REISSPECIALIST <span>{{ c.name }}</span>
+                     JOUW REISSPECIALIST <span>{{ itinerary.contactName }}</span>
                   </h3>
-                  <img src="{{ c.picture }}" alt="" title="" />
+                  {{ itinerary.contactImage }}
                   <p>
-                     {{ c.title }}
+                     {{ itinerary.contactText }}
                   </p>
                </div>
             </div>
@@ -162,11 +162,11 @@
                      </li>
                   </ul>
                </div>
-               <div class="col-md-4 col-sm-6 col-12 bg-gray-color guidesec" *ngFor="let c of itinerary.finalConsultants">
+               <div class="col-md-4 col-sm-6 col-12 bg-gray-color guidesec">
                   <h3>
-                     JOUW REISSPECIALIST<span>{{ c.name }}</span>
+                     JOUW REISSPECIALIST<span>{{ itinerary.contactName }}</span>
                   </h3>
-                  <img src="{{ c.picture }}" alt="" title="" />
+                  {{ itinerary.contactImage }}
                </div>
             </div>
          </div>
